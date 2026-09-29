@@ -1,0 +1,325 @@
+# Amendment A4e — The Two Readings, Archived Verbatim
+
+This file archives, exactly as delivered through the owner's repository
+(the file "novelty prompt2.txt", pulled with this amendment), the two
+complete blind codings of the ten-theory replication kit: the second
+alien reading (the returning family, labeled "gpt:" by the file's first
+line) and the third alien reading (a second family, labeled "grok:").
+Both were administered the A4d kit's verbatim prompt externally by the
+series' owner — no files, no web, the named-evidence rule, the original
+Volume I instrument — and both returned the three-part output the kit
+specifies: matrix, evidence lines, point notes. Nothing is corrected,
+nothing is omitted; the delivery notes closing each reading are part of
+the record (the interface signature of runtimes this environment does
+not host).
+
+On the seventy-two cells of the shared eight-theory panel the two
+readings are identical to the first alien reading (archived as
+Profound_Novelty_A4d_alien_reading_verbatim.md), cell for cell. Their
+four disagreements — thermodynamics on the constant, derivation, and
+formalism rows; caloric on the founders' row — all sit inside the fifth
+pair. The scoring, adjudication, and rulings are printed in
+Profound_Novelty_A4e_The_Second_Family.pdf.
+
+---
+
+gpt:
+## Part 1 — Coding matrix
+
+| Point | T1 | T2 | T3 | T4 | T5 | T6 | T7 | T8 | T9 | T10 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| P1 · Deletion at birth | P | P | S | P | P | S | P | S | S | S |
+| P2 · Unification | P | P | P | S | F | S | S | S | S | S |
+| P3 · Universal constant | F | F | F | P | F | S | F | S | S | P |
+| P4 · Derivation-first | P | P | P | S | F | S | P | S | S | S |
+| P5 · Conservative embedding | F | P | P | P | F | S | P | S | S | P |
+| P6 · Formalism and meaning | P | P | P | P | F | P | P | S | S | P |
+| P7 · Founders’ resistance | P | P | F | P | F | S | F | S | S | S |
+| P8 · Generative slope | S then D | S then D | S | S then D | S then D | S | S then D | S | S | S |
+| P9 · Crisis-chaining | P | P | P | P | F | S | P | S | S | S |
+
+## Part 2 — Evidence lines
+
+### T1 · Caloric theory of heat
+
+- **P1 — P:** Lavoisier listed *calorique* among the elements in his *Traité élémentaire de chimie* (1789), replacing older combustible-fluid explanations of some heating phenomena without making questions about heat’s substance disappear.
+- **P2 — P:** Black’s eighteenth-century work related temperature change and latent heat through quantities of heat, but treating both as caloric was less sweeping than identifying heat and work.
+- **P3 — F:** Lavoisier’s *Traité* named caloric as a substance, not a universal quantitative constant.
+- **P4 — P:** Carnot’s *Réflexions* (1824) reasoned about an ideal engine largely without new experiments and obtained conclusions about efficiency, although its conserved-caloric premise was subsequently rejected.
+- **P5 — F:** Black’s latent-heat measurements could be accommodated as caloric becoming bound, but Carnot’s 1824 conserved-caloric account did not derive an earlier heat theory as a valid limiting case.
+- **P6 — P:** Clausius’s 1850 treatment retained a central result of Carnot’s engine analysis while rejecting Carnot’s interpretation of heat as conserved caloric; the decisive reinterpretation belonged to caloric theory’s successor.
+- **P7 — P:** Carnot’s posthumously published notes entertained heat as motion despite the conserved-caloric premise of his 1824 *Réflexions*, but that private reconsideration did not become a revised caloric program led by him.
+- **P8 — S then D:** Carnot’s 1824 analysis and Regnault’s nineteenth-century measurements sustained productive heat-engine and thermometry work, while Joule’s 1840s experiments made conserved caloric increasingly costly to maintain.
+- **P9 — P:** Carnot’s account of an engine’s work sharpened the question of heat’s relation to work, which Joule’s experiments and Clausius’s 1850 synthesis addressed, but that question did not originate wholly with caloric theory.
+
+### T2 · Epicycle tradition
+
+- **P1 — P:** Ptolemy’s *Almagest* used an equant rather than requiring every planetary motion to be uniform about Earth, relaxing an inherited geometric demand without demolishing geocentrism.
+- **P2 — P:** The *Almagest* applied related geometric devices across planetary astronomy, but retained the distinction between celestial and terrestrial physics.
+- **P3 — F:** The *Almagest* assigned parameters to particular celestial motions rather than installing a new universal constant.
+- **P4 — P:** Ptolemy used earlier observations, including Hipparchus’s, to construct planetary models, but their fitted parameters make the enterprise only partly derivation-first.
+- **P5 — P:** Ptolemy retained and revised Hipparchus’s eccentric and epicyclic devices without establishing the earlier astronomy as a limiting case.
+- **P6 — P:** Copernicus’s *De revolutionibus* (1543) reused epicyclic mathematics in a different cosmology, showing interpretive flexibility most clearly in the tradition’s successor.
+- **P7 — P:** Ptolemy’s equant compromised strict uniform circular motion about a single center, a commitment later astronomers including al-Ṭūsī sought to restore.
+- **P8 — S then D:** Ibn al-Shāṭir developed sophisticated planetary models within the tradition, while Tycho’s observations and Kepler’s *Astronomia nova* (1609) exposed the growing cost of preserving its older devices.
+- **P9 — P:** The equant’s conflict with uniform circular motion motivated alternatives including al-Ṭūsī’s couple, but did not open a successor crisis of the depth specified here.
+
+### T3 · Germ theory of disease
+
+- **P1 — S:** Pasteur’s swan-neck-flask experiments undermined spontaneous generation, and Koch’s identification of the tuberculosis bacillus in 1882 displaced foul air as that disease’s specific cause.
+- **P2 — P:** Pasteur connected microbial fermentation with investigations of disease, but Koch’s work on anthrax, tuberculosis, and cholera established distinct specific causes rather than a single cause of all disease.
+- **P3 — F:** Koch’s 1876 anthrax experiments established a causal organism, not a new universal constant.
+- **P4 — P:** Koch’s 1882 identification of the tuberculosis bacillus required new staining and microscopy as well as causal reasoning, so it was not principally deduction from old data.
+- **P5 — P:** Koch’s cholera investigations of 1883–84 help explain why some sanitation interrupted disease transmission, without making miasma theory a valid limiting case.
+- **P6 — P:** Pasteur’s 1857 fermentation work assigned yeast a causal role, but new experiments—not a changed reading of unchanged formalism—were essential.
+- **P7 — F:** Pasteur’s swan-neck-flask experiments defended his opposition to spontaneous generation rather than documenting his surrender of a central prior commitment.
+- **P8 — S:** Koch’s bacteriology generated continuing diagnostics and prevention work, including the twentieth-century development of the BCG tuberculosis vaccine.
+- **P9 — P:** The identification of asymptomatic carriers, exemplified by “Typhoid Mary” Mallon in 1907, complicated accounts of infection without overturning specific microbial causation.
+
+### T4 · Luminiferous ether
+
+- **P1 — P:** Fresnel’s wave optics challenged Newtonian corpuscular optics, but retained an unseen medium rather than eliminating the need to ask what transmitted light.
+- **P2 — S:** Maxwell’s electromagnetic theory of the 1860s identified light as an electromagnetic wave, joining optics and electromagnetism within the ether-era program.
+- **P3 — P:** Maxwell related electromagnetic-wave speed to electrical and magnetic measurements, but the ether program did not install c as invariant for every inertial observer.
+- **P4 — S:** Fresnel’s theory yielded the bright-spot prediction tested by Arago, and Maxwell’s prediction of electromagnetic waves gained support from Hertz’s experiments in the 1880s.
+- **P5 — P:** Fresnel’s wave optics recovered geometrical-optics behavior under appropriate conditions, although the Maxwell–Lorentz ether did not embed every earlier mechanical account of its medium.
+- **P6 — P:** Lorentz’s “local time” had a mathematical role before Einstein’s 1905 interpretation, but that interpretation relinquished the privileged stationary ether.
+- **P7 — P:** Maxwell moved beyond the literal molecular-vortex model of his 1861–62 papers, though this was not a comparably clear surrender of the ether itself.
+- **P8 — S then D:** Maxwell’s theory led to Hertz’s radio-wave experiments, whereas the Michelson–Morley result of 1887 prompted increasingly elaborate ether-preserving responses, including Lorentz’s contraction hypothesis.
+- **P9 — P:** The Michelson–Morley null result sharpened the ether-drift problem addressed by special relativity, but the ether program did not clearly close one crisis by opening a deeper successor problem.
+
+### T5 · Miasma theory of disease
+
+- **P1 — P:** The Hippocratic *Airs, Waters, Places* sought natural environmental explanations of illness rather than divine ones, but the later foul-air doctrine did not delete the general question of disease causation.
+- **P2 — F:** Nineteenth-century miasmatists attributed diseases including cholera to foul air, a conflation challenged by Snow’s account of the 1854 Broad Street outbreak.
+- **P3 — F:** Chadwick’s 1842 *Report on the Sanitary Condition of the Labouring Population* urged environmental reform without establishing a universal constant.
+- **P4 — F:** Snow’s 1854 Broad Street investigation provided evidence against the prevailing foul-air explanation, not a successful prediction derived from it.
+- **P5 — F:** Snow’s investigation pointed to contaminated water, not miasma as a valid restricted account of cholera transmission.
+- **P6 — F:** Chadwick’s 1842 sanitary report advanced causal claims about filth and air without mathematical formalism subsequently given a new physical meaning.
+- **P7 — F:** Chadwick’s sanitary advocacy maintained the importance of removing filth; it does not document his surrender of a foundational miasma commitment.
+- **P8 — S then D:** Nineteenth-century sanitary reform produced consequential urban infrastructure, while Snow’s cholera evidence and Koch’s 1883 identification of the cholera organism undercut its foul-air explanation.
+- **P9 — F:** Koch’s cholera findings offered an alternative specific cause; miasma theory had not resolved an earlier crisis by opening a deeper one.
+
+### T6 · Newtonian mechanics
+
+- **P1 — S:** Newton’s *Principia* (1687) applied common laws to falling bodies and the Moon, removing the need for separate terrestrial and celestial mechanics.
+- **P2 — S:** The *Principia* treated terrestrial motion and celestial orbits under the same laws of motion and universal gravitation.
+- **P3 — S:** Newton’s inverse-square law installed a universal gravitational coupling, although its familiar notation G and its numerical measurement came later.
+- **P4 — S:** Newton worked substantially from existing observations, and Halley’s 1705 prediction of a comet’s return was confirmed in 1758–59.
+- **P5 — S:** The *Principia* recovered Keplerian planetary motion approximately when a central body dominates, while its near-Earth analysis recovered familiar falling-body behavior.
+- **P6 — P:** Newton gave a dynamical meaning to Kepler’s previously stated orbital laws, but introduced new physical laws rather than merely reinterpreting unchanged equations.
+- **P7 — S:** Newton left gravity’s cause unsettled in the *Principia*’s 1713 General Scholium, while Leibniz attacked gravitational attraction as an occult quality.
+- **P8 — S:** Newtonian celestial mechanics supported Le Verrier’s and Adams’s prediction of Neptune, discovered in 1846.
+- **P9 — S:** Newton’s “hypotheses non fingo” discussion in 1713 left gravity’s mechanism open, a question recast by Einstein’s general relativity in 1915.
+
+### T7 · Phlogiston chemistry
+
+- **P1 — P:** Stahl’s 1703 account recast combustion and calcination as phlogiston release, revising Becher’s earlier combustible principle without decisively eliminating an older class of questions.
+- **P2 — S:** Stahl treated burning substances and metals forming calxes as instances of phlogiston release, bringing two chemical changes under one account.
+- **P3 — F:** Stahl’s phlogiston was a proposed substance, not a universal quantitative constant.
+- **P4 — P:** Priestley interpreted the gas he isolated in 1774 as “dephlogisticated air,” showing experimental fertility but not predominantly derivation from old observations.
+- **P5 — P:** Stahl adapted Becher’s *terra pinguis* into phlogiston, retaining an explanatory aim without deriving Becher’s view as a bounded limiting case.
+- **P6 — P:** Priestley’s “dephlogisticated air” and Lavoisier’s oxygen assigned different meanings to the gas isolated in 1774, but the enduring reinterpretation belonged to phlogiston’s rival.
+- **P7 — F:** Priestley continued defending phlogiston against Lavoisier’s oxygen chemistry, documenting resistance to a successor rather than costly acceptance of his own theory’s novelty.
+- **P8 — S then D:** Phlogiston-era pneumatic chemistry produced findings including Priestley’s 1774 gas isolation, while Lavoisier’s *Traité* (1789) exposed the mounting cost of retaining its explanation.
+- **P9 — P:** The mass gained when metals formed calxes troubled phlogiston accounts and was explained by Lavoisier’s oxygen theory, but this was not clearly a deeper crisis opened by phlogiston’s solution of an earlier one.
+
+### T8 · Quantum mechanics
+
+- **P1 — S:** Heisenberg’s matrix mechanics (1925) abandoned classical electron trajectories, and Born’s 1926 probability interpretation abandoned deterministic predictions of individual measurement outcomes.
+- **P2 — S:** Bohr’s 1927 complementarity account placed wave-like and particle-like experimental behavior within one quantum framework rather than assigning them to wholly separate kinds of object.
+- **P3 — S:** Planck introduced the quantum of action h in his 1900 black-body radiation work.
+- **P4 — S:** Heisenberg’s 1925 theory reorganized observed spectral data, while Dirac’s 1928 equation predicted an antiparticle later identified with Anderson’s 1932 positron.
+- **P5 — S:** Bohr’s correspondence principle and Ehrenfest’s 1927 theorem articulated conditions under which classical behavior is recovered.
+- **P6 — S:** Schrödinger published wave mechanics in 1926, and Born’s probability interpretation that year assigned the wavefunction a consequentially different meaning.
+- **P7 — S:** Planck was reluctant to regard his 1900 energy elements as a wholesale physical discontinuity, while Einstein’s objections to quantum indeterminism were explicit during the 1927 Solvay debates.
+- **P8 — S:** Quantum mechanics underpinned the transistor demonstrated in 1947 and continued to generate quantum-information research.
+- **P9 — S:** The Einstein–Podolsky–Rosen paper and Schrödinger’s cat discussion, both from 1935, exposed continuing questions about measurement and quantum description.
+
+### T9 · Relativity
+
+- **P1 — S:** Einstein’s 1905 special-relativity paper dispensed with a stationary luminiferous ether and absolute simultaneity.
+- **P2 — S:** Minkowski’s 1908 formulation joined space and time, while Einstein’s 1915 theory related gravitation to spacetime geometry.
+- **P3 — S:** Einstein’s 1905 postulates gave the already measured speed of light c a new universal role as an invariant speed.
+- **P4 — S:** General relativity accounted for Mercury’s known anomalous perihelion advance in 1915 and predicted gravitational waves, detected by LIGO in 2015.
+- **P5 — S:** Einstein’s 1905 theory recovers Newtonian kinematics at speeds small relative to c, and general relativity recovers Newtonian gravitational predictions in weak fields.
+- **P6 — S:** Lorentz developed transformations and “local time” before 1905; Einstein treated the relevant time coordinates as readings of clocks in different inertial frames.
+- **P7 — S:** Einstein’s 1905 rejection of a stationary ether departed from the ether-based electromagnetic picture he had encountered as a young physicist.
+- **P8 — S:** Einstein’s field equations generated continuing work on expanding-universe models, black holes, and gravitational waves, including LIGO’s 2015 detection.
+- **P9 — S:** Black-hole singularities, investigated in Penrose’s 1965 theorem, mark a continuing conflict between classical spacetime description and quantum physics.
+
+### T10 · Thermodynamics
+
+- **P1 — S:** Joule’s mechanical-equivalent experiments of the 1840s and Clausius’s 1850 synthesis rejected conserved caloric as an account of heat exchanged in engines.
+- **P2 — S:** Joule’s work and the Clausius–Thomson syntheses of 1850–51 brought heat and mechanical work under a common energy account.
+- **P3 — P:** Nineteenth-century thermodynamics used the universal gas constant R, and Planck introduced the constant later called Boltzmann’s constant around 1900, but neither served across physics in the role specified for G, c, or h.
+- **P4 — S:** Clausius’s 1850 analysis reconciled Carnot’s existing engine results with Joule’s existing experiments and derived consequences for reversible engines before the later statistical-mechanical account was consolidated.
+- **P5 — P:** Clausius’s 1850 revision preserved Carnot’s result that reversible-engine efficiency depends on reservoir temperatures, but conserved caloric itself did not survive as a limiting case.
+- **P6 — P:** Clausius retained a central result of Carnot’s 1824 engine mathematics while replacing its conserved-heat interpretation, though the synthesis also changed the physical principles, not meaning alone.
+- **P7 — S:** Thomson drew on Carnot’s caloric-based engine analysis in his 1848 absolute-temperature work, then incorporated Joule’s contrary heat–work evidence in his 1851 thermodynamic synthesis.
+- **P8 — S:** Clausius’s entropy formulation of 1865 was followed by Maxwell’s and Boltzmann’s statistical mechanics, extending rather than exhausting the study of heat and work.
+- **P9 — S:** Boltzmann’s statistical account of entropy prompted Loschmidt’s 1876 reversibility objection and Zermelo’s 1896 recurrence objection, exposing a deeper problem about macroscopic irreversibility and microscopic dynamics.
+
+## Part 3 — Point notes
+
+- **P1, exposed by T1 and T2:** Relaxing one assumption, such as geocentric uniform motion, is not the same as making an entire worldview untenable; the definition does not set a precise threshold between P and S.
+- **P2, exposed by T5 and T7:** Merely assigning phenomena one proposed cause cannot suffice: phlogiston connected combustion with calcination in a way later chemistry retained, whereas miasma’s conflation of distinct diseases did not.
+- **P3, exposed by T6 and T10:** “New universal constant” could mean a constant explicitly named and measured by founders or a universal role recognizable in retrospect; G’s later notation and thermodynamics’ R and k make that choice consequential.
+- **P4, exposed by T1 and T10:** Carnot’s largely deductive engine work belongs to caloric theory as well as to thermodynamics’ prehistory, so a single successful derivation does not by itself decide which later framework deserves S.
+- **P5, exposed by T1, T3, and T10:** Explaining why predecessor-guided practices or results worked is weaker than recovering the predecessor’s *theory* as a genuine mathematical limit.
+- **P6, exposed by T1, T4, and T7:** Reinterpretation often occurs when a *successor* takes over a theory’s results; crediting the superseded theory equally would obscure which program made the change.
+- **P7, exposed by T1 and T8:** A founder’s private doubts, published change of position, and a different contributor’s resistance are distinct kinds of evidence that the point’s wording groups closely together.
+- **P8, exposed by T1 and T5:** A theory can guide productive measurements or interventions while its causal explanation deteriorates; “S then D” records both rather than retroactively denying the harvest.
+- **P9, exposed by T3, T7, and T10:** An outstanding anomaly is not necessarily a deeper crisis *opened by* a solution; the statistical-mechanical reversibility dispute supplies a clearer instance than the qualifications facing germ theory or phlogiston.
+
+No Write tool is available in this session, so I could not save `a4d_alien_coding_10.md`.
+grok:
+## PART 1 — THE CODING MATRIX
+
+| Point | T1 | T2 | T3 | T4 | T5 | T6 | T7 | T8 | T9 | T10 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| P1 · Deletion at birth | P | P | S | P | P | S | P | S | S | S |
+| P2 · Unification | P | P | P | S | F | S | S | S | S | S |
+| P3 · Universal constant | F | F | F | P | F | S | F | S | S | F |
+| P4 · Derivation-first | P | P | P | S | F | S | P | S | S | P |
+| P5 · Conservative embedding | F | P | P | P | F | S | P | S | S | P |
+| P6 · Formalism and meaning | P | P | P | P | F | P | P | S | S | S |
+| P7 · Founders' resistance | F | P | F | P | F | S | F | S | S | S |
+| P8 · Generative slope | S then D | S then D | S | S then D | S then D | S | S then D | S | S | S |
+| P9 · Crisis-chaining | P | P | P | P | F | S | P | S | S | S |
+
+## PART 2 — EVIDENCE LINES
+
+### T1 · The caloric theory of heat
+
+- **P1 — P:** Black’s latent-heat work (1760s) made the identification of heat with sensible temperature unthinkable, yet Lavoisier’s *Traité* (1789) added *calorique* as an element rather than demolishing a cosmological architecture.
+- **P2 — P:** Black’s calorimetry brought specific heat and latent heat under one conserved-heat accounting, a unification of thermal effects that did not collapse an ancient ontological divide of the apple-and-Moon kind.
+- **P3 — F:** Lavoisier’s *calorique* (*Traité*, 1789) and the material-specific specific and latent heats of the Paris program were not a universal constant comparable to G, c, or h.
+- **P4 — P:** Carnot’s 1824 *Réflexions* derived limits on the motive power of fire from existing caloric and engineering knowledge, but Black’s latent-heat experiments and the Lavoisier–Laplace ice-calorimeter *Mémoire sur la chaleur* (1780) were new measurements.
+- **P5 — F:** Lavoisier’s 1789 introduction of caloric as an element did not recover a predecessor heat theory as a limiting case in the way the *Principia* recovered Kepler.
+- **P6 — P:** Clapeyron’s 1834 p–V mathematization of Carnot’s caloric cycle was later reused by Clausius (1850) with heat no longer a conserved fluid, so formalism and meaning came apart mainly in thermodynamics’ reading of caloric-era machinery.
+- **P7 — F:** Lavoisier’s listing of caloric among simple substances in the 1789 *Traité* extended his element chemistry rather than forcing him to abandon a prior commitment he actually held.
+- **P8 — S then D:** Laplace’s 1816 caloric-repulsion correction to the speed of sound and Regnault’s 1840s steam measurements harvested the caloric program, while Joule’s 1843–49 mechanical-equivalent experiments and Clausius’s 1850 paper made a conserved heat-fluid increasingly costly to maintain.
+- **P9 — P:** Rumford’s 1798 cannon-boring experiments displayed frictional heat that a conserved caloric fluid could not easily store, a wound closed by thermodynamics rather than a deeper crisis caloric had opened by solving an earlier one.
+
+### T2 · The epicycle tradition (Ptolemaic astronomy)
+
+- **P1 — P:** Ptolemy’s *Almagest* (2nd century CE) introduced the equant, giving up strictly uniform circular motion about the deferent center, without deleting geocentrism or the celestial/terrestrial two-worlds cosmos.
+- **P2 — P:** The *Almagest* applied deferent–epicycle–equant devices to all seven wandering bodies, while retaining the inherited separation of celestial from terrestrial physics.
+- **P3 — F:** Ptolemy assigned independent radii, periods, and eccentricities to each planet in the *Almagest* and installed no universal coupling constant.
+- **P4 — P:** Ptolemy built planetary models largely on Hipparchus’s and Babylonian observations, but equant and epicycle parameters were fitted to those data rather than issuing Halley- or Neptune-style promissory notes.
+- **P5 — P:** Ptolemy retained Hipparchus’s solar eccentric and lunar schemes as starting points in the *Almagest* without deriving them as dynamical limiting cases.
+- **P6 — P:** Copernicus’s *De revolutionibus* (1543) reused Ptolemaic epicycle–deferent mathematics under a heliocentric interpretation, so the split of formalism from meaning belongs chiefly to the tradition’s successor.
+- **P7 — P:** The equant required Ptolemy to violate uniform circular motion about a single center, a cost Ibn al-Haytham’s *Al-Shukūk* (11th century) and al-Ṭūsī later tried to reverse.
+- **P8 — S then D:** Ibn al-Shāṭir and other Islamic astronomers produced high-precision Ptolemaic-style models, while Tycho Brahe’s pre-1601 observations and Kepler’s *Astronomia nova* (1609) made additional epicycles increasingly expensive.
+- **P9 — P:** The equant saved planetary irregularity at the price of a physically objectionable non-uniformity that occupied Ṭūsī and Copernicus, a technical wound rather than a re-founded deeper floor of the Newton-to-GR kind.
+
+### T3 · Germ theory of disease
+
+- **P1 — S:** Pasteur’s 1861 swan-neck-flask experiments rendered spontaneous generation of microbes experimentally untenable, and Koch’s 1882 identification of the tuberculosis bacillus displaced non-specific foul-air causation for that disease.
+- **P2 — P:** Pasteur’s 1857 memoir on alcoholic fermentation linked microbes to fermentation and later to disease, yet Koch’s anthrax (1876), tuberculosis (1882), and cholera (1883–84) work established many specific causes rather than one joint in nature.
+- **P3 — F:** Koch’s 1876 anthrax demonstrations established a causal organism, not a universal physical constant.
+- **P4 — P:** Koch’s 1882 tuberculosis discovery used new staining and culture methods on long-known clinical patterns, so the doctrine was only partly over-determined by old data.
+- **P5 — P:** Koch’s 1883–84 cholera investigations explained why water and sanitation reforms reduced cholera—by interrupting *Vibrio* transmission—without recovering miasma as a valid limiting-case theory.
+- **P6 — P:** Henle’s 1840 *On Miasmata and Contagia* already hypothesized living causes; Koch’s 1876 anthrax work gave that hypothesis experimental causal meaning rather than re-reading an unchanged mathematical formalism.
+- **P7 — F:** Pasteur’s 1860–64 contest with Pouchet defended germs against spontaneous generation; it does not show Pasteur abandoning a prior commitment comparable to Newton’s action-at-a-distance or Planck’s continuity.
+- **P8 — S:** After Koch’s 1882 tuberculosis paper, bacteriology generated Behring’s 1890 diphtheria antitoxin, Pasteur’s 1885 rabies vaccine, and the later antibiotic and virological harvest.
+- **P9 — P:** Ivanovsky’s 1892 and Beijerinck’s 1898 work on tobacco-mosaic filterable virus, and the 1907 Typhoid Mary carrier case, showed etiology was unfinished, yet they extended specific causation rather than opening a contradiction at the theory’s foundations.
+
+### T4 · The luminiferous ether
+
+- **P1 — P:** Young’s 1801 interference account and Fresnel’s 1818 diffraction memoir made purely corpuscular Newtonian optics increasingly untenable, yet the program installed an unseen medium instead of making a medium unthinkable.
+- **P2 — S:** Maxwell’s 1865 *A Dynamical Theory of the Electromagnetic Field* identified light with electromagnetic waves, unifying optics with electricity and magnetism.
+- **P3 — P:** The Weber–Kohlrausch 1856 electrical-ratio measurement and Maxwell’s 1865 theory tied the speed of electromagnetic waves to electrical constants, but the ether program did not make *c* an invariant cap for all inertial observers.
+- **P4 — S:** Fresnel’s 1818 wave analysis implied a bright spot at the center of a circular shadow (Poisson’s objection), confirmed by Arago; Maxwell’s electromagnetic waves were produced by Hertz in 1887–88.
+- **P5 — P:** Fresnel wave optics recovered geometrical-optics rays for obstacles large compared with wavelength, while Maxwell–Lorentz electrodynamics never successfully embedded a consistent mechanical ether as a limiting case.
+- **P6 — P:** Lorentz’s 1895 *Versuch* and 1904 transformations used “local time” as an auxiliary variable while retaining a preferred ether frame; Einstein’s 1905 reading diverged in meaning from that ether interpretation.
+- **P7 — P:** Maxwell’s 1861–62 *On Physical Lines of Force* vortex-and-idle-wheel ether gave way in his 1865 dynamical theory to a less mechanical field description, a partial surrender of the mechanical picture he had started with.
+- **P8 — S then D:** Hertz’s 1887–88 electromagnetic waves harvested Maxwell’s theory, while the 1887 Michelson–Morley null result and Lorentz’s 1892 contraction hypothesis marked rising cost to preserve a detectable mechanical ether.
+- **P9 — P:** Maxwell’s theory left the ether’s mechanical constitution and the electrodynamics of moving bodies open, a crisis sharpened by Michelson–Morley (1887) and closed by Einstein in 1905 rather than a deeper floor the ether program itself re-founded.
+
+### T5 · Miasma theory of disease
+
+- **P1 — P:** The Hippocratic *Airs, Waters, Places* treated epidemics as products of climate, water, and locality rather than divine punishment, but miasma doctrine never made contagion unthinkable (contagionist rivals persisted through the nineteenth century).
+- **P2 — F:** Chadwick’s 1842 sanitary report attributed cholera, typhus, and related fevers to a common foul-air cause, conflating etiologies that Snow’s 1854 Broad Street investigation began to separate.
+- **P3 — F:** Chadwick’s 1842 *Report on the Sanitary Condition of the Labouring Population* urged drainage and ventilation, not a universal physical constant.
+- **P4 — F:** Snow’s 1854 Broad Street cholera map showed cases tracking a water pump rather than a successful miasmatic derivation from prior data.
+- **P5 — F:** Nineteenth-century miasma writings did not recover an earlier disease theory as a bounded limiting case, nor did Snow’s waterborne account treat miasma as one.
+- **P6 — F:** Chadwick’s 1842 sanitary report offered a causal story about filth and air without a mathematical formalism later given a new physical meaning.
+- **P7 — F:** Chadwick’s post-1842 sanitary advocacy maintained filth-and-air causation rather than recording his surrender of a prior theoretical commitment.
+- **P8 — S then D:** Bazalgette’s London main drainage (from 1859, after the 1858 Great Stink) harvested miasma-driven sanitary reform, while Koch’s 1883 identification of the cholera organism made foul-air explanation increasingly costly.
+- **P9 — F:** Koch’s 1883 cholera work replaced miasmatic explanation with a specific organism; miasma had not re-founded etiology by handing on a deeper unsolved floor.
+
+### T6 · Newtonian mechanics
+
+- **P1 — S:** Newton’s *Principia* (1687) applied the same laws of motion and gravitation to falling bodies and the Moon, deleting the Aristotelian two-worlds distinction between terrestrial and celestial physics.
+- **P2 — S:** The *Principia* derived terrestrial free fall, lunar motion, tides, and planetary orbits from one inverse-square gravitation plus the laws of motion, unifying the apple and the Moon.
+- **P3 — S:** The *Principia*’s universal gravitation installed a universal coupling of matter to matter, the constant later denoted G and first measured in the laboratory by Cavendish in 1798.
+- **P4 — S:** Newton used existing astronomical observations (Kepler’s laws, lunar data) rather than new campaigns, and Halley’s 1705 comet prediction was confirmed at the 1758–59 return.
+- **P5 — S:** *Principia* Book 1 derived Kepler’s elliptical orbits and area law from inverse-square gravitation, explaining why Kepler’s rules worked and where perturbations must appear.
+- **P6 — P:** Newton gave a dynamical reading of Kepler’s already kinematic regularities, but the *Principia* introduced new laws of motion and gravitation rather than only reinterpreting unchanged equations.
+- **P7 — S:** Newton accepted gravitational action at a distance, drawing occult-quality attacks from Leibniz and Huygens, and in the 1713 General Scholium declined to feign a mechanical cause of gravity.
+- **P8 — S:** Le Verrier and Adams’s 1845–46 prediction of Neptune, observed by Galle in 1846, is the canonical unforced harvest of Newtonian celestial mechanics.
+- **P9 — S:** The 1713 General Scholium left the mechanism of gravity unexplained, a wound recast by Einstein’s 1915 field equations as spacetime curvature.
+
+### T7 · Phlogiston chemistry
+
+- **P1 — P:** Stahl’s 1703 phlogiston theory recast Becher’s *terra pinguis* and treated calcination as loss of a principle, revising earlier chemistry without deleting a whole question-class as Newton deleted two-worlds physics.
+- **P2 — S:** Stahl treated combustion of combustibles and calcination of metals as the same phlogiston-release process, unifying two chemical changes previously given separate accounts.
+- **P3 — F:** Stahl’s phlogiston was a qualitative chemical principle, not a universal quantitative constant.
+- **P4 — P:** Priestley’s 1774 isolation of “dephlogisticated air” was interpreted inside phlogiston theory, fertility that still depended on new pneumatic experiments rather than promissory derivation from old data alone.
+- **P5 — P:** Stahl redeployed Becher’s *terra pinguis* as phlogiston without deriving Becher’s scheme as a restricted limiting case.
+- **P6 — P:** Priestley’s 1774 “dephlogisticated air” and Lavoisier’s oxygen assigned rival meanings to the same gas; the reinterpretation that endured was the opponent’s.
+- **P7 — F:** Priestley’s *The Doctrine of Phlogiston Established* (1800) defends phlogiston against Lavoisier rather than showing a founder sacrificing a prior commitment in order to found phlogiston theory.
+- **P8 — S then D:** Phlogistic pneumatic chemistry produced Cavendish’s 1766 inflammable air and Priestley’s 1774 dephlogisticated air, while Lavoisier’s 1789 *Traité élémentaire de chimie* made weight-gaining calcination increasingly expensive to save.
+- **P9 — P:** The mass increase on calcination, pressed by Lavoisier in the 1770s–80s, forced patches such as phlogiston with negative weight, an anomaly rather than a deeper crisis phlogiston had opened by closing an earlier one.
+
+### T8 · Quantum mechanics
+
+- **P1 — S:** Heisenberg’s 1925 matrix mechanics abandoned classical electron trajectories, and Born’s 1926 probability interpretation deleted deterministic prediction of individual measurement outcomes.
+- **P2 — S:** de Broglie’s 1924 matter waves and Bohr’s 1927 complementarity placed wave-like and particle-like behavior in one quantum framework, treating the wave/particle distinction as an artifact of description.
+- **P3 — S:** Planck introduced the quantum of action *h* in his 14 December 1900 black-body radiation presentation to the Deutsche Physikalische Gesellschaft.
+- **P4 — S:** Heisenberg’s 1925 theory reorganized existing spectral regularities (Rydberg–Ritz combination principle), and Dirac’s 1928 equation predicted an antiparticle identified with Anderson’s 1932 positron.
+- **P5 — S:** Bohr’s correspondence principle and Ehrenfest’s 1927 theorem specified how classical equations are recovered for large quantum numbers and expectation values.
+- **P6 — S:** Schrödinger published wave mechanics in 1926; Born’s 1926 probability interpretation made the same *ψ* say something new about the world rather than a direct charge distribution.
+- **P7 — S:** Planck treated his 1900 energy elements as a restricted statistical move rather than a welcome physical discontinuity, and Einstein refused to surrender determinism at the 1927 Solvay conference.
+- **P8 — S:** Quantum mechanics generated the 1947 Bardeen–Brattain–Shockley transistor, lasers, and later quantum-information science, a harvest still in progress.
+- **P9 — S:** The 1935 Einstein–Podolsky–Rosen paper and Schrödinger’s 1935 cat argument left the measurement problem and the completeness of the quantum description open, a floor still built on.
+
+### T9 · Relativity
+
+- **P1 — S:** Einstein’s 1905 “Zur Elektrodynamik bewegter Körper” declared the luminiferous ether superfluous and deleted absolute simultaneity.
+- **P2 — S:** Minkowski’s 1908 spacetime lecture unified space and time, Einstein’s 1905 *E=mc²* related mass and energy, and the 1915 field equations identified gravitation with spacetime geometry.
+- **P3 — S:** Einstein’s 1905 postulates made the already measured speed of light *c* an invariant cap on the propagation of influence in all inertial frames.
+- **P4 — S:** Special relativity used the 1887 Michelson–Morley null result; general relativity accounted for Mercury’s known perihelion anomaly in 1915 and predicted gravitational waves detected by LIGO in 2015.
+- **P5 — S:** The 1905 kinematics recovers Newtonian mechanics at *v* ≪ *c*, and the 1915 field equations recover Newtonian gravitation in the weak-field, low-velocity limit.
+- **P6 — S:** Lorentz had the 1904 transformations and “local time” before 1905; Einstein interpreted those time coordinates as what clocks in relative motion actually read.
+- **P7 — S:** Einstein’s 1905 rejection of a stationary ether abandoned the ether-based electromagnetic picture of his training, the cost the point itself names as surrender of the ether of his youth.
+- **P8 — S:** The 1915 equations generated Friedmann’s 1922 expanding-universe models, Schwarzschild’s 1916 solution (later black holes), and gravitational-wave astronomy culminating in LIGO’s 2015 detection.
+- **P9 — S:** Penrose’s 1965 singularity theorem made black-hole interiors a site of conflict between general relativity and quantum mechanics, a deeper floor GR opened by geometrizing gravity.
+
+### T10 · Thermodynamics
+
+- **P1 — S:** Clausius’s 1850 paper and Thomson’s 1851 dynamical theory of heat, using Joule’s mechanical equivalent, made a conserved caloric fluid untenable and deleted perpetual motion of the first and second kinds as physical possibilities.
+- **P2 — S:** Joule’s 1843–49 equivalent-of-heat experiments and Helmholtz’s 1847 *Über die Erhaltung der Kraft* treated heat, mechanical work, and other “forces” as one conserved energy, unifying previously separate powers.
+- **P3 — F:** Joule’s mechanical equivalent (e.g. the 1849 Royal Society determination in foot-pounds per thermal unit) is a conversion factor between units of heat and work, not a new universal constant of the G, *c*, or *h* type.
+- **P4 — P:** Mayer’s 1842 note and Helmholtz’s 1847 memoir derived energy conservation largely from existing data and principle, but community acceptance ran through Joule’s new paddle-wheel experiments (1843–49), so the synthesis was only partly derivation-first.
+- **P5 — P:** Clausius (1850) and Thomson (1851) kept Carnot’s 1824 limit on engine efficiency while rejecting conserved caloric, explaining why Carnot’s conclusions worked without demoting caloric itself to a mathematical limiting case.
+- **P6 — S:** Clapeyron’s 1834 analytic Carnot cycle was reused by Clausius in 1850 with heat no longer conserved, and Boltzmann’s 1877 statistical memoir gave Clausius’s 1865 entropy a probability meaning absent from the macroscopic equations.
+- **P7 — S:** William Thomson, who had worked inside Carnot’s caloric framework (including his 1848 absolute-temperature paper), abandoned conserved caloric in his 1851 dynamical theory of heat after accepting Joule’s interconversion of heat and work.
+- **P8 — S:** Gibbs’s 1876–78 *On the Equilibrium of Heterogeneous Substances* generated chemical thermodynamics from the two laws, with continuing harvest in engines, refrigeration, and later black-hole entropy.
+- **P9 — S:** Maxwell’s 1867 demon and Loschmidt’s 1876 reversibility objection recast Clausius entropy increase as a problem about grounding irreversibility in reversible mechanics, a deeper floor still under discussion.
+
+## PART 3 — POINT NOTES
+
+- **P1, exposed by T1 (caloric) and T4 (ether):** “Deletion” can mean making a quantity-identification unthinkable (Black on heat ≠ temperature) or subtracting major ontological furniture (ether, two worlds, determinism). Caloric and the ether both *added* a substance/medium while subtracting rival accounts; the canonical exemplars are subtractive. The scale does not say how to weigh an additive ontology that nonetheless kills a question.
+- **P2, exposed by T5 (miasma) and T7 (phlogiston):** A theory can group phenomena under one cause even when the cause is false. Phlogiston’s combustion–calcination link was credited (the link survived in oxygen theory); miasma’s lumping of distinct diseases was not, because it erased real joints. The definition does not say whether a unification must be true in the successor’s ontology.
+- **P3, exposed by T4 (ether) and T10 (thermodynamics):** “Installed” might mean first measuring a speed or conversion factor (Maxwell’s electromagnetic *c*, Joule’s *J*) or giving a quantity a new universal role (*c* as invariant cap; *h* discretizing action). Boltzmann’s *k* is a real universal constant inside T10’s stated statistical-mechanical scope, but it does not found the 1850–51 laws the way *h* founds quantum theory; I therefore coded T10 as F and T4 as P. The point’s restriction to G, *c*, and *h* as “the three load-bearing constants” is doing a lot of silent work.
+- **P4, exposed by T3 (germ) and T10 (thermodynamics):** Koch and Joule needed constitutive new experiments, yet both theories also reorganized old patterns (clinical TB, Carnot engines, Mayer’s 1842 gas-data argument). “Almost no new observations” (Newton) and “an eighteen-year-old null result” (Einstein) are much cleaner than these mixed cases.
+- **P5, exposed by T3 (germ) and T10 (thermodynamics):** Explaining why a predecessor’s *practices or theorems* worked (sanitation; Carnot’s efficiency limit) is weaker than recovering the predecessor as a mathematical limiting case (*v* ≪ *c*, weak fields, large quantum numbers). Thermodynamics is the strongest near-miss: it conserves Carnot’s conclusion while refuting caloric ontology. The definition does not specify which of those is required.
+- **P6, exposed by T1, T2, T4, and T7:** The sharpest formalism/meaning split often belongs to a *successor* (Clausius reading Carnot/Clapeyron; Einstein reading Lorentz; Lavoisier reading Priestley’s gas; Copernicus reading Ptolemy). I coded those as P, reserving S for a split inside the theory’s own consolidation (Born on Schrödinger; Einstein on Lorentz as coded under relativity). The point’s exemplars actually straddle that boundary.
+- **P7, exposed by T4 (Maxwell) and T10 (Thomson):** A founder’s conversion (Thomson abandoning caloric; Maxwell dropping the 1861–62 vortex ether) is not always a cost paid *to found* the theory, as Planck’s continuity or Newton’s mechanical philosophy were. Germ theory and phlogiston show the opposite pattern: founders defending the new doctrine, not surrendering a held commitment. “Who counts as founder” also matters when Clausius did not pay the same coin as Thomson.
+- **P8, exposed by T1, T2, T4, T5, T7:** Several programs were genuinely generative and later costly to maintain. “S then D” records that trajectory; without it, caloric, epicycles, ether, miasma, and phlogiston would be forced into a single letter that erases a real harvest (Regnault; Ibn al-Shāṭir; Hertz; Bazalgette; Priestley/Cavendish).
+- **P9, exposed by T3, T6, and T10:** An anomaly or unfinished extension (filterable viruses; mass gain of calxes) is not automatically a deeper crisis *opened by a solution*. I reserved S for cases with a named, long-lived foundational problem handed on (gravity’s mechanism; the measurement problem; Loschmidt/Maxwell-demon irreversibility; GR singularities). Thermodynamics is the non-canonical theory for which that stricter reading still yields S.
+
+**Delivery note:** No Write tool is available in this session, so the file `a4d_alien_coding_10.md` was not saved here; the three parts above are the complete output.

@@ -219,3 +219,44 @@ readings. The dead side is now a graded slope rather than a wall — from
 miasma's emptiest profile ever recorded to caloric's three clean
 partials — and the kit re-issues at ten theories for the next alien,
 from any family, anywhere. Continue.
+
+**Amendment A4e — The Second Family** (the offer accepted twice more; the outgroup converges)
+- `Profound_Novelty_A4e_The_Second_Family.pdf` — 20 pages
+- `Profound_Novelty_A4e_cover_source.html` — editable cover source
+- `Profound_Novelty_A4e_two_readings_verbatim.md` — both new readings,
+  archived exactly as delivered through the owner's repository (the file
+  "novelty prompt2.txt"): the returning family's ten-theory reading and the
+  second family's — matrix, evidence lines, point notes, delivery notes
+
+The standing offer was accepted twice more, and this time the census
+received two complete ten-theory codings in one delivery: the family that
+executed the first alien reading (labels "gpt" at the file's head), and a
+family it had never met ("grok"). On the seventy-two cells of the shared
+eight-theory panel the two readings are identical to the first alien
+reading — cell for cell, zero exceptions, twice; their only four
+disagreements anywhere (all one step, none distant) sit inside the fifth
+pair, on exactly the cells the A4d pre-registration declared
+contestable. The alien mutual agreement is 97.8 percent — above the
+family's own band of 88.0-94.4; the lineage offset replicates at three
+and a half points (86.1-87.2 against the family readings) with zero
+inversions in 384 cross-family comparisons; and the dissents land
+cell-for-cell on the census's amendment-dependent rows — the
+birth-window on deletion, the ownership rule on the constant and
+formalism rows, the law-vs-vocabulary ladder on unification, the
+graduated founder scale on resistance. The structural finding, now
+confirmed by two families: the census's error bars are its amendments,
+printed. Under the pre-registered motion rules the court tries seventeen
+cells: three history-forks move to duals (phlogiston's unification, S as
+originally worded / P under the law-vs-vocabulary amendment; miasma's
+deletion, P for the tradition at large / F within the birth-window; germ
+theory's founders, F as originally worded / P under the graduation);
+Newton's formalism dual is confirmed as the census's best-attested cell
+(its arrival face now carries five readings); the rule-forks are defended
+and recorded as measured cross-family constants. Thermodynamics' J/k
+middle band is bracketed from both sides — one family reads the dual,
+the other the strict failure; the census cell sits exactly between
+them. No dead theory passes any of the five discriminators under any of
+the eight readings, external or family. The genetic-dependence limit dies
+as a threat: the verdicts are over-determined by readers this
+environment cannot select. The kit stands at ten theories; the ledger
+is open.

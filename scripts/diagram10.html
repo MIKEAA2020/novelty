@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; padding: 0; background: #ffffff; }
+  .canvas { width: 1500px; box-sizing: border-box; background: #ffffff; font-family: 'Inter', sans-serif;
+            padding: 26px 26px 22px 26px; }
+  .head { text-align: center; border-bottom: 3px solid #45688c; padding-bottom: 14px; margin-bottom: 22px; }
+  .head .t { font-size: 34px; font-weight: 700; color: #1c2733; letter-spacing: 1px; }
+  .head .s { font-size: 23px; color: #57697c; margin-top: 6px; }
+  .flow { display: grid; grid-template-columns: 1fr 30px 1.16fr 30px 1fr 30px 1fr 30px 1fr;
+          gap: 0; align-items: stretch; }
+  .stage { background: #e9eef4; border: 1px solid #b5c2ce; border-top: 5px solid #45688c;
+           border-radius: 6px; padding: 14px 14px 12px 14px; display: flex; flex-direction: column; }
+  .stage .n { font-size: 22px; font-weight: 700; color: #2f4a66; letter-spacing: 1px; line-height: 1.2; }
+  .stage .d { font-size: 19px; color: #243242; line-height: 1.35; margin-top: 8px; }
+  .stage .tag { display: inline-block; font-size: 16px; font-weight: 600; letter-spacing: 1.2px;
+                border-radius: 4px; padding: 3px 10px; margin-top: 10px; background: #d7e2ec; color: #2f4a66;
+                align-self: flex-start; }
+  .arrow { display: flex; align-items: center; justify-content: center;
+           font-size: 26px; color: #45688c; font-weight: 700; }
+  .envelope { background: #faf8f2; border: 2px dashed #a8977a; border-radius: 6px;
+              padding: 12px 12px 10px 12px; }
+  .envelope .envlab { font-size: 17px; font-weight: 700; letter-spacing: 2px; color: #7a6a4f;
+                      text-align: center; margin-bottom: 10px; }
+  .coder { background: #f2f0fa; border: 1px solid #b0a8cc; border-left: 6px solid #5f4f96;
+           border-radius: 6px; padding: 10px 14px; }
+  .coder + .coder { margin-top: 10px; }
+  .coder .n { font-size: 21px; font-weight: 700; color: #44376e; }
+  .coder .d { font-size: 18px; color: #2e2a44; line-height: 1.3; margin-top: 4px; }
+  .envelope .no { font-size: 16.5px; color: #6b5f4a; text-align: center; margin-top: 10px;
+                  line-height: 1.35; }
+  .converge { background: #eef4ee; border: 1px solid #b3c9b3; border-top: 5px solid #3e6b45;
+             border-radius: 6px; padding: 14px 14px 12px 14px; display: flex; flex-direction: column; }
+  .converge .n { font-size: 22px; font-weight: 700; color: #2f5236; letter-spacing: 1px; line-height: 1.2; }
+  .converge .d { font-size: 19px; color: #243242; line-height: 1.35; margin-top: 8px; }
+  .converge .tag { display: inline-block; font-size: 16px; font-weight: 600; letter-spacing: 1.2px;
+                border-radius: 4px; padding: 3px 10px; margin-top: 10px; background: #d8e8d8; color: #2f5236;
+                align-self: flex-start; }
+  .court { background: #f7f4ee; border: 1px solid #cbb98f; border-top: 5px solid #8f7a3e;
+           border-radius: 6px; padding: 14px 14px 12px 14px; display: flex; flex-direction: column; }
+  .court .n { font-size: 22px; font-weight: 700; color: #6b5a26; letter-spacing: 1px; line-height: 1.2; }
+  .court .d { font-size: 19px; color: #243242; line-height: 1.35; margin-top: 8px; }
+  .court .tag { display: inline-block; font-size: 16px; font-weight: 600; letter-spacing: 1.2px;
+                border-radius: 4px; padding: 3px 10px; margin-top: 10px; background: #efe3c2; color: #6b5a26;
+                align-self: flex-start; }
+  .verdict { background: #e9eef4; border: 1px solid #b5c2ce; border-top: 5px solid #45688c;
+             border-radius: 6px; padding: 14px 14px 12px 14px; display: flex; flex-direction: column; }
+  .verdict .n { font-size: 22px; font-weight: 700; color: #2f4a66; letter-spacing: 1px; line-height: 1.2; }
+  .verdict .d { font-size: 19px; color: #243242; line-height: 1.35; margin-top: 8px; }
+  .verdict .tag { display: inline-block; font-size: 16px; font-weight: 600; letter-spacing: 1.2px;
+                  border-radius: 4px; padding: 3px 10px; margin-top: 10px; background: #d7e2ec; color: #2f4a66;
+                  align-self: flex-start; }
+  .note { background: #e9eef4; border: 1px solid #b5c2ce; border-radius: 6px; padding: 12px 20px;
+          text-align: center; margin-top: 18px; }
+  .note .f1 { font-size: 23px; font-weight: 600; color: #2f4a66; }
+  .note .f2 { font-size: 21px; color: #57697c; margin-top: 5px; line-height: 1.35; }
+</style>
+</head>
+<body>
+<div class="canvas" id="root">
+
+  <div class="head">
+    <div class="t">The Second Family &mdash; The Design</div>
+    <div class="s">The ten-theory kit leaves the series twice; the shared panel returns identical; the fifth pair carries the only contested cells.</div>
+  </div>
+
+  <div class="flow">
+    <div class="stage">
+      <div class="n">THE OFFER, TWICE MORE</div>
+      <div class="d">The A4d kit at ten theories &mdash; verbatim prompt, original instrument, no files, no web &mdash; administered by the owner to two external sessions, and returned as one file through the repository.</div>
+      <div class="tag">TWO READINGS, ONE DELIVERY</div>
+    </div>
+    <div class="arrow">&#9654;</div>
+    <div class="envelope">
+      <div class="envlab">TWO FAMILIES, ONE FILE</div>
+      <div class="coder">
+        <div class="n">gpt-10 &mdash; the returning family</div>
+        <div class="d">Ten theories coded blind; on the eight it shares with the first alien, identical cell for cell &mdash; seventy-two verdicts reproduced, zero drift.</div>
+      </div>
+      <div class="coder">
+        <div class="n">grok-10 &mdash; a family never met</div>
+        <div class="d">The same kit, the same panel; the same seventy-two shared verdicts &mdash; and its own evidence lines, its own point notes, its own four dissents in the new columns.</div>
+      </div>
+      <div class="no">Family labels attested by the owner's delivery &middot; the differing evidence lines and new-pair dissents are the file's own testimony of two productions</div>
+    </div>
+    <div class="arrow">&#9654;</div>
+    <div class="converge">
+      <div class="n">THE CONVERGENCE</div>
+      <div class="d">Alien mutual agreement 97.8 percent &mdash; above the family band of 88.0&ndash;94.4. Four contested cells, all one step, all inside the fifth pair: thermodynamics on the constant, derivation and formalism; caloric on the founders' row &mdash; every one pre-registered as contestable.</div>
+      <div class="tag">OUTGROUP CONVERGES ABOVE THE FAMILY BAND</div>
+    </div>
+    <div class="arrow">&#9654;</div>
+    <div class="court">
+      <div class="n">THE EVIDENCE COURT</div>
+      <div class="d">Seventeen cells tried. Three history-forks move to duals &mdash; phlogiston unification, miasma deletion, germ founders &mdash; each by the pre-registered motion rule. Newton's dual confirmed at five readings. The rule-forks recorded as cross-family constants: the census's error bars are its amendments.</div>
+      <div class="tag">THREE DUALS, ONE CONFIRMATION</div>
+    </div>
+    <div class="arrow">&#9654;</div>
+    <div class="verdict">
+      <div class="n">THE VERDICT</div>
+      <div class="d">No dead theory passes any discriminator under any of the eight readings. The lineage offset replicates &mdash; three and a half points, monotone, zero inversions in 384 cross-family comparisons &mdash; and lands cell for cell on the declared elastic cells. The kit stands at ten theories; the ledger is open.</div>
+      <div class="tag">EIGHT READINGS, EVERY CLAUSE UNFIRED</div>
+    </div>
+  </div>
+
+  <div class="note">
+    <div class="f1">What no external reader ever saw: the census, the amendments, the family's readings, the direction of any hope.</div>
+    <div class="f2">What they returned anyway: the first alien's verdict, cell for cell, twice &mdash; and four honest disagreements exactly where the pre-registration said the instrument was elastic.</div>
+  </div>
+
+</div>
+</body>
+</html>
