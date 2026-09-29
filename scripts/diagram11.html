@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; padding: 0; background: #ffffff; }
+  .canvas { width: 1500px; box-sizing: border-box; background: #ffffff; font-family: 'Inter', sans-serif;
+            padding: 26px 26px 22px 26px; }
+  .head { text-align: center; border-bottom: 3px solid #45688c; padding-bottom: 14px; margin-bottom: 22px; }
+  .head .t { font-size: 34px; font-weight: 700; color: #1c2733; letter-spacing: 1px; }
+  .head .s { font-size: 23px; color: #57697c; margin-top: 6px; }
+  .flow { display: grid; grid-template-columns: 1fr 30px 1.16fr 30px 1fr 30px 1fr 30px 1fr;
+          gap: 0; align-items: stretch; }
+  .stage { background: #e9eef4; border: 1px solid #b5c2ce; border-top: 5px solid #45688c;
+           border-radius: 6px; padding: 14px 14px 12px 14px; display: flex; flex-direction: column; }
+  .stage .n { font-size: 22px; font-weight: 700; color: #2f4a66; letter-spacing: 1px; line-height: 1.2; }
+  .stage .d { font-size: 19px; color: #243242; line-height: 1.35; margin-top: 8px; }
+  .stage .tag { display: inline-block; font-size: 16px; font-weight: 600; letter-spacing: 1.2px;
+                border-radius: 4px; padding: 3px 10px; margin-top: 10px; background: #d7e2ec; color: #2f4a66;
+                align-self: flex-start; }
+  .arrow { display: flex; align-items: center; justify-content: center;
+           font-size: 26px; color: #45688c; font-weight: 700; }
+  .envelope { background: #faf8f2; border: 2px dashed #a8977a; border-radius: 6px;
+              padding: 12px 12px 10px 12px; }
+  .envelope .envlab { font-size: 17px; font-weight: 700; letter-spacing: 2px; color: #7a6a4f;
+                      text-align: center; margin-bottom: 10px; }
+  .weapon { background: #f2f0fa; border: 1px solid #b0a8cc; border-left: 6px solid #5f4f96;
+           border-radius: 6px; padding: 10px 14px; }
+  .weapon + .weapon { margin-top: 10px; }
+  .weapon .n { font-size: 21px; font-weight: 700; color: #44376e; }
+  .weapon .d { font-size: 18px; color: #2e2a44; line-height: 1.3; margin-top: 4px; }
+  .envelope .no { font-size: 16.5px; color: #6b5f4a; text-align: center; margin-top: 10px;
+                  line-height: 1.35; }
+  .converge { background: #eef4ee; border: 1px solid #b3c9b3; border-top: 5px solid #3e6b45;
+             border-radius: 6px; padding: 14px 14px 12px 14px; display: flex; flex-direction: column; }
+  .converge .n { font-size: 22px; font-weight: 700; color: #2f5236; letter-spacing: 1px; line-height: 1.2; }
+  .converge .d { font-size: 19px; color: #243242; line-height: 1.35; margin-top: 8px; }
+  .converge .tag { display: inline-block; font-size: 16px; font-weight: 600; letter-spacing: 1.2px;
+                border-radius: 4px; padding: 3px 10px; margin-top: 10px; background: #d8e8d8; color: #2f5236;
+                align-self: flex-start; }
+  .court { background: #f7f4ee; border: 1px solid #cbb98f; border-top: 5px solid #8f7a3e;
+           border-radius: 6px; padding: 14px 14px 12px 14px; display: flex; flex-direction: column; }
+  .court .n { font-size: 22px; font-weight: 700; color: #6b5a26; letter-spacing: 1px; line-height: 1.2; }
+  .court .d { font-size: 19px; color: #243242; line-height: 1.35; margin-top: 8px; }
+  .court .tag { display: inline-block; font-size: 16px; font-weight: 600; letter-spacing: 1.2px;
+                border-radius: 4px; padding: 3px 10px; margin-top: 10px; background: #efe3c2; color: #6b5a26;
+                align-self: flex-start; }
+  .verdict { background: #e9eef4; border: 1px solid #b5c2ce; border-top: 5px solid #45688c;
+           border-radius: 6px; padding: 14px 14px 12px 14px; display: flex; flex-direction: column; }
+  .verdict .n { font-size: 22px; font-weight: 700; color: #2f4a66; letter-spacing: 1px; line-height: 1.2; }
+  .verdict .d { font-size: 19px; color: #243242; line-height: 1.35; margin-top: 8px; }
+  .verdict .tag { display: inline-block; font-size: 16px; font-weight: 600; letter-spacing: 1.2px;
+                  border-radius: 4px; padding: 3px 10px; margin-top: 10px; background: #d7e2ec; color: #2f4a66;
+                  align-self: flex-start; }
+  .note { background: #e9eef4; border: 1px solid #b5c2ce; border-radius: 6px; padding: 12px 20px;
+          text-align: center; margin-top: 18px; }
+  .note .f1 { font-size: 23px; font-weight: 600; color: #2f4a66; }
+  .note .f2 { font-size: 21px; color: #57697c; margin-top: 5px; line-height: 1.35; }
+</style>
+</head>
+<body>
+<div class="canvas" id="root">
+
+  <div class="head">
+    <div class="t">The Sixth Pair &mdash; The Design</div>
+    <div class="s">The extension rule executes again: the fixity of species enters as the sixth dead theory, Darwinian selection as the sixth resident &mdash; and the corpse leaves the census its richest bequest.</div>
+  </div>
+
+  <div class="flow">
+    <div class="stage">
+      <div class="n">THE EXTENSION RULE</div>
+      <div class="d">"Widen the survivor base by Volume II's method &mdash; the pair's dead rival enters under CR-1..CR-4 &mdash; and the census re-runs under the same criteria." Darwin's selection has been a case-base member since Volume II; the rule's own sentence pattern pairs it with the doctrine it executed.</div>
+      <div class="tag">THE RULE'S OWN QUEUE</div>
+    </div>
+    <div class="arrow">&#9654;</div>
+    <div class="envelope">
+      <div class="envlab">THREE WEAPONS, FORGED INSIDE</div>
+      <div class="weapon">
+        <div class="n">Cuvier's fossil succession</div>
+        <div class="d">Extinction established and the succession ordered by the doctrine's leading anti-transformist &mdash; the 1796 mammoth paper, the Ossements fossiles of 1812 &mdash; consumed by the Origin's geological chapters.</div>
+      </div>
+      <div class="weapon">
+        <div class="n">Lyell's uniformitarian geology</div>
+        <div class="d">Principles of Geology, 1830&ndash;33, written against Lamarck by the era's most influential fixist &mdash; deep time and method, carried by Darwin aboard the Beagle and read as his method book.</div>
+      </div>
+      <div class="weapon">
+        <div class="n">The Linnaean system &mdash; and the barnacle years</div>
+        <div class="d">The creationist taxonomy whose search minted homology; Darwin worked inside it for eight years (1846&ndash;54, four volumes) &mdash; the census's most intimate weapon of any pair: the executioner as the dead program's own practitioner.</div>
+      </div>
+      <div class="no">Dominance: 124 years consolidated &middot; Death: ontology, not apparatus &middot; the fame residual and the extra-scientific afterlife both printed in the text</div>
+    </div>
+    <div class="arrow">&#9654;</div>
+    <div class="converge">
+      <div class="n">THE EXECUTIONER</div>
+      <div class="d">Darwinian selection, world-ratified resident: the double deletion (the fixity of species, designed adaptation), the tree unifying five disciplines, the middle band replicated &mdash; the constant and the formalism fail exactly where the domain-marking says physics ends, the general rows satisfied where it says it does not.</div>
+      <div class="tag">SECOND BIOLOGY RESIDENT, MIDDLE BAND REPLICATED</div>
+    </div>
+    <div class="arrow">&#9654;</div>
+    <div class="court">
+      <div class="n">THE FIFTH BLIND READING</div>
+      <div class="d">Twelve theories, the original instrument verbatim, fresh context, no files and no web. The pre-registration locked before it ran &mdash; and the court moves against its own cells where the evidence says so: the embedding partial falls to the craft-precedent, the founders' coin rises on Linnaeus's own recorded compromise, Darwin's derivation rises on the Beagle data counting as old.</div>
+      <div class="tag">PRE-REG 7/9 AND 6/9 &mdash; THREE CELLS MOVED</div>
+    </div>
+    <div class="arrow">&#9654;</div>
+    <div class="verdict">
+      <div class="n">THE VERDICT</div>
+      <div class="d">The fixity fails all five discriminators &mdash; zero satisfied cells, the emptiest corpse with the richest bequest. The inversion printed: caloric kept its machinery and lost its substance; the fixity kept its archive and never had machinery. Ten readings, no killing clause fired; the kit re-issues at twelve theories.</div>
+      <div class="tag">SIX DEAD, SIX LIVING, TWELVE THEORIES</div>
+    </div>
+  </div>
+
+  <div class="note">
+    <div class="f1">The bequest asymmetry: one corpse left the census its equations, the other its data &mdash; and only a deep revolution could inherit either.</div>
+    <div class="f2">The sixth pair's lesson: generative harvest is not profundity &mdash; the dead theory that bankrolled its own executioner still fails every discriminator the living side satisfies.</div>
+  </div>
+
+</div>
+</body>
+</html>

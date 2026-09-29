@@ -1,0 +1,276 @@
+============================================================================
+A4f UNBLINDING - THIRD FAMILY + FIFTH BLIND READING + SIXTH PAIR
+============================================================================
+
+----------------------------------------------------------------------------
+PART 1 - CLAUDE vs THE OTHER TWO ALIENS (and the first)
+----------------------------------------------------------------------------
+
+CLAUDE-10 vs GPT-10 (90 cells): weighted 78.0/90 = 86.7% | exact 66/90, adjacent 24, distant 0
+
+CLAUDE-10 vs GROK-10 (90 cells): weighted 78.0/90 = 86.7% | exact 66/90, adjacent 24, distant 0
+
+GPT-10 vs GROK-10 (90 cells, for scale): weighted 88.0/90 = 97.8% | exact 86/90, adjacent 4, distant 0
+
+CLAUDE-10 vs GPT-8 (72 shared cells): weighted 62.5/72 = 86.8% | exact 53/72, adjacent 19, distant 0
+
+GPT-10 vs GPT-8 (72, for scale): weighted 72.0/72 = 100.0% | exact 72/72, adjacent 0, distant 0
+
+----------------------------------------------------------------------------
+PART 2 - OUTGROUP TEST v3 (family band now includes B5)
+----------------------------------------------------------------------------
+
+FAMILY: X3 vs A4b coder A (54 cells): weighted 49.0/54 = 90.7% | exact 44/54, adjacent 10, distant 0
+
+FAMILY: X3 vs A4b coder B (54 cells): weighted 49.0/54 = 90.7% | exact 44/54, adjacent 10, distant 0
+
+FAMILY: B4 vs A (54 cells): weighted 47.5/54 = 88.0% | exact 41/54, adjacent 13, distant 0
+
+FAMILY: B4 vs B (54 cells): weighted 48.5/54 = 89.8% | exact 43/54, adjacent 11, distant 0
+
+FAMILY: B4 vs X3 (72 cells): weighted 66.0/72 = 91.7% | exact 60/72, adjacent 12, distant 0
+
+FAMILY: A vs B (54 cells): weighted 51.0/54 = 94.4% | exact 48/54, adjacent 6, distant 0
+
+FAMILY: B5 vs A (54 cells): weighted 49.0/54 = 90.7% | exact 45/54, adjacent 8, distant 1
+    DISTANT: P6/ether [S vs F]
+
+FAMILY: B5 vs B (54 cells): weighted 49.0/54 = 90.7% | exact 45/54, adjacent 8, distant 1
+    DISTANT: P6/ether [S vs F]
+
+FAMILY: B5 vs X3 (72 cells): weighted 65.5/72 = 91.0% | exact 60/72, adjacent 11, distant 1
+    DISTANT: P6/ether [S vs F]
+
+FAMILY: B5 vs B4 (90 cells): weighted 81.5/90 = 90.6% | exact 73/90, adjacent 17, distant 0
+
+>>> FAMILY MUTUAL BAND: 88.0%-94.4% (mean 90.8%)
+
+GPT-10 vs A4b coder A (54 cells): weighted 47.0/54 = 87.0% | exact 40/54, adjacent 14, distant 0
+
+GPT-10 vs A4b coder B (54 cells): weighted 47.0/54 = 87.0% | exact 40/54, adjacent 14, distant 0
+
+GROK-10 vs A4b coder A (54 cells): weighted 47.0/54 = 87.0% | exact 40/54, adjacent 14, distant 0
+
+GROK-10 vs A4b coder B (54 cells): weighted 47.0/54 = 87.0% | exact 40/54, adjacent 14, distant 0
+
+CLAUDE-10 vs A4b coder A (54 cells): weighted 47.5/54 = 88.0% | exact 41/54, adjacent 13, distant 0
+
+CLAUDE-10 vs A4b coder B (54 cells): weighted 48.5/54 = 89.8% | exact 43/54, adjacent 11, distant 0
+
+GPT-10 vs X3 (72 cells): weighted 62.0/72 = 86.1% | exact 52/72, adjacent 20, distant 0
+
+GROK-10 vs X3 (72 cells): weighted 62.0/72 = 86.1% | exact 52/72, adjacent 20, distant 0
+
+CLAUDE-10 vs X3 (72 cells): weighted 62.5/72 = 86.8% | exact 53/72, adjacent 19, distant 0
+
+GPT-10 vs B4 (90 cells): weighted 77.5/90 = 86.1% | exact 65/90, adjacent 25, distant 0
+
+GROK-10 vs B4 (90 cells): weighted 78.5/90 = 87.2% | exact 67/90, adjacent 23, distant 0
+
+CLAUDE-10 vs B4 (90 cells): weighted 80.5/90 = 89.4% | exact 72/90, adjacent 17, distant 1
+    DISTANT: P9/phl [F vs S]
+
+GPT-10 vs B5 (90 cells): weighted 77.0/90 = 85.6% | exact 64/90, adjacent 26, distant 0
+
+GROK-10 vs B5 (90 cells): weighted 78.0/90 = 86.7% | exact 66/90, adjacent 24, distant 0
+
+CLAUDE-10 vs B5 (90 cells): weighted 78.0/90 = 86.7% | exact 66/90, adjacent 24, distant 0
+
+>>> ALIEN-vs-FAMILY BAND (3 aliens x 4 family readings): 85.6%-89.8% (mean 87.1%)
+>>> GPT-10 vs family mean: 86.4%
+>>> GROK-10 vs family mean: 86.8%
+>>> CLAUDE-10 vs family mean: 88.1%
+
+----------------------------------------------------------------------------
+PART 3 - THE NEW READINGS vs THE CENSUS (post-A4e state)
+----------------------------------------------------------------------------
+
+CLAUDE-10 vs census post-A4e (90 cells): weighted 81.0/90 = 90.0% | exact 72/90, adjacent 18, distant 0
+
+B5 vs census post-A4e (90 cells): weighted 81.0/90 = 90.0% | exact 73/90, adjacent 16, distant 1
+    DISTANT: P6/ether [S vs F]
+
+CLAUDE-10 vs census DEAD side (45 cells): weighted 38.0/45 = 84.4% | exact 31/45, adjacent 14, distant 0
+
+CLAUDE-10 vs census LIVING side (45 cells): weighted 43.0/45 = 95.6% | exact 41/45, adjacent 4, distant 0
+
+B5 vs census DEAD side (45 cells): weighted 38.5/45 = 85.6% | exact 33/45, adjacent 11, distant 1
+    DISTANT: P6/ether [S vs F]
+
+B5 vs census LIVING side (45 cells): weighted 42.5/45 = 94.4% | exact 40/45, adjacent 5, distant 0
+
+----------------------------------------------------------------------------
+PART 4 - PER-POINT BANDS (new readings vs census, 10 cells each)
+----------------------------------------------------------------------------
+P1 Deletion at birth        claude 9.0/10 = 90.0%   B5 10.0/10 = 100.0%
+P2 Unification              claude 10.0/10 = 100.0%   B5 9.5/10 = 95.0%
+P3 Universal constant       claude 9.0/10 = 90.0%   B5 10.0/10 = 100.0%
+P4 Derivation-first         claude 9.0/10 = 90.0%   B5 8.5/10 = 85.0%
+P5 Conservative embedding   claude 8.0/10 = 80.0%   B5 8.5/10 = 85.0%
+P6 Formalism / meaning      claude 8.5/10 = 85.0%   B5 7.0/10 = 70.0%
+P7 Founders' resistance     claude 9.5/10 = 95.0%   B5 8.0/10 = 80.0%
+P8 Generative slope         claude 10.0/10 = 100.0%   B5 10.0/10 = 100.0%
+P9 Crisis-chaining          claude 8.0/10 = 80.0%   B5 9.5/10 = 95.0%
+
+----------------------------------------------------------------------------
+PART 5 - THE SIXTH PAIR: B5 vs THE LOCKED PRE-REGISTRATION
+----------------------------------------------------------------------------
+
+FIXITY:
+  P1 Deletion at birth        prereg F   B5 F  
+  P2 Unification              prereg P   B5 P  
+  P3 Universal constant       prereg F   B5 F  
+  P4 Derivation-first         prereg F   B5 F  
+  P5 Conservative embedding   prereg P   B5 F    <-- differs
+  P6 Formalism / meaning      prereg F   B5 F  
+  P7 Founders' resistance     prereg F   B5 P    <-- differs
+  P8 Generative slope         prereg SD  B5 SD 
+  P9 Crisis-chaining          prereg P   B5 F    <-- differs
+  -> prereg vs B5: 83.3% weighted, 6/9 exact
+
+DARWIN:
+  P1 Deletion at birth        prereg S   B5 S  
+  P2 Unification              prereg S   B5 S  
+  P3 Universal constant       prereg F   B5 F  
+  P4 Derivation-first         prereg P   B5 S    <-- differs
+  P5 Conservative embedding   prereg P   B5 P  
+  P6 Formalism / meaning      prereg F   B5 P    <-- differs
+  P7 Founders' resistance     prereg S   B5 S  
+  P8 Generative slope         prereg S   B5 S  
+  P9 Crisis-chaining          prereg S   B5 S  
+  -> prereg vs B5: 88.9% weighted, 7/9 exact
+
+--- Darwin's middle band vs germ theory's (the E2 test) ---
+  P3 Universal constant       germ F   darwin(B5) F   darwin(prereg) F
+  P4 Derivation-first         germ P   darwin(B5) S   darwin(prereg) P
+  P5 Conservative embedding   germ P   darwin(B5) P   darwin(prereg) P
+  P6 Formalism / meaning      germ F   darwin(B5) P   darwin(prereg) F
+
+----------------------------------------------------------------------------
+PART 6 - DOCKETS AND READING RECORDS
+----------------------------------------------------------------------------
+--- 6a. claude vs gpt-10 differing cells (the third family's
+        departures from the first alien's ten-theory reading) ---
+  P1 Deletion at birth      epi      claude F vs gpt P (grok P)
+  P1 Deletion at birth      phl      claude F vs gpt P (grok P)
+  P2 Unification            germ     claude S vs gpt P (grok P)
+  P2 Unification            miasma   claude P vs gpt F (grok F)
+  P3 Universal constant     newton   claude P vs gpt S (grok S)
+  P4 Derivation-first       epi      claude F vs gpt P (grok P)
+  P4 Derivation-first       ether    claude P vs gpt S (grok S)
+  P4 Derivation-first       miasma   claude P vs gpt F (grok F)
+  P4 Derivation-first       phl      claude F vs gpt P (grok P)
+  P5 Conservative embedding caloric  claude P vs gpt F (grok F)
+  P5 Conservative embedding germ     claude S vs gpt P (grok P)
+  P5 Conservative embedding ether    claude S vs gpt P (grok P)
+  P5 Conservative embedding miasma   claude P vs gpt F (grok F)
+  P5 Conservative embedding thermo   claude S vs gpt P (grok P)
+  P6 Formalism / meaning    germ     claude F vs gpt P (grok P)
+  P6 Formalism / meaning    phl      claude F vs gpt P (grok P)
+  P6 Formalism / meaning    thermo   claude S vs gpt P (grok S)
+  P7 Founders' resistance   caloric  claude F vs gpt P (grok F)
+  P9 Crisis-chaining        caloric  claude S vs gpt P (grok P)
+  P9 Crisis-chaining        epi      claude S vs gpt P (grok P)
+  P9 Crisis-chaining        germ     claude S vs gpt P (grok P)
+  P9 Crisis-chaining        ether    claude S vs gpt P (grok P)
+  P9 Crisis-chaining        miasma   claude P vs gpt F (grok F)
+  P9 Crisis-chaining        phl      claude S vs gpt P (grok P)
+--- 6b. claude's unanimous-alone dissent vs census ---
+  P3 Universal constant     newton   census S | claude P
+  P4 Derivation-first       epi      census P | claude F
+  P4 Derivation-first       miasma   census F | claude P
+  P5 Conservative embedding germ     census P | claude S
+  P5 Conservative embedding ether    census P | claude S
+  P5 Conservative embedding miasma   census F | claude P
+  P9 Crisis-chaining        caloric  census P | claude S
+  P9 Crisis-chaining        epi      census P | claude S
+  P9 Crisis-chaining        miasma   census F | claude P
+  P9 Crisis-chaining        phl      census P | claude S
+--- 6c. B5's unanimous-alone dissent vs census (ten old) ---
+  P2 Unification            phl      census S | B5 P
+  P4 Derivation-first       caloric  census P | B5 F
+  P5 Conservative embedding epi      census P | B5 F
+  P6 Formalism / meaning    caloric  census P | B5 F
+  P7 Founders' resistance   epi      census P | B5 F
+  P7 Founders' resistance   germ     census F | B5 P
+  P7 Founders' resistance   phl      census F | B5 P
+--- 6d. full reading records on the elastic cells (9 coders) ---
+Cell           A  B  X3  G8  B4  G10  K10  C10  B5  census
+Newton P3      S  S   -   -   S    S    S    P   S  S
+Newton P6      S  S   P   P   P    P    P    P   P  dual S/P
+ether P5       F  S   P   P   P    P    P    S   S  P
+ether P6       S  S   S   P   P    P    P    P   F  S
+epi P6         S  S   P   P   P    P    P    P   P  S
+phl P2         S  S   P   S   P    S    S    S   P  S
+caloric P5     -  -   -   -   P    F    F    P   F  P
+caloric P9     -  -   -   -   P    P    S    S   P  P
+thermo P3      -  -   -   -   P    P    F    P   P  P
+thermo P4      -  -   -   -   P    S    P    S   P  dual S/P
+germ P7        -  -   P   F   F    F    F    P   P  dual F/P
+miasma P9      P  S   F   F   F    F    P    P   F  F
+
+----------------------------------------------------------------------------
+PART 7 - CENSUS-KILLING CLAUSES UNDER THE NEW READINGS (6 dead)
+----------------------------------------------------------------------------
+  fixed species (B5): deletion=F, constant=F, embedding=F, measurables=F, slope=SD | post-adjudication: 1=F, 3=F, 5=F, 6=F, 8=SD
+  CLAUDE-10 phl      passes-as-S: NONE of the 5
+  CLAUDE-10 ether    passes-as-S: ['embedding']
+  CLAUDE-10 epi      passes-as-S: NONE of the 5
+  CLAUDE-10 miasma   passes-as-S: NONE of the 5
+  CLAUDE-10 caloric  passes-as-S: NONE of the 5
+  B5 phl      passes-as-S: NONE of the 5
+  B5 ether    passes-as-S: ['embedding']
+  B5 epi      passes-as-S: NONE of the 5
+  B5 miasma   passes-as-S: NONE of the 5
+  B5 caloric  passes-as-S: NONE of the 5
+
+  Darwin and the living residents, five discriminators (B5):
+    B5 darwin    deletion=S, constant=F, embedding=P, measurables=P, slope=S
+    B5 germ      deletion=S, constant=F, embedding=P, measurables=P, slope=S
+    B5 thermo    deletion=S, constant=P, embedding=S, measurables=S, slope=S
+    B5 newton    deletion=S, constant=S, embedding=S, measurables=P, slope=S
+
+----------------------------------------------------------------------------
+PART 8 - E1/E2 EXPECTATION CHECKS (A4f pre-registration)
+----------------------------------------------------------------------------
+  CONFIRMED       E1: fixity P1/P3/P6/P7 F under B5 (four dead-row F's)
+  CONFIRMED       E1: fixity P8 'S then D' (the archive's generative phase)
+  CONFIRMED       E1: fixity fails all five discriminators under B5 (no S)
+  CONFIRMED       E2: Darwin P3 F (the domain-marked constant replicates)
+  CONFIRMED       E2: Darwin P5 P (archive embedding, no theorem)
+  CONFIRMED       E2: Darwin P7 S by the blind reader (the live cell)
+  CONFIRMED       E2: Darwin P4/P6 dissented from prereg (S/P vs prereg P/F)
+  CONFIRMED       E6: living trio unanimity holds under B5 (Newton P6 excepted)
+  CONFIRMED       Claude P9 convention dissent printed (miasma P9 P vs census F)
+  CONFIRMED       Claude Newton P3 = P (the G-anachronism dissent, alone)
+  CONFIRMED       Zero distant disagreements anywhere between claude and B5
+
+----------------------------------------------------------------------------
+PART 9 - THE CENSUS AFTER A4f (adjudication rulings, as applied)
+----------------------------------------------------------------------------
+New pair, pre-registered then adjudicated under the rules:
+  fixity P5  P -> F   (B5's vote + the miasma craft-precedent:
+                        no theorems existed to survive)
+  fixity P7  F -> P   (B5's vote + the graduated compromise scale:
+                        Linnaeus's 1762-63 hybridism concession)
+  fixity P9  P (defended; B5's F dissent printed - the
+                        archive-versus-doctrine fork again)
+  darwin P4  P -> S   (B5's vote + the faithful reading: the
+                        Beagle data WERE old data; no new
+                        technique needed - the germ contrast)
+  darwin P6  F (defended as written; B5's P recorded as the
+                        middle reading on the operationalized face)
+Defended on the old panel (forks re-printed with the new votes):
+  ether P5 P (claude S + B5 S land on the machinery face of the
+             composite - inside the cell, not against it)
+  caloric P5 P (the two-faces fork now 3-3: P face author/B4/
+               claude, F face G10/K10/B5)
+  thermo P4 S -> dual S/P (ERRATUM: the A4e Table 6 record row
+               misprinted B4 as S; the verified data files carry
+               P - corrected here, the fork is now author+G10+
+               C10 on S vs B4+K10+B5 on P: a stable 3-3 history-
+               fork -> dual: S two-roads / P split-signatures)
+  Newton P6 dual confirmed (P-face now SEVEN consecutive readings)
+Adjudicated profiles:
+  fixity:  F P F F F F P SD P
+  darwin:  S S F S P F S S S

@@ -260,3 +260,67 @@ the eight readings, external or family. The genetic-dependence limit dies
 as a threat: the verdicts are over-determined by readers this
 environment cannot select. The kit stands at ten theories; the ledger
 is open.
+
+**Amendment A4f — The Third Family and the Sixth Pair** (the offer
+accepted a third time; the extension rule executed again)
+- `Profound_Novelty_A4f_The_Third_Family_and_the_Sixth_Pair.pdf` — 20
+  pages
+- `Profound_Novelty_A4f_cover_source.html` — editable cover source
+- `Profound_Novelty_A4f_third_family_verbatim.md` — the third family's
+  reading, archived exactly as delivered through the owner's repository
+  (the file "novelty prompt3.txt"): matrix, evidence lines, point
+  notes, delivery note — verified cell for cell before any comparison
+  ran
+- `Profound_Novelty_A4f_fifth_blind_coding.md` — the fifth reading's
+  complete output (12-theory matrix + named-evidence lines + point
+  notes), archived for adjudication and re-analysis
+- `Profound_Novelty_A4f_replication_kit_twelve_theories.md` — the kit
+  re-issued at twelve theories: the verbatim prompt for the next alien
+  reader, from any family, run by anyone
+
+The standing offer was accepted a third time, and the third family
+breaks the pattern the first two set: it does not return the first
+alien's verdict cell for cell (86.7 percent against their 97.8), and
+every one of its twenty-four departures is a single step — the
+monotone floor holds across a third lineage while the cell-for-cell
+convergence proves to have been a property of the first two families,
+not of aliens in general. Deeper: the third family is the first
+external reading to land inside the family's own mutual band
+(88.0-89.8 against 88.0-94.4), where the first two sat below — the
+lineage offset is a reader property, not a constant. And its point
+notes reproduce the census's own amendment list blind: the constant
+"effectively defined for physics only," the formalism row's
+mathematics presumption, the embedding direction "undefined," the
+founders' documentary bar, the crisis row that "discriminates almost
+nothing" — five diagnoses, five amendments, arrived at from the inside
+by a reader who was shown none of them. Alongside it, the sixth
+matched pair the extension rule queued: the fixity of species against
+Darwinian selection — three weapons forged inside the dead program
+(Cuvier's fossil succession, Lyell's uniformitarian geology, the
+Linnaean system), with the barnacle years (1846-54) the census's most
+intimate weapon: the executioner working inside the dead program's
+own apparatus as its own practitioner. Admitted under CR-1..CR-4,
+pre-registered before a fifth blind reading ran the widened
+twelve-theory panel, adjudicated under the pre-registered rules with
+three cells moved against the author's own pre-registration: the
+fixity's embedding falls to the miasma craft-precedent (the surviving
+apparatus was archive, not theorems), its founders rise on Linnaeus's
+own recorded compromise (the peloric toadflax, 1744-1762), and
+Darwin's derivation rises on the Beagle data counting as old — the
+germ contrast carrying the discrimination (Koch's media were new
+technique; Darwin needed none). An erratum in the A4e record is
+found, paid, and corrected: one printed letter in one printed table,
+and its correction exposes a stable 3-3 fork on thermodynamics'
+derivation row that becomes the census's sixth dual. The findings:
+both new readings score 90.0 percent against the amended census — the
+highest of any reading yet, family or alien; the middle band's
+within-biology replication completes (the constant and the formalism
+fail the second time exactly where the domain-marking says physics
+ends); Darwin enters at six satisfied cells with the founders' coin
+attested by the debtor's own letters; the fixity enters as the
+emptiest corpse with the richest bequest — the archive/machinery
+inversion printed (caloric kept its equations, the fixity kept its
+data); generative harvest is not profundity, demonstrated on the
+grandest scale the census has held. No dead theory passes any
+discriminator under any of the ten readings. The kit stands at twelve
+theories; the ledger is open. Continue.
