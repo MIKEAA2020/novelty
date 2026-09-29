@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; padding: 0; background: #ffffff; }
+  .canvas { width: 1200px; box-sizing: border-box; padding: 16px 18px; background: #ffffff; font-family: 'Inter', sans-serif; }
+  .rung { display: flex; align-items: stretch; border-radius: 6px; margin: 0; }
+  .rung.l1 { background: #f2f4f7; border: 1px solid #c3cdd8; border-left: 5px solid #8fa5ba; }
+  .rung.l2 { background: #e2e7ee; border: 1px solid #aebdc9; border-left: 5px solid #5d7b99; }
+  .rung.l3 { background: #d4dde7; border: 1px solid #93a7b9; border-left: 5px solid #2f4a66; }
+  .chip { flex: 0 0 124px; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 16px 10px; }
+  .chip .lvl { font-size: 24px; font-weight: 700; letter-spacing: 2px; }
+  .rung.l1 .lvl { color: #6d8aa8; }
+  .rung.l2 .lvl { color: #45688c; }
+  .rung.l3 .lvl { color: #24405e; }
+  .chip .kind { font-size: 19px; color: #5a6b7d; margin-top: 6px; letter-spacing: 1px; }
+  .rung.l3 .kind { color: #3c4f63; }
+  .body { flex: 1 1 auto; padding: 16px 24px 14px 20px; }
+  .name { font-size: 36px; font-weight: 700; color: #1c2733; margin-bottom: 4px; }
+  .tagline { font-size: 23px; color: #46596c; font-style: italic; margin-bottom: 7px; }
+  .desc { font-size: 26px; color: #243242; line-height: 1.4; margin-bottom: 7px; }
+  .ex { font-size: 22px; color: #57697c; line-height: 1.35; }
+  .ex b { color: #40566c; font-weight: 600; }
+  .connector { display: flex; align-items: center; justify-content: center; padding: 7px 0 7px 0; }
+  .conn-label { font-size: 22px; color: #57697c; letter-spacing: 2.5px; text-transform: uppercase; margin-left: 14px; }
+  svg.arrow { display: block; }
+</style>
+</head>
+<body>
+<div class="canvas">
+
+  <div class="rung l1">
+    <div class="chip"><div class="lvl">L1</div><div class="kind">CONTENT</div></div>
+    <div class="body">
+      <div class="name">New Phenomena</div>
+      <div class="tagline">novelty of content</div>
+      <div class="desc">New facts arrive that the existing framework must accommodate. The framework itself is not touched.</div>
+      <div class="ex"><b>e.g.</b>&nbsp; the Michelson&#8211;Morley null result (1887) &middot; the blackbody spectrum &middot; atomic spectral lines</div>
+    </div>
+  </div>
+
+  <div class="connector">
+    <svg class="arrow" width="26" height="40" viewBox="0 0 26 40">
+      <line x1="13" y1="0" x2="13" y2="28" stroke="#5d7b99" stroke-width="2"/>
+      <polygon points="13,40 5,26 21,26" fill="#5d7b99"/>
+    </svg>
+    <div class="conn-label">deeper conceptual reconstruction</div>
+  </div>
+
+  <div class="rung l2">
+    <div class="chip"><div class="lvl">L2</div><div class="kind">STRUCTURE</div></div>
+    <div class="body">
+      <div class="name">New Laws</div>
+      <div class="tagline">novelty of structure</div>
+      <div class="desc">New relations connect the facts &#8212; equations and mechanisms that organize them under one rule.</div>
+      <div class="ex"><b>e.g.</b>&nbsp; Newton&#8217;s laws of motion (1687) &middot; the Lorentz transformations (1904) &middot; matrix &amp; wave mechanics (1925&#8211;26)</div>
+    </div>
+  </div>
+
+  <div class="connector">
+    <svg class="arrow" width="26" height="40" viewBox="0 0 26 40">
+      <line x1="13" y1="0" x2="13" y2="28" stroke="#45688c" stroke-width="2"/>
+      <polygon points="13,40 5,26 21,26" fill="#45688c"/>
+    </svg>
+    <div class="conn-label">deeper conceptual reconstruction</div>
+  </div>
+
+  <div class="rung l3">
+    <div class="chip"><div class="lvl">L3</div><div class="kind">VOCABULARY</div></div>
+    <div class="body">
+      <div class="name">New Meta&#8209;Concepts</div>
+      <div class="tagline">novelty of vocabulary</div>
+      <div class="desc">The basic terms in which laws are written are themselves rewritten &#8212; space, time, cause, state, observation, explanation.</div>
+      <div class="ex"><b>e.g.</b>&nbsp; heaven and earth as one world &middot; the relativity of simultaneity &middot; the death of determinism</div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

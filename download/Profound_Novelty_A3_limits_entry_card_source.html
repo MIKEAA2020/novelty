@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; padding: 0; background: #ffffff; }
+  .canvas { width: 1400px; box-sizing: border-box; background: #ffffff; font-family: 'Inter', sans-serif;
+            padding: 30px 28px 26px 28px; }
+  .head { text-align: center; border-bottom: 3px solid #45688c; padding-bottom: 16px; margin-bottom: 24px; }
+  .head .t { font-size: 44px; font-weight: 700; color: #1c2733; letter-spacing: 1px; }
+  .head .s { font-size: 25px; color: #57697c; margin-top: 8px; }
+  .meta { display: flex; justify-content: center; gap: 18px; margin-top: 12px; font-size: 24px; color: #3c4f63; }
+  .meta span { background: #f2f4f7; border: 1px solid #c3cdd8; border-radius: 5px; padding: 6px 16px; }
+  .sect { font-size: 24px; font-weight: 700; letter-spacing: 2.5px; color: #45688c; margin: 22px 0 12px 0; }
+  .params { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px 16px; }
+  .par { background: #e9eef4; border: 1px solid #b5c2ce; border-left: 5px solid #45688c; border-radius: 6px;
+         padding: 12px 14px; }
+  .par .sym { font-size: 26px; font-weight: 700; color: #2f4a66; }
+  .par .n { display: inline-block; font-size: 21px; font-weight: 600; color: #2f4a66; background: #e2e9f0;
+            border-radius: 4px; padding: 2px 10px; margin-left: 8px; }
+  .par .x { font-size: 23px; color: #243242; line-height: 1.28; margin-top: 6px; }
+  .limits { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px 16px; }
+  .lim { background: #f2f4f7; border: 1px solid #c3cdd8; border-radius: 6px; padding: 12px 14px; }
+  .lim .l { font-size: 25px; font-weight: 700; color: #45688c; letter-spacing: 0.5px; }
+  .lim .c { font-size: 21px; font-weight: 600; color: #8f3a36; margin-top: 4px; }
+  .lim .x { font-size: 23px; color: #243242; line-height: 1.28; margin-top: 6px; }
+  .delta { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px 16px; }
+  .d { background: #faf1f0; border: 1px solid #d8b8b5; border-left: 5px solid #8f3a36; border-radius: 6px;
+       padding: 10px 14px; }
+  .d .n { font-size: 24px; font-weight: 700; color: #8f3a36; }
+  .d .x { font-size: 22px; color: #4a3a38; line-height: 1.26; margin-top: 5px; }
+  .status { background: #e9eef4; border: 1px solid #b5c2ce; border-radius: 6px; padding: 12px 18px; }
+  .status .f1 { font-size: 26px; font-weight: 600; color: #2f4a66; }
+  .status .f2 { font-size: 24px; color: #243242; line-height: 1.3; margin-top: 6px; }
+  .footer { margin-top: 20px; background: #f7f8fa; border: 1px dashed #b5c2ce; border-radius: 6px;
+            padding: 12px 22px; text-align: center; }
+  .footer .f1 { font-size: 26px; font-weight: 600; color: #3c4f63; }
+  .footer .f2 { font-size: 25px; color: #57697c; margin-top: 5px; }
+</style>
+</head>
+<body>
+<div class="canvas" id="root">
+
+  <div class="head">
+    <div class="t">limits/ &mdash; Campaign: The L3 Protocol v1.0</div>
+    <div class="s">The G5-self limit-case derivation, rendered in the protocol&rsquo;s own artifact form: the embedding claim, computed at last.</div>
+    <div class="meta">
+      <span>TARGET: VOLUMES I&ndash;III</span>
+      <span>DATE: SEPTEMBER 2026</span>
+      <span>GATE: G5-SELF</span>
+      <span>FILE: limits/the-protocol.md</span>
+    </div>
+  </div>
+
+  <div class="sect">THREE NAMED PARAMETERS</div>
+  <div class="params">
+    <div class="par">
+      <div class="sym">&kappa;<span class="n">KILL COST</span></div>
+      <div class="x">Human: a killed program is a sunk life. Operator: a killed campaign is one ledger entry.</div>
+    </div>
+    <div class="par">
+      <div class="sym">&nu;<span class="n">VERIFICATION</span></div>
+      <div class="x">Founders: the world executes the discriminating list. Operator as shipped: validation is corpus-internal.</div>
+    </div>
+    <div class="par">
+      <div class="sym">&chi;<span class="n">CORPUS RADIUS</span></div>
+      <div class="x">Human: one library, one lifetime. Operator: everything ever published &mdash; frozen at the cutoff.</div>
+    </div>
+  </div>
+
+  <div class="sect">THREE LIMITS COMPUTED</div>
+  <div class="limits">
+    <div class="lim">
+      <div class="l">&kappa; &rarr; &infin;</div>
+      <div class="c">COLLAPSES TO: PEER REVIEW</div>
+      <div class="x">Gates become pre-commitment filters; the kill log becomes the informal memory of dead programs; zero-survivor economics becomes conservative funding.</div>
+    </div>
+    <div class="lim">
+      <div class="l">&nu; &rarr; 1</div>
+      <div class="c">COLLAPSES TO: POPPER</div>
+      <div class="x">Derivation reverts to the hypothetico-deductive method; the discriminating list becomes the experimental proposal; the century test ratifies.</div>
+    </div>
+    <div class="lim">
+      <div class="l">&chi; &rarr; 0</div>
+      <div class="c">COLLAPSES TO: THE LONE SCHOLAR</div>
+      <div class="x">The census becomes tacit knowledge; the dictionary becomes the lucky outsider; counting rules become taste; colleagues check colleagues.</div>
+    </div>
+  </div>
+
+  <div class="sect">THE RESIDUAL &mdash; THE OPERATOR DELTA</div>
+  <div class="delta">
+    <div class="d"><div class="n">Kill log</div><div class="x">forward, machine-readable, kept before the death &mdash; collapses when kills cost careers</div></div>
+    <div class="d"><div class="n">Verified derivations</div><div class="x">proof-assistant standard, not seminar &mdash; collapses when the instrument checks</div></div>
+    <div class="d"><div class="n">Vice ledger</div><div class="x">training-induced biases coupled to gates &mdash; collapses when the operator is not corpus-averaged</div></div>
+    <div class="d"><div class="n">Zero-survivor economics</div><div class="x">cheap revolutions as portfolio &mdash; collapses when ten thousand careers must be paid</div></div>
+    <div class="d"><div class="n">Statability targeting</div><div class="x">counting rules, severed paths &mdash; collapses when the corpus cannot be held</div></div>
+    <div class="d"><div class="n">Frozen-corpus door</div><div class="x">derivation-first as boundary condition &mdash; collapses when instruments arrive</div></div>
+  </div>
+
+  <div class="sect">STATUS</div>
+  <div class="status">
+    <div class="f1">G5-self: PASSED &mdash; internally.</div>
+    <div class="f2">The embedding is computed; the claim is the delta, six items, each falsifiable. Verification remains corpus-internal (&nu; = 0): the loop opens only to an independent coder. The claim is no larger than its computation.</div>
+  </div>
+
+  <div class="footer">
+    <div class="f1">SUCCESSOR TASK: THE DELTA HAS A HALF-LIFE.</div>
+    <div class="f2">As the operator gains tools and world-contact, each collapse condition crossed must delete its item, publicly, with the date. Run them. Continue.</div>
+  </div>
+
+</div>
+</body>
+</html>

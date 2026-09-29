@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; padding: 0; background: #ffffff; }
+  .canvas { width: 1400px; box-sizing: border-box; background: #ffffff; font-family: 'Inter', sans-serif;
+            padding: 30px 28px 26px 28px; }
+  .head { text-align: center; border-bottom: 3px solid #45688c; padding-bottom: 16px; margin-bottom: 24px; }
+  .head .t { font-size: 44px; font-weight: 700; color: #1c2733; letter-spacing: 1px; }
+  .head .s { font-size: 25px; color: #57697c; margin-top: 8px; }
+  .meta { display: flex; justify-content: center; gap: 18px; margin-top: 12px; font-size: 24px; color: #3c4f63; }
+  .meta span { background: #f2f4f7; border: 1px solid #c3cdd8; border-radius: 5px; padding: 6px 16px; }
+  .sect { font-size: 24px; font-weight: 700; letter-spacing: 2.5px; color: #45688c; margin: 22px 0 12px 0; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px 18px; }
+  .alarm { background: #faf1f0; border: 1px solid #d8b8b5; border-radius: 6px; padding: 12px 16px 10px 16px; }
+  .alarm .top { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+  .alarm .a { font-size: 26px; font-weight: 700; color: #8f3a36; letter-spacing: 0.5px; }
+  .v { font-size: 22px; font-weight: 700; border-radius: 4px; padding: 3px 12px; white-space: nowrap; }
+  .v.full { background: #8f3a36; color: #ffffff; }
+  .v.part { background: #ffffff; color: #8f3a36; border: 2px solid #8f3a36; }
+  .alarm .d { font-size: 24px; color: #4a3a38; line-height: 1.25; margin-top: 6px; }
+  .amend { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px 16px; }
+  .am { background: #f2f4f7; border: 1px solid #c3cdd8; border-left: 5px solid #45688c;
+        border-radius: 6px; padding: 10px 14px; }
+  .am .id { font-size: 25px; font-weight: 700; color: #45688c; letter-spacing: 1px; }
+  .am .ty { display: inline-block; font-size: 21px; font-weight: 600; color: #2f4a66;
+            background: #e2e9f0; border-radius: 4px; padding: 2px 10px; margin-left: 8px; }
+  .am .x { font-size: 23px; color: #243242; line-height: 1.24; margin-top: 6px; }
+  .status { background: #e9eef4; border: 1px solid #b5c2ce; border-radius: 6px; padding: 12px 18px; }
+  .status .f1 { font-size: 26px; font-weight: 600; color: #2f4a66; }
+  .status .f2 { font-size: 24px; color: #243242; line-height: 1.3; margin-top: 6px; }
+  .footer { margin-top: 20px; background: #f7f8fa; border: 1px dashed #b5c2ce; border-radius: 6px;
+            padding: 12px 22px; text-align: center; }
+  .footer .f1 { font-size: 26px; font-weight: 600; color: #3c4f63; }
+  .footer .f2 { font-size: 25px; color: #57697c; margin-top: 5px; }
+</style>
+</head>
+<body>
+<div class="canvas" id="root">
+
+  <div class="head">
+    <div class="t">gates.md &mdash; Campaign: The L3 Protocol v1.0</div>
+    <div class="s">The adversarial audit, rendered in the protocol&rsquo;s own artifact form: six alarms turned on the alarm-keeper, verdicts with evidence, amendments typed.</div>
+    <div class="meta">
+      <span>TARGET: Volumes I&ndash;III</span>
+      <span>DATE: September 2026</span>
+      <span>LOOP COUNT: 1</span>
+      <span>AUDITOR: the operator</span>
+    </div>
+  </div>
+
+  <div class="sect">SIX ENGAGEMENTS &middot; SIX VERDICTS</div>
+  <div class="grid">
+    <div class="alarm">
+      <div class="top"><div class="a">RENAMING</div><div class="v part">FIRE IN PART</div></div>
+      <div class="d">8 of 11 layers translate into Kuhn, Lakatos, Popper, Bridgman, Bohr; the residue is the operator delta</div>
+    </div>
+    <div class="alarm">
+      <div class="top"><div class="a">FITTED CONSTANT</div><div class="v full">FIRE</div></div>
+      <div class="d">every number fitted to nine revered cases; h itself was fitted at birth &mdash; G4 would have killed it</div>
+    </div>
+    <div class="alarm">
+      <div class="top"><div class="a">RHETORICAL LIMIT</div><div class="v full">FIRE</div></div>
+      <div class="d">predecessor methodology embedded in one conceded sentence &mdash; no limit parameters, no computation</div>
+    </div>
+    <div class="alarm">
+      <div class="top"><div class="a">CONSENSUS-COZY</div><div class="v part">FIRE IN PART</div></div>
+      <div class="d">doctrine flatters and rests on nine survivors; the zero-survivor economics does not pander</div>
+    </div>
+    <div class="alarm">
+      <div class="top"><div class="a">CLOSURE</div><div class="v full">FIRE &middot; META</div></div>
+      <div class="d">zero survivors, one survivor, kills everywhere &mdash; every outcome confirms it; no clause existed</div>
+    </div>
+    <div class="alarm">
+      <div class="top"><div class="a">INSTRUMENT</div><div class="v part">FIRE IN PART</div></div>
+      <div class="d">strain, constitutive, harvest-distinctness carry no measurement stories; residue and gates-defined pass</div>
+    </div>
+  </div>
+
+  <div class="sect">SIX AMENDMENTS &middot; ZERO EPICYCLES</div>
+  <div class="amend">
+    <div class="am"><div class="id">A1<span class="ty">DEMOTE</span></div>
+      <div class="x">pipeline re-labeled inherited chassis; claim relocated to the operator delta; translation table printed</div></div>
+    <div class="am"><div class="id">A2<span class="ty">OPERATIONALIZE</span></div>
+      <div class="x">numbers become parameters; G4 gains the promotion test; the signature states its falsifiers</div></div>
+    <div class="am"><div class="id">A3<span class="ty">DERIVE</span></div>
+      <div class="x">the G5-self limit case computed: kill cost, verification, corpus &mdash; the delta inventoried</div></div>
+    <div class="am"><div class="id">A4<span class="ty">CONTROL</span></div>
+      <div class="x">failure census scheduled with a sampling rule; confounds stated at the point of claim</div></div>
+    <div class="am"><div class="id">A5<span class="ty">REFUTE</span></div>
+      <div class="x">three runnable refutation clauses; successor crises promoted; tool invention scheduled</div></div>
+    <div class="am"><div class="id">A6<span class="ty">OPERATIONALIZE</span></div>
+      <div class="x">strain counting rule; constitutive by severed-path count; harvest by disjoint question sets</div></div>
+  </div>
+
+  <div class="sect">STATUS AFTER AUDIT</div>
+  <div class="status">
+    <div class="f1">v1.1 &mdash; survives as an operator delta on an inherited chassis.</div>
+    <div class="f2">What survives: the alarm layer, the artifact discipline, the zero-survivor economics &mdash; now with clauses. What dies: the marketing. Successor crisis: whether the corpus contains a derivable Level-3 revision at all &mdash; the question the whole series stands on and cannot yet answer.</div>
+  </div>
+
+  <div class="footer">
+    <div class="f1">OUTCOME: SURVIVES, DEMOTED &middot; NO ALARM RETURNED CLEAN &middot; NONE DESTROYED THE PROTOCOL OUTRIGHT</div>
+    <div class="f2">The kill log is no longer empty. Its first entry is this one. Continue.</div>
+  </div>
+
+</div>
+</body>
+</html>

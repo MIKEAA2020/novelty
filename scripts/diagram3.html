@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; padding: 0; background: #ffffff; }
+  .canvas { width: 1400px; position: relative; box-sizing: border-box; background: #ffffff;
+            font-family: 'Inter', sans-serif; padding: 26px 24px 24px 24px; }
+  .flow-title { text-align: center; font-size: 42px; font-weight: 700; color: #1c2733; letter-spacing: 1px; }
+  .flow-sub   { text-align: center; font-size: 25px; color: #57697c; margin-top: 8px; margin-bottom: 26px; }
+  .columns { display: flex; gap: 104px; position: relative; }
+  .col { width: 624px; display: flex; flex-direction: column; flex: none; }
+  .phase { background: #f2f4f7; border: 1px solid #c3cdd8; border-left: 5px solid #8fa5ba;
+           border-radius: 6px; padding: 12px 18px; box-sizing: border-box; }
+  .tag { font-size: 24px; font-weight: 600; letter-spacing: 1.2px; color: #45688c; margin-bottom: 4px; }
+  .name { font-size: 34px; font-weight: 700; color: #1c2733; line-height: 1.1; margin-bottom: 5px; }
+  .desc { font-size: 27px; color: #243242; line-height: 1.22; }
+  .artifact { font-size: 24px; color: #57697c; line-height: 1.2; margin-top: 5px; }
+  .gate { margin: 10px 34px; background: #e9eef4; border: 1px dashed #a9b8c8; border-radius: 6px;
+          padding: 6px 16px; box-sizing: border-box; }
+  .gate .pass { font-size: 24px; font-weight: 600; color: #2f4a66; line-height: 1.24; }
+  .gate .kill { font-size: 24px; font-weight: 500; color: #a0433f; line-height: 1.24; margin-top: 2px; }
+  .terminal { margin-top: 12px; background: #d4dde7; border: 2px solid #45688c; border-radius: 8px;
+              padding: 10px 18px; text-align: center; font-size: 26px; font-weight: 600; color: #1c2733; }
+  .terminal span { color: #2f4a66; }
+  .strip { margin-top: 22px; border: 1px dashed #b5c2ce; border-radius: 6px; background: #f7f8fa;
+           display: flex; align-items: center; justify-content: center; text-align: center;
+           font-size: 25px; color: #57697c; padding: 10px 24px; box-sizing: border-box; line-height: 1.3; }
+  .strip b { color: #3c4f63; font-weight: 600; letter-spacing: 1px; }
+  svg.wires { position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; }
+</style>
+</head>
+<body>
+<div class="canvas" id="root">
+
+  <div class="flow-title">The L3 Protocol</div>
+  <div class="flow-sub">Eight phases, eight gates &mdash; the production pipeline for deep novelty</div>
+
+  <div class="columns" id="cols">
+    <svg class="wires" id="wires" viewBox="0 0 1400 1250" preserveAspectRatio="none">
+      <path id="turn" d="" stroke="#5d7b99" stroke-width="2.6" fill="none"/>
+      <polygon id="turnArrow" points="" fill="#5d7b99"/>
+    </svg>
+
+    <div class="col" id="colA">
+      <div class="phase">
+        <div class="tag">P0 &middot; CRISIS CARTOGRAPHY</div>
+        <div class="name">find the strain</div>
+        <div class="desc">ledger of accurate-but-unspeakable data</div>
+        <div class="artifact">&#9656; artifact: the anomaly ledger</div>
+      </div>
+      <div class="gate">
+        <div class="pass">G0 &#9656; unspeakable anomaly &middot; patch-thickness &ge; 3</div>
+        <div class="kill">KILL &#8617; all patchable &rarr; downgrade to L2</div>
+      </div>
+      <div class="phase">
+        <div class="tag">P1 &middot; CONCEPT AUTOPSY</div>
+        <div class="name">find what to delete</div>
+        <div class="desc">inherited concepts isolated by census</div>
+        <div class="artifact">&#9656; artifact: dependency graph + census</div>
+      </div>
+      <div class="gate">
+        <div class="pass">G1 &#9656; inherited concept of maximal weight</div>
+        <div class="kill">KILL &#8617; all tested &rarr; P0</div>
+      </div>
+      <div class="phase">
+        <div class="tag">P2 &middot; AMPUTATION</div>
+        <div class="name">delete, and survive</div>
+        <div class="desc">meaningless, not false &mdash; or promote it</div>
+        <div class="artifact">&#9656; artifact: amputated axioms + derivations</div>
+      </div>
+      <div class="gate">
+        <div class="pass">G2 &#9656; core preserved, new structure forced</div>
+        <div class="kill">KILL &#8617; decorative or fatal &rarr; P1</div>
+      </div>
+      <div class="phase" id="p3">
+        <div class="tag">P3 &middot; DICTIONARY ATTACK</div>
+        <div class="name">mine the untranslatable</div>
+        <div class="desc">translate two domains, mint at residue</div>
+        <div class="artifact">&#9656; artifact: dictionary + residue list</div>
+      </div>
+    </div>
+
+    <div class="col" id="colB">
+      <div class="gate" id="g3first" style="margin: 0 34px;">
+        <div class="pass">G3 &#9656; residue non-empty &middot; compression positive</div>
+        <div class="kill">KILL &#8617; perfect translation = reformulation</div>
+      </div>
+      <div class="phase" id="p4" style="margin-top: 10px;">
+        <div class="tag">P4 &middot; INVARIANCE &amp; CONSTANT</div>
+        <div class="name">write law at bedrock</div>
+        <div class="desc">state what stays unchanged; price it</div>
+        <div class="artifact">&#9656; artifact: invariance statement + dimensions</div>
+      </div>
+      <div class="gate">
+        <div class="pass">G4 &#9656; one-sentence invariance + constant</div>
+        <div class="kill">KILL &#8617; a constant fitted to data is a patch</div>
+      </div>
+      <div class="phase">
+        <div class="tag">P5 &middot; LIMIT-CASE INVERSION</div>
+        <div class="name">pay the old theory</div>
+        <div class="desc">derive it as a computed limit</div>
+        <div class="artifact">&#9656; artifact: derivation + discriminating list</div>
+      </div>
+      <div class="gate">
+        <div class="pass">G5 &#9656; predecessor computed as limit</div>
+        <div class="kill">KILL &#8617; no limit / no measurable difference</div>
+      </div>
+      <div class="phase">
+        <div class="tag">P6 &middot; SEMANTIC ASSIGNMENT</div>
+        <div class="name">make it mean a world</div>
+        <div class="desc">a measurement story for every primitive</div>
+        <div class="artifact">&#9656; artifact: the operational dictionary</div>
+      </div>
+      <div class="gate">
+        <div class="pass">G6 &#9656; every primitive measurable in principle</div>
+        <div class="kill">KILL &#8617; leans on deleted concept &rarr; P2</div>
+      </div>
+      <div class="phase">
+        <div class="tag">P7 &middot; ADVERSARIAL CLOSURE</div>
+        <div class="name">resist it, then enumerate</div>
+        <div class="desc">defend the old order; name the next crisis</div>
+        <div class="artifact">&#9656; artifact: defense + harvest + crisis</div>
+      </div>
+      <div class="gate">
+        <div class="pass">G7 &#9656; defense answered &middot; harvest &ge; 10</div>
+        <div class="kill">KILL &#8617; closure without opening = terminal</div>
+      </div>
+      <div class="terminal">G7 PASSED &mdash; <span>L3 CANDIDATE</span> &middot; ratification belongs to the world</div>
+    </div>
+  </div>
+
+  <div class="strip"><b>LOOP RULE</b>&nbsp;&nbsp;A KILL returns control to its return-target; three kills at the same gate abandon the target and demand a post-mortem. The kill log is the operator&rsquo;s compounding asset &mdash; every entry maps where the bedrock is not.</div>
+
+</div>
+
+<script>
+  window.addEventListener('load', function () {
+    var root = document.getElementById('root');
+    var p3 = document.getElementById('p3');
+    var g3 = document.getElementById('g3first');
+    var rRoot = root.getBoundingClientRect();
+    var r3 = p3.getBoundingClientRect();
+    var rg = g3.getBoundingClientRect();
+    var x1 = r3.right - rRoot.left;          // right edge of P3
+    var y1 = r3.top + r3.height / 2 - rRoot.top;
+    var x2 = rg.left - rRoot.left;           // left edge of G3
+    var y2 = rg.top + rg.height / 2 - rRoot.top;
+    var midX = (x1 + x2) / 2;
+    var d = 'M ' + x1 + ' ' + y1 +
+            ' L ' + (midX - 14) + ' ' + y1 +
+            ' Q ' + midX + ' ' + y1 + ' ' + midX + ' ' + (y1 - 14) +
+            ' L ' + midX + ' ' + (y2 + 14) +
+            ' Q ' + midX + ' ' + y2 + ' ' + (midX + 14) + ' ' + y2 +
+            ' L ' + (x2 - 10) + ' ' + y2;
+    document.getElementById('turn').setAttribute('d', d);
+    var ax = x2 - 2, ay = y2;
+    document.getElementById('turnArrow').setAttribute(
+      'points', (ax) + ',' + ay + ' ' + (ax - 14) + ',' + (ay - 7) + ' ' + (ax - 14) + ',' + (ay + 7));
+  });
+</script>
+</body>
+</html>

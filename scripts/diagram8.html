@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; padding: 0; background: #ffffff; }
+  .canvas { width: 1500px; box-sizing: border-box; background: #ffffff; font-family: 'Inter', sans-serif;
+            padding: 26px 26px 22px 26px; }
+  .head { text-align: center; border-bottom: 3px solid #45688c; padding-bottom: 14px; margin-bottom: 22px; }
+  .head .t { font-size: 34px; font-weight: 700; color: #1c2733; letter-spacing: 1px; }
+  .head .s { font-size: 23px; color: #57697c; margin-top: 6px; }
+  .flow { display: grid; grid-template-columns: 1fr 30px 1.12fr 30px 1fr 30px 1fr 30px 1fr;
+          gap: 0; align-items: stretch; }
+  .stage { background: #e9eef4; border: 1px solid #b5c2ce; border-top: 5px solid #45688c;
+           border-radius: 6px; padding: 14px 14px 12px 14px; display: flex; flex-direction: column; }
+  .stage .n { font-size: 22px; font-weight: 700; color: #2f4a66; letter-spacing: 1px; line-height: 1.2; }
+  .stage .d { font-size: 19px; color: #243242; line-height: 1.35; margin-top: 8px; }
+  .stage .tag { display: inline-block; font-size: 16px; font-weight: 600; letter-spacing: 1.2px;
+                border-radius: 4px; padding: 3px 10px; margin-top: 10px; background: #d7e2ec; color: #2f4a66;
+                align-self: flex-start; }
+  .arrow { display: flex; align-items: center; justify-content: center;
+           font-size: 26px; color: #45688c; font-weight: 700; }
+  .envelope { background: #faf8f2; border: 2px dashed #a8977a; border-radius: 6px;
+              padding: 12px 12px 10px 12px; }
+  .envelope .envlab { font-size: 17px; font-weight: 700; letter-spacing: 2px; color: #7a6a4f;
+                      text-align: center; margin-bottom: 10px; }
+  .coder { background: #e9eef4; border: 1px solid #b5c2ce; border-left: 6px solid #45688c;
+           border-radius: 6px; padding: 10px 14px; }
+  .coder + .coder { margin-top: 10px; }
+  .coder .n { font-size: 21px; font-weight: 700; color: #2f4a66; }
+  .coder .d { font-size: 18px; color: #243242; line-height: 1.3; margin-top: 4px; }
+  .coder.refused { background: #f6eeee; border-color: #c9a5a5; border-left-color: #8f5a5a; }
+  .coder.refused .n { color: #6d3a3a; }
+  .coder.refused .d { color: #4d3030; }
+  .envelope .no { font-size: 16.5px; color: #6b5f4a; text-align: center; margin-top: 10px;
+                  line-height: 1.35; }
+  .court { background: #f7f4ee; border: 1px solid #cbb98f; border-top: 5px solid #8f7a3e;
+           border-radius: 6px; padding: 14px 14px 12px 14px; display: flex; flex-direction: column; }
+  .court .n { font-size: 22px; font-weight: 700; color: #6b5a26; letter-spacing: 1px; line-height: 1.2; }
+  .court .d { font-size: 19px; color: #243242; line-height: 1.35; margin-top: 8px; }
+  .court .tag { display: inline-block; font-size: 16px; font-weight: 600; letter-spacing: 1.2px;
+                border-radius: 4px; padding: 3px 10px; margin-top: 10px; background: #efe3c2; color: #6b5a26;
+                align-self: flex-start; }
+  .verdict { background: #eef4ee; border: 1px solid #b3c9b3; border-top: 5px solid #3e6b45;
+             border-radius: 6px; padding: 14px 14px 12px 14px; display: flex; flex-direction: column; }
+  .verdict .n { font-size: 22px; font-weight: 700; color: #2f5236; letter-spacing: 1px; line-height: 1.2; }
+  .verdict .d { font-size: 19px; color: #243242; line-height: 1.35; margin-top: 8px; }
+  .verdict .tag { display: inline-block; font-size: 16px; font-weight: 600; letter-spacing: 1.2px;
+                  border-radius: 4px; padding: 3px 10px; margin-top: 10px; background: #d8e8d8; color: #2f5236;
+                  align-self: flex-start; }
+  .note { background: #e9eef4; border: 1px solid #b5c2ce; border-radius: 6px; padding: 12px 20px;
+          text-align: center; margin-top: 18px; }
+  .note .f1 { font-size: 23px; font-weight: 600; color: #2f4a66; }
+  .note .f2 { font-size: 21px; color: #57697c; margin-top: 5px; line-height: 1.35; }
+</style>
+</head>
+<body>
+<div class="canvas" id="root">
+
+  <div class="head">
+    <div class="t">The Widened Census &mdash; The Design</div>
+    <div class="s">The extension rule executed; the third blind reading; and the alien slot the infrastructure would not fill.</div>
+  </div>
+
+  <div class="flow">
+    <div class="stage">
+      <div class="n">THE INSTRUMENT</div>
+      <div class="d">Nine points, verbatim from Volume I &mdash; G, c, h and the Lorentz exemplars intact. Scale: S / P / F, slope's S-then-D. Panel: eight theories, alphabetical.</div>
+      <div class="tag">PANEL WIDENED BY THE RULE</div>
+    </div>
+    <div class="arrow">&#9654;</div>
+    <div class="envelope">
+      <div class="envlab">THE BLINDING ENVELOPE</div>
+      <div class="coder">
+        <div class="n">Coders A + B &mdash; A4b, six theories</div>
+        <div class="d">The two fresh contexts of the recoding; their readings forced the amendments in.</div>
+      </div>
+      <div class="coder">
+        <div class="n">Coder X &mdash; third fresh context</div>
+        <div class="d">Eight theories, same instrument, first reading administered after the amendments.</div>
+      </div>
+      <div class="coder refused">
+        <div class="n">The alien slot &mdash; unfilled</div>
+        <div class="d">Requested twice under external family names; every request mapped to the author's own lineage. The refusal is printed as a finding.</div>
+      </div>
+      <div class="no">No files read &middot; no web &middot; no census &middot; no worklog &middot; no answer key &middot; pre-registration locked</div>
+    </div>
+    <div class="arrow">&#9654;</div>
+    <div class="stage">
+      <div class="n">UNBLINDING</div>
+      <div class="d">72 blind cells against five prior readings. Dead side: 77.8% vs the census v1, 87.0% vs the amended census, zero inversions &mdash; every amendment replicated blind. Living side: first breaks, at two named joints.</div>
+      <div class="tag">AMENDMENTS REPLICATE BLIND</div>
+    </div>
+    <div class="arrow">&#9654;</div>
+    <div class="court">
+      <div class="n">THE EVIDENCE COURT</div>
+      <div class="d">Ten cells tried against named evidence &mdash; the Altona filters of 1892, the equant of the Almagest, Gram's stain. The author overruled twice, once against his own pre-registration.</div>
+      <div class="tag">PRE-REGISTERED RULES</div>
+    </div>
+    <div class="arrow">&#9654;</div>
+    <div class="verdict">
+      <div class="n">THE VERDICT</div>
+      <div class="d">No dead theory passes the core &mdash; miasma fails all five discriminators. Germ theory fails the constant: it demotes to domain-marked. Four domain-general discriminators + one physics-relative, and the replication kit ships for the alien still owed.</div>
+      <div class="tag">FOUR PLUS ONE, KIT SHIPPED</div>
+    </div>
+  </div>
+
+  <div class="note">
+    <div class="f1">What the third coder never saw: the census, the amendments, the demotions, the pre-registration, the direction of any hope.</div>
+    <div class="f2">What it shares anyway: the author's model family &mdash; the alien clause is unfulfilled, the same-family substitution is printed, and the kit makes the alien reading executable by any true outsider.</div>
+  </div>
+
+</div>
+</body>
+</html>

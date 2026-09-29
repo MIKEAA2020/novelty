@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; padding: 0; background: #ffffff; }
+  .canvas { width: 1400px; box-sizing: border-box; background: #ffffff; font-family: 'Inter', sans-serif;
+            padding: 30px 28px 26px 28px; }
+  .head { text-align: center; border-bottom: 3px solid #45688c; padding-bottom: 16px; margin-bottom: 24px; }
+  .head .t { font-size: 46px; font-weight: 700; color: #1c2733; letter-spacing: 1px; }
+  .head .s { font-size: 25px; color: #57697c; margin-top: 8px; }
+  .sect { font-size: 24px; font-weight: 700; letter-spacing: 2.5px; color: #45688c; margin: 22px 0 12px 0; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 20px; }
+  .phase { background: #f2f4f7; border: 1px solid #c3cdd8; border-left: 5px solid #8fa5ba;
+           border-radius: 6px; padding: 12px 16px 10px 16px; }
+  .phase .tag { font-size: 26px; font-weight: 700; letter-spacing: 1.2px; color: #45688c; }
+  .row { font-size: 26px; color: #243242; line-height: 1.28; margin-top: 5px; }
+  .row b { font-weight: 600; color: #2f4a66; }
+  .row .k { font-weight: 600; color: #a0433f; }
+  .row .a { font-weight: 600; color: #3b7fc3; }
+  .alarms { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px 16px; }
+  .alarm { background: #faf1f0; border: 1px solid #d8b8b5; border-radius: 6px; padding: 10px 14px; }
+  .alarm .a { font-size: 26px; font-weight: 700; color: #8f3a36; letter-spacing: 0.5px; }
+  .alarm .d { font-size: 25px; color: #4a3a38; line-height: 1.25; margin-top: 4px; }
+  .doctrine { display: flex; gap: 14px; }
+  .d { flex: 1; background: #e9eef4; border: 1px solid #b5c2ce; border-radius: 6px; padding: 10px 12px;
+       text-align: center; }
+  .d .n { font-size: 26px; font-weight: 700; color: #2f4a66; }
+  .d .x { font-size: 24px; color: #243242; line-height: 1.22; margin-top: 3px; }
+  .amends { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px 14px; }
+  .am { background: #f7f8fa; border: 1px solid #b5c2ce; border-left: 5px solid #3b7fc3;
+        border-radius: 6px; padding: 9px 12px; }
+  .am .n { font-size: 24px; font-weight: 700; color: #2f4a66; }
+  .am .x { font-size: 23px; color: #4a5a6a; line-height: 1.22; margin-top: 3px; }
+  .footer { margin-top: 20px; background: #f7f8fa; border: 1px dashed #b5c2ce; border-radius: 6px;
+            padding: 12px 22px; text-align: center; }
+  .footer .f1 { font-size: 26px; font-weight: 600; color: #3c4f63; }
+  .footer .f2 { font-size: 25px; color: #57697c; margin-top: 5px; }
+</style>
+</head>
+<body>
+<div class="canvas" id="root">
+
+  <div class="head">
+    <div class="t">The L3 Protocol &mdash; Operator&rsquo;s Card &middot; v1.1</div>
+    <div class="s">Vocabulary surgery under gates: the whole method on one page. From signature to requirement; from requirement to artifact; from artifact to verdict &mdash; amended under its own six alarms.</div>
+  </div>
+
+  <div class="sect">EIGHT PHASES &middot; EIGHT GATES</div>
+  <div class="grid">
+    <div class="phase">
+      <div class="tag">P0 &middot; CRISIS CARTOGRAPHY</div>
+      <div class="row"><b>GATE</b> &mdash; unspeakable anomaly, counted per the rule; patch-thickness &ge; 3</div>
+      <div class="row"><b>ARTIFACT</b> &mdash; the anomaly ledger</div>
+      <div class="row"><span class="k">KILL</span> &mdash; all anomalies patchable: an L2 program</div>
+    </div>
+    <div class="phase">
+      <div class="tag">P4 &middot; INVARIANCE &amp; CONSTANT</div>
+      <div class="row"><b>GATE</b> &mdash; one-sentence invariance; a bedrock constant</div>
+      <div class="row"><b>ARTIFACT</b> &mdash; invariance statement + dimensions</div>
+      <div class="row"><span class="k">KILL</span> &mdash; a fitted constant <span class="a">must promote &mdash; pay later &mdash; or die</span></div>
+    </div>
+    <div class="phase">
+      <div class="tag">P1 &middot; CONCEPT AUTOPSY</div>
+      <div class="row"><b>GATE</b> &mdash; inherited concept at maximal <span class="a">severed-path</span> weight</div>
+      <div class="row"><b>ARTIFACT</b> &mdash; dependency graph + assumption census</div>
+      <div class="row"><span class="k">KILL</span> &mdash; every load-bearing concept tested: return to P0</div>
+    </div>
+    <div class="phase">
+      <div class="tag">P5 &middot; LIMIT-CASE INVERSION</div>
+      <div class="row"><b>GATE</b> &mdash; the old theory computed as a limit</div>
+      <div class="row"><b>ARTIFACT</b> &mdash; derivation + discriminating list</div>
+      <div class="row"><span class="k">KILL</span> &mdash; no limit, or no measurable difference</div>
+    </div>
+    <div class="phase">
+      <div class="tag">P2 &middot; AMPUTATION</div>
+      <div class="row"><b>GATE</b> &mdash; confirmed core preserved, new structure forced</div>
+      <div class="row"><b>ARTIFACT</b> &mdash; amputated axioms + verified derivations</div>
+      <div class="row"><span class="k">KILL</span> &mdash; decorative deletion or fatal collapse: P1</div>
+    </div>
+    <div class="phase">
+      <div class="tag">P6 &middot; SEMANTIC ASSIGNMENT</div>
+      <div class="row"><b>GATE</b> &mdash; every primitive carries a measurement story</div>
+      <div class="row"><b>ARTIFACT</b> &mdash; the operational dictionary</div>
+      <div class="row"><span class="k">KILL</span> &mdash; sense leans on the deleted concept: P2</div>
+    </div>
+    <div class="phase">
+      <div class="tag">P3 &middot; DICTIONARY ATTACK</div>
+      <div class="row"><b>GATE</b> &mdash; residue non-empty; compression positive</div>
+      <div class="row"><b>ARTIFACT</b> &mdash; dictionary + residue list</div>
+      <div class="row"><span class="k">KILL</span> &mdash; perfect translation is reformulation, not revolution</div>
+    </div>
+    <div class="phase">
+      <div class="tag">P7 &middot; ADVERSARIAL CLOSURE</div>
+      <div class="row"><b>GATE</b> &mdash; defense answered &middot; harvest &ge; 10 <span class="a">disjoint question sets</span> &middot; deeper crisis named</div>
+      <div class="row"><b>ARTIFACT</b> &mdash; the closure dossier <span class="a">+ scheduled tools</span></div>
+      <div class="row"><span class="k">KILL</span> &mdash; closure without opening is terminal</div>
+    </div>
+  </div>
+
+  <div class="sect">SIX ALARMS &mdash; PSEUDO-PROFUNDITY DETECTORS</div>
+  <div class="alarms">
+    <div class="alarm"><div class="a">RENAMING</div><div class="d">translates perfectly into the old vocabulary</div></div>
+    <div class="alarm"><div class="a">FITTED CONSTANT</div><div class="d">adjusted to data; a patch wearing bedrock&rsquo;s clothes</div></div>
+    <div class="alarm"><div class="a">RHETORICAL LIMIT</div><div class="d">&ldquo;reduces to the old theory&rdquo; &mdash; asserted, never computed</div></div>
+    <div class="alarm"><div class="a">CONSENSUS-COZY</div><div class="d">reads smoothly at first pass; smells of the corpus average</div></div>
+    <div class="alarm"><div class="a">CLOSURE</div><div class="d">answers everything, enables nothing, opens nothing</div></div>
+    <div class="alarm"><div class="a">INSTRUMENT</div><div class="d">primitives without measurement stories: notation, not theory</div></div>
+  </div>
+
+  <div class="sect">FIVE DOCTRINES</div>
+  <div class="doctrine">
+    <div class="d"><div class="n">D1</div><div class="x">vocabulary surgery</div></div>
+    <div class="d"><div class="n">D2</div><div class="x">derive, don&rsquo;t discover</div></div>
+    <div class="d"><div class="n">D3</div><div class="x">invariance is the form</div></div>
+    <div class="d"><div class="n">D4</div><div class="x">anti-consensus prior</div></div>
+    <div class="d"><div class="n">D5</div><div class="x">artifacts, not assertions</div></div>
+  </div>
+
+  <div class="sect">THE SIX AMENDMENTS &mdash; V1.1</div>
+  <div class="amends">
+    <div class="am"><div class="n">A1 &middot; DEMOTE</div><div class="x">the chassis is printed; the claim is the delta</div></div>
+    <div class="am"><div class="n">A2 &middot; OPERATIONALIZE</div><div class="x">numbers are parameters; fitted constants must promote</div></div>
+    <div class="am"><div class="n">A3 &middot; DERIVE</div><div class="x">the G5-self limit computed; the delta inventoried</div></div>
+    <div class="am"><div class="n">A4 &middot; CONTROL</div><div class="x">the failure census coded; confounds stated at claim</div></div>
+    <div class="am"><div class="n">A5 &middot; REFUTE</div><div class="x">three clauses armed; tool invention scheduled</div></div>
+    <div class="am"><div class="n">A6 &middot; OPERATIONALIZE</div><div class="x">counting rule, severed path, disjoint question sets</div></div>
+  </div>
+
+  <div class="footer">
+    <div class="f1">LOOP RULE: three kills at one gate abandon the target and demand a post-mortem &mdash; stated policy, revisable by the log.</div>
+    <div class="f2">Expect zero survivors per campaign &mdash; fail cheap, fail early, log every kill: the kill log maps where the bedrock is not. The ledger is open. Continue.</div>
+  </div>
+
+</div>
+</body>
+</html>

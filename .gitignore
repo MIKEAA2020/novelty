@@ -1,0 +1,4 @@
+secrets/
+tool-results/
+qa*/
+*.pdf.tmp

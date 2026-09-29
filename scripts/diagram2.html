@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; padding: 0; background: #ffffff; }
+  .canvas { width: 1200px; height: 782px; position: relative; box-sizing: border-box; background: #ffffff; font-family: 'Inter', sans-serif; }
+  .box { position: absolute; box-sizing: border-box; padding: 15px 18px 13px 18px; width: 330px; border-radius: 6px; }
+  .tag { font-size: 20px; font-weight: 600; letter-spacing: 1.6px; color: #45688c; margin-bottom: 5px; }
+  .name { font-size: 28px; font-weight: 700; color: #1c2733; line-height: 1.15; margin-bottom: 7px; }
+  .desc { font-size: 22px; color: #243242; line-height: 1.32; }
+  .up { background: #f2f4f7; border: 1px solid #c3cdd8; border-left: 5px solid #8fa5ba; }
+  .down { background: #e2e7ee; border: 1px solid #aebdc9; border-left: 5px solid #5d7b99; }
+  .center { background: #d4dde7; border: 2px solid #45688c; border-radius: 8px; }
+  .center .tag { color: #2f4a66; letter-spacing: 2.4px; }
+  .center .name { font-size: 34px; }
+  .center .desc { color: #1c2733; font-size: 23px; }
+  .anomaly { position: absolute; left: 20px; right: 20px; top: 719px; height: 46px; box-sizing: border-box;
+             border: 1px dashed #b5c2ce; border-radius: 6px; background: #f7f8fa;
+             display: flex; align-items: center; justify-content: center;
+             font-size: 21px; color: #57697c; }
+  .anomaly b { color: #3c4f63; font-weight: 600; letter-spacing: 1px; }
+  svg.wires { position: absolute; inset: 0; width: 1200px; height: 782px; }
+</style>
+</head>
+<body>
+<div class="canvas">
+
+  <svg class="wires" viewBox="0 0 1200 782" fill="none">
+    <path d="M352,80 C412,80 406,292 442,292" stroke="#5d7b99" stroke-width="2.2"/>
+    <polygon points="450,292 437,285 437,299" fill="#5d7b99"/>
+    <path d="M352,221 C412,221 406,322 442,322" stroke="#5d7b99" stroke-width="2.2"/>
+    <polygon points="450,322 437,315 437,329" fill="#5d7b99"/>
+    <path d="M352,362 C412,362 406,352 442,352" stroke="#5d7b99" stroke-width="2.2"/>
+    <polygon points="450,352 437,345 437,359" fill="#5d7b99"/>
+    <path d="M352,503 C412,503 406,382 442,382" stroke="#5d7b99" stroke-width="2.2"/>
+    <polygon points="450,382 437,375 437,389" fill="#5d7b99"/>
+    <path d="M352,644 C412,644 406,412 442,412" stroke="#5d7b99" stroke-width="2.2"/>
+    <polygon points="450,412 437,405 437,419" fill="#5d7b99"/>
+    <path d="M750,322 C810,322 804,211 840,211" stroke="#45688c" stroke-width="2.2"/>
+    <polygon points="848,211 835,204 835,218" fill="#45688c"/>
+    <path d="M750,352 C810,352 804,352 840,352" stroke="#45688c" stroke-width="2.2"/>
+    <polygon points="848,352 835,345 835,359" fill="#45688c"/>
+    <path d="M750,382 C810,382 804,493 840,493" stroke="#45688c" stroke-width="2.2"/>
+    <polygon points="848,493 835,486 835,500" fill="#45688c"/>
+  </svg>
+
+  <div class="box up" style="left:20px; top:18px;">
+    <div class="tag">C1 · INSTRUMENTS</div>
+    <div class="name">the adjacent possible</div>
+    <div class="desc">makes the new concept statable</div>
+  </div>
+
+  <div class="box up" style="left:20px; top:159px;">
+    <div class="tag">C2 · THE MIND</div>
+    <div class="name">the prepared outsider</div>
+    <div class="desc">trained enough, distant enough</div>
+  </div>
+
+  <div class="box up" style="left:20px; top:300px;">
+    <div class="tag">C3 · THE CARRIER</div>
+    <div class="name">what compels alone</div>
+    <div class="desc">travels without its author</div>
+  </div>
+
+  <div class="box up" style="left:20px; top:441px;">
+    <div class="tag">C4 · EMBEDDING</div>
+    <div class="name">the bridge across</div>
+    <div class="desc">the predecessor survives inside</div>
+  </div>
+
+  <div class="box up" style="left:20px; top:582px;">
+    <div class="tag">C5 · COMMUNITY</div>
+    <div class="name">trained to verify</div>
+    <div class="desc">uptake is capacity, not virtue</div>
+  </div>
+
+  <div class="box center" style="left:450px; top:262px; width:300px; height:180px; display:flex; flex-direction:column; justify-content:center;">
+    <div class="tag">CONVERGENCE</div>
+    <div class="name">the breakthrough</div>
+    <div class="desc">a revision of the vocabulary itself</div>
+  </div>
+
+  <div class="box down" style="left:850px; top:149px;">
+    <div class="tag">AFTERMATH · I</div>
+    <div class="name">a century of harvest</div>
+    <div class="desc">unanticipated consequences compound</div>
+  </div>
+
+  <div class="box down" style="left:850px; top:290px;">
+    <div class="tag">AFTERMATH · II</div>
+    <div class="name">the deeper problem</div>
+    <div class="desc">installed where the old one fell</div>
+  </div>
+
+  <div class="box down" style="left:850px; top:431px;">
+    <div class="tag">AFTERMATH · III</div>
+    <div class="name">absorption</div>
+    <div class="desc">textbook, then common sense</div>
+  </div>
+
+  <div class="anomaly"><b>ANOMALY SURPLUS</b>&nbsp;&nbsp;usual, never sufficient — an accelerant of appetite, not a trigger. Every anomaly can be patched; grammar cannot.</div>
+
+</div>
+</body>
+</html>
