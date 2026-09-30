@@ -493,3 +493,57 @@ party can evaluate, which makes the protocol runnable on any live
 site, by anyone, without the campaigner's conviction. The next
 trials (quantum gravity, consciousness) are scheduled with their G0
 pre-reads printed. The ledger is open. Continue.
+
+## Volume VI — The First Generation: The Run for Ourselves (generator
+mode deployed)
+
+- `Profound_Novelty_VI_The_First_Generation.pdf` — 20 pages
+- `Profound_Novelty_VI_cover_source.html` — editable cover source
+- `Profound_Novelty_VI_first_generation_artifacts.md` — the run's
+  primary artifacts in checkable form: the pre-registration locked
+  before any occupation search ran, the twelve candidate moves exactly
+  as pre-named, the kill-log with every occupier named, the thirteen
+  occupation queries verbatim (the five degraded flagged), the fork's
+  arithmetic with its inputs, the registrations with every side's kill
+  condition, and the quotes' provenance
+
+The owner ordered the switch the series had been building toward for
+five volumes: make the discoveries ourselves, not wait for others to do
+it. The advisor's text the owner pasted splits the work into two
+activities — auditing live science (the L3 protocol: a historian's tool
+that diagnoses) and making a discovery (generate, derive, test) — and
+concludes that the generative pipeline must now be built. The record
+corrects the framing: the pipeline already exists, because A4h's
+Table 10 mapped that same blueprint onto Volume III cell by cell. What
+was missing was not the tool but the mode. This volume opens generator
+mode, the instrument's third (retrospective codings, observer audit,
+generator), and runs it on the fresh Volume V census of the dark
+sector. Twelve candidate moves were pre-named in a pre-registration
+locked before any occupation search ran, with five kill rules locked
+beside them and an honest-kill commitment printed in advance. The
+searches — thirteen queries logged verbatim, five degraded to noise
+and printed as degraded — killed all twelve: the map of occupied
+territory is the run's first result, occupiers named, from quintessence
+and Milgrom's 1983 deletion to the superfluid unification and the
+horizon-thermodynamics family. The flagship died hardest: the causal
+coincidence (the acceleration scale a0 tracking cH0/2pi) is occupied
+on every face — theory (Del Popolo et al. 2024), test (MUSE-DARK
+measuring the radial acceleration relation's evolution; REBELS-25 at
+z = 7.31 named as the direct testbed), and first contested results
+(Ciocan et al. 2026a claiming roughly thirty sigma redshift evolution
+of a0, critically reexamined; LambdaCDM simulations printing only
+modest zero-point drift). What survives is not a theory but a
+registration: the dated three-way fork on the unspeakable core — the
+knee tracks H(z) (causal), the knee is constant (numerological), or
+no universal relation (the settlement's absorption) — with kill
+conditions pre-committed for all sides and harshest for ours, resolving
+in the 2026-2031 window alongside the carried registrations (DESI DR3,
+Euclid, Gaia DR4, the neutrino floor, CMB-S4) and the volume's one new
+cross-link: the conjunction cell, where the two unspeakable threads
+resolve together or decouple in the same data window. The
+verdict-emitter stays closed even in generator mode: registrations
+are not verdicts, and if a cell survives, the series claims exactly
+the surviving cell — one line in the census's record — and nothing
+more. The next scheduled pair is printed with its pre-reads
+(consciousness: audit first, then generate; quantum gravity: carried
+until a measured thread exists). The ledger is open. Continue.

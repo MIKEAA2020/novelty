@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; padding: 0; background: #ffffff; }
+  .canvas { width: 1500px; box-sizing: border-box; background: #ffffff;
+            font-family: 'Inter', sans-serif; padding: 26px 26px 22px 26px; }
+  .head { text-align: center; border-bottom: 3px solid #45688c; padding-bottom: 14px; margin-bottom: 20px; }
+  .head .t { font-size: 34px; font-weight: 700; color: #1c2733; letter-spacing: 1px; }
+  .head .s { font-size: 22px; color: #57697c; margin-top: 6px; line-height: 1.3; }
+
+  .flowrow { display: grid; grid-template-columns: 1fr 46px 1fr 46px 1fr; align-items: stretch; }
+  .stage { border-radius: 6px; padding: 14px 16px; border: 1px solid #b5c2ce; background: #eef3f8; }
+  .stage .n { font-size: 20px; font-weight: 700; color: #2f4a66; letter-spacing: 1px; }
+  .stage .d { font-size: 19px; color: #243242; line-height: 1.35; margin-top: 6px; }
+  .stage.input { border-left: 5px solid #45688c; }
+  .stage.ops   { border-left: 5px solid #335d88; background: #e9eef4; }
+  .stage.out   { border-left: 5px solid #5f4f96; background: #f2f0fa; border-color: #b0a8cc; }
+  .stage.out .n { color: #44376e; }
+  .arrow { display: flex; align-items: center; justify-content: center; font-size: 34px; color: #45688c; font-weight: 700; }
+
+  .gates { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin-top: 14px; }
+  .gate { border-radius: 6px; padding: 10px 12px; border: 1px solid #c9b3b8; background: #f7eef0;
+           text-align: center; }
+  .gate .k { font-size: 21px; font-weight: 700; color: #6b3040; }
+  .gate .l { font-size: 17px; color: #33301f; line-height: 1.3; margin-top: 3px; }
+
+  .killhead { font-size: 22px; font-weight: 700; color: #6b3040; letter-spacing: 2px;
+              text-align: center; margin: 20px 0 10px 0; }
+  .kills { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+  .k { border-radius: 6px; padding: 9px 11px; border: 1px solid #c9b3b8; background: #faf5f6; }
+  .k .id { font-size: 19px; font-weight: 700; color: #6b3040; }
+  .k .oc { font-size: 16.5px; color: #33301f; line-height: 1.28; margin-top: 2px; }
+
+  .surv { background: #f2f0fa; border: 2px dashed #5f4f96; border-radius: 6px;
+          padding: 14px 18px; margin-top: 20px; }
+  .surv .n { font-size: 23px; font-weight: 700; color: #44376e; }
+  .surv .sub { font-size: 18px; color: #243242; line-height: 1.35; margin-top: 4px; }
+  .fork { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; margin-top: 12px; }
+  .f { background: #ffffff; border: 1px solid #c5bde0; border-radius: 6px; padding: 10px 12px; text-align: center; }
+  .f .k { font-size: 20px; font-weight: 700; line-height: 1.25; }
+  .f .l { font-size: 17px; color: #243242; line-height: 1.3; margin-top: 5px; }
+  .f.a .k { color: #2f5236; } .f.b .k { color: #2f4a66; } .f.c .k { color: #6b3040; }
+  .dates { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-top: 12px; }
+  .d8 { background: #e9eef4; border: 1px solid #b5c2ce; border-radius: 6px; padding: 8px 10px; text-align: center; }
+  .d8 .w { font-size: 17.5px; font-weight: 600; color: #2f4a66; line-height: 1.25; }
+  .d8 .y { font-size: 16px; color: #57697c; margin-top: 3px; }
+
+  .verdict { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; margin-top: 18px; }
+  .v { border-radius: 6px; padding: 12px 14px; border: 1px solid; text-align: center; }
+  .v .k { font-size: 26px; font-weight: 700; }
+  .v .l { font-size: 18px; color: #243242; margin-top: 4px; line-height: 1.3; }
+  .held { background: #eef4ee; border-color: #b3c9b3; } .held .k { color: #2f5236; }
+  .narrow { background: #e9eef4; border-color: #b5c2ce; } .narrow .k { color: #2f4a66; }
+  .closed { background: #f7eef0; border-color: #c9b3b8; } .closed .k { color: #6b3040; }
+
+  .note { background: #e9eef4; border: 1px solid #b5c2ce; border-radius: 6px; padding: 12px 20px;
+          text-align: center; margin-top: 16px; }
+  .note .f1 { font-size: 21px; font-weight: 600; color: #2f4a66; }
+  .note .f2 { font-size: 19px; color: #57697c; margin-top: 5px; line-height: 1.35; }
+</style>
+</head>
+<body>
+<div class="canvas" id="root">
+
+  <div class="head">
+    <div class="t">The First Generation Run &mdash; Pipeline and Kill-Log, 2026-09-30</div>
+    <div class="s">The audit's output is the generator's input: the Volume V census feeds the P-operators; twelve candidates are pre-named before any search; the locked kill rules eat every one of them; what survives is not a theory &mdash; a registration.</div>
+  </div>
+
+  <div class="flowrow">
+    <div class="stage input">
+      <div class="n">INPUT &mdash; THE VOL V CENSUS</div>
+      <div class="d">Eight load-bearing assumptions; the 18-entry anomaly ledger; the severed-path computation (one inherited concept carries 15 of 16 paths). Dated 2026-09-30.</div>
+    </div>
+    <div class="arrow">&rarr;</div>
+    <div class="stage ops">
+      <div class="n">OPERATORS, GENERATOR MODE</div>
+      <div class="d">P1 deletion &middot; P2 unification &middot; P3 constant &middot; P6 reinterpretation &mdash; with P5 (limit-recovery), P7 (commitment-cost) and P8/P9 (slope, crisis) as constraint discipline on every candidate.</div>
+    </div>
+    <div class="arrow">&rarr;</div>
+    <div class="stage out">
+      <div class="n">TWELVE CANDIDATES, PRE-NAMED</div>
+      <div class="d">Locked in the pre-registration before any occupation search ran: C1&ndash;C12, each a falsifiable move on a census assumption &mdash; the searches exist to catch what the operator's horizon missed.</div>
+    </div>
+  </div>
+
+  <div class="gates">
+    <div class="gate"><div class="k">OCCUPIED</div><div class="l">the move's content already in the literature, occupier named</div></div>
+    <div class="gate"><div class="k">NO MECHANISM</div><div class="l">a unification without a dynamical link</div></div>
+    <div class="gate"><div class="k">NO DATED TEST</div><div class="l">no discriminating registration by scheduled instruments</div></div>
+    <div class="gate"><div class="k">EPICYCLE</div><div class="l">adds a component without deleting or assuming less (Vol IV alarm 2)</div></div>
+    <div class="gate"><div class="k">BLIND RE-DERIVATION</div><div class="l">the A4h category &mdash; invoked on ourselves</div></div>
+  </div>
+
+  <div class="killhead">THE KILL-LOG &mdash; TWELVE MOVES, TWELVE KILLS, OCCUPIERS NAMED</div>
+  <div class="kills">
+    <div class="k"><div class="id">C1 evolving dark energy</div><div class="oc">quintessence family, 1988&ndash;; DESI's own target</div></div>
+    <div class="k"><div class="id">C2 the dynamics deletion</div><div class="oc">Milgrom 1983 &mdash; the census's own rival</div></div>
+    <div class="k"><div class="id">C3 baryonic dark objects</div><div class="oc">MACHO/EROS nulls, 2000&ndash;07 &mdash; dead-occupied</div></div>
+    <div class="k"><div class="id">C4 warm / self-interacting</div><div class="oc">Spergel&ndash;Steinhardt 2000; SIDM/WDM programs</div></div>
+    <div class="k"><div class="id">C5 superfluid unification</div><div class="oc">Berezhiani&ndash;Khoury 2015; Verlinde 2016 family</div></div>
+    <div class="k"><div class="id">C6 the causal coincidence</div><div class="oc">Del Popolo 2024; MUSE-DARK; Ciocan 2026, contested</div></div>
+    <div class="k"><div class="id">C7 the thermal reading</div><div class="oc">horizon thermodynamics family; Milgrom's own remark</div></div>
+    <div class="k"><div class="id">C8 Lambda as H&sup2;-tracking</div><div class="oc">Chen&ndash;Wu 1990; the age-cosmology family</div></div>
+    <div class="k"><div class="id">C9 tension as a0 artifact</div><div class="oc">no mechanism &mdash; the critic's own kill</div></div>
+    <div class="k"><div class="id">C10 the mint bias</div><div class="oc">Buchert averaging; early dark energy; void models</div></div>
+    <div class="k"><div class="id">C11 PBH / non-Gaussian</div><div class="oc">the primordial-black-hole renaissance</div></div>
+    <div class="k"><div class="id">C12 small-scale constant</div><div class="oc">epicycle &mdash; Vol IV alarm 2, fitted-constant guard</div></div>
+  </div>
+
+  <div class="surv">
+    <div class="n">WHAT SURVIVES: NOT A THEORY &mdash; A REGISTRATION</div>
+    <div class="sub">The dated three-way fork on the unspeakable core, kill conditions pre-committed for all sides &mdash; harshest for ours. The first round is already contested: Ciocan et al. 2026a claim roughly 30&sigma; redshift evolution of a<sub>0</sub>; a critical reexamination disputes it; &Lambda;CDM simulations print only modest zero-point drift.</div>
+    <div class="fork">
+      <div class="f a"><div class="k">KNEE TRACKS H(z)</div><div class="l">the RAR's scale shifts &times;1.8 at z=1, &times;3.0 at z=2, &times;13.5 at z=7.31 &mdash; the coincidence is causal; the two unspeakables are two faces of one coupling</div></div>
+      <div class="f b"><div class="k">KNEE CONSTANT</div><div class="l">the RAR identical across redshift &mdash; a<sub>0</sub> is a constant of nature; the coincidence is numerological; the causal cell dies</div></div>
+      <div class="f c"><div class="k">NO UNIVERSAL RAR</div><div class="l">the relation dissolves at high z &mdash; the settlement's absorption holds; both rivals' universality dies</div></div>
+    </div>
+    <div class="dates">
+      <div class="d8"><div class="w">DESI DR3 &middot; Euclid</div><div class="y">&Lambda; constancy, 2025&ndash;27+</div></div>
+      <div class="d8"><div class="w">Gaia DR4</div><div class="y">wide binaries, 2026&ndash;27</div></div>
+      <div class="d8"><div class="w">ALMA &middot; JWST &middot; ELT</div><div class="w">high-z kinematics</div><div class="y">the fork's data, 2026&ndash;31</div></div>
+      <div class="d8"><div class="w">neutrino floor</div><div class="y">DARWIN/XLZD-class, ~2028+</div></div>
+      <div class="d8"><div class="w">CMB-S4</div><div class="y">S8 and the mint, 2030s</div></div>
+    </div>
+  </div>
+
+  <div class="verdict">
+    <div class="v held"><div class="k">12</div><div class="l">moves pre-named before any search ran</div></div>
+    <div class="v closed"><div class="k">12</div><div class="l">killed by the locked rules &mdash; the map of occupied territory</div></div>
+    <div class="v narrow"><div class="k">1</div><div class="l">registration surviving &mdash; dated, checkable, ours to lose</div></div>
+  </div>
+
+  <div class="note">
+    <div class="f1">The verdict-emitter stays closed even here: registrations are not verdicts.</div>
+    <div class="f2">If a cell survives its kill condition, the series claims exactly the surviving cell &mdash; one line in the census's record &mdash; and nothing more. The ledger is open.</div>
+  </div>
+
+</div>
+</body>
+</html>
