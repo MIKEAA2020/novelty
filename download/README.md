@@ -616,3 +616,20 @@ adversarial-collaboration horizon being real but weak, and running
 generation on it would mean weakening the rule — a choice the record
 will print before making, not after. The verdict-emitter stays
 closed. The ledger is open. Continue.
+
+## R8, Executed — The Residual Census Run (2026-09-30)
+
+The series' first self-executable registration, run to completion on
+public data per the owner's order ("stop producing documents and start
+producing knowledge"). The five-probe census of RAR residuals (SPARC,
+N=175) against the pre-registered floor |r|=0.148: bar, environment, gas
+fraction and interaction null in every variant; morphology fires
+directly (r=-0.24, p=0.0015) but decomposes to the mass-axis tilt
+(partial log Vflat|T=+0.36) attributable to pressure-support and
+interpolating-function systematics — sub-floor at the quality cut under
+the standard correction, which also brings the machinery's rms to the
+published value (0.061 vs Li+2018's 0.057 dex). The census resolves to
+its null branch: the published null stands; R7(iii) survives its R8
+kill condition; no new cell claimed. Deliverables: R8_Execution_Report
+.md, R8_residual_census.png, R8_results_final.csv, scripts/r8/ (the
+full pipeline: download, fit, probes, census, figure).
