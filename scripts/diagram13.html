@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; padding: 0; background: #ffffff; }
+  .canvas { width: 1500px; box-sizing: border-box; background: #ffffff; font-family: 'Inter', sans-serif;
+            padding: 26px 26px 22px 26px; }
+  .head { text-align: center; border-bottom: 3px solid #45688c; padding-bottom: 14px; margin-bottom: 20px; }
+  .head .t { font-size: 34px; font-weight: 700; color: #1c2733; letter-spacing: 1px; }
+  .head .s { font-size: 22px; color: #57697c; margin-top: 6px; line-height: 1.3; }
+
+  .flow { display: grid; grid-template-columns: 1fr 34px 1.18fr 34px 1fr; gap: 0; align-items: stretch; }
+  .stage { background: #e9eef4; border: 1px solid #b5c2ce; border-top: 5px solid #45688c;
+           border-radius: 6px; padding: 14px 14px 12px 14px; display: flex; flex-direction: column; }
+  .stage .n { font-size: 24px; font-weight: 700; color: #2f4a66; letter-spacing: 1px; line-height: 1.2; }
+  .stage .d { font-size: 21px; color: #243242; line-height: 1.35; margin-top: 8px; }
+  .stage .tag { display: inline-block; font-size: 18px; font-weight: 600; letter-spacing: 1.2px;
+                border-radius: 4px; padding: 3px 10px; margin-top: 10px; background: #d7e2ec; color: #2f4a66;
+                align-self: flex-start; }
+  .arrow { display: flex; align-items: center; justify-content: center;
+           font-size: 30px; color: #45688c; font-weight: 700; }
+
+  .drift { background: #faf8f2; border: 2px dashed #a8977a; border-radius: 6px;
+           padding: 12px 14px 12px 14px; }
+  .drift .lab { font-size: 18px; font-weight: 700; letter-spacing: 2px; color: #7a6a4f;
+                text-align: center; margin-bottom: 10px; }
+  .bignum { font-size: 30px; font-weight: 700; color: #44376e; text-align: center; }
+  .bigsub { font-size: 20px; color: #243242; text-align: center; line-height: 1.35; margin-top: 4px; }
+
+  .dirs { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; margin-top: 16px; }
+  .dir { border-radius: 6px; padding: 12px 14px; border: 1px solid; text-align: center; }
+  .dir .k { font-size: 28px; font-weight: 700; }
+  .dir .l { font-size: 19px; color: #243242; margin-top: 4px; line-height: 1.3; }
+  .toward { background: #eef4ee; border-color: #b3c9b3; } .toward .k { color: #2f5236; }
+  .away { background: #f7eef0; border-color: #c9b3b8; } .away .k { color: #6b3040; }
+  .lateral { background: #f4f2ee; border-color: #c4bda8; } .lateral .k { color: #6b5a26; }
+
+  .census { background: #e9eef4; border: 1px solid #b5c2ce; border-top: 5px solid #45688c;
+            border-radius: 6px; padding: 14px 20px 12px 20px; margin-top: 16px; text-align: center; }
+  .census .n { font-size: 24px; font-weight: 700; color: #2f4a66; letter-spacing: 1px; }
+  .census .d { font-size: 21px; color: #243242; line-height: 1.35; margin-top: 6px; }
+
+  .ether { background: #f2f0fa; border: 1px solid #b0a8cc; border-left: 6px solid #5f4f96;
+           border-radius: 6px; padding: 14px 18px 12px 18px; margin-top: 16px; }
+  .ether .n { font-size: 23px; font-weight: 700; color: #44376e; }
+  .ether table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+  .ether th { font-size: 18px; color: #44376e; border-bottom: 2px solid #b0a8cc; padding: 6px 8px; text-align: left; }
+  .ether td { font-size: 20px; color: #2e2a44; padding: 7px 8px; border-bottom: 1px solid #d8d4e8; }
+  .ether td.c, .ether th.c { text-align: center; }
+  .ether .hd { font-weight: 600; }
+
+  .note { background: #e9eef4; border: 1px solid #b5c2ce; border-radius: 6px; padding: 12px 20px;
+          text-align: center; margin-top: 16px; }
+  .note .f1 { font-size: 22px; font-weight: 600; color: #2f4a66; }
+  .note .f2 { font-size: 20px; color: #57697c; margin-top: 5px; line-height: 1.35; }
+</style>
+</head>
+<body>
+<div class="canvas" id="root">
+
+  <div class="head">
+    <div class="t">The Version Drift &mdash; The Fifth Reading</div>
+    <div class="s">The series' first within-lineage measurement: one instrument, one lineage, two versions &mdash; and the drift has a direction.</div>
+  </div>
+
+  <div class="flow">
+    <div class="stage">
+      <div class="n">GEMINI 3.1 PRO PREVIEW</div>
+      <div class="d">The fourth delivery's third reading. Against the census: 86.6 percent, four distants &mdash; and the ether line that scored S on three of the five discriminators, the deepest single-reading challenge ever recorded.</div>
+      <div class="tag">FAMILY-BAND MEAN 87.9 &mdash; BELOW THE EDGE</div>
+    </div>
+    <div class="arrow">&#9654;</div>
+    <div class="drift">
+      <div class="lab">SIXTEEN CELLS MOVED</div>
+      <div class="bignum">91.7% agreement</div>
+      <div class="bigsub">between the two versions &mdash; inside the family band (88.0&ndash;94.4). Two versions of one lineage disagree at the distance of two independent coders: a model family is a population of readers, not one reader.</div>
+    </div>
+    <div class="arrow">&#9654;</div>
+    <div class="stage">
+      <div class="n">GEMINI 3.8</div>
+      <div class="d">The fifth reading, delivered by the owner. Against the census: 90.3 percent, one distant &mdash; on a dual the census already carries. Converges with all three co-delivered readings more than they converged among themselves.</div>
+      <div class="tag">FAMILY-BAND MEAN 89.8 &mdash; INSIDE THE BAND</div>
+    </div>
+  </div>
+
+  <div class="dirs">
+    <div class="dir toward">
+      <div class="k">11 cells</div>
+      <div class="l">moved TOWARD the amended census &mdash; including both formalism cells the A4g court minted duals on, and the ether's constant, softening to the ownership face</div>
+    </div>
+    <div class="dir away">
+      <div class="k">4 cells</div>
+      <div class="l">moved AWAY &mdash; all demotions of dead theories on soft cells (P to F): a stricter hand on the corpses</div>
+    </div>
+    <div class="dir lateral">
+      <div class="k">1 cell</div>
+      <div class="l">moved LATERALLY &mdash; the ether's deletion, S to F across a census of P: sideways across the composite</div>
+    </div>
+  </div>
+
+  <div class="census">
+    <div class="n">THE AMENDED CENSUS (POST-A4G)</div>
+    <div class="d">The lineage's next version, handed the same frozen text, drifted toward where the amendments had converged &mdash; the instrument's amendment trajectory (77.8 &rarr; 86 &rarr; 90.0 &rarr; 91.2 across the blind readings) now has an external, within-lineage replication.</div>
+  </div>
+
+  <div class="ether">
+    <div class="n">The ether line &mdash; the challenge that did not replicate</div>
+    <table>
+      <tr><th>Point</th><th class="c">gemini 3.1</th><th class="c">gemini 3.8</th><th class="c">census</th><th>What changed</th></tr>
+      <tr><td class="hd">Deletion (discriminator)</td><td class="c">S</td><td class="c">F</td><td class="c">P</td><td>withdrawn &mdash; the medium was added, nothing deleted</td></tr>
+      <tr><td class="hd">Constant (discriminator)</td><td class="c">S</td><td class="c">P</td><td class="c">F</td><td>softened &mdash; the value without the universal meaning</td></tr>
+      <tr><td class="hd">Embedding (discriminator)</td><td class="c">S</td><td class="c">S</td><td class="c">P</td><td>held</td></tr>
+      <tr><td class="hd">Formalism (discriminator)</td><td class="c">P</td><td class="c">S</td><td class="c">S</td><td>upgraded &mdash; now agreeing with the census</td></tr>
+      <tr><td class="hd">Slope (discriminator)</td><td class="c">S then D</td><td class="c">S then D</td><td class="c">S then D</td><td>agreed throughout</td></tr>
+    </table>
+  </div>
+
+  <div class="note">
+    <div class="f1">Three of five becomes one contested plus one agreeing.</div>
+    <div class="f2">A4g's deepest single-reading challenge was version-fragile &mdash; not a stable property of the evidence, but of one version's reading of it. No killing clause fires under fourteen readings.</div>
+  </div>
+
+</div>
+</body>
+</html>

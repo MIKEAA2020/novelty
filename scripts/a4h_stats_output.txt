@@ -1,0 +1,299 @@
+============================================================================
+A4h UNBLINDING - THE FIFTH READING (GEMINI 3.8) + THE ADVICE VERIFICATION
+============================================================================
+
+----------------------------------------------------------------------------
+PART 1 - THE FIFTH READING vs THE FOURTH DELIVERY'S OTHER THREE
+----------------------------------------------------------------------------
+
+GEMINI38 vs DEEPSEEK (108 cells): weighted 95.5/108 = 88.4% | exact 84/108, adjacent 23, distant 1
+    DISTANT: P5/ether [S vs F]
+
+GEMINI38 vs OPUS (108 cells): weighted 93.5/108 = 86.6% | exact 79/108, adjacent 29, distant 0
+
+GEMINI38 vs GEMINI31 (108 cells): weighted 99.0/108 = 91.7% | exact 92/108, adjacent 14, distant 2
+    DISTANT: P1/ether [F vs S]
+    DISTANT: P6/newton [S vs F]
+
+-- the delivery's six mutuals, for scale (A4g values) --
+   D-O 85.2 / D-G31 85.6 / O-G31 85.6
+
+----------------------------------------------------------------------------
+PART 2 - WITHIN-LINEAGE VERSION DRIFT (gemini 3.1 -> 3.8)
+----------------------------------------------------------------------------
+-- every cell that moved between the two gemini versions --
+  ether    P1 Deletion at birth        3.1 S -> 3.8 F   (census P)
+  epi      P2 Unification              3.1 P -> 3.8 F   (census P)
+  ether    P3 Universal constant       3.1 S -> 3.8 P   (census F)
+  darwin   P4 Derivation-first         3.1 F -> 3.8 P   (census S)
+  thermo   P4 Derivation-first         3.1 P -> 3.8 S   (census S)
+  darwin   P5 Conservative embedding   3.1 F -> 3.8 P   (census P)
+  epi      P5 Conservative embedding   3.1 F -> 3.8 P   (census P)
+  germ     P5 Conservative embedding   3.1 F -> 3.8 P   (census P)
+  caloric  P6 Formalism / meaning      3.1 F -> 3.8 P   (census P)
+  ether    P6 Formalism / meaning      3.1 P -> 3.8 S   (census S)
+  newton   P6 Formalism / meaning      3.1 F -> 3.8 S   (census S)
+  epi      P7 Founders' resistance     3.1 P -> 3.8 F   (census P)
+  caloric  P9 Crisis-chaining          3.1 P -> 3.8 F   (census P)
+  epi      P9 Crisis-chaining          3.1 S -> 3.8 P   (census P)
+  germ     P9 Crisis-chaining          3.1 P -> 3.8 S   (census S)
+  phl      P9 Crisis-chaining          3.1 P -> 3.8 F   (census P)
+
+  16 cells moved between versions; toward census 11, away 4, lateral 1
+
+-- the ether line, both versions (A4g's three-discriminator challenge) --
+  Point                     3.1   3.8   census
+  P1 Deletion at birth        S    F    P <-- discriminator
+  P2 Unification              S    S    S
+  P3 Universal constant       S    P    F <-- discriminator
+  P4 Derivation-first         S    S    P
+  P5 Conservative embedding   S    S    P <-- discriminator
+  P6 Formalism / meaning      P    S    S <-- discriminator
+  P7 Founders' resistance     F    F    P
+  P8 Generative slope         SD   SD   SD <-- discriminator
+  P9 Crisis-chaining          S    S    S
+  discriminators as S: 3.1 3/5  ->  3.8 2/5
+
+----------------------------------------------------------------------------
+PART 3 - OUTGROUP TEST v5 (the seventh external reading)
+----------------------------------------------------------------------------
+
+GPT-10 vs A (54): weighted 47.0/54 = 87.0% | exact 40/54, adjacent 14, distant 0
+
+GPT-10 vs B (54): weighted 47.0/54 = 87.0% | exact 40/54, adjacent 14, distant 0
+
+GPT-10 vs X3 (72): weighted 62.0/72 = 86.1% | exact 52/72, adjacent 20, distant 0
+
+GPT-10 vs B4 (90): weighted 77.5/90 = 86.1% | exact 65/90, adjacent 25, distant 0
+
+GPT-10 vs B5 (90): weighted 77.0/90 = 85.6% | exact 64/90, adjacent 26, distant 0
+
+GPT-10 vs B6 (90): weighted 78.5/90 = 87.2% | exact 67/90, adjacent 23, distant 0
+  >>> GPT-10 vs family mean: 86.5%
+
+GROK-10 vs A (54): weighted 47.0/54 = 87.0% | exact 40/54, adjacent 14, distant 0
+
+GROK-10 vs B (54): weighted 47.0/54 = 87.0% | exact 40/54, adjacent 14, distant 0
+
+GROK-10 vs X3 (72): weighted 62.0/72 = 86.1% | exact 52/72, adjacent 20, distant 0
+
+GROK-10 vs B4 (90): weighted 78.5/90 = 87.2% | exact 67/90, adjacent 23, distant 0
+
+GROK-10 vs B5 (90): weighted 78.0/90 = 86.7% | exact 66/90, adjacent 24, distant 0
+
+GROK-10 vs B6 (90): weighted 79.5/90 = 88.3% | exact 69/90, adjacent 21, distant 0
+  >>> GROK-10 vs family mean: 87.1%
+
+CLAUDE-10 vs A (54): weighted 47.5/54 = 88.0% | exact 41/54, adjacent 13, distant 0
+
+CLAUDE-10 vs B (54): weighted 48.5/54 = 89.8% | exact 43/54, adjacent 11, distant 0
+
+CLAUDE-10 vs X3 (72): weighted 62.5/72 = 86.8% | exact 53/72, adjacent 19, distant 0
+
+CLAUDE-10 vs B4 (90): weighted 80.5/90 = 89.4% | exact 72/90, adjacent 17, distant 1
+    DISTANT: P9/phl [S vs F]
+
+CLAUDE-10 vs B5 (90): weighted 78.0/90 = 86.7% | exact 66/90, adjacent 24, distant 0
+
+CLAUDE-10 vs B6 (90): weighted 78.5/90 = 87.2% | exact 67/90, adjacent 23, distant 0
+  >>> CLAUDE-10 vs family mean: 88.0%
+
+DEEPSEEK vs A (54): weighted 49.5/54 = 91.7% | exact 46/54, adjacent 7, distant 1
+    DISTANT: P5/ether [F vs S]
+
+DEEPSEEK vs B (54): weighted 48.5/54 = 89.8% | exact 44/54, adjacent 9, distant 1
+    DISTANT: P5/ether [F vs S]
+
+DEEPSEEK vs X3 (72): weighted 67.0/72 = 93.1% | exact 62/72, adjacent 10, distant 0
+
+DEEPSEEK vs B4 (90): weighted 79.5/90 = 88.3% | exact 69/90, adjacent 21, distant 0
+
+DEEPSEEK vs B5 (90): weighted 81.0/90 = 90.0% | exact 75/90, adjacent 12, distant 3
+    DISTANT: P5/ether [F vs S]
+    DISTANT: P6/caloric [S vs F]
+    DISTANT: P6/ether [S vs F]
+
+DEEPSEEK vs B6 (90): weighted 81.5/90 = 90.6% | exact 73/90, adjacent 17, distant 0
+  >>> DEEPSEEK vs family mean: 90.6%
+
+OPUS vs A (54): weighted 47.5/54 = 88.0% | exact 41/54, adjacent 13, distant 0
+
+OPUS vs B (54): weighted 47.5/54 = 88.0% | exact 41/54, adjacent 13, distant 0
+
+OPUS vs X3 (72): weighted 64.5/72 = 89.6% | exact 57/72, adjacent 15, distant 0
+
+OPUS vs B4 (90): weighted 78.0/90 = 86.7% | exact 66/90, adjacent 24, distant 0
+
+OPUS vs B5 (90): weighted 78.5/90 = 87.2% | exact 67/90, adjacent 23, distant 0
+
+OPUS vs B6 (90): weighted 78.0/90 = 86.7% | exact 66/90, adjacent 24, distant 0
+  >>> OPUS vs family mean: 87.7%
+
+GEMINI31 vs A (54): weighted 47.5/54 = 88.0% | exact 44/54, adjacent 7, distant 3
+    DISTANT: P3/ether [S vs F]
+    DISTANT: P6/epi [F vs S]
+    DISTANT: P6/newton [F vs S]
+
+GEMINI31 vs B (54): weighted 46.5/54 = 86.1% | exact 41/54, adjacent 11, distant 2
+    DISTANT: P6/epi [F vs S]
+    DISTANT: P6/newton [F vs S]
+
+GEMINI31 vs X3 (72): weighted 63.0/72 = 87.5% | exact 56/72, adjacent 14, distant 2
+    DISTANT: P1/ether [S vs F]
+    DISTANT: P3/ether [S vs F]
+
+GEMINI31 vs B4 (90): weighted 78.5/90 = 87.2% | exact 69/90, adjacent 19, distant 2
+    DISTANT: P1/ether [S vs F]
+    DISTANT: P3/ether [S vs F]
+
+GEMINI31 vs B5 (90): weighted 80.0/90 = 88.9% | exact 71/90, adjacent 18, distant 1
+    DISTANT: P3/ether [S vs F]
+
+GEMINI31 vs B6 (90): weighted 80.5/90 = 89.4% | exact 71/90, adjacent 19, distant 0
+  >>> GEMINI31 vs family mean: 87.9%
+
+GEMINI38 vs A (54): weighted 49.0/54 = 90.7% | exact 45/54, adjacent 8, distant 1
+    DISTANT: P6/epi [F vs S]
+
+GEMINI38 vs B (54): weighted 49.0/54 = 90.7% | exact 45/54, adjacent 8, distant 1
+    DISTANT: P6/epi [F vs S]
+
+GEMINI38 vs X3 (72): weighted 64.5/72 = 89.6% | exact 57/72, adjacent 15, distant 0
+
+GEMINI38 vs B4 (90): weighted 80.5/90 = 89.4% | exact 71/90, adjacent 19, distant 0
+
+GEMINI38 vs B5 (90): weighted 79.0/90 = 87.8% | exact 69/90, adjacent 20, distant 1
+    DISTANT: P6/ether [S vs F]
+
+GEMINI38 vs B6 (90): weighted 81.5/90 = 90.6% | exact 73/90, adjacent 17, distant 0
+  >>> GEMINI38 vs family mean: 89.8%
+
+  family-band check (88.0-94.4): GPT-10 86.5% (outside); GROK-10 87.1% (outside); CLAUDE-10 88.0% (outside); DEEPSEEK 90.6% (INSIDE); OPUS 87.7% (outside); GEMINI31 87.9% (outside); GEMINI38 89.8% (INSIDE)
+
+----------------------------------------------------------------------------
+PART 4 - GEMINI38 vs THE AMENDED CENSUS (post-A4g)
+----------------------------------------------------------------------------
+
+GEMINI38 vs census (108 cells): weighted 97.5/108 = 90.3% | exact 88/108, adjacent 19, distant 1
+    DISTANT: P6/epi [F vs S]
+
+GEMINI38 vs census DEAD (54): weighted 45.5/54 = 84.3% | exact 38/54, adjacent 15, distant 1
+    DISTANT: P6/epi [F vs S]
+
+GEMINI38 vs census LIVING (54): weighted 52.0/54 = 96.3% | exact 50/54, adjacent 4, distant 0
+
+-- for scale, the prior readings vs the same census (A4g values) --
+   deepseek 90.7 (0 distant) / opus 89.8 (0) / gemini31 86.6 (4) / B6 91.2 (0)
+
+----------------------------------------------------------------------------
+PART 5 - PER-POINT BANDS (gemini38 vs census, 12 cells each)
+----------------------------------------------------------------------------
+  P1 Deletion at birth        11.5/12 = 95.8%
+  P2 Unification              10.5/12 = 87.5%
+  P3 Universal constant       11.0/12 = 91.7%
+  P4 Derivation-first         9.5/12 = 79.2%
+  P5 Conservative embedding   11.0/12 = 91.7%
+  P6 Formalism / meaning      11.0/12 = 91.7%
+  P7 Founders' resistance     10.0/12 = 83.3%
+  P8 Generative slope         12.0/12 = 100.0%
+  P9 Crisis-chaining          11.0/12 = 91.7%
+
+----------------------------------------------------------------------------
+PART 6 - DOCKETS AND READING RECORDS (14 coders)
+----------------------------------------------------------------------------
+--- 6a. gemini38's unanimous-alone dissents vs census (the 12) ---
+    P2 Unification            epi      census P | gemini38 F
+    P4 Derivation-first       darwin   census S | gemini38 P
+    P9 Crisis-chaining        caloric  census P | gemini38 F
+    P9 Crisis-chaining        phl      census P | gemini38 F
+
+--- 6b. the elastic cells' reading records, now 14 coders ---
+  Cell            A    B    X3   G8   B4   G10  K10  C10  B5   D    O    G31  38   B6  census
+  newton P3     S   S   S   S   S   S   S   P   S   S   P   S   S   S   S
+  newton P6     S   S   P   P   P   P   P   P   P   S   P   F   S   P   S
+  ether P5      S   S   P   P   P   P   P   S   S   F   S   S   S   P   P
+  ether P6      S   S   S   P   P   P   P   P   F   S   P   P   S   S   S
+  epi P6        S   S   P   P   P   P   P   P   P   P   P   F   F   P   S
+  phl P2        S   P   P   S   P   S   S   S   P   S   S   S   S   P   S
+  caloric P5    -   -   -   -   P   F   F   P   F   F   F   F   F   F   P
+  caloric P9    -   -   -   -   P   P   P   S   P   P   P   P   F   P   P
+  thermo P3     -   -   -   -   P   P   F   P   P   P   P   S   S   P   P
+  thermo P4     -   -   -   -   P   S   P   S   P   P   S   P   S   P   S
+  germ P7       -   -   P   F   F   F   F   F   P   P   F   F   F   P   F
+  miasma P9     -   -   F   F   F   F   F   P   F   F   P   F   F   F   F
+  darwin P4     -   -   -   -   -   -   -   -   S   S   S   F   P   S   S
+  darwin P6     -   -   -   -   -   -   -   -   P   F   P   F   F   F   F
+  darwin P7     -   -   -   -   -   -   -   -   S   S   S   S   S   S   S
+  darwin P8     -   -   -   -   -   -   -   -   S   S   S   S   S   SD  S
+  fixity P5     -   -   -   -   -   -   -   -   F   F   F   F   F   F   F
+  fixity P7     -   -   -   -   -   -   -   -   P   F   P   F   F   F   P
+  fixity P9     -   -   -   -   -   -   -   -   F   F   P   P   P   F   P
+  ether P1      P   P   F   P   F   P   P   P   P   F   P   S   F   P   P
+  ether P3      F   P   F   P   F   P   P   P   F   F   P   S   P   P   F
+  epi P9        P   P   P   P   P   P   P   S   P   P   P   S   P   P   P
+  germ P5       -   -   P   P   P   P   P   S   P   F   P   F   P   P   P
+  phl P9        P   P   P   P   F   P   P   S   P   P   P   P   F   P   P
+  caloric P6    -   -   -   -   P   P   P   P   F   S   F   F   P   P   P
+
+--- 6c. face counts on the dual cells (14 coders) ---
+  ether P6: F 1 / P 7 / S 6  (census S)
+  epi P6: F 2 / P 10 / S 2  (census S)
+  newton P6: F 1 / P 9 / S 4  (census S)
+  phl P2: P 5 / S 9  (census S)
+  miasma P1: F 6 / P 6  (census F)
+  germ P6: F 7 / P 5  (census F)
+  germ P7: F 8 / P 4  (census F)
+  thermo P4: P 6 / S 4  (census S)
+  crust P5: F 1  (census P)
+
+----------------------------------------------------------------------------
+PART 7 - CENSUS-KILLING CLAUSES (dead theories x gemini38)
+----------------------------------------------------------------------------
+  (five discriminators: deletion, constant, embedding, measurables, slope)
+  GEMINI38  caloric  passes-as-S: NONE of the 5
+  GEMINI38  epi      passes-as-S: NONE of the 5
+  GEMINI38  fixity   passes-as-S: NONE of the 5
+  GEMINI38  ether    passes-as-S: ['embedding', 'measurables']
+  GEMINI38  miasma   passes-as-S: NONE of the 5
+  GEMINI38  phl      passes-as-S: NONE of the 5
+
+----------------------------------------------------------------------------
+PART 8 - THE ADVICE: THE UMBRELLA CLUSTERS vs THE CENSUS RECORD
+----------------------------------------------------------------------------
+  (the advice's claim: the nine points JOINTLY operationalize
+   'challenges fundamental assumptions -> counter-intuitive,
+   broad conclusions'; assumption cluster P1/P2/P5/P6/P9,
+   breadth cluster P3/P8/P9)
+
+  S-rates by point, dead (7) vs living (7), census post-A4g:
+  Point                     dead-S   living-S   discriminates?
+  P1 Deletion at birth        0/7      7/7       DISCRIMINATOR
+  P2 Unification              2/7      7/7       confounded
+  P3 Universal constant       0/7      3/7       DISCRIMINATOR
+  P4 Derivation-first         0/7      5/7       living-only
+  P5 Conservative embedding   0/7      4/7       DISCRIMINATOR
+  P6 Formalism / meaning      2/7      4/7       DISCRIMINATOR
+  P7 Founders' resistance     0/7      4/7       living-only
+  P8 Generative slope         0/7      7/7       DISCRIMINATOR
+  P9 Crisis-chaining          1/7      7/7       confounded
+
+  assumption cluster (P1,P2,P5,P6,P9): dead-S 5/35 (14%), living-S 29/35 (83%)
+
+  breadth cluster (P3,P8,P9): dead-S 1/21 (5%), living-S 17/21 (81%)
+
+  five discriminators (P1,P3,P5,P6,P8): dead-S 2/35 (6%), living-S 25/35 (71%)
+
+  -- the dead theories that DID challenge assumptions --
+     (the umbrella is necessary, not sufficient)
+     phl P2 = S (Unification)
+     ether P2 = S (Unification)
+     ether P9 = S (Crisis-chaining)
+     epi P6 = S (Formalism / meaning)
+     ether P6 = S (Formalism / meaning)
+     epi P5 = P (Conservative embedding)
+     caloric P5 = P (Conservative embedding)
+     crust P5 = P (Conservative embedding)
+
+============================================================================
+END OF A4h UNBLINDING
+============================================================================

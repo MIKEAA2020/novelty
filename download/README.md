@@ -382,3 +382,61 @@ living theories, thirteen readings, nine duals, the domain-marked
 constant failed in a fourth discipline, and no killing clause fired
 under any reading anywhere in the record. The kit stands at fourteen
 theories; the ledger is open. Continue.
+
+**Amendment A4h — The Fifth Reading and the Owner's Advice** (the
+version drift; the instrument audited)
+- `Profound_Novelty_A4h_The_Fifth_Reading_and_the_Owners_Advice.pdf` —
+  22 pages
+- `Profound_Novelty_A4h_cover_source.html` — editable cover source
+- `Profound_Novelty_A4h_fifth_reading_verbatim.md` — the fifth reading
+  (gemini 3.8) archived exactly as delivered, provenance header
+  including the clobber-and-recovery record
+- `Profound_Novelty_A4h_owner_advice_verbatim.md` — the owner's deepseek
+  advice file archived exactly as received, provenance header
+- `Profound_Novelty_A4g_replication_kit_fourteen_theories.md` — the kit,
+  its administrator header updated (the seventh alien reading registered;
+  the audit pointer); the administered prompt unchanged
+
+The fourth delivery completes with a fourth reading, label gemini 3.8 —
+the same lineage as gemini 3.1 pro preview, the first lineage ever to
+deliver twice, and therefore the series' first within-lineage version-
+drift measurement. The reading was recovered from the repository's
+history after the A4g synchronization accidentally overwrote the
+owner's upload (the provenance ledger is printed in full: the four file
+states, the clobber, the recovery, the re-verification on all 108
+cells). Unblinded: it converges with the delivery's other three readers
+more than they converged among themselves (88.4 / 86.6 / 91.7 against
+their 85.2-85.6); sixteen cells moved between the lineage's two
+versions, eleven toward the amended census, four away (all stricter
+demotions of the dead), one lateral — a lineage is a population of
+readers, and its next version drifted toward where the amendments had
+converged. A4g's deepest challenge does not survive the version
+change: the ether's three discriminator S's collapse to one contested
+plus one agreeing, the withdrawal and the softening landing on exactly
+the faces the court's printed rulings had held. Against the census:
+90.3 percent, one distant cell (on a dual), the dead-living gap twelve
+points — the widest of any external reading. No census cell moves; the
+killing clauses stay unfired under fourteen readings. Then the second
+order, a genre new to the series: the owner's advice file — a chat
+with deepseek on whether the nine points consider the umbrella claim
+that profound breakthroughs challenge long-standing assumptions and
+yield counter-intuitive, broad conclusions — evaluated, verified,
+augmented, and placed. The verification: the umbrella mapping is
+textually exact, and the census completes it — assumption challenge is
+the study's premise, not its separator (the dead also challenged
+assumptions; phlogiston's unification and the ether's crisis-chaining
+are S); the counter-intuitiveness worry is P7's confound, already
+measured and demoted; the physics-shape critique is confirmed three
+ways at once (the advice, the fifth reading's blind point notes, and
+the census's own middle band) and costs nothing discriminative. The
+determination: the administered prompt stays verbatim (the anti-
+epicycle rule, fourteen-coder comparability, forks as data); the audit
+is printed in the amendment; the AI blueprint half is declined as a
+separate plan because the plan already exists — Volume III, whose
+pipeline the advice re-derived blind, cell for cell — with its three
+genuine deltas registered (the assumption graph as a scheduled tool;
+the social layer as a candidate module, closure warning attached) and
+its training proposals declined on the protocol's own alarms. The
+census stands at seven and seven, fourteen coders on the records, nine
+duals; the instrument stands audited, unchanged; the ledger is open.
+Continue.

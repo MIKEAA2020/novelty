@@ -15,15 +15,31 @@ Blinding conditions, reproduced for any administrator of this kit: the
 reader receives only this prompt (no project files, no worklog, no prior
 codings, no census, no amendments, no indication of which theories any
 party reveres or buries); no web or file lookups are permitted; every cell
-must cite at least one named, checkable historical fact. The six alien
+must cite at least one named, checkable historical fact. The seven alien
 readings delivered so far (archived as
 Profound_Novelty_A4d_alien_reading_verbatim.md,
 Profound_Novelty_A4e_two_readings_verbatim.md,
-Profound_Novelty_A4f_third_family_verbatim.md, and
-Profound_Novelty_A4g_fourth_delivery_verbatim.md — the last carrying
-three families at once: deepseek, opus, and gemini 3.1 pro preview) were
-administered under exactly these conditions; the fourth on the
-twelve-theory panel this kit widens.
+Profound_Novelty_A4f_third_family_verbatim.md,
+Profound_Novelty_A4g_fourth_delivery_verbatim.md, and
+Profound_Novelty_A4h_fifth_reading_verbatim.md — the fourth delivery
+carrying four readings in all: deepseek, opus, gemini 3.1 pro preview,
+and gemini 3.8, the same lineage's second version) were administered
+under exactly these conditions; the fourth on the twelve-theory panel
+this kit widens.
+
+Administrator's note (Amendment A4h, dated after the readings above):
+the instrument's nine points were audited against the owner's umbrella
+claim — that profound breakthroughs challenge long-standing
+assumptions and yield counter-intuitive, broad conclusions — in
+Amendment A4h, using the owner's advice file (archived as
+Profound_Novelty_A4h_owner_advice_verbatim.md), the fifth reading's
+own blind point notes, and the census's records. No point was added,
+no definition changed: the audit found the umbrella distributed
+across the points as written, the physics shape measured and printed
+as the middle band, and the administered prompt below remains
+verbatim what every one of the fourteen coders on the reading records
+received. The audit itself is printed in Amendment A4h's Chapters 4
+through 6; this note is a pointer, not a change.
 
 ---
 
