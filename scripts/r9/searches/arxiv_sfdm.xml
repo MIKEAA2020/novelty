@@ -1,0 +1,705 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/yt0jJNXjoJ39+PXF9JO3rTWbn/U</id>
+  <title>arXiv Query: search_query=all:"superfluid dark matter"&amp;id_list=&amp;start=0&amp;max_results=30</title>
+  <updated>2026-09-30T15:33:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22superfluid+dark+matter%22&amp;start=0&amp;max_results=30&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>30</opensearch:itemsPerPage>
+  <opensearch:totalResults>46</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1108.4290v2</id>
+    <title>Vortex Structures in a Rotating BEC Dark Matter Component</title>
+    <updated>2012-01-11T22:30:57Z</updated>
+    <link href="https://arxiv.org/abs/1108.4290v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1108.4290v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the effects of a dark matter component that consists of bosonic particles with ultralight masses in the condensed state. We compare previous studies for both non-interacting condensates and with repulsive two-body terms and show consistency between the proposals. Furthermore, we explore the effects of rotation on a superfluid dark matter condensate, assuming that a vortex lattice forms as seen in ultracold atomic gas experiments. The influence of such a lattice in virialization of gravitationally bound structures and on galactic rotation velocity curves is explored. With fine-tuning of the bosonic particle mass and the two-body repulsive interaction strength, we find that one can have sub-structure on rotation curves that resembles some observations in spiral galaxies. This occurs when the dark matter halo has an array of hollow cylinders. This can cause oscillatory behavior in the galactic rotation curves in similar fashion to the well-known effect of the spiral arms. We also consider how future experiments and numerical simulations with ultracold atomic gases could tell us more about such exotic dark matter proposals.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-08-22T12:30:56Z</published>
+    <arxiv:comment>12 pages, 3 figures, final version</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <arxiv:journal_ref>Physics Research International, Volume 2011 (2011), Article ID 734543</arxiv:journal_ref>
+    <author>
+      <name>Nikolaj Thomas Zinner</name>
+    </author>
+    <arxiv:doi>10.1155/2011/734543</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1155/2011/734543" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1506.07877v1</id>
+    <title>Dark Matter Superfluidity and Galactic Dynamics</title>
+    <updated>2015-06-25T20:00:27Z</updated>
+    <link href="https://arxiv.org/abs/1506.07877v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1506.07877v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a unified framework that reconciles the stunning success of MOND on galactic scales with the triumph of the LambdaCDM model on cosmological scales. This is achieved through the physics of superfluidity. Dark matter consists of self-interacting axion-like particles that thermalize and condense to form a superfluid in galaxies, with ~mK critical temperature. The superfluid phonons mediate a MOND acceleration on baryonic matter. Our framework naturally distinguishes between galaxies (where MOND is successful) and galaxy clusters (where MOND is not): dark matter has a higher temperature in clusters, and hence is in a mixture of superfluid and normal phase. The rich and well-studied physics of superfluidity leads to a number of striking observational signatures.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-06-25T20:00:27Z</published>
+    <arxiv:comment>5 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <author>
+      <name>Lasha Berezhiani</name>
+    </author>
+    <author>
+      <name>Justin Khoury</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2015.12.054</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2015.12.054" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1611.05876v2</id>
+    <title>Galaxy Clusters in the Context of Superfluid Dark Matter</title>
+    <updated>2017-09-14T14:53:41Z</updated>
+    <link href="https://arxiv.org/abs/1611.05876v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1611.05876v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It has recently been proposed, by assuming that dark matter is a superfluid, that MOND-like effects can be achieved on small scales whilst preserving the success of $Λ$CDM on large scales. Here we aim to provide the first set of spherical models of galaxy clusters in the context of superfluid dark matter. We first outline the theoretical structure of the superfluid core and the surrounding "normal phase" dark halo of quasi-particles in thermal equlibrium. The latter should encompass the largest part of galaxy clusters. Here, we set the SfDM transition at the radius where the density and pressure of the superfluid and normal phase coincides, neglecting the effect of phonons in the suprefluid core. We then apply the theory to a sample of galaxy clusters, and directly compare the SfDM predicted mass profiles to data. We find that the superfluid formulation can reproduce the X-ray dynamical mass profile of clusters. The SfDM fits however display slight under-predictions of the gravity in the central regions which might be partly related to our neglecting of the effect of phonons in these regions. We conclude that this superfluid formulation is successful in describing galaxy clusters, but further work will be needed to determine whether the parameter choice is consistent with galaxies. Our model could be made more realistic by exploring non-sphericity and the SfDM transition condition we impose.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-11-17T21:00:04Z</published>
+    <arxiv:comment>11 pages, 7 figures, accepted for publication in Astronomy and Astrophysics</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <arxiv:journal_ref>A&amp;A 607, A108 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Alistair Hodson</name>
+    </author>
+    <author>
+      <name>Hongsheng Zhao</name>
+    </author>
+    <author>
+      <name>Justin Khoury</name>
+    </author>
+    <author>
+      <name>Benoit Famaey</name>
+    </author>
+    <arxiv:doi>10.1051/0004-6361/201630069</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/0004-6361/201630069" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.02425v3</id>
+    <title>Gravitational wave as probe of superfluid dark matter</title>
+    <updated>2018-02-07T15:30:48Z</updated>
+    <link href="https://arxiv.org/abs/1710.02425v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.02425v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In recent years, superfluid dark matter (SfDM) has become a competitive model of emergent modified Newtonian dynamics (MOND) scenario: MOND phenomenons naturally emerge as a derived concept due to an extra force mediated between baryons by phonons as a result of axionlike particles condensed as superfluid at galactic scales; Beyond galactic scales, these axionlike particles behave as normal fluid without phonon-mediated MOND-like force between baryons, therefore SfDM also maintains the usual success of $Λ$CDM at cosmological scales. In this paper, we use gravitational waves (GWs) to probe the relevant parameter space of SfDM. GWs through Bose-Einstein condensate (BEC) could propagate with a speed slightly deviation from the speed-of-light due to the change in the effective refractive index, which depends on the SfDM parameters and GW-source properties. We find that Five hundred meter Aperture Spherical Telescope (FAST), Square Kilometre Array (SKA) and International Pulsar Timing Array (IPTA) are the most promising means as GW probe of relevant parameter space of SfDM. Future space-based GW detectors are also capable of probing SfDM if a multimessenger approach is adopted.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-06T14:32:32Z</published>
+    <arxiv:comment>v1, 10 pages, 2 figures, two columns; v2, 12 pages, 2 figures, two columns, references are added, a summary for GW velocity constraints is added, a discussion on Shapiro time delay is added; v3, 13 pages, 2 figures, two columns, final version to match the published version</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys. Rev. D 97, 023027 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Rong-Gen Cai</name>
+    </author>
+    <author>
+      <name>Tong-Bo Liu</name>
+    </author>
+    <author>
+      <name>Shao-Jiang Wang</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.97.023027</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.97.023027" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.05748v1</id>
+    <title>Phenomenological consequences of superfluid dark matter with baryon-phonon coupling</title>
+    <updated>2017-11-15T19:00:08Z</updated>
+    <link href="https://arxiv.org/abs/1711.05748v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.05748v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently, a new form of dark matter has been suggested to naturally reproduce the empirically successful aspects of Milgrom's law in galaxies. The dark matter particle candidates are axion-like, with masses of order eV and strong self-interactions. They Bose-Einstein condense into a superfluid phase in the central regions of galaxy halos. The superfluid phonon excitations in turn couple to baryons and mediate an additional long-range force. For a suitable choice of the superfluid equation of state, this force can mimic Milgrom's law. In this paper we develop in detail some of the main phenomenological consequences of such a formalism, by revisiting the expected dark matter halo profile in the presence of an extended baryon distribution. In particular, we show how rotation curves of both high and low surface brightness galaxies can be reproduced, with a slightly rising rotation curve at large radii in massive high surface brightness galaxies, thus subtly different from Milgrom's law. We finally point out other expected differences with Milgrom's law, in particular in dwarf spheroidal satellite galaxies, tidal dwarf galaxies, and globular clusters, whose Milgromian or Newtonian behavior depends on the position with respect to the superfluid core of the host galaxy. We also expect ultra-diffuse galaxies within galaxy clusters to have velocities slightly above the baryonic Tully-Fisher relation. Finally, we note that, in this framework, photons and gravitons follow the same geodesics, and that galaxy-galaxy lensing, probing larger distances within galaxy halos than rotation curves, should follow predictions closer to the standard cosmological model than those of Milgrom's law.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-15T19:00:08Z</published>
+    <arxiv:comment>20 pages</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <author>
+      <name>Lasha Berezhiani</name>
+    </author>
+    <author>
+      <name>Benoit Famaey</name>
+    </author>
+    <author>
+      <name>Justin Khoury</name>
+    </author>
+    <arxiv:doi>10.1088/1475-7516/2018/09/021</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1475-7516/2018/09/021" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.04083v2</id>
+    <title>UV self-completion of a theory of Superfluid Dark Matter</title>
+    <updated>2018-10-08T08:17:44Z</updated>
+    <link href="https://arxiv.org/abs/1801.04083v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.04083v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that the model of superfluid dark matter developed in Refs.~\cite{Khoury:2014tka,Berezhiani:2015bqa,Berezhiani:2015pia}, which modifies the Newtonian potential and explains the galactic rotational curves, can be unitarized by the formation of classical configurations in the scattering amplitudes. The classicalization mechanism may also trigger the formation of the superfluid state from the early to the late Universe.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-12T08:24:02Z</published>
+    <arxiv:comment>We add more detailed calculations on the classicalon production in the early Universe. Main results and conclusions are the same</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Andrea Addazi</name>
+    </author>
+    <author>
+      <name>Antonino Marciano</name>
+    </author>
+    <arxiv:doi>10.1140/epjc/s10052-019-6820-6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1140/epjc/s10052-019-6820-6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.07255v4</id>
+    <title>Chiral Gravitational Waves and Baryon Superfluid Dark Matter</title>
+    <updated>2018-10-10T20:13:54Z</updated>
+    <link href="https://arxiv.org/abs/1801.07255v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.07255v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop a unified model of darkgenesis and baryogenesis involving strongly interacting dark quarks, utilizing the gravitational anomaly of chiral gauge theories. In these models, both the visible and dark baryon asymmetries are generated by the gravitational anomaly induced by the presence of chiral primordial gravitational waves. We provide a concrete model of an SU(2) gauge theory with two massless quarks. In this model, the dark quarks condense and form a dark baryon charge superfluid (DBS), in which the Higgs-mode acts as cold dark matter. We elucidate the essential features of this dark matter scenario and discuss its phenomenological prospects.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-22T19:00:01Z</published>
+    <arxiv:comment>10 pages. v2: references and minor clarifications added. v3:matches published version. v4: minor clarification added</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>JCAP 1805 (2018) no.05, 003</arxiv:journal_ref>
+    <author>
+      <name>Stephon Alexander</name>
+    </author>
+    <author>
+      <name>Evan McDonough</name>
+    </author>
+    <author>
+      <name>David N. Spergel</name>
+    </author>
+    <arxiv:doi>10.1088/1475-7516/2018/05/003</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1475-7516/2018/05/003" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.05921v2</id>
+    <title>Can Light Dark Matter Solve the Core-Cusp Problem?</title>
+    <updated>2018-09-17T17:36:31Z</updated>
+    <link href="https://arxiv.org/abs/1804.05921v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.05921v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently there has been much interest in light dark matter, especially ultra-light axions, as they may provide a solution to the core-cusp problem at the center of galaxies. Since very light bosons can have a de Broglie wavelength that is of astrophysical size, they can smooth out the centers of galaxies to produce a core, as opposed to vanilla dark matter models, and so it has been suggested that this solves the core-cusp problem. In this work, we critically examine this claim. While an ultra-light particle will indeed lead to a core, we examine whether the relationship between the density of the core and its radius matches the data over a range of galaxies. We first review data that shows the core density of a galaxy $ρ_c$ varies as a function of the core radius $R_c$ as $ρ_c\propto1/R_c^β$ with $β\approx1$. We then compare this to theoretical models. We examine a large class of light scalar dark matter models, governed by some potential $V$. For simplicity, we take the scalar to be complex with a global $U(1)$ symmetry in order to readily organize solutions by a conserved particle number. However, we expect our central conclusions to persist even for a real scalar, and furthermore, a complex scalar matches the behavior of a real scalar in the non-relativistic limit, which is the standard regime of interest. For any potential $V$, we find the relationship between $ρ_c$ and $R_c$ for ground state solutions is always in one of the following regimes: (i) $β\gg1$, or (ii) $β\ll1$, or (iii) unstable, and so it never matches the data. We also find similar conclusions for virialized dark matter, more general scalar field theories, degenerate fermion dark matter, superfluid dark matter, and general polytropes. We conclude that the solution to the core-cusp problem is more likely due to either complicated baryonic effects or some other type of dark matter interactions.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-16T20:07:43Z</published>
+    <arxiv:comment>10 pages in double column format, 3 figures. V2: Updated to resemble version published in PRD</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <arxiv:journal_ref>Phys. Rev. D 98, 023513 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Heling Deng</name>
+    </author>
+    <author>
+      <name>Mark P. Hertzberg</name>
+    </author>
+    <author>
+      <name>Mohammad Hossein Namjoo</name>
+    </author>
+    <author>
+      <name>Ali Masoumi</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.98.023513</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.98.023513" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1809.00840v3</id>
+    <title>Strong lensing with superfluid dark matter</title>
+    <updated>2019-02-14T13:30:01Z</updated>
+    <link href="https://arxiv.org/abs/1809.00840v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.00840v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In superfluid dark matter the exchange of phonons can create an additional force that has an effect similar to Modified Newtonian Dynamics (MOND). To test whether this hypothesis is compatible with observation, we study a set of strong gravitational lenses from the SLACS survey and check whether the measurements can be explained by a superfluid in the central region of galaxies. Concretely, we try to simultaneously fit each lens's Einstein radius and velocity dispersion with a spherically symmetric density profile of a fluid that has both a normal and a superfluid component. We demonstrate that we can successfully fit all galaxies except one, and that the fits have reasonable stellar mass-to-light-ratios. We conclude that strong gravitational lensing does not pose a challenge for the idea that superfluid dark matter mimics modified gravity.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-04T08:52:30Z</published>
+    <arxiv:comment>24 pages, 8 figures; published version</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <arxiv:journal_ref>JCAP 1902 (2019) 001</arxiv:journal_ref>
+    <author>
+      <name>Sabine Hossenfelder</name>
+    </author>
+    <author>
+      <name>Tobias Mistele</name>
+    </author>
+    <arxiv:doi>10.1088/1475-7516/2019/02/001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1475-7516/2019/02/001" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.08948v1</id>
+    <title>A predictive model of BEC dark matter halos with a solitonic core and an isothermal atmosphere</title>
+    <updated>2018-10-21T13:54:55Z</updated>
+    <link href="https://arxiv.org/abs/1810.08948v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.08948v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop a model of Bose-Einstein condensate dark matter halos with a solitonic core and an isothermal atmosphere based on a generalized Gross-Pitaevskii-Poisson equation [P.H. Chavanis, Eur. Phys. J. Plus 132, 248 (2017)]. This equation provides a heuristic coarse-grained parametrization of the ordinary Gross-Pitaevskii-Poisson equation accounting for violent relaxation and gravitational cooling. It involves a cubic nonlinearity taking into account the self-interaction of the bosons, a logarithmic nonlinearity associated with an effective temperature, and a source of dissipation. It leads to superfluid dark matter halos with a core-halo structure. The quantum potential or the self-interaction of the bosons generates a solitonic core that solves the cusp problem of the cold dark matter model. The logarithmic nonlinearity generates an isothermal atmosphere accounting for the flat rotation curves of the galaxies. The dissipation ensures that the system relaxes towards an equilibrium configuration. In the Thomas-Fermi approximation, the dark matter halo is equivalent to a barotropic gas with an equation of state $P=2πa_s\hbar^2ρ^2/m^3+ρk_B T/m$, where $a_s$ is the scattering length of the bosons and $m$ is their individual mass. We numerically solve the equation of hydrostatic equilibrium and determine the corresponding density profiles and rotation curves. Our model has no free parameter so it is completely predictive. Extension of this model to noninteracting bosons and fermions will be presented in forthcoming papers.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-21T13:54:55Z</published>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys. Rev. D 100, 083022 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Pierre-Henri Chavanis</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.100.083022</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.100.083022" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1901.03694v4</id>
+    <title>Dark Disk Substructure and Superfluid Dark Matter</title>
+    <updated>2019-09-04T15:47:27Z</updated>
+    <link href="https://arxiv.org/abs/1901.03694v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1901.03694v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Dark matter substructure has the potential to discriminate between broad classes of dark matter models. With this in mind, we construct novel solutions to the equations of motion governing condensate dark matter candidates, namely axion Bose-Einstein condensates and superfluids. These solutions are highly compressed along one axis and thus have a disk-like geometry. We discuss linear stability of these solutions, consider the astrophysical implications as a large-scale dark disk or as small scale substructure, and find a characteristic signal in strong gravitational lensing. This adds to the growing body of work that indicates that the morphology of dark matter substructure is a powerful probe of the nature of dark matter.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-01-11T18:57:10Z</published>
+    <arxiv:comment>6 pages, 3 figures. v2: minor clarifications, references added. v3: minor additions throughout. v4: matches published version</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <arxiv:journal_ref>Physics Letters B 797 10 (2019) 134871</arxiv:journal_ref>
+    <author>
+      <name>Stephon Alexander</name>
+    </author>
+    <author>
+      <name>Jason J. Bramburger</name>
+    </author>
+    <author>
+      <name>Evan McDonough</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2019.134871</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2019.134871" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.00826v1</id>
+    <title>The Classical and Loop Quantum Cosmology Phase Space of Interacting Dark Energy and Superfluid Dark Matter</title>
+    <updated>2019-05-02T16:01:10Z</updated>
+    <link href="https://arxiv.org/abs/1905.00826v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.00826v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we study in detail the phase space of a cosmological system consisting of two coupled fluids, namely a dark energy fluid coupled with a superfluid dark matter fluid. The dark matter fluid is assumed to have a superfluid equation of state, hence it is not pressureless and our aim is to find the impact of this non-trivial equation of state on the phase space of the coupled system. We shall use two theoretical contexts, namely that of classical cosmology and that of loop quantum cosmology. In the classical case, we investigated the existence and stability of fixed points, and as we will show, no de Sitter fixed points occur, however matter and radiation domination fixed points occur, which are hyperbolic and unstable. We also show that there exist limited sets of initial conditions for which singular solutions occur in the phase space. With regard to the loop quantum cosmology case, we demonstrate that stable de Sitter fixed points exist, for some values of the free parameters of the theory, and interestingly enough, for the same values, singular solutions corresponding to general sets of initial conditions occur. To our knowledge this feature does not occur so frequently in loop quantum cosmological frameworks. We also demonstrate that non-singular solutions corresponding to a general set of initial conditions occur, however these occur when the dark matter superfluid has negative pressure, so it is a rather physically unappealing situation.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-02T16:01:10Z</published>
+    <arxiv:comment>PRD Accepted</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>V. K. Oikonomou</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.99.104042</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.99.104042" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1909.05710v2</id>
+    <title>The role of the chemical potential in coupling superfluid dark matter to baryons</title>
+    <updated>2019-09-20T13:16:33Z</updated>
+    <link href="https://arxiv.org/abs/1909.05710v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.05710v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Superfluid dark matter postulates that the centers of galaxies contain superfluid condensates. An important quantity regarding these superfluids is their chemical potential $ μ$. Here, we discuss two issues related to this chemical potential. First, there is no exactly conserved quantity associated with this chemical potential due to the symmetry-breaking baryon-phonon coupling. Second, $ μ$ is sometimes introduced by shifting the phonon field by $ μ\cdot t $ which -- again due to the symmetry-breaking baryon-phonon coupling -- introduces an explicit time dependence in the Lagrangian. We investigate under which conditions introducing a chemical potential is nevertheless justified and show how to correctly introduce it when these conditions are met. We further propose a model that recovers superfluid dark matter's zero-temperature equations of motion including a chemical potential even if the aforementioned conditions for justifying a chemical potential are not met.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-09-02T15:11:57Z</published>
+    <arxiv:comment>21 pages; added references</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <arxiv:journal_ref>JCAP 1911 (2019) 039</arxiv:journal_ref>
+    <author>
+      <name>Tobias Mistele</name>
+    </author>
+    <arxiv:doi>10.1088/1475-7516/2019/11/039</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1475-7516/2019/11/039" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.11498v2</id>
+    <title>Collapse of spherical overdensities in superfluid models of dark matter</title>
+    <updated>2020-10-27T12:52:57Z</updated>
+    <link href="https://arxiv.org/abs/1911.11498v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.11498v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We intend to understand cosmological structure formation within the framework of superfluid models of dark matter with finite temperatures. Of particular interest is the evolution of small-scale structures where the pressure and superfluid properties of the dark matter fluid are prominent. We compare the growth of structures in these models with the standard cold dark matter paradigm and non-superfluid dark matter. The equations for superfluid hydrodynamics were computed numerically in an expanding $Λ$CDM background with spherical symmetry; the effect of various superfluid fractions, temperatures, interactions, and masses on the collapse of structures was taken into consideration. We derived the linear perturbation of the superfluid equations, giving further insights into the dynamics of the superfluid collapse. We found that while a conventional dark matter fluid with self-interactions and finite temperatures experiences a suppression in the growth of structures on smaller scales, as expected due to the presence of pressure terms, a superfluid can collapse much more efficiently than was naively expected due to its ability to suppress the growth of entropy perturbations and thus gradients in the thermal pressure. We also found that the cores of the dark matter halos initially become more superfluid during the collapse, but eventually reach a point where the superfluid fraction falls sharply. The formation of superfluid dark matter halos surrounded by a normal fluid dark matter background is therefore disfavored by the present work.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-26T12:43:30Z</published>
+    <arxiv:comment>10 pages, 9 figures. Accepted by A&amp;A</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <arxiv:journal_ref>A&amp;A 639, A90 (2020)</arxiv:journal_ref>
+    <author>
+      <name>S. T. H. Hartman</name>
+    </author>
+    <author>
+      <name>H. A. Winther</name>
+    </author>
+    <author>
+      <name>D. F. Mota</name>
+    </author>
+    <arxiv:doi>10.1051/0004-6361/201937263</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/0004-6361/201937263" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.12365v2</id>
+    <title>A Preference for Cold Dark Matter over Superfluid Dark Matter in Local Milky Way Data</title>
+    <updated>2023-01-16T20:35:01Z</updated>
+    <link href="https://arxiv.org/abs/1911.12365v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.12365v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>There are many well-known correlations between dark matter and baryons that exist on galactic scales. These correlations can essentially be encompassed by a simple scaling relation between observed and baryonic accelerations, historically known as the Mass Discrepancy Acceleration Relation (MDAR). The existence of such a relation has prompted many theories that attempt to explain the correlations by invoking additional fundamental forces on baryons. The standard lore has been that a theory that reduces to the MDAR on galaxy scales but behaves like cold dark matter (CDM) on larger scales provides an excellent fit to data, since CDM is desirable on scales of clusters and above. However, this statement should be revised in light of recent results showing that a fundamental force that reproduces the MDAR is challenged by local Milky Way dynamics and rotation curve data between 5-18 kpc. In this study, we test this claim on the example of Superfluid Dark Matter. We find that a standard CDM model is preferred over a static superfluid profile assuming a steady-state Galactic disk and discuss the robustness of this conclusion to disequilibrium effects. This preference is due to the fact that the superfluid model over-predicts vertical accelerations, even while reproducing galactic rotation curves. Our results establish an important criterion that any dark matter model must satisfy within the Milky Way.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-27T19:00:00Z</published>
+    <arxiv:comment>6 pages, 2 figures, 3 appendices; updated to match published version (v2)</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys. Dark. Univ. 39 (2023) 101140</arxiv:journal_ref>
+    <author>
+      <name>Mariangela Lisanti</name>
+    </author>
+    <author>
+      <name>Matthew Moschella</name>
+    </author>
+    <author>
+      <name>Nadav Joseph Outmezguine</name>
+    </author>
+    <author>
+      <name>Oren Slone</name>
+    </author>
+    <arxiv:doi>10.1016/j.dark.2022.101140</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.dark.2022.101140" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2001.02591v1</id>
+    <title>Growth of Linear Perturbations in a Universe with Superfluid Dark Matter</title>
+    <updated>2020-01-08T16:02:14Z</updated>
+    <link href="https://arxiv.org/abs/2001.02591v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.02591v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Lambda-Cold Dark Matter (LCDM) model agrees with most of the cosmological observations, but has some hindrances from observed data at smaller scales such as galaxies. Recently, Berezhiani and Khoury (2015) proposed a new theory involving interacting superfluid dark matter with three model parameters, which explains galactic dynamics with great accuracy. In the present work, we study the cosmological behaviour of this model in the linear regime of cosmological perturbations. In particular, we compute both analytically and numerically the matter linear growth factor and obtain new bounds for the model parameters which are significantly stronger than previously found. These new constraints come from the fact that structures within the superfluid dark matter framework grow quicker than in LCDM, and quite rapidly when the DM-baryon interactions are strong.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-08T16:02:14Z</published>
+    <arxiv:comment>16 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Shreya Banerjee</name>
+    </author>
+    <author>
+      <name>Sayantani Bera</name>
+    </author>
+    <author>
+      <name>David F. Mota</name>
+    </author>
+    <arxiv:doi>10.1088/1475-7516/2020/07/034</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1475-7516/2020/07/034" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.07324v2</id>
+    <title>The Milky Way's rotation curve with superfluid dark matter</title>
+    <updated>2020-08-28T12:51:24Z</updated>
+    <link href="https://arxiv.org/abs/2003.07324v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.07324v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent studies have shown that dark matter with a superfluid phase in which phonons mediate a long-distance force gives rise to the phenomenologically well-established regularities of Modified Newtonian Dynamics (MOND). Superfluid dark matter, therefore, has emerged as a promising explanation for astrophysical observations by combining the benefits of both particle dark matter and MOND, or its relativistic completions, respectively. We here investigate whether superfluid dark matter can reproduce the observed Milky Way rotation curve for $ R &lt; 25\,\rm{kpc}$ and are able to answer this question in the affirmative. Our analysis demonstrates that superfluid dark matter fits the data well with parameters in reasonable ranges. The most notable difference between superfluid dark matter and MOND is that superfluid dark matter requires about $ 20\% $ less total baryonic mass (with a suitable interpolation function). The total baryonic mass is then $5.96 \cdot 10^{10}\,M_\odot$, of which $1.03\cdot10^{10}\,M_\odot$ are from the bulge, $3.95\cdot10^{10}\,M_\odot$ are from the stellar disk, and $0.98\cdot10^{10}\,M_\odot$ are from the gas disk. Our analysis further allows us to estimate the radius of the Milky Way's superfluid core (concretely, the so-called NFW and thermal radii) and the total mass of dark matter in both the superfluid and the normal phase. By varying the boundary conditions of the superfluid to give virial masses $M_{200}^{\rm{DM}}$ in the range $0.5-3.0\cdot10^{12}\,M_\odot$, we find that the NFW radius $R_{\rm{NFW}}$ varies between $65\,\rm{kpc}$ and $73\,\rm{kpc}$, while the thermal radius $R_T$ varies between about $67\,\rm{kpc}$ and $105\,\rm{kpc}$. This is the first such treatment of a non-spherically-symmetric system in superfluid dark matter.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-16T16:52:25Z</published>
+    <arxiv:comment>9 pages, 5 figures, revised version accepted for publication in MNRAS</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <arxiv:journal_ref>MNRAS 498 (2020), 3484-3491</arxiv:journal_ref>
+    <author>
+      <name>Sabine Hossenfelder</name>
+    </author>
+    <author>
+      <name>Tobias Mistele</name>
+    </author>
+    <arxiv:doi>10.1093/mnras/staa2594</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1093/mnras/staa2594" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.10410v1</id>
+    <title>A Critique of Covariant Emergent Gravity</title>
+    <updated>2020-03-23T17:34:06Z</updated>
+    <link href="https://arxiv.org/abs/2003.10410v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.10410v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>I address some problems encountered in the formulation of relativistic models encompassing the MOND phenomenology of radial acceleration. I explore scalar and vector theories with fractional kinetic terms and $f(R)$-type gravity, demanding that the energy density be bounded from below and that superluminal modes be absent, but also that some consistency constraints with observational results hold. I identify configurations whose energy is unbounded from below and formulate some no-go statements for vector field models and modified gravity theories. Finally, I discuss superfluid dark matter as a hybrid theory lying between CDM and modified gravity, highlighting some difficulties present also in this case, which appears preferable to the others.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-23T17:34:06Z</published>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>K. Zatrimaylov</name>
+    </author>
+    <arxiv:doi>10.1088/1475-7516/2020/08/024</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1475-7516/2020/08/024" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.05299v1</id>
+    <title>Shadows of Sgr A$^*$ Black Hole Surrounded by Superfluid Dark Matter Halo</title>
+    <updated>2020-05-08T15:14:55Z</updated>
+    <link href="https://arxiv.org/abs/2005.05299v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.05299v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we construct a black hole solution surrounded by superfluid dark matter (BH-SFDM) and baryonic matter, and study their effects on the shadow images of the Sgr A$^{*}$ black hole. To achieve this goal, we have considered two density profiles for the baryonic matter described by the spherical exponential profile and the power law profile including a special case describing a totally dominated dark matter galaxy (TDDMG). Using the present values for the parameters of the superfluid dark matter and baryonic density profiles for the Sgr A$^{*}$ black hole, we find that the effects of the superfluid dark matter and baryonic matter on the size of shadows are almost negligible compared to the Kerr vacuum black hole. In addition, we find that by increasing the baryonic mass the shadow size increases considerably. This result can be linked to the matter distribution in the galaxy, namely the baryonic matter is mostly located in the galactic center and therefore, by increasing the baryonic matter can affect the size of black hole shadow compared to the totally dominated dark matter galaxy where we observe an increase of the angular diameter of the Sgr A$^{*}$ black hole of the magnitude $10^{-5} μ$arcsec.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-08T15:14:55Z</published>
+    <arxiv:comment>13 pages, 7 captioned figures. arXiv admin note: text overlap with arXiv:1711.05748 by other authors</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Eur. Phys. J. C (2020) 80:354</arxiv:journal_ref>
+    <author>
+      <name>Kimet Jusufi</name>
+    </author>
+    <author>
+      <name>Mubasher Jamil</name>
+    </author>
+    <author>
+      <name>Tao Zhu</name>
+    </author>
+    <arxiv:doi>10.1140/epjc/s10052-020-7899-5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1140/epjc/s10052-020-7899-5" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.03003v3</id>
+    <title>Three problems of superfluid dark matter and their solution</title>
+    <updated>2021-01-15T11:43:40Z</updated>
+    <link href="https://arxiv.org/abs/2009.03003v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.03003v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In superfluid dark matter (SFDM), the phonon field plays a double role: It carries the superfluid's energy density and it mediates the MOND-like phonon force. We show that these two roles are in tension with each other on galactic scales: A MOND-like phonon force is in tension with a superfluid in equilibrium and with a significant superfluid energy density. To avoid these tensions, we propose a model where the two roles are split between two different fields. This also allows us to solve a stability problem in a more elegant way than standard SFDM. We argue that the standard estimates for the size of a galaxy's superfluid core need to be revisited.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-07T10:37:17Z</published>
+    <arxiv:comment>34 pages, 5 figures, published version</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>JCAP 2101 (2021) 025</arxiv:journal_ref>
+    <author>
+      <name>Tobias Mistele</name>
+    </author>
+    <arxiv:doi>10.1088/1475-7516/2021/01/025</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1475-7516/2021/01/025" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.03890v1</id>
+    <title>Dark Matter = Modified Gravity? Scrutinising the spacetime-matter distinction through the modified gravity/ dark matter lens</title>
+    <updated>2020-09-08T14:05:09Z</updated>
+    <link href="https://arxiv.org/abs/2009.03890v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.03890v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper scrutinises the tenability of a strict conceptual distinction between space(time) and matter via the lens of the debate between modified gravity and dark matter. In particular, we consider Berezhiani and Khoury's novel 'superfluid dark matter theory' (SFDM) as a case study. Two families of criteria for being matter and being spacetime, respectively, are extracted from the literature. Evaluation of the new scalar field postulated by SFDM according to these criteria reveals that it is as much (dark) matter as anything could possibly be, but also$-$below the critical temperature for superfluidity$-$as much (of a modification of) spacetime as anything could possibly be. A sequel paper examines possible interpretations of SFDM in light of this result, as well as the consequences for our understanding of (the importance of) the modified gravity/ dark matter distinction and the broader spacetime-matter distinction.</summary>
+    <category term="physics.hist-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-08T14:05:09Z</published>
+    <arxiv:comment>35 pages</arxiv:comment>
+    <arxiv:primary_category term="physics.hist-ph"/>
+    <author>
+      <name>Niels C. M. Martens</name>
+    </author>
+    <author>
+      <name>Dennis Lehmkuhl</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.03891v1</id>
+    <title>Cartography of the space of theories: an interpretational chart for fields that are both (dark) matter and spacetime</title>
+    <updated>2020-09-08T14:15:38Z</updated>
+    <link href="https://arxiv.org/abs/2009.03891v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.03891v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper pushes back against the Democritean-Newtonian tradition of assuming a strict conceptual dichotomy between spacetime and matter. Our approach proceeds via the more narrow distinction between modified gravity/spacetime (MG) and dark matter (DM). A prequel paper argued that the novel field $Φ$ postulated by Berezhiani and Khoury's 'superfluid dark matter theory' is as much (dark) matter as anything could possibly be, but also$-$below the critical temperature for superfluidity$-$as much (of a modification of) spacetime as anything could possibly be. Here we introduce and critically evaluate three groups of interpretations that one should consider for such Janus-faced theories. The consubstantiality interpretation holds that $Φ$ is both (dark) matter and a modification of spacetime, analogously to the sense in which Jesus (according to catholicism) is both human and god. The fundamendalist interpretations consider for each of these roles whether they are instantiated fundamentally or emergently. The breakdown interpretations focus on the question of whether $Φ$ signals the breakdown, in some sense to be specified, of the MG-DM dichotomy and perhaps even the broader spacetime-matter distinction. More generally, it is argued that hybrid theories urge a move towards a single space of theories, rather than two separate spaces of spacetime theories and matter theories, respectively.</summary>
+    <category term="physics.hist-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-08T14:15:38Z</published>
+    <arxiv:comment>46 pages</arxiv:comment>
+    <arxiv:primary_category term="physics.hist-ph"/>
+    <author>
+      <name>Niels C. M. Martens</name>
+    </author>
+    <author>
+      <name>Dennis Lehmkuhl</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.00116v2</id>
+    <title>Dynamical friction in Bose-Einstein condensed self-interacting dark matter at finite temperatures, and the Fornax dwarf spheroidal</title>
+    <updated>2021-01-15T12:33:27Z</updated>
+    <link href="https://arxiv.org/abs/2011.00116v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.00116v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The aim of the present work is to better understand the gravitational drag forces, i.e. dynamical friction, acting on massive objects moving through a self-interacting Bose-Einstein condensate, also known as a superfluid, at finite temperatures. This is relevant for light scalar models of dark matter with weak self-interactions that require nonzero temperatures, or that have been heated inside galaxies. We derived expressions for dynamical friction using linear perturbation theory, and compared these to numerical simulations in which nonlinear effects are included. After testing the linear result, it was applied to the Fornax dwarf spheroidal galaxy, and two of its gravitationally bound globular clusters. Dwarf spheroidals are well-suited for indirectly probing properties of dark matter, and so by estimating the rate at which these globular clusters are expected to sink into their host halo due to dynamical friction, we inferred limits on the superfluid dark matter parameter space. The dynamical friction in a finite-temperature superfluid is found to behave very similarly to the zero-temperature limit, even when the thermal contributions are large. However, when a critical velocity for the superfluid flow is included, the friction force can transition from the zero-temperature value to the value in a conventional fluid. Increasing the mass of the perturbing object induces a similar transition to when lowering the critical velocity. When applied to two of Fornax's globular clusters, we find that the parameter space preferred in the literature for a zero-temperature superfluid yields decay times that are in agreement with observations. However, the present work suggests that increasing the temperature, which is expected to change the preferred parameter space, may lead to very small decay times, and therefore pose a problem for finite-temperature superfluid models of dark matter.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-30T21:49:23Z</published>
+    <arxiv:comment>16 pages, 8 figures, 3 tables. Accepted for publication in A&amp;A</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <arxiv:journal_ref>A&amp;A 647, A70 (2021)</arxiv:journal_ref>
+    <author>
+      <name>S. T. H. Hartman</name>
+    </author>
+    <author>
+      <name>H. A. Winther</name>
+    </author>
+    <author>
+      <name>D. F. Mota</name>
+    </author>
+    <arxiv:doi>10.1051/0004-6361/202039865</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/0004-6361/202039865" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2101.08117v2</id>
+    <title>Core Fragmentation in Simplest Superfluid Dark Matter Scenario</title>
+    <updated>2021-09-07T11:48:54Z</updated>
+    <link href="https://arxiv.org/abs/2101.08117v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.08117v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the structure of galactic halos within a scalar dark matter model, endowed with a repulsive quartic self-interaction, capable of undergoing the superfluid phase transition in high-density regions. We demonstrate that the thermalized cores are prone to fragmentation into superfluid droplets due to the Jeans instability. Furthermore, since cores of astrophysical size may be generated only when most of the particles comprising the halo reside in a highly degenerate phase-space, the well-known bound on the dark matter self-interaction cross section inferred from the collision of clusters needs to be revised, accounting for the enhancement of the interaction rate due to degeneracy. As a result, generation of kpc-size superfluid solitons, within the parameter subspace consistent with the Bullet Cluster bound, requires dark matter particles to be ultra-light.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-20T13:27:45Z</published>
+    <arxiv:comment>14 pages, 3 figures; V2: Minor edits, Journal version</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <author>
+      <name>Lasha Berezhiani</name>
+    </author>
+    <author>
+      <name>Giordano Cintia</name>
+    </author>
+    <author>
+      <name>Max Warkentin</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2021.136422</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2021.136422" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.02241v2</id>
+    <title>Acausality in Superfluid Dark Matter and MOND-like Theories</title>
+    <updated>2021-11-05T19:56:00Z</updated>
+    <link href="https://arxiv.org/abs/2105.02241v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.02241v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>There has been much interest in novel models of dark matter that exhibit interesting behavior on galactic scales. A primary motivation is the observed Baryonic Tully-Fisher Relation in which the mass of galaxies increases as the quartic power of rotation speed. This scaling is not obviously accounted for by standard cold dark matter. This has prompted the development of dark matter models that exhibit some form of so-called MONDian phenomenology to account for this galactic scaling, while also recovering the success of cold dark matter on large scales. A beautiful example of this are the so-called superfluid dark matter models, in which a complex bosonic field undergoes spontaneous symmetry breaking on galactic scales, entering a superfluid phase with a 3/2 kinetic scaling in the low energy effective theory, that mediates a long-ranged MONDian force. In this work we examine the causality and locality properties of these and other related models. We show that the Lorentz invariant completions of the superfluid models exhibit high energy perturbations that violate global hyperbolicity of the equations of motion in the MOND regime and can be superluminal in other parts of phase space. We also examine a range of alternate models, finding that they also exhibit forms of non-locality.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-05T18:00:03Z</published>
+    <arxiv:comment>17 pages in double column format, 1 figure. V2: Further clarifications. Updated towards version accepted for publication in JCAP</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <arxiv:journal_ref>JCAP 11 (2021) 015</arxiv:journal_ref>
+    <author>
+      <name>Mark P. Hertzberg</name>
+    </author>
+    <author>
+      <name>Jacob A. Litterer</name>
+    </author>
+    <author>
+      <name>Neil Shah</name>
+    </author>
+    <arxiv:doi>10.1088/1475-7516/2021/11/015</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1475-7516/2021/11/015" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.13350v1</id>
+    <title>Dark Matter, Rotation Curves, and the Morphology of Galaxies</title>
+    <updated>2021-08-30T16:19:10Z</updated>
+    <link href="https://arxiv.org/abs/2108.13350v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.13350v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this thesis, we investigate some aspects of dark matter phenomenology and its predictive power in explaining the flattening of galaxy rotation curves at large distances. After outlining the Standard Model of particle physics, its symmetries and possible extensions in Chapter 2, we review key facts about dark matter and various types of dark matter models in Chapter 3. In Chapter 4 we discuss some alternatives to cold dark matter, which include modified Newtonian dynamics (MOND), superfluid dark matter and emergent gravity, and highlight the difficulties that are encountered in attempts to extend these frameworks to full-fledged relativistic settings. In Chapter 5 we turn to explore a completely different option, namely that flattened rotation curves reflect the presence of prolate dark-matter bulges or string-like objects around galaxies, without the need for any infrared modification of gravity. To test this model, we fit a number of galaxy rotation curves and find that the presence of a string-like filament yields improvement in fit quality of about 40-70 % in some cases, while the deformation of a dark halo yields only modest improvement by about 6-7 %. In Chapter 6 we collect some concluding remarks.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-30T16:19:10Z</published>
+    <arxiv:comment>PhD thesis</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <author>
+      <name>Kirill Zatrimaylov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.01011v3</id>
+    <title>Quantized Vortices in Superfluid Dark Matter</title>
+    <updated>2022-01-31T09:24:46Z</updated>
+    <link href="https://arxiv.org/abs/2109.01011v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.01011v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In 2015 Berezhiani &amp; Khoury proposed a Superfluid Dark Matter (SFDM) model where dark matter condenses and forms a superfluid on galactic scales. In the superfluid state phonons interact with baryons, resulting in a behavior similar to that of Modified Newtonian Dynamics (MOND). If one assumes that the DM condensate rotates along with the galaxy, a grid of vortices should form throughout the superfluid component if the rotation is fast enough. We aim to investigate the size and impact of the vortices on surrounding baryons, and to further investigate the parameter space of the model. We also look for a possible vortex solution of the Lagrangian presented for the SFDM theory. We first take a simple approach and investigate vortex properties in a constant density DM halo, applying knowledge from condensed matter physics. We then use the zero-temperature condensate density profile as a template to vary the DM particle mass and the energy scale, $Λ$, of the SFDM model. Further, we attempt to find a vortex solution of the theory by extracting the Euler-Lagrange equation with respect to the modulus of the condensate wavefunction from the full relativistic SFDM Lagrangian. For the constant density approach we find that the vortices are on millimeter scale, and separated by distances $\sim0.002\,\rm{AU}$. The parameter space of the model is found to be substantial and a reduction in the DM particle mass leads to larger vortices with a higher energy. However, none of the parameter combinations explored here give both realistic values of $Λ$ and vortices energetic enough to have an observational impact on the galaxy as a whole. The vortex equation extracted from the Lagrangian of the model is unstable, and no solution exhibiting the standard properties of a vortex solution is found.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-02T15:17:32Z</published>
+    <arxiv:comment>33 pages, 16 figures</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <arxiv:journal_ref>JCAP01(2022)044</arxiv:journal_ref>
+    <author>
+      <name>Renate Mauland</name>
+    </author>
+    <author>
+      <name>Øystein Elgarøy</name>
+    </author>
+    <arxiv:doi>10.1088/1475-7516/2022/01/044</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1475-7516/2022/01/044" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2201.07282v2</id>
+    <title>Galactic Mass-to-Light Ratios With Superfluid Dark Matter</title>
+    <updated>2022-08-03T09:38:16Z</updated>
+    <link href="https://arxiv.org/abs/2201.07282v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2201.07282v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We make rotation curve fits to test the superfluid dark matter model. In addition to verifying that the resulting fits match the rotation curve data reasonably well, we aim to evaluate how satisfactory they are with respect to two criteria, namely, how reasonable the resulting stellar mass-to-light ratios are and whether the fits end up in the regime of superfluid dark matter where the model resembles modified Newtonian dynamics (MOND). We fitted the superfluid dark matter model to the rotation curves of 169 galaxies in the SPARC sample. We found that the mass-to-light ratios obtained with superfluid dark matter are generally acceptable in terms of stellar populations. However, the best-fit mass-to-light ratios have an unnatural dependence on the size of the galaxy in that giant galaxies have systematically lower mass-to-light ratios than dwarf galaxies. A second finding is that the superfluid often fits the rotation curves best in the regime where the superfluid's force cannot resemble that of MOND without adjusting a boundary condition separately for each galaxy. In that case, we can no longer expect superfluid dark matter to reproduce the phenomenologically observed scaling relations that make MOND appealing. If, on the other hand, we consider only solutions whose force approximates MOND well, then the total mass of the superfluid is in tension with gravitational lensing data. We conclude that even the best fits with superfluid dark matter are still unsatisfactory for two reasons. First, the resulting stellar mass-to-light ratios show an unnatural trend with galaxy size. Second, the fits do not end up in the regime that automatically resembles MOND, and if we force the fits to do so, the total dark matter mass is in tension with strong lensing data.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-01-18T19:35:02Z</published>
+    <arxiv:comment>29 pages, 29 figures, published version</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <arxiv:journal_ref>A&amp;A 664, A40 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Tobias Mistele</name>
+    </author>
+    <author>
+      <name>Stacy McGaugh</name>
+    </author>
+    <author>
+      <name>Sabine Hossenfelder</name>
+    </author>
+    <arxiv:doi>10.1051/0004-6361/202243216</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/0004-6361/202243216" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2201.12418v2</id>
+    <title>Self-Interacting Superfluid Dark Matter Droplets</title>
+    <updated>2022-11-21T13:03:07Z</updated>
+    <link href="https://arxiv.org/abs/2201.12418v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2201.12418v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We assume dark matter to be a cosmological self-gravitating Bose-Einstein condensate of non-relativistic ultralight scalar particles with competing gravitational and repulsive contact interactions and investigate the observational implications of such model. The system is unstable to the formation of stationary self-bound structures that minimize the energy functional. These cosmological superfluid droplets, which are the smallest possible gravitationally bound dark matter structures, exhibit a universal mass profile and a corresponding universal rotation curve. Assuming a hierarchical structure formation scenario where granular dark matter haloes grow around these primordial stationary droplets, the model predicts cored haloes with rotation curves that obey a single universal equation in the inner region ($r \lesssim 1$ kpc). A simultaneous fit to a selection of galaxies from the SPARC database chosen with the sole criterion of being strongly dark matter dominated even within the innermost region, indicates that the observational data are consistent with the presence of a Bose-Einstein condensate of ultralight scalar particles of mass $m \simeq 2.2 \times 10^{-22}$ eV c$^{-2}$ and repulsive self-interactions characterized by a scattering length $a_s \simeq 7.8 \times 10^{-77}$ m. Such small self-interactions have profound consequences on cosmological scales. They induce a natural minimum scale length for the size of dark matter structures that makes all cores similar in length ($\sim 1$ kpc) and contributes to lower their central densities.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-01-28T21:06:03Z</published>
+    <arxiv:comment>10 pages, 6 figures. Extended version accepted for publication in MNRAS</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <arxiv:journal_ref>MNRAS 518, 4064 (2023); (Published: 21 November 2022)</arxiv:journal_ref>
+    <author>
+      <name>V. Delgado</name>
+      <arxiv:affiliation>Univ. La Laguna</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Muñoz Mateo</name>
+      <arxiv:affiliation>Univ. La Laguna</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1093/mnras/stac3386</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1093/mnras/stac3386" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.01525v2</id>
+    <title>Assessment of Dark Matter Models Using Dark Matter Correlations across Dwarf Spheroidal Galaxies</title>
+    <updated>2022-08-01T02:30:20Z</updated>
+    <link href="https://arxiv.org/abs/2203.01525v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.01525v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The predicted size of dark matter substructures in kilo-parsec scales is model-dependent. Therefore, if the correlations between dark matter mass densities as a function of the distances between them are measured via observations, we can scrutinize dark matter scenarios. In this paper, we present an assessment procedure of dark matter scenarios. First, we use Gaia's data to infer the single-body phase-space density of the stars in the Fornax dwarf spheroidal galaxy. The latter, together with the Jeans equation, after eliminating the gravitational potential using the Poisson equation, reveals the mass density of dark matter as a function of its position in the galaxy. We derive the correlations between dark matter mass densities as a function of distances between them. No statistically significant correlation is observed. Second, for the sake of comparison with the standard cold dark matter, we also compute the correlations between dark matter mass densities in a small halo of the Eagle hydrodynamics simulation. We show that the correlations from the simulation and from Gaia are in agreement. Third, we show that Gaia observations can be used to limit the parameter space of the Ginzburg--Landau statistical field theory of dark matter mass densities and subsequently shrink the parameter space of any dark matter model. As two examples, we show how to leave limitations on (i) a classic gas dark matter and (ii) a superfluid dark matter.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-03T05:39:23Z</published>
+    <arxiv:comment>13 pages, 9 figures, accepted for publication in Universe</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <arxiv:journal_ref>Universe 2022, 8(7), 386</arxiv:journal_ref>
+    <author>
+      <name>Ahmad Borzou</name>
+    </author>
+    <arxiv:doi>10.3390/universe8070386</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/universe8070386" title="doi"/>
+  </entry>
+</feed>

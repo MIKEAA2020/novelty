@@ -1,0 +1,2896 @@
+ 
+
+ [0804.3518] Model of Dark Matter and Dark Energy Based on Gravitational
+Polarization 
+
+ Model of Dark Matter and Dark Energy 
+ Based on Gravitational
+Polarization 
+
+ Luc Blanchet 
+
+ Email:  blanchet@iap.fr 
+
+ Affiliation:  \mathcal{G}\mathbb{R}\varepsilon{\mathbb{C}}\mathcal{O} ,
+Institut d’Astrophysique de Paris — UMR 7095 du CNRS, 
+ Université Pierre
+& Marie Curie, 98 bis boulevard Arago, 75014 Paris, France
+
+ Alexandre Le Tiec 
+
+ Email:  letiec@iap.fr 
+
+ Affiliation:  \mathcal{G}\mathbb{R}\varepsilon{\mathbb{C}}\mathcal{O} ,
+Institut d’Astrophysique de Paris — UMR 7095 du CNRS, 
+ Université Pierre
+& Marie Curie, 98 bis boulevard Arago, 75014 Paris, France
+
+ August 9, 2026 
+
+ Abstract 
+
+ A model of dark matter and dark energy based on the concept of gravitational
+polarization is investigated. We propose an action in standard general
+relativity for describing, at some effective or phenomenological level, the
+dynamics of a dipolar medium, i.e. one endowed with a dipole moment vector, and
+polarizable in a gravitational field. Using first-order cosmological
+perturbations, we show that the dipolar fluid is undistinguishable from
+standard dark energy (a cosmological constant \Lambda ) plus standard dark
+matter (a pressureless perfect fluid), and therefore benefits from the
+successes of the \Lambda -CDM ( \Lambda -cold dark matter) scenario at
+cosmological scales. Invoking an argument of “weak clusterisation”
+of the mass distribution of dipole moments, we find that the dipolar
+dark matter reproduces the phenomenology of the modified Newtonian
+dynamics (MOND) at galactic scales. The dipolar medium action naturally
+contains a cosmological constant, and we show that if the
+model is to come from some fundamental underlying physics, the cosmological
+constant \Lambda should be of the order of a_{0}^{2}/c^{4} , where a_{0} denotes
+the MOND constant acceleration scale, in good agreement with observations. 
+
+ pacs 04.20.-q,95.35.+d,95.30.Sf
+
+ I Introduction 
+
+ In the current concordance model of cosmology (the \Lambda -CDM scenario, see
+e.g.  Ostriker and Steinhardt 1995 ) based on Einstein’s general relativity (GR), the
+mass-energy content of the Universe is made of roughly 4% of baryons, 23% of
+cold dark matter (CDM) and 73% of dark energy in the form of a cosmological
+constant \Lambda . The dark matter accounts for the well-known discrepancy
+between the mass of a typical cluster of galaxies as deduced from its
+luminosity, and the Newtonian dynamical mass  Zwicky 1933 . The model has so
+far been very successful in reproducing the observed cosmic microwave
+background (CMB) spectrum  Hu and Dodelson 2002 and explaining the distribution of
+baryonic matter from galaxy clusters scale up to cosmological scales by the
+non-linear growth of initial perturbations  Bernardeau et al. 2002 . Although the exact
+nature of the hypothetical dark matter particle remains unknown,
+super-symmetric extensions of the standard model of particle physics predict
+well-motivated candidates (see  Bertone et al. 2005 for a review). Simulations
+suggest some universal dark matter density profile around
+galaxies  Navarro et al. 1997 . However, in that respect, the CDM hypothesis has some
+difficulties  McGaugh and de Blok 1998 ; Sanders and McGaugh 2002 at explaining in a natural way the
+distribution and properties of dark matter at galactic scales. 
+
+ The modified Newtonian dynamics (MOND) was proposed by
+Milgrom  Milgrom 1983a ; Milgrom 1983b ; Milgrom 1983c to account for the basic phenomenology of
+dark matter in galactic halos, as evidenced by the flat rotation curves of
+galaxies, and the Tully-Fisher relation  Tully and Fisher 1977 between the observed
+luminosity and the asymptotic rotation velocity of spiral galaxies. However,
+if MOND serves very well for these purposes (and some others
+also  Sanders and McGaugh 2002 ), we know that MOND does not fully account for the
+inferred dark matter at the intermediate scale of clusters of
+galaxies  Gerbal et al. 1992 ; Sanders 2005 ; Clowe et al. 2006 . In addition, MOND cannot be considered
+as a viable physical model, but only as an ad-hoc — though
+extremely useful — phenomenological “recipe”. In the usual interpretation,
+MOND is viewed (see  Milgrom 2002 for a review) as a modification of the
+fundamental law of gravity or the fundamental law of dynamics, without the
+need for dark matter. The relativistic extensions of MOND, of which the
+Tensor-Vector-Scalar (TeVeS) theory  Sanders 1997 ; Bekenstein 2004 ; Sanders 2005 is the prime
+example, share this view of modifying the gravity sector, by postulating some
+suplementary fields associated with the gravitational force, in addition to
+the metric tensor field of GR (see  Bruneton and Esposito-Farèse 2007 for a review). Recently,
+such modified gravity theories have evolved toward Einstein-æther like
+theories  Jacobson and Mattingly 2001 ; Jacobson 2008 ; Zlosnik et al. 2007 ; Zhao 2007 ; Halle et al. 2008 . 
+
+ Each of these alternatives has proved to be very successful in complementary
+domains of validity: the cosmological scale (and cluster scale) for the CDM
+paradigm and the galactic scale for MOND. It is frustrating that two
+successful models seem to be fundamentally incompatible. In the present paper
+we shall propose a third approach, which has the potential of bringing
+together the main aspects of both \Lambda -CDM and MOND in a single
+relativistic model. Namely, we keep the standard law of gravity, i.e. GR and
+its Newtonian limit, but we add to the distribution of ordinary matter some
+specific non-standard form of dark matter (described by a relativistic action
+in usual GR) in such a way as to naturally explain the phenomenology of MOND
+at galactic scales. Furthermore, we prove that this form of dark matter leads
+to the same predictions as for the \Lambda -CDM cosmological scenario at
+large scales. In particular, we find that the relativistic action for this
+matter model naturally contains the dark energy in the form of a cosmological
+constant \Lambda . Thus, our model will benefit from both the successes of
+the \Lambda -CDM scenario, and the MOND phenomenology. 
+
+ The model will be based on the observation  Blanchet 2007a ; Blanchet 2007b that the
+phenomenology of MOND can be naturally interpreted by an effect of
+“gravitational polarization” of some dipolar medium constituting the dark
+matter. The effect can be essentially viewed (in a Newtonian-like
+interpretation  Blanchet 2007a ) as the gravitational analogue of the electric
+polarization of a dielectric material, whose atoms can be modelled by electric
+dipoles, in an applied electric field  Jackson 1998 . In the quasi-Newtonian model
+of  Blanchet 2007a the gravitational polarization follows from a microscopic
+description of the dipole moments in analogy with electrostatics. It was shown
+that the gravitational dipole moments require the existence of some internal
+non-gravitational force to stabilize them in a gravitational field. Thanks to
+this internal force, an equilibrium state for the dipolar particle is
+possible, in which the dipole moment is aligned with the gravitational field
+and the medium is polarized. The MOND equation follows from that equilibrium
+configuration. However the model  Blanchet 2007a cannot be considered as viable
+because it is non-relativistic, and involves negative gravitational-type
+masses (or gravitational charges) and consecutively a violation of the
+equivalence principle at a fundamental level. 
+
+ In a second model  Blanchet 2007b we showed that it is possible to describe
+dipolar particles consistently with the equivalence principle by an action
+principle in standard GR. The action depends on the particle’s position in
+space-time (as for an ordinary particle action) and also on a four-vector
+dipole moment carried by the particle. The particle’s position and the dipole
+moment are considered to be two dynamical variables to be varied independently
+in the action. Furthermore, a force internal to the dipolar particle was
+introduced in the form of a scalar potential function (say V ) in this
+action. The potential V depends on some adequately defined norm of the
+dipole moment vector. Because of that force, the particle is not a “test”
+particle and its motion in space-time is non-geodesic. The non-relativistic
+limit of the relativistic model  Blanchet 2007b was found to be different from
+the quasi-Newtonian model  Blanchet 2007a (hence the two models are distinct)
+but it was possible under some hypothesis to recover the same equilibrium
+state yielding the MOND equation as in  Blanchet 2007a . However the relativistic
+model  Blanchet 2007b , if considered as a model for dark matter, has some
+drawbacks — notably the mechanism of alignement of the dipole moment with
+the gravitational field is unclear (so the precise link with MOND is
+questionable), and the dynamics of the dipolar particles in the special case
+of spherical symmetry does not seem to be very physical. 
+
+ In the present paper, we shall propose a third model which will be based on an
+action similar to that of the relativistic model  Blanchet 2007b but with
+some crucial modifications. First we shall add, with respect to  Blanchet 2007b ,
+an ordinary mass term in the action to represent the (inertial or passive
+gravitational) mass of the dipolar particles. Second, the main improvement we
+shall make is to assume that the internal force derives from a potential
+function in the action (call it \mathcal{W} ) which depends not on the dipole
+moment itself as in Blanchet 2007b but on the local density of dipole
+moments, i.e. the polarization field. In this new approach we are
+thus assuming that the motion of the dipolar particles is influenced by the
+density of the surrounding medium. This is analogous to the description of a
+plasma in electromagnetism in which the internal force, responsible for the
+plasma oscillations, depends on the density of the plasma (cf. the expression
+of the plasma frequency  Jackson 1998 ). 1 1 
+ 1 
+
+ In the quasi-Newtonian
+model  Blanchet 2007a the dipolar medium was formulated as the gravitational
+analogue of a plasma, oscillating at its natural plasma frequency. 
+Because the action [given by ( 3 ) with ( 8 ) below] will now depend
+on the density of the medium, it becomes more advantageous to write it as a
+ fluid action rather than as a particle action. 
+
+ This simple modification of the model, in which the potential \mathcal{W} depends
+on the polarization field, will have important consequences. First of all, the
+relation with the phenomenology of MOND will become clear and
+straightforward. Secondly, we shall find that the motion of dipolar particles
+in the central field of a spherical mass (in the non-relativistic limit) makes
+now sense physically. The drawbacks of the previous model  Blanchet 2007b are
+thus cured. Last but not least, we shall find that the model naturally
+involves a cosmological constant. Then, with the equations of motion and
+evolution (and stress-energy tensor) derived from the action, we show the
+following: 
+
+ 1. 
+
+ The dipolar fluid is undistinguishable from standard dark energy (a
+cosmological constant) plus standard CDM (say a pressureless perfect fluid)
+at cosmological scales, i.e. at the level of first-order 
+cosmological perturbations. 2 2 
+ 2 
+
+ Note however that while in the
+standard scenario the CDM particle is, say, a well-motivated supersymmetric
+particle (perhaps to be discovered at the LHC in CERN), in our case the fundamental
+nature of the “dipolar particle” will remain unknown. The model is thus
+consistent with the observations of the CMB fluctuations. However, the model
+should differ from \Lambda -CDM at the level of second-order cosmological
+perturbations. 
+
+ 2. 
+
+ The MOND phenomenology of the flat rotation curves of galaxies and the
+Tully-Fisher relation is recovered at galactic scales (for a galaxy at low
+redshift) from the effect of gravitational polarization. There is a
+one-to-one correspondence between the MOND function (say \mu=1+\chi ) and
+the potential function \mathcal{W} introduced in the action. 
+
+ 3. 
+
+ The minimum of the potential function \mathcal{W} is a cosmological constant
+ \Lambda . We find that if \mathcal{W} is to be considered as “fundamental”,
+i.e. coming from some fundamental underlying theory (presumably a quantum
+field theory), the cosmological constant should be numerically of the order
+of a_{0}^{2}/c^{4} , where a_{0} denotes the MOND constant acceleration scale. 
+
+ A relation of the type \Lambda\sim a_{0}^{2}/c^{4} between a cosmological
+observable \Lambda and a parameter a_{0} measured from observations at
+galactic scales is quite remarkable and is in good agreement with
+observations. More precisely, if we define the natural acceleration scale
+associated with the cosmological constant, 
+
+ a_{\Lambda}=\frac{c^{2}}{2\pi}\,\sqrt{\frac{\Lambda}{3}}\,, 
+
+ (1) 
+
+ then the current astrophysical measurements yield a_{0}\simeq 1.3\,a_{\Lambda} . The related numerical coincidence a_{0}\sim cH_{0} was pointed out
+very early on by Milgrom Milgrom 1983a ; Milgrom 1983b ; Milgrom 1983c . The near agreement
+between a_{0} and a_{\Lambda} has a natural explanation within our model,
+although the exact numerical coefficient between the two acceleration scales
+cannot be determined presently. 
+
+ Since the present model will not be connected to any (quantum) fundamental
+theory, it should be regarded merely as an “effective” or even
+“phenomenological” model. We shall even argue (though this remains open)
+that it may apply only at large scales, from the galactic scale up to
+cosmological scales, and not at smaller scales like in the Solar
+System. However, this model offers a nice unification between the dark energy
+in the form of \Lambda and the dark matter in the form of MOND (both effects
+of dark energy and dark matter occuring when gravity is weak). Furthermore, it
+reconciles in some sense the observations of dark matter on cosmological
+scales, where the evidence is for the standard CDM, and on galactic scales,
+which is the realm of MOND. It would be interesting to study the intermediate
+scale of clusters of galaxies and to see if the model is consistent with
+observations. Such a study should probably be performed using numerical methods. 
+
+ The plan of this paper is as follows. In section II we present the
+action principle for the dipolar medium, and we vary the action to obtain the
+equation of motion, the equation of evolution and the stress-energy tensor. In
+section III we apply first-order cosmological perturbations (on a
+homogeneous and isotropic background) to prove that the dipolar fluid
+reproduces all the features of the standard dark matter paradigm at
+cosmological scales. We investigate the non-relativistic limit of the model in
+section IV , and show that, under some hypothesis, the polarization of
+the dipolar dark matter in the gravitational field of a galaxy results in an
+apparent modification of the law of gravity in agreement with the MOND
+paradigm. Section V summarizes and concludes the paper. The dynamics
+of the dipolar dark matter in the central gravitational field of a spherically
+symmetric mass distribution is investigated in appendix A . 
+
+ II Dipolar fluid in general relativity 
+
+ II.1 Action principle 
+
+ Our model will be based on a specific action functional for the dipolar fluid
+in standard GR. This fluid is described by the four-vector current density
+ J^{\mu}=\sigma u^{\mu} , where u^{\mu} is the four-velocity of the fluid,
+normalized to g_{\mu\nu}u^{\mu}u^{\nu}=-1 , and where \sigma=\sqrt{-g_{\mu\nu}J^{\mu}J^{\nu}} represents its rest mass
+density. 3 3 
+ 3 
+
+ Greek indices take the space-time values \mu,\nu,\ldots=0,1,2,3 and Latin ones range on spatial values i,j,\ldots=1,2,3 . The
+metric signature is (-,+,+,+) . The convention for the Riemann curvature
+tensor R^{\mu}_{\phantom{\mu}\nu\rho\sigma} is the same as in
+ Misner et al. 1973 . Symmetrization of indices is (\mu\nu)\equiv\frac{1}{2}(\mu\nu+\nu\mu) and (ij)\equiv\frac{1}{2}(ij+ji) . In sections
+ II and III we make use of geometrical units G=c=1 . In this
+paper we shall conveniently rescale most of the variables used in
+ Blanchet 2007b by a factor of 2m , where m is the mass parameter introduced
+in the action of  Blanchet 2007b . Hence we have \sigma=2m\,n , where n is
+the number density of dipole moments in the notation of Blanchet 2007b . The
+above current vector is conserved in the sense that 
+
+ \nabla_{\mu}J^{\mu}=0\,, 
+
+ (2) 
+
+ where \nabla_{\mu} denotes the covariant derivative associated with the metric
+ g_{\mu\nu} . Our fundamental assumption is that the dipolar fluid is endowed
+with a dipole moment vector field \xi^{\mu} which will be considered as a
+dynamical variable. We have \xi^{\mu}=\pi^{\mu}/2m where \pi^{\mu} is the
+dipole moment variable used in  Blanchet 2007b (hence \xi^{\mu} has the
+dimension of a length). 
+
+ Adopting a fluid description of the dipolar matter rather than a particle
+formulation as in  Blanchet 2007b , 4 4 
+ 4 
+
+ The fluid action is obtained from
+the particle one by the formal prescription \sum\int\mathrm{d}\tau\rightarrow\int\mathrm{d}^{4}x\,\sqrt{-g}\,n , where the sum runs over all the particles, and
+ n is the number density of the fluid. we postulate that the dynamics of the
+dipolar fluid in a prescribed gravitational field g_{\mu\nu} is derived
+from an action of the type 
+
+ S=\int\mathrm{d}^{4}x\,\sqrt{-g}\,L\bigl[J^{\mu},\xi^{\mu},\dot{\xi}^{\mu},g_{\mu\nu}\bigr]\,, 
+
+ (3) 
+
+ where g=\text{det}(g_{\mu\nu}) , the integration being performed over the
+entire 4-dimensional manifold. This action is to be added to the Einstein-Hilbert action for gravity, and to the actions of all the other matter fields. The Lagrangian L depends on the current
+density J^{\mu} , the dipole moment vector \xi^{\mu} , and its covariant
+derivative \dot{\xi}^{\mu} with respect to the proper time \tau (such that
+ \mathrm{d}\tau=\sqrt{-g_{\mu\nu}\mathrm{d}x^{\mu}\mathrm{d}x^{\nu}} ), which is defined using
+a fluid formulation by 
+
+ \dot{\xi}^{\mu}\equiv\frac{\mathrm{D}\xi^{\mu}}{\mathrm{d}\tau}\equiv u^{\nu}\nabla_{\nu}\xi^{\mu}\,, 
+
+ (4) 
+
+ and where \mathrm{D}/\mathrm{d}\tau is denoted by an overdot. In addition, the Lagrangian
+depends explicitly on the metric g_{\mu\nu} which serves at lowering and
+raising indices, so that for instance \dot{\xi}_{\mu}=g_{\mu\nu}\dot{\xi}^{\nu} . 
+
+ We shall consider an action for the dipolar medium similar to the one proposed
+in  Blanchet 2007b , with however a crucial generalization in that the potential
+function therein, which is supposed to describe a non-gravitational force
+internal to the dipole moment, will be allowed to depend not only on the
+dipole moment variable \xi^{\mu} , but also on the rest mass density of the
+dipolar fluid \sigma . More precisely, we shall assume that the potential
+function \mathcal{W} in the action depends on the dipole moment \xi^{\mu} only
+through the polarization , namely the number density of dipole
+moments, that is defined by 
+
+ \Pi^{\mu}=\sigma\xi^{\mu}\,, 
+
+ (5) 
+
+ or equivalently \Pi^{\mu}=n\pi^{\mu} in the notation of  Blanchet 2007b . The
+dynamics of dipolar particles will therefore be influenced by the local
+density of the medium, in analogy with the physics of a plasma in which the
+force responsible for the plasma oscillations depends on the density of the
+plasma  Jackson 1998 . Our assumption is that \mathcal{W} is a function solely
+of the norm \Pi_{\perp} of the projection of the polarization field
+( 5 ) perpendicular to the velocity, namely 
+
+ \Pi_{\perp}=\sqrt{g_{\mu\nu}\Pi_{\perp}^{\mu}\Pi_{\perp}^{\nu}}=\sqrt{\perp_{\mu\nu}\!\Pi^{\mu}\Pi^{\nu}}\,. 
+
+ (6) 
+
+ Here, the orthogonal projection of the polarization vector reads
+ \Pi_{\perp}^{\mu}\!=\,\perp_{\nu}^{\mu}\!\Pi^{\nu} , with the associated
+projector defined by \perp_{\mu\nu}\,\equiv g_{\mu\nu}+u_{\mu}u_{\nu} . Similarly, we can define \xi_{\perp}^{\mu}=\,\perp_{\nu}^{\mu}\xi^{\nu} 
+and its norm \xi_{\perp} so that the (scalar) polarization field reads 
+
+ \Pi_{\perp}=\sigma\xi_{\perp}\,. 
+
+ (7) 
+
+ The chosen dependence of the internal potential on \Pi_{\perp} will result in
+important differences and improvements with respect to the model
+of  Blanchet 2007b . 
+
+ Our proposal for the Lagrangian of the dipolar fluid is 
+
+ L=\sigma\left[-1-\sqrt{\bigl(u_{\mu}-\dot{\xi}_{\mu}\bigr)\bigl(u^{\mu}-\dot{\xi}^{\mu}\bigr)}+\frac{1}{2}\dot{\xi}_{\mu}\,\dot{\xi}^{\mu}\right]-\mathcal{W}(\Pi_{\perp})\,, 
+
+ (8) 
+
+ where the two dynamical fields are the conserved current vector J^{\mu}=\sigma u^{\mu} and the dipole moment vector \xi^{\mu} . The fourth term is our
+fundamental potential which should in principle result from a more fundamental
+theory valid at some microscopic level. The third term in ( 8 ) is the
+same as in the previous model  Blanchet 2007b and clearly represents a
+kinetic-like term for the evolution of the dipole moment vector. This term
+will tell how this evolution should differ from parallel transport along the
+fluid lines. The second term in ( 8 ) (also the same as in  Blanchet 2007b )
+is made of the norm of a space-like vector and is inspired by the known action
+for the dynamics of particles with spin moving in a background gravitational
+field  Bailey and Israel 1980 . The motivation for postulating this term is that a
+dipole moment can be seen as the “lever arm” of the spin considered as a
+classical angular momentum (see a discussion in  Blanchet 2007b ). 
+
+ Finally, we comment on the first term in ( 8 ) which is a mass term in an
+ordinary sense. The dipolar fluid we are considering will not be purely
+dipolar (or mostly dipolar) as in the previous model  Blanchet 2007b but will
+involve a monopolar contribution as well. Here we shall thus have some dark
+matter in the ordinary sense. The mass term in ( 8 ) has been included for
+cosmological considerations, so that we recover the ordinary dark matter
+component at large scales (see section III ). However, one can argue
+that the presence of such mass term \sigma is not fine-tuned. Indeed, this
+term corresponds to the simplest and most natural assumption that the relative
+contributions of this mass density and the second and third terms in ( 8 )
+are comparable. In addition, we notice that \sigma=2m\,n corresponds to the
+inertial mass density of the dipole particles in the quasi-Newtonian
+model  Blanchet 2007a , so it is natural by analogy with this model to include
+that mass contribution in the action. Notice however that, even if the dipolar
+fluid is endowed with a mass density in an ordinary sense, its dynamics is
+well-defined only when the dipole moment is non-zero. Indeed, we observe that
+the Lagrangian ( 8 ) becomes ill-defined when \xi^{\mu}=0 since the second
+term in ( 8 ) is imaginary. 
+
+ II.2 Equations of motion and evolution 
+
+ In order to obtain the equations governing the dynamics of the dipolar fluid,
+we vary the action ( 3 ) [with the explicit choice of the Lagrangian
+( 8 )] with respect to the dynamical variables \xi^{\mu} and J^{\mu} . The
+calculation is very similar to the one performed in  Blanchet 2007b , but because
+of the different notation adopted here for rescaled variables
+(e.g. \xi^{\mu}=\pi^{\mu}/2m ), and especially because of the more general form
+of the potential function, we present all details of the derivation. Varying
+first with respect to the dipole moment variable \xi^{\mu} , the resulting
+Euler-Lagrange equation reads in general terms 5 5 
+ 5 
+
+ We write the
+Euler-Lagrange equation in this particle-looking form to emphasize the fact
+that the action ( 8 ) is a particle (or fluid) action. Of course,
+this equation is equivalent to the usual field equation 
+
+ \nabla_{\nu}\left(\frac{\partial L}{\partial\nabla_{\nu}\xi^{\mu}}\right)=\frac{\partial L}{\partial\xi^{\mu}}\,. 
+
+ \frac{\mathrm{D}}{\mathrm{d}\tau}\left(\frac{\partial L}{\partial\dot{\xi}^{\mu}}\right)+\nabla_{\nu}u^{\nu}\frac{\partial L}{\partial\dot{\xi}^{\mu}}=\frac{\partial L}{\partial\xi^{\mu}}\,, 
+
+ (9) 
+
+ in which the partial derivatives of the Lagrangian in ( 3 ) are applied
+considering the four variables \xi^{\mu} , \dot{\xi}^{\mu} , J^{\mu} and
+ g_{\mu\nu} as independent. For the specific case of the Lagrangian
+( 8 ), we get what shall be interpreted as the equation of motion 
+of the dipolar fluid in the form 
+
+ \dot{K}^{\mu}=-\mathcal{F}^{\mu}\,, 
+
+ (10) 
+
+ in which the left-hand-side (LHS) is the proper time derivative of the linear
+momentum 6 6 
+ 6 
+
+ The present notation is related to the one used
+in  Blanchet 2007b by K^{\mu}=P^{\mu}/2m , k^{\mu}=p^{\mu}/2m ,
+ \mathcal{F}^{\mu}=F^{\mu}/m (and \xi^{\mu}=\pi^{\mu}/2m ). The quantity called
+ \Lambda in  Blanchet 2007b is now denoted \Xi in order to avoid confusion
+with the cosmological constant. 
+
+ K^{\mu}=\dot{\xi}^{\mu}+k^{\mu}\,. 
+
+ (11) 
+
+ Here, we introduced like in  Blanchet 2007b a special notation for a four-vector
+ k^{\mu} which is space-like , whose norm is normalized to k^{\mu}k_{\mu}=1 , and which reads 
+
+ k^{\mu}=\frac{u^{\mu}-\dot{\xi}^{\mu}}{\Xi}\,\quad\text{with}\quad\Xi=\sqrt{-1-2u_{\nu}\dot{\xi}^{\nu}+\dot{\xi}_{\nu}\dot{\xi}^{\nu}}\,. 
+
+ (12) 
+
+ The space-like four-vector k^{\mu} will not represent the linear momentum (per
+unit mass) of the particle — that role will be taken by K^{\mu} which, as we
+shall see, will normally be time-like, see ( 21a ) below. The quantity
+ \Xi has an important status in the present formalism because it represents
+the second term in the Lagrangian ( 8 ) and we shall be able to set it to
+one in section II.3 as a particular way of selecting some physically
+interesting solution. On the right-hand-side (RHS) of ( 10 ), the force
+per unit mass acting on a dipolar fluid element is given by 
+
+ \mathcal{F}^{\mu}=\hat{\Pi}_{\perp}^{\mu}\,\mathcal{W}_{{}_{\Pi_{\perp}}}\,, 
+
+ (13) 
+
+ in which we denote the unit direction of the polarization vector by
+ \hat{\Pi}_{\perp}^{\mu}\equiv\Pi_{\perp}^{\mu}/\Pi_{\perp}=\xi_{\perp}^{\mu}/\xi_{\perp} 
+and the ordinary derivative of the potential \mathcal{W} by \mathcal{W}_{{}_{\Pi_{\perp}}}\equiv\mathrm{d}\mathcal{W}/\mathrm{d}\Pi_{\perp} . The “ internal ” force ( 13 ) being
+proportional to the space-like four-vector \xi_{\perp}^{\mu}=\,\perp^{\mu}_{\nu}\xi^{\nu} , we immediately get the constraint 
+
+ u_{\mu}\,\mathcal{F}^{\mu}=0\,. 
+
+ (14) 
+
+ We now turn to the variation of the action with respect to the conserved
+current J^{\mu}=\sigma u^{\mu} (hence we deduce \sigma=\sqrt{-J_{\nu}J^{\nu}} 
+and u^{\mu}=J^{\mu}/\sigma ). The general form of the Lagrange equation for the
+conserved current density reads (see e.g.  Lichnerowicz 1955 ) 7 7 
+ 7 
+
+ This can
+alternatively be written with ordinary partial derivatives as
+
+ u^{\nu}\left[\partial_{\nu}\left(\frac{\partial L}{\partial J^{\mu}}\right)-\partial_{\mu}\left(\frac{\partial L}{\partial J^{\nu}}\right)\right]=0\,. 
+
+ \frac{\mathrm{D}}{\mathrm{d}\tau}\left(\frac{\partial L}{\partial J^{\mu}}\right)=u^{\nu}\nabla_{\mu}\left(\frac{\partial L}{\partial J^{\nu}}\right). 
+
+ (15) 
+
+ For the case at hands of the Lagrangian ( 8 ), we get the following
+equation, later to be interpreted as the evolution equation for the
+dipole moment, 
+
+ \dot{\Omega}^{\mu}=\frac{1}{\sigma}\nabla^{\mu}\left(\mathcal{W}-\Pi_{\perp}\mathcal{W}_{{}_{\Pi_{\perp}}}\right)-R^{\mu}_{\phantom{\mu}\rho\nu\lambda}u^{\rho}\xi^{\nu}K^{\lambda}\,. 
+
+ (16) 
+
+ A new type of linear momentum \Omega^{\mu} — having the same meaning as in
+ Blanchet 2007b — has been introduced and defined by 
+
+ \Omega^{\mu}=\omega^{\mu}-k^{\mu}\quad\text{with}\quad\omega^{\mu}=u^{\mu}\left(1+\frac{1}{2}\dot{\xi}_{\nu}\dot{\xi}^{\nu}+\xi_{\perp}\mathcal{W}_{{}_{\Pi_{\perp}}}\right)-u_{\nu}\xi^{\nu}\mathcal{F}^{\mu}\,. 
+
+ (17) 
+
+ The Riemann curvature term in the RHS of ( 16 ) represents the
+analogue of the coupling to curvature in the Papapetrou equations of motion of
+particles with spin in an arbitrary background  Papapetrou 1951 . The complete
+dynamics and evolution of the dipolar fluid is now encoded into the equations
+( 10 ) and ( 16 ). Such equations constitute the appropriate
+generalization for the case of a density-dependent potential \mathcal{W} , and in
+fluid formulation, of similar results in  Blanchet 2007b . 
+
+ Notice that by contracting ( 16 ) with J_{\mu} , the second term in
+the RHS of ( 16 ) cancels because of the symmetries of the Riemann
+tensor, and we get 
+
+ J_{\mu}\,\dot{\Omega}^{\mu}=\frac{\mathrm{D}}{\mathrm{d}\tau}\left(\mathcal{W}-\Pi_{\perp}\mathcal{W}_{{}_{\Pi_{\perp}}}\right). 
+
+ (18) 
+
+ One can readily check that this constraint ( 18 ) can alternatively
+be derived from the other equation ( 10 ) together with the definition
+of \Omega^{\mu} in ( 17 ). On the other hand, contracting ( 10 )
+with u_{\mu} yields u_{\mu}\dot{K}^{\mu}=0 , which according to the definition of
+ K^{\mu} , leads to the other constraint 
+
+ u_{\mu}\frac{\mathrm{D}}{\mathrm{d}\tau}\bigl[\left(\Xi-1\right)k^{\mu}\bigr]=0\,. 
+
+ (19) 
+
+ This constraint can be viewed as a differential equation for the variable
+ \Xi . 
+
+ II.3 Particular solution of the equations 
+
+ Following  Blanchet 2007b , we shall solve the constraint ( 19 )
+with the most obvious and natural choice of solution that 
+
+ \Xi=1\,. 
+
+ (20) 
+
+ We shall see that this choice greatly simplifies the other equations we
+have. In particular, we are going to prove that the equations of motion
+( 10 ) and equations of evolution ( 16 ), when reduced by the
+condition \Xi=1 , finally depend only on the space-like component
+of the dipole moment that is orthogonal to the velocity, namely
+ \xi_{\perp}^{\mu} , so that the time-like component along the velocity,
+i.e. u_{\nu}\xi^{\nu} , will have no physically observable consequences
+(actually, in that case this unphysical component turns out to be complex
+ Blanchet 2007b ). 
+
+ The structure of the subsequent equations and the physical properties of the
+model will heavily rely on the condition \Xi=1 . Note that we could regard
+this condition not as a choice of solution but rather as a choice of
+ theory . Indeed, we are going to pick up the simplest theory out of a
+whole set of theories in which \Xi could have some non trivial proper time
+evolution obeying ( 19 ). Actually, we can view the choice \Xi=1 as an elegant way to impose into the Lagrangian formalism the condition
+that in fine the only physical component of the dipole moment should
+be \xi_{\perp}^{\mu} , namely the one perpendicular to the four-velocity
+field. We can imagine that it would be possible to impose the same physical
+condition in a different way, for instance by using Lagrange multipliers into
+the initial action. For exemple, in TeVeS  Sanders 1997 ; Bekenstein 2004 ; Sanders 2005 or in
+Einstein-æther gravity  Jacobson and Mattingly 2001 ; Jacobson 2008 ; Zlosnik et al. 2007 ; Zhao 2007 ; Halle et al. 2008 , a
+dynamical time-like vector field whose norm is unity is introduced by this
+mean. However, the present situation is different because our final physical
+vector \xi_{\perp}^{\mu} is space-like. 
+
+ When the condition ( 20 ) holds, the two linear momenta ( 11 ) and
+( 17 ) simplify appreciably and we obtain 
+
+ \displaystyle K^{\mu} 
+ \displaystyle=u^{\mu}\,, 
+
+ (21a) 
+
+ \displaystyle\Omega^{\mu} 
+ \displaystyle=u^{\mu}\left(1+\xi_{\perp}\mathcal{W}_{{}_{\Pi_{\perp}}}\right)+\perp^{\mu}_{\nu}\dot{\xi}_{\perp}^{\nu}\,. 
+
+ (21b) 
+
+ We see that the linear momentum K^{\mu} is finally time-like. These
+expressions depend only on the orthogonal component \xi_{\perp}^{\nu} , and we
+denote \dot{\xi}_{\perp}^{\nu}\equiv\mathrm{D}\xi_{\perp}^{\nu}/\mathrm{d}\tau . The
+equations of motion and evolution take now the simple forms 
+
+ \displaystyle\dot{u}^{\mu} 
+ \displaystyle=-\mathcal{F}^{\mu}=-\hat{\Pi}_{\perp}^{\mu}\,\mathcal{W}_{{}_{\Pi_{\perp}}}\,, 
+
+ (22a) 
+
+ \displaystyle\dot{\Omega}^{\mu} 
+ \displaystyle=\frac{1}{\sigma}\nabla^{\mu}\left(\mathcal{W}-\Pi_{\perp}\mathcal{W}_{{}_{\Pi_{\perp}}}\right)-\xi_{\perp}^{\nu}R^{\mu}_{\phantom{\mu}\rho\nu\lambda}u^{\rho}u^{\lambda}\,. 
+
+ (22b) 
+
+ Finally, the whole dynamics of the dipolar fluid only depends on the space-like
+perpendicular projection \xi_{\perp}^{\mu} of the dipole moment. 
+
+ II.4 Expression of the stress-energy tensor 
+
+ We vary the action ( 3 ) with respect to the metric g_{\mu\nu} to
+obtain the stress-energy tensor. We must first consider the general case where
+ \Xi is unconstrained, and then only on the result make the restriction that
+ \Xi=1 . We properly take into account the metric contributions coming from
+the Christoffel symbols in the covariant time derivative \dot{\xi}^{\mu} by
+using the Palatini formula  Weinberg 1972 . We are also careful that while the
+dipole moment \xi^{\mu} should be kept fixed during the variation, the
+conserved current J^{\mu} will vary because of the change in the volume
+element \sqrt{-g}\,\mathrm{d}^{4}x . Instead of J^{\mu} , the relevant
+metric-independent variable that has to be fixed is the “coordinate” current
+density defined by J_{\ast}^{\mu}=\sqrt{-g}\,J^{\mu} . Straightforward
+calculations yield the expression of the stress-energy tensor for an action of
+the general type ( 3 ). We find 
+
+ \displaystyle T^{\mu\nu} 
+ \displaystyle=2\frac{\partial L}{\partial g_{\mu\nu}}+g^{\mu\nu}\biggl(L-J^{\rho}\frac{\partial L}{\partial J^{\rho}}\biggr)+u^{\mu}u^{\nu}\,\dot{\xi}^{\rho}\frac{\partial L}{\partial\dot{\xi}^{\rho}} 
+
+ \displaystyle+\nabla_{\rho}\biggl(u^{\mu}u^{\nu}\frac{\partial L}{\partial\dot{\xi}_{\rho}}-u^{\rho}\xi^{(\mu}\frac{\partial L}{\partial\dot{\xi}_{\nu)}}-\xi^{\rho}u^{(\mu}\frac{\partial L}{\partial\dot{\xi}_{\nu)}}\biggr)\,, 
+
+ (23) 
+
+ in which we denote \partial L/\partial\dot{\xi}_{\rho}\equiv g^{\rho\lambda}\partial L/\partial\dot{\xi}^{\lambda} . The partial derivatives of
+the Lagrangian are performed assuming that its “natural” arguments J^{\mu} ,
+ \xi^{\mu} , \dot{\xi}^{\mu} and g_{\mu\nu} are independent. The application
+to the particular case of the Lagrangian ( 8 ) gives, for the moment for
+a general value of \Xi , 
+
+ T^{\mu\nu}=-g^{\mu\nu}\left(\mathcal{W}-\Pi_{\perp}\mathcal{W}_{{}_{\Pi_{\perp}}}\right)+\Omega^{(\mu}J^{\nu)}-\nabla_{\rho}\left(\left[\xi^{\rho}K^{(\mu}-K^{\rho}\xi^{(\mu}\right]J^{\nu)}\right). 
+
+ (24) 
+
+ In the second term of ( 24 ) we see that the linear momentum
+ \Omega^{\mu} is related to the monopolar contribution to the stress-energy
+tensor, while the other linear momentum K^{\mu} parametrizes the dipolar
+contribution in the third term. Comparing with equation (2.14) of
+ Blanchet 2007b , we observe that a new term, proportional to the metric
+ g^{\mu\nu} , has been introduced. This term will clearly be associated with a
+cosmological constant, and we shall discuss it in detail below. One can
+readily verify that the conservation law \nabla_{\nu}T^{\mu\nu}=0 holds as
+a consequence of the equation of conservation of matter ( 2 ),
+and the equations of motion and evolution ( 10 ) and ( 16 ),
+for general \Xi . 
+
+ In the next step we reduce the expression ( 24 ) by means of the
+condition \Xi=1 and get 
+
+ T^{\mu\nu}=-\mathcal{W}\,g^{\mu\nu}+\sigma\left(u^{\mu}u^{\nu}+\xi_{\perp}\mathcal{W}_{{}_{\Pi_{\perp}}}\!\perp^{\mu\nu}\!+\,u^{(\mu}\!\perp_{\rho}^{\nu)}\dot{\xi}_{\perp}^{\rho}\right)-\nabla_{\rho}\left(\left[\xi_{\perp}^{\rho}u^{(\mu}-u^{\rho}\xi_{\perp}^{(\mu}\right]J^{\nu)}\right). 
+
+ (25) 
+
+ Again we notice that this expression depends only on the perpendicular
+projection \xi_{\perp}^{\mu} of the dipole moment. 
+
+ It will be useful in the following to decompose the stress-energy tensor
+( 25 ) according to the general canonical form 
+
+ T^{\mu\nu}=r\,u^{\mu}u^{\nu}+\mathcal{P}\!\perp^{\mu\nu}+\,2\,Q^{(\mu}u^{\nu)}+\Sigma^{\mu\nu}\,, 
+
+ (26) 
+
+ where r and \mathcal{P} represent the energy density and pressure, where
+the “heat flow” Q^{\mu} is orthogonal to the four-velocity, i.e. u_{\mu}Q^{\mu}=0 , and the symmetric anisotropic stress tensor \Sigma^{\mu\nu} is
+orthogonal to the four-velocity and traceless, i.e. u_{\nu}\Sigma^{\mu\nu}=0 and \Sigma^{\nu}_{\nu}=0 . We get 
+
+ \displaystyle r 
+ \displaystyle=u_{\rho}u_{\sigma}T^{\rho\sigma}\,, 
+
+ (27a) 
+
+ \displaystyle\mathcal{P} 
+ \displaystyle=\frac{1}{3}\!\perp_{\rho\sigma}\!T^{\rho\sigma}\,, 
+
+ (27b) 
+
+ \displaystyle Q^{\mu} 
+ \displaystyle=-\!\perp^{\mu}_{\rho}u_{\sigma}\,T^{\rho\sigma}\,, 
+
+ (27c) 
+
+ while the anisotropic stress tensor is obtained by subtraction. In the case
+ \Xi=1 where the dipolar fluid is described by the stress-energy tensor
+( 25 ) we find that the energy density, pressure, heat flow and
+anisotropic stress tensor read respectively 
+
+ \displaystyle r 
+ \displaystyle=\mathcal{W}-\Pi_{\perp}\mathcal{W}_{{}_{\Pi_{\perp}}}\!+\rho\,, 
+
+ (28a) 
+
+ \displaystyle\mathcal{P} 
+ \displaystyle=-\mathcal{W}+\frac{2}{3}\,\Pi_{\perp}\mathcal{W}_{{}_{\Pi_{\perp}}}\,, 
+
+ (28b) 
+
+ \displaystyle Q^{\mu} 
+ \displaystyle=\sigma\,\dot{\xi}_{\perp}^{\mu}+\Pi_{\perp}\mathcal{W}_{{}_{\Pi_{\perp}}}u^{\mu}-\Pi_{\perp}^{\lambda}\nabla_{\lambda}u^{\mu}\,, 
+
+ (28c) 
+
+ \displaystyle\Sigma^{\mu\nu} 
+ \displaystyle=\biggl(\frac{1}{3}\!\perp^{\mu\nu}\!-\,\hat{\xi}_{\perp}^{\mu}\hat{\xi}_{\perp}^{\nu}\biggr)\Pi_{\perp}\mathcal{W}_{{}_{\Pi_{\perp}}}\,, 
+
+ (28d) 
+
+ where we denote \hat{\xi}_{\perp}^{\mu}\equiv\xi_{\perp}^{\mu}/\xi_{\perp} , and
+where we introduced for future use the convenient notation 
+
+ \rho=\sigma-\nabla_{\lambda}\Pi_{\perp}^{\lambda}\,. 
+
+ (29) 
+
+ By contrast to ordinary perfect fluids, the characteristic feature of the
+dipolar fluid is the existence of non-vanishing heat flow Q^{\mu} and
+anisotropic stresses \Sigma^{\mu\nu} . Furthermore, we notice that the energy
+density r involves ( via \rho ) a dipolar contribution given by
+ -\nabla_{\lambda}\Pi_{\perp}^{\lambda} . That contribution will play the crucial
+role, as we will see in section IV , when recovering the phenomenology
+of MOND. 
+
+ III Cosmological perturbations at large scales 
+
+ We are going to show in this section that the model of dipolar dark matter
+[i.e. based on the action ( 3 ) and ( 8 ), with equations of motion
+reduced by the condition \Xi=1 ] contains the essential features of standard
+dark matter at cosmological scales. We shall indeed prove that, at
+ first order in cosmological perturbations, it behaves like a
+pressureless perfect fluid. Furthermore, we shall see that the dipolar fluid
+naturally contains a cosmological constant (the interpretation of which will
+be discussed below), and is thus supported by the observations of dark
+energy. The model is therefore consistent with cosmological observations of
+the CMB fluctuations. 
+
+ III.1 Perturbation of the gravitational sector 
+
+ We apply the theory of first-order cosmological perturbations around a
+Friedman-Lemaître-Robertson-Walker (FLRW) background. For every generic
+scalar field or component of a tensor field, say F , we shall write F=\overline{F}+\delta F , where the background part \overline{F} is the
+value of F in a FLRW metric, while \delta F is a first-order perturbation
+of this background value. 
+
+ The FLRW metric is written in the usual way in terms of the conformal time
+ \eta , such that \mathrm{d}t=a\,\mathrm{d}\eta where a(\eta) is the scale factor
+and t the cosmic time, as 
+
+ \mathrm{d}\overline{s}^{2}=\overline{g}_{\mu\nu}\,\mathrm{d}x^{\mu}\mathrm{d}x^{\nu}=a^{2}\left[-\mathrm{d}\eta^{2}+\gamma_{ij}\,\mathrm{d}x^{i}\mathrm{d}x^{j}\right]. 
+
+ (30) 
+
+ Here \gamma_{ij} is the metric of maximally symmetric spatial hypersurfaces
+of constant curvature K=0 or K=\pm 1 . The perturbed FLRW metric \mathrm{d}s^{2}=g_{\mu\nu}\,\mathrm{d}x^{\mu}\mathrm{d}x^{\nu} will be of the general form
+ Peter and Uzan 2005 
+
+ \mathrm{d}s^{2}=a^{2}\left[-(1+2A)\,\mathrm{d}\eta^{2}+2\,h_{i}\,\mathrm{d}\eta\,\mathrm{d}x^{i}+(\gamma_{ij}+h_{ij})\,\mathrm{d}x^{i}\mathrm{d}x^{j}\right]. 
+
+ (31) 
+
+ Making use of the standard scalar-vector-tensor (SVT) decomposition
+ Bardeen 1980 ; Mukhanov et al. 1992 , the metric perturbations h_{i} and h_{ij} are
+decomposed according to 
+
+ \displaystyle h_{i} 
+ \displaystyle=D_{i}B+B_{i}\,, 
+
+ (32a) 
+
+ \displaystyle h_{ij} 
+ \displaystyle=2C\gamma_{ij}+2D_{i}D_{j}E+2D_{(i}E_{j)}+2E_{ij}\,, 
+
+ (32b) 
+
+ where D_{i} denotes the covariant derivative with respect to the spatial
+background metric \gamma_{ij} . The vectors B^{i} and E^{i} are
+divergenceless, and the tensor E^{ij} is at once divergenceless and
+trace-free, i.e. 
+
+ \displaystyle D_{i}B^{i}=D_{i}E^{i} 
+ \displaystyle=0\,, 
+
+ (33a) 
+
+ \displaystyle D_{i}E^{ij}=E^{i}_{i} 
+ \displaystyle=0\,. 
+
+ (33b) 
+
+ Spatial indices are lowered and raised with \gamma_{ij} and its inverse
+ \gamma^{jk} . From these definitions, one can construct the gauge-invariant
+perturbation variables 
+
+ \displaystyle\Phi 
+ \displaystyle\equiv A+(B^{\prime}+\mathcal{H}B)-(E^{\prime\prime}+\mathcal{H}E^{\prime})\,, 
+
+ (34a) 
+
+ \displaystyle\Psi 
+ \displaystyle\equiv-C-\mathcal{H}(B-E^{\prime})\,, 
+
+ (34b) 
+
+ \displaystyle\Phi_{i} 
+ \displaystyle\equiv E_{i}^{\prime}-B_{i}\,, 
+
+ (34c) 
+
+ together with E_{ij} which is already gauge-invariant. The prime stands for
+a derivative with respect to the conformal time \eta , and \mathcal{H}\equiv a^{\prime}/a denotes the conformal Hubble parameter. We shall also use the
+alternative definition for a gauge-invariant gravitational potential 
+
+ X\equiv A-C-\left(\frac{C}{\mathcal{H}}\right)^{\prime}=\Psi+\Phi+\left(\frac{\Psi}{\mathcal{H}}\right)^{\prime}. 
+
+ (35) 
+
+ III.2 Kinematics of the dipolar fluid 
+
+ The four-velocity of the dipolar fluid is decomposed into a background part
+and a perturbation, u^{\mu}=\overline{u}^{\mu}+\delta u^{\mu} . We have both
+ \overline{g}_{\mu\nu}\overline{u}^{\mu}\overline{u}^{\nu}=-1 and
+ g_{\mu\nu}u^{\mu}u^{\nu}=-1 . The background part is supposed to be comoving,
+that is \overline{u}^{i}=0 . This defines a zeroth order in the
+perturbation. In a FLRW background this means that it will satisfy the
+background geodesic equation \dot{\overline{u}}^{\mu}=0 . With standard
+notations, we have 
+
+ \displaystyle\overline{u}^{\mu} 
+ \displaystyle=\frac{1}{a}\left(1,\bm{0}\right), 
+
+ (36a) 
+
+ \displaystyle\delta u^{\mu} 
+ \displaystyle=\frac{1}{a}\left(-A,\beta^{i}\right), 
+
+ (36b) 
+
+ while the covariant four-velocity will be written as u_{\mu}=\overline{u}_{\mu}+\delta u_{\mu} , with 
+
+ \displaystyle\overline{u}_{\mu} 
+ \displaystyle=a\left(-1,\bm{0}\right), 
+
+ (37a) 
+
+ \displaystyle\delta u_{\mu} 
+ \displaystyle=a\left(-A,\beta_{i}+h_{i}\right). 
+
+ (37b) 
+
+ The velocities of all the other fluids (baryons, photons, neutrinos, …)
+are decomposed in a similar way. The perturbation of the three-velocity
+ \beta^{i} is split into scalar and vector parts, 
+
+ \beta^{i}=D^{i}v+v^{i}\quad\text{with}\quad D_{i}v^{i}=0\,, 
+
+ (38) 
+
+ and we introduce the gauge-invariant variables describing the perturbed
+motion, 
+
+ \displaystyle V 
+ \displaystyle\equiv v+E^{\prime}\,, 
+
+ (39a) 
+
+ \displaystyle V_{i} 
+ \displaystyle\equiv v_{i}+B_{i}\,. 
+
+ (39b) 
+
+ The dipolar dark matter fluid differs from standard dark matter by the
+presence of the dipole moment \xi_{\perp}^{\mu} (satisfying
+ u_{\mu}\xi_{\perp}^{\mu}=0 ) carried along the fluid trajectories. For the dipole
+moment we also write a decomposition into a background part plus a
+perturbation, namely \xi_{\perp}^{\mu}=\overline{\xi}_{\perp}^{\mu}+\delta\xi_{\perp}^{\mu} . However, because a non-vanishing background dipole moment
+would break the isotropy of space, and would therefore be incompatible with a
+FLRW metric, we must make the assumption that the dipole moment is
+ zero in the background, so that it is purely perturbative. Hence, we
+pose 
+
+ \displaystyle\overline{\xi}_{\perp}^{\mu} 
+ \displaystyle=0\,, 
+
+ (40a) 
+
+ \displaystyle\delta\xi_{\perp}^{\mu} 
+ \displaystyle=\left(0,\lambda^{i}\right), 
+
+ (40b) 
+
+ where \lambda^{i} represents the first-order perturbation of the dipole
+moment. Beware of our notation for which \lambda^{i} is a vector living in the
+background spatial metric \gamma_{ij} . Thus the covariant components of the
+dipole moment perturbation are {\delta\xi_{\perp}}_{\mu}=\left(0,a^{2}\lambda_{i}\right) where \lambda_{i}\equiv\gamma_{ij}\lambda^{j} . Note that
+there is no time component in the dipole moment perturbation because of the
+constraint u_{\mu}\xi_{\perp}^{\mu}=0 which reduces to
+ \overline{u}_{\mu}\delta{\xi}_{\perp}^{\mu}=0 at linear order. Like for the
+three-velocity field \beta^{i} in ( 38 ), we split \lambda^{i} into a
+scalar and a vector part, namely 
+
+ \lambda^{i}=D^{i}y+y^{i}\quad\text{with}\quad D_{i}y^{i}=0\,. 
+
+ (41) 
+
+ However, unlike for v and v^{i} , we notice that y and y^{i} are
+gauge-invariant perturbation variables. This is because the background
+quantity is zero, \overline{\xi}_{\perp}^{\mu}=0 , hence the perturbation
+ \delta\xi_{\perp}^{\mu} is gauge-invariant according to the Stewart-Walker
+lemma  Stewart and Walker 1974 ; Stewart 1991 . 
+
+ III.3 Cosmological expansion of the fundamental potential 
+
+ The next step is to make more specific our fundamental potential function
+ \mathcal{W}(\Pi_{\perp}) entering the Lagrangian ( 8 ). Such function should be
+a “universal” function of the polarization of the dipolar medium, described
+by the polarization scalar field 
+
+ \Pi_{\perp}=\sigma\xi_{\perp}\,. 
+
+ (42) 
+
+ Now, we have seen that in cosmology there is no background (FLRW) value for
+the dipole moment, hence the background value of the polarization field is
+zero: \overline{\Pi}_{\perp}=0 . In linear perturbations, the polarization is
+expected to stay around the background value. Therefore, it seems physically
+well-motivated that the value \overline{\Pi}_{\perp}=0 corresponds to a
+minimum of the potential function \mathcal{W} , so that \Pi_{\perp} does not depart
+too much from this background value, at least in the linear perturbation
+regime. We therefore assume that \mathcal{W}(\Pi_{\perp}) is given
+locally 8 8 
+ 8 
+
+ The domain of validity of this expansion will be made more
+precise in section IV.2 . by an harmonic potential of the form 
+
+ \mathcal{W}(\Pi_{\perp})=\mathcal{W}_{0}+\frac{1}{2}\mathcal{W}_{2}\,\Pi_{\perp}^{2}+\mathcal{O}\left(\Pi_{\perp}^{3}\right), 
+
+ (43) 
+
+ where \mathcal{W}_{0} and \mathcal{W}_{2} are two constant parameters, and we pose
+ \mathcal{W}_{1}=0 . For linear perturbations, because \Pi_{\perp}=\delta\Pi_{\perp} 
+is already perturbative, we shall be able to neglect the higher order terms
+ \mathcal{O}(\Pi_{\perp}^{3}) in ( 43 ) because these will contribute to
+second order at least in the internal force ( 13 ). Inserting the
+ ansatz ( 43 ) into ( 13 ) we obtain 
+
+ \mathcal{F}^{\mu}=\mathcal{W}_{2}\,\Pi_{\perp}^{\mu}+\mathcal{O}\left(\Pi_{\perp}^{2}\right). 
+
+ (44) 
+
+ We asserted in the previous section that the background motion of the dipolar
+fluid is geodesic, i.e. \dot{\overline{u}}^{\mu}=0 . This is now justified by
+the fact that the force ( 44 ) drives the non-geodesic motion
+ via the equation of motion ( 22a ), hence since this force
+vanishes in the background, the deviation from geodesic motion starts only at
+perturbation order. 
+
+ In the present model the coefficients \mathcal{W}_{0} , \mathcal{W}_{2} , … of the
+expansion of our fundamental potential \mathcal{W}(\Pi_{\perp}) are free
+parameters, and therefore will have to be measured by cosmological or
+astronomical observations. First of all, it is clear from inspection of the
+action ( 8 ), or from the general decomposition of the stress-energy
+tensor [see ( 28a ) and ( 28b )], that \mathcal{W}_{0} is nothing but a
+cosmological constant, and we find 
+
+ \mathcal{W}_{0}=\frac{\Lambda}{8\pi}\,. 
+
+ (45) 
+
+ The coefficient \mathcal{W}_{0} is thereby determined by cosmological measurements
+of “dark energy”. As we shall show in section IV , the next two
+coefficients \mathcal{W}_{2} and \mathcal{W}_{3} will be fixed by requiring that our model
+reproduces the phenomenology of MOND at galactic scales  Sanders and McGaugh 2002 , and
+we shall find that \mathcal{W}_{2}=4\pi and \mathcal{W}_{3}=32\pi^{2}/a_{0} where a_{0} 
+is the constant MOND acceleration scale. 
+
+ Hence, in this model the cosmological constant \Lambda appears as the
+minimum value of the potential function \mathcal{W} , reached when the polarization
+field is exactly zero, that is on an exact FLRW background (see
+Fig.  4 ). Thus, it is tempting to interpret \Lambda as a “vacuum
+polarization”, i.e. the residual polarization which remains when the
+“classical” part of the polarization \Pi_{\perp}\rightarrow 0 . Of course our
+model is only classical, hence there is no notion of vacuum polarization which
+would be due to quantum fluctuations. However, we can imagine that the present
+model is an effective one, describing at some macroscopic level a more
+fundamental underlying quantum field theory (QFT) in which there is a
+non-vanishing vacuum expectation value (VEV) of a quantum polarization field
+giving rise to the observed cosmological constant  Zel’dovich 1967 . Then, the
+constant \mathcal{W}_{0} would play the role of the VEV of this hypothetical quantum
+polarization field in such a more fundamental QFT. 
+
+ III.4 Perturbation of the dipolar fluid equations 
+
+ As for the four-velocity u^{\mu}=\overline{u}^{\mu}+\delta u^{\mu} , we
+consider a linear perturbation of the rest mass energy density of the dipolar
+fluid according to \sigma=\overline{\sigma}+\delta\sigma . The
+conservation law \nabla_{\mu}(\sigma u^{\mu})=0 reduces in the case of the
+background to 
+
+ \overline{\sigma}^{\prime}+3\mathcal{H}\,\overline{\sigma}=0\,, 
+
+ (46) 
+
+ hence \overline{\sigma} evolves like a^{-3} . Concerning the perturbation,
+we define \sigma\equiv\overline{\sigma}\left(1+\varepsilon\right) so
+that the rest mass density contrast reads 
+
+ \varepsilon=\frac{\delta\sigma}{\overline{\sigma}}\,. 
+
+ (47) 
+
+ This quantity is not gauge-invariant, and one can associate with it in the
+usual way a gauge-invariant variable by posing 
+
+ \varepsilon_{\text{F}}\equiv\varepsilon-\frac{\overline{\sigma}^{\prime}}{\overline{\sigma}}\frac{C}{\mathcal{H}}=\varepsilon+3C\,, 
+
+ (48) 
+
+ with the index F standing for “flat slicing”. Alternatively, it is possible
+to introduce other gauge-invariant variables, like for example 
+
+ \varepsilon_{\mathrm{N}}\equiv\varepsilon-3\mathcal{H}(B-E^{\prime})=\varepsilon_{\text{F}}+3\Psi\,, 
+
+ (49) 
+
+ where the index N stands for “Newtonian”. For the linear perturbation, the
+conservation law \nabla_{\mu}(\sigma u^{\mu})=0 gives the gauge-invariant
+equations 
+
+ \displaystyle\varepsilon_{\text{F}}^{\prime}+\Delta V 
+ \displaystyle=0\,, 
+
+ (50a) 
+
+ \displaystyle\varepsilon_{\text{N}}^{\prime}+\Delta V 
+ \displaystyle=3\Psi^{\prime}\,, 
+
+ (50b) 
+
+ where \Delta=\gamma_{ij}D^{i}D^{j} denotes the usual Laplacian operator. In
+the following we shall choose to work only with the flat-slicing variable
+ \varepsilon_{\text{F}} . 
+
+ According to ( 22a ), the motion of the dipolar fluid obeys the
+equation \dot{u}^{\mu}=-\mathcal{F}^{\mu} . A straightforward calculation
+yields the gauge-invariant expression for the four-acceleration, 
+
+ \dot{u}^{\mu}=\frac{1}{a^{2}}\Bigl(0,D^{i}(\Phi+V^{\prime}+\mathcal{H}V)+V^{i\,\prime}+\mathcal{H}V^{i}\Bigr)\,. 
+
+ (51) 
+
+ On the other hand, the force is given by ( 44 ) at first-order in the
+perturbation, in which we can use
+ \Pi^{\mu}_{\perp}=(0,\overline{\sigma}\lambda^{i}) to this order, with
+ \lambda^{i}=D^{i}y+y^{i} . Hence, in terms of gauge-invariant quantities, the
+scalar and vector parts of the equation of motion read 
+
+ \displaystyle V^{\prime}+\mathcal{H}\,V+\Phi 
+ \displaystyle=-4\pi\,\overline{\sigma}\,a^{2}\,y\,, 
+
+ (52a) 
+
+ \displaystyle V_{i}^{\prime}+\mathcal{H}\,V_{i} 
+ \displaystyle=-4\pi\,\overline{\sigma}\,a^{2}\,y_{i}\,. 
+
+ (52b) 
+
+ Here we are anticipating on the results of the section IV and have
+replaced the constant \mathcal{W}_{2} in the expression of the force ( 44 ) by
+its value 4\pi determined from the comparison with MOND
+predictions. 
+
+ If there was no dipole moment (i.e. y=y^{i}=0 ), we would recover the
+standard geodesic equations for a perturbed pressureless perfect fluid (see
+e.g.  Peter and Uzan 2005 ), and according to ( 52b ), the vector modes
+would satisfy (aV_{i})^{\prime}=0 , and therefore vanish like a^{-1} . In contrast
+with the standard perfect fluid case, the dipolar fluid may have non-vanishing
+vector modes because of the driving term proportional to y_{i} . Equation
+( 52a ) clearly shows that the scalar modes are also affected by a
+non-zero dipole moment. 
+
+ The equation of evolution of the dipole moment was given by
+( 22b ). Now, \Omega^{\mu} reduces to \dot{\xi}^{\mu}_{\perp}+u^{\mu} at first perturbation order, hence the evolution equation gives at that
+order 
+
+ \ddot{\xi}^{\mu}_{\perp}+\dot{u}^{\mu}=-\xi^{\nu}_{\perp}\overline{R}^{\mu}_{\phantom{\mu}\rho\nu\sigma}\overline{u}^{\rho}\overline{u}^{\sigma}\,, 
+
+ (53) 
+
+ where \overline{R}^{\mu}_{\phantom{\mu}\rho\nu\sigma} is the Riemann tensor
+of the FLRW background. By easy calculations we find for the derivatives of
+the dipole moment variable 
+
+ \displaystyle\dot{\xi}_{\perp}^{\mu} 
+ \displaystyle=\frac{1}{a}\Bigl(0,\lambda^{i\,\prime}+\mathcal{H}\lambda^{i}\Bigr)\,, 
+
+ (54a) 
+
+ \displaystyle\ddot{\xi}_{\perp}^{\mu} 
+ \displaystyle=\frac{1}{a^{2}}\Bigl(0,\lambda^{i\,\prime\prime}+\mathcal{H}\lambda^{i\,\prime}+\mathcal{H}^{\prime}\lambda^{i}\Bigr)\,. 
+
+ (54b) 
+
+ The scalar and vector parts of the equation of evolution are thus given by 
+
+ \displaystyle y^{\prime\prime}+\mathcal{H}\,y^{\prime} 
+ \displaystyle=-\left(V^{\prime}+\mathcal{H}\,V+\Phi\right), 
+
+ (55a) 
+
+ \displaystyle y_{i}^{\prime\prime}+\mathcal{H}\,y_{i}^{\prime} 
+ \displaystyle=-\left(V_{i}^{\prime}+\mathcal{H}\,V_{i}\right). 
+
+ (55b) 
+
+ Notice that the equation for the vector modes can be integrated, giving the
+simple relation 
+
+ y_{i}^{\prime}+V_{i}=\frac{s_{i}}{a}\,, 
+
+ (56) 
+
+ where s_{i} is an integration constant three-vector. 
+
+ A comment is in order at this stage. Recall that we have included in the
+original Lagrangian ( 8 ) a mass term in the ordinary sense, with the most
+natural value of the mass density simply given by \sigma . This choice was
+made having in mind the physical analogy with the quasi-Newtonian model
+ Blanchet 2007a where \sigma=2m\,n represented the inertial mass of the
+dipolar particles. Now we can see on a more technical level that such mass
+term is in fact essential for the model to work properly. If this mass term
+was set to zero in the action, then the RHS of both equations ( 55a )
+and ( 55b ) would be zero. We would then find that y^{\prime} and y_{i}^{\prime} 
+vanish like a^{-1} , so that the dipole moment would in fact rapidly
+disappear or at least become non-dynamical, and the whole model would turn out
+to be meaningless. 
+
+ Combining the equations of motion ( 52 ) and the evolution equations
+( 55 ), we obtain some differential equations for the scalar and
+vector contributions y and y^{i} of the dipole moment \lambda^{i}=D^{i}y+y^{i} , which turn out to be decoupled from the equations giving V and V^{i} ,
+and to be exactly the same, viz 
+
+ \displaystyle y^{\prime\prime}+\mathcal{H}\,y^{\prime}-4\pi\,\overline{\sigma}\,a^{2}\,y 
+ \displaystyle=0\,, 
+
+ (57a) 
+
+ \displaystyle y_{i}^{\prime\prime}+\mathcal{H}\,y_{i}^{\prime}-4\pi\,\overline{\sigma}\,a^{2}\,y_{i} 
+ \displaystyle=0\,. 
+
+ (57b) 
+
+ We find it remarkable that the dipole moment decouples from the other
+perturbation variables so that its evolution depends in fine only on
+background quantities, namely \overline{\sigma} and the scale factor a .
+Since the equations for the scalar and vector modes are the same, we have also
+the same equation for the dipole moment itself, 
+
+ \lambda_{i}^{\prime\prime}+\mathcal{H}\,\lambda_{i}^{\prime}-4\pi\,\overline{\sigma}\,a^{2}\,\lambda_{i}=0\,. 
+
+ (58) 
+
+ Clearly, the solutions of ( 58 ) behave typically as increasing and
+decreasing exponentials moderated by a cosmologial damping term \mathcal{H}\,\lambda_{i}^{\prime} . We can also write this equation in terms of the cosmic time t=\int a\,\mathrm{d}\eta , namely 9 9 
+ 9 
+
+ In this equation, the dot stands for a
+derivative with respect to the coordinate time t , and not the proper time
+ \tau as everywhere else. 
+
+ \ddot{\lambda}_{i}+2H\,\dot{\lambda}_{i}-4\pi\,\overline{\sigma}\,\lambda_{i}=0\,, 
+
+ (59) 
+
+ where H\equiv\dot{a}/a=a^{\prime} is the usual Hubble parameter. We find that
+the equations ( 58 ) or ( 59 ) are the same as the equation
+governing the growth of the density contrast of a perfect fluid with vanishing
+pressure for the sub-Hubble modes (say k\gg H ) and when we neglect the
+contribution of other fluids; see ( 79 ) below. In particular
+this means that like for the case of the density of a perfect fluid there is
+no problem of divergence (i.e. blowing up) of the components of the dipole
+moment \lambda_{i} between, say, the end of the inflationary era and the
+recombination. We can thus apply the theory of first-order cosmological
+perturbations even for the components of the dipole moment itself, which
+should stay perturbative. 
+
+ Notice that the value of the coefficient \mathcal{W}_{2}=4\pi used in
+( 58 ) or ( 59 ), which makes such equations identical with
+the equation of growth of cosmological structures in the standard CDM
+scenario, will only be determined in section IV from a comparison
+with MOND predictions. There is thus an interesting interplay between the
+cosmology at large scales and the gravitational physics of smaller
+scales. 10 10 
+ 10 
+
+ Actually the coefficient 4\pi in ( 58 ) could be
+changed if we had assumed a mass term in the action ( 8 ) different from
+ \sigma (say 2\sigma or \sigma/2 ). The simplest choice we have made (for
+different reasons) that \sigma is the correct mass term in the action
+corresponds also to the usual-looking evolution equation ( 58 ). 
+
+ III.5 The perturbed stress-energy tensor 
+
+ Consider next the stress-energy tensor of the dipolar fluid, that we
+decomposed as ( 26 ) with the expressions
+( 28 )–( 29 ). At first perturbation order, these expressions
+reduce to 
+
+ \displaystyle r 
+ \displaystyle=\mathcal{W}_{0}+\rho\,, 
+
+ (60a) 
+
+ \displaystyle\mathcal{P} 
+ \displaystyle=-\mathcal{W}_{0}\,, 
+
+ (60b) 
+
+ \displaystyle Q^{\mu} 
+ \displaystyle=\frac{1}{a}\Bigl(0,\overline{\sigma}\lambda^{i\,\prime}\Bigr)\,, 
+
+ (60c) 
+
+ \displaystyle\Sigma^{\mu\nu} 
+ \displaystyle=0\,, 
+
+ (60d) 
+
+ together with 
+
+ \rho=\overline{\sigma}\,\bigl(1+\varepsilon-D_{i}\lambda^{i}\bigr)\,. 
+
+ (61) 
+
+ We first note that part of the dipolar medium is actually made of a fluid of
+“dark energy” satisfying \rho_{\text{de}}=-P_{\text{de}}=\mathcal{W}_{0}=\Lambda/8\pi where \Lambda is the cosmological constant. Accordingly, we shall
+write the decomposition 
+
+ T^{\mu\nu}=T_{\text{de}}^{\mu\nu}+T_{\text{dm}}^{\mu\nu}\,, 
+
+ (62) 
+
+ where the stress-energy tensor associated with the cosmological constant is
+denoted by T_{\text{de}}^{\mu\nu} , and where the other part represents
+specifically a fluid of “dark matter” whose stress-energy tensor is
+ T_{\text{dm}}^{\mu\nu} . Their explicit expressions read 
+
+ \displaystyle T_{\text{de}}^{\mu\nu} 
+ \displaystyle=-\mathcal{W}_{0}\,g^{\mu\nu}\,, 
+
+ (63a) 
+
+ \displaystyle T_{\text{dm}}^{\mu\nu} 
+ \displaystyle=\rho\,u^{\mu}u^{\nu}+2\,Q^{(\mu}u^{\nu)}\,. 
+
+ (63b) 
+
+ Note that the dark matter part of the dipolar fluid, which may be called
+dipolar dark matter, has no pressure P , no anisotropic stresses \Sigma^{\mu\nu} , but a heat flow Q^{\mu} given by ( 60c ) and an energy density
+ \rho given by ( 61 ), or alternatively 
+
+ \rho=\overline{\sigma}\left(1+\varepsilon-\Delta y\right). 
+
+ (64) 
+
+ The background energy density is simply given by the background rest mass
+energy density, \overline{\rho}=\overline{\sigma} , and the corresponding
+energy density contrast is 
+
+ \delta\equiv\frac{\delta\rho}{\overline{\rho}}=\varepsilon-\Delta y\,. 
+
+ (65) 
+
+ It differs from the rest mass energy density contrast \varepsilon because of the
+internal dipolar energy. Like for \varepsilon , one can construct several
+gauge-invariant perturbations associated with \delta . We shall limit
+ourselves to the flat-slicing (F) one defined by (recall that y is gauge-invariant) 
+
+ \delta_{\text{F}}\equiv\delta+3C=\varepsilon_{\text{F}}-\Delta y\,, 
+
+ (66) 
+
+ and whose evolution equation is 
+
+ \delta_{\text{F}}^{\prime}+\Delta V+\Delta y^{\prime}=0\,. 
+
+ (67) 
+
+ Similar gauge-invariant density contrast variables are also defined for the
+other fluids. Next, we split the dark matter stress-energy tensor
+( 63b ) into a background part plus a linear perturbation, namely
+ T_{\text{dm}}^{\mu\nu}=\overline{T}_{\text{dm}}^{\mu\nu}+\delta T_{\text{dm}}^{\mu\nu} , and find 
+
+ \displaystyle\overline{T}_{\text{dm}}^{\mu\nu} 
+ \displaystyle=\overline{\rho}\,\overline{u}^{\mu}\overline{u}^{\nu}\,, 
+
+ (68a) 
+
+ \displaystyle\delta T_{\text{dm}}^{\mu\nu} 
+ \displaystyle=\delta\rho\,\overline{u}^{\mu}\overline{u}^{\nu}+2\,\overline{\rho}\,\delta u^{(\mu}\,\overline{u}^{\nu)}+2\,Q^{(\mu}\,\overline{u}^{\nu)}\,. 
+
+ (68b) 
+
+ We made use of the fact that the heat flow Q^{\mu} is already perturbative to
+replace the four-velocity in the last term by its background value. 
+
+ We are now going to show that the dipolar dark matter stress-energy tensor is
+undistinguishable, at linear perturbation order, from that of a perfect fluid
+with vanishing pressure. To this end, we introduce the effective perturbed
+four-velocity 
+
+ \delta\widetilde{u}^{\mu}\equiv\delta u^{\mu}+\frac{Q^{\mu}}{\overline{\rho}}\,. 
+
+ (69) 
+
+ Notice that \widetilde{u}^{\mu}=\overline{u}^{\mu}+\delta\widetilde{u}^{\mu} is
+still an admissible velocity field because \delta\widetilde{u}^{0}=-A/a by
+virtue of the transversality property \overline{u}_{\mu}Q^{\mu}=0 . The
+perturbed part of the dark matter stress-energy tensor ( 68b ) can then
+be written in the form 
+
+ \delta T_{\text{dm}}^{\mu\nu}=\delta\rho\,\overline{u}^{\mu}\overline{u}^{\nu}+2\,\overline{\rho}\,\delta\widetilde{u}^{(\mu}\,\overline{u}^{\nu)}\,, 
+
+ (70) 
+
+ which, together with ( 68a ), is precisely the stress-energy tensor of
+a perfect fluid with vanishing pressure P , vanishing anisotropic stresses
+ \Sigma^{\mu\nu} , and a four-velocity field
+ \widetilde{u}^{\mu}=\overline{u}^{\mu}+\delta\widetilde{u}^{\mu} . Using the
+definition ( 69 ) of the perturbed four-velocity \delta\widetilde{u}^{\mu} , with the explicit expression of the heat flow ( 60c ),
+one can check that this perfect fluid consistently follows a geodesic motion,
+i.e. \delta\dot{\widetilde{u}}^{\mu}=0 . 
+
+ Figure 1: Sketch of the equivalence at first
+order of cosmological perturbations between dipolar dark matter and
+an effective perfect fluid. The dipolar dark matter has a
+four-velocity u^{\mu}=\overline{u}^{\mu}+\delta u^{\mu} , and follows a
+non-geodesic motion driven by the internal force \mathcal{F}^{\mu} ,
+namely \dot{u}^{\mu}=-\mathcal{F}^{\mu} . One can construct from
+ u^{\mu} and the heat flux Q^{\mu} an effective four-velocity
+ \widetilde{u}^{\mu}=\overline{u}^{\mu}+\delta\widetilde{u}^{\mu} 
+satisfying a geodesic motion, i.e. \dot{\widetilde{u}}^{\mu}=0 . This
+is the four-velocity field of the effective perfect fluid associated
+with dipolar dark matter. 
+
+ More explicitly, we can write the latter effective perturbation of the
+four-velocity in the standard form \delta\widetilde{u}^{\mu}=a^{-1}(-A,\widetilde{\beta}^{i}) , and find that the effective ordinary velocity reads 
+
+ \widetilde{\beta}^{i}=\beta^{i}+\lambda^{i\,\prime}\,, 
+
+ (71) 
+
+ which can be viewed as a modification of the space-like component of the
+dipolar dark matter four-velocity. This allows one to build a new
+four-velocity which would be tangent to the worldline of the effective perfect
+fluid (cf. Fig.  1 ).
+In terms of scalar and vector parts, if we
+write \widetilde{\beta}_{i}=D_{i}\widetilde{v}+\widetilde{v}_{i} , then 
+
+ \displaystyle\widetilde{v} 
+ \displaystyle=v+y^{\prime}\,, 
+
+ (72a) 
+
+ \displaystyle\widetilde{v}_{i} 
+ \displaystyle=v_{i}+y_{i}^{\prime}\,. 
+
+ (72b) 
+
+ Like for the perturbed four-velocity \delta u^{\mu} , we can introduce the
+gauge-invariant variables 
+
+ \displaystyle\widetilde{V} 
+ \displaystyle\equiv\widetilde{v}+E^{\prime}=V+y^{\prime}\,, 
+
+ (73a) 
+
+ \displaystyle\widetilde{V}_{i} 
+ \displaystyle\equiv\widetilde{v}_{i}+B_{i}=V_{i}+y_{i}^{\prime}\,. 
+
+ (73b) 
+
+ In terms of the gauge-invariant variables \widetilde{V} , \widetilde{V}_{i} 
+and \delta_{\text{F}} , the dipolar dark matter fluid equations
+( 52 ) and ( 67 ) finally read 
+
+ \displaystyle\widetilde{V}^{\prime}+\mathcal{H}\,\widetilde{V}+\Phi 
+ \displaystyle=0\,, 
+
+ (74a) 
+
+ \displaystyle\widetilde{V}_{i}^{\prime}+\mathcal{H}\,\widetilde{V}_{i} 
+ \displaystyle=0\,, 
+
+ (74b) 
+
+ \displaystyle\delta_{\text{F}}^{\prime}+\Delta\widetilde{V} 
+ \displaystyle=0\,. 
+
+ (74c) 
+
+ These are precisely the standard evolution equations of a perfect fluid with
+no pressure and no anisotropic stresses (see e.g. Peter and Uzan 2005 ). 
+
+ To summarize, we have proved that at first order of perturbation
+theory — and only at that order — the dipolar fluid behaves exactly as
+ordinary dark energy (i.e. a cosmological constant) plus ordinary dark matter
+(i.e. a perfect fluid). If we specify the background rest mass energy density
+ \overline{\sigma} so that \Omega_{\text{dm}}\equiv 8\pi\overline{\sigma}_{0}/3H_{0}^{2}\simeq 0.23 today as evidenced in cosmological observations, we can
+assert that the first-order cosmological perturbation theory with the dipolar
+fluid described by the stress-energy tensor
+( 62 )–( 63 ) will lead to the same predictions than
+the standard \Lambda -CDM scenario — and is therefore consistent with
+cosmological observations at large scales. However, at second order 
+of cosmological perturbations, the dipole moment entering the stress-energy
+tensor cannot be absorbed in an effective perturbed velocity field, which
+means that the dipolar dark matter fluid could in principle be distinguished
+from a standard perturbed dark matter fluid. Working out the theory of
+second-order cosmological perturbations could thus yield distinctive features
+of the present model and reveal a signature of the dipolar nature of dark
+matter. We have particularly in mind effects linked with the non-gaussianity
+of the CMB fluctuations that are associated with second-order perturbations. 
+
+ III.6 Perturbation of the Einstein equations 
+
+ The Einstein equations at first perturbation order around the FLRW background
+read 
+
+ \delta G^{\mu\nu}=8\pi\Bigl(\delta T^{\mu\nu}+\sum_{\text{f}}\delta T_{\text{f}}^{\mu\nu}\Bigr)\,, 
+
+ (75) 
+
+ where G^{\mu\nu}\equiv R^{\mu\nu}-\frac{1}{2}g^{\mu\nu}R is the Einstein
+tensor and where \delta T^{\mu\nu}=\delta T^{\mu\nu}_{\text{de}}+\delta T_{\text{dm}}^{\mu\nu} is the perturbative part of the stress-energy tensor of
+the dipolar fluid given by ( 63 ). The summation runs over all the
+other cosmological fluids present (baryons, photons, neutrinos, …) which
+are described by stress-energy tensors T^{\mu\nu}_{\text{f}} . Separating out
+the dark matter from the dark energy (using the link \mathcal{W}_{0}=\Lambda/8\pi )
+we get 
+
+ \delta G^{\mu\nu}+\Lambda\,\delta g^{\mu\nu}=8\pi\Bigl(\delta T_{\text{dm}}^{\mu\nu}+\sum_{\text{f}}\delta T_{\text{f}}^{\mu\nu}\Bigr)\,. 
+
+ (76) 
+
+ As we have seen in the previous section, the dark matter fluid is entirely
+described at linear perturbation order by the gauge-invariant variables
+ \widetilde{V} , \widetilde{V}_{i} and \delta_{\text{F}} (and the background
+density \overline{\rho} ) obeying the evolution equations ( 74 )
+like for an ordinary pressureless fluid. We can thus immediately write the
+gauge-invariant perturbation equations in the standard SVT formalism (see
+e.g.  Peter and Uzan 2005 ). Though these are well-known, we reproduce them here for
+completeness. For the scalar modes, we have 
+
+ \displaystyle\Delta\Psi-3\mathcal{H}^{2}X 
+ \displaystyle=4\pi\,a^{2}\Bigl(\overline{\rho}\,\delta_{\text{F}}+\sum_{\text{f}}\overline{\rho}_{\text{f}}\,\delta_{\text{f}}^{\text{F}}\Bigr)\,, 
+
+ (77a) 
+
+ \displaystyle\Psi-\Phi 
+ \displaystyle=8\pi\,a^{2}\sum_{\text{f}}\overline{\rho}_{\text{f}}\,w_{\text{f}}\,\sigma_{\text{f}}\,, 
+
+ (77b) 
+
+ \displaystyle\Psi^{\prime}+\mathcal{H}\,\Phi 
+ \displaystyle=-4\pi\,a^{2}\Bigl(\overline{\rho}\,\widetilde{V}+\sum_{\text{f}}\overline{\rho}_{\text{f}}\left(1+w_{\text{f}}\right)V_{\text{f}}\Bigr)\,, 
+
+ (77c) 
+
+ \displaystyle\mathcal{H}\,X^{\prime}+\left(\mathcal{H}^{2}+2\mathcal{H}^{\prime}\right)X 
+ \displaystyle=4\pi\,a^{2}\sum_{\text{f}}\overline{\rho}_{\text{f}}\Bigl(w_{\text{f}}\,\Gamma_{\text{f}}+c_{\text{f}}^{2}\,\delta_{\text{f}}^{\text{F}}+\frac{2}{3}w_{\text{f}}\,\Delta\sigma_{\text{f}}\Bigr)\,, 
+
+ (77d) 
+
+ where we have singled out the contribution of the dipolar dark matter (cf. the
+variables \widetilde{V} , \delta_{\text{F}} and \overline{\rho} ) from the other fluid
+contributions described by their background density
+ \overline{\rho}_{\text{f}} , equation of state w_{\text{f}} , adiabatic sound
+velocity c_{\text{f}} , and gauge-invariant entropy perturbation
+ \Gamma_{\text{f}} . We also introduced the SVT components of the perturbative
+part of the anisotropic stress tensor, defined by \delta\Sigma_{\text{f}}^{ij}=a^{2}\,\overline{\rho}_{\text{f}}\,w_{\text{f}}\,\bigl[\Delta^{ij}\sigma_{\text{f}}+D^{(i}\sigma_{\text{f}}^{j)}+\sigma_{\text{f}}^{ij}\bigr] 
+with \Delta^{ij}\equiv D^{i}D^{j}-\gamma^{ij}\Delta/3 . The variables
+ \sigma_{\text{f}} , \sigma_{\text{f}}^{i} and \sigma_{\text{f}}^{ij} are
+gauge-invariant because the background part of \Sigma_{\text{f}}^{ij} vanishes
+in the case of a perfect fluid. The equations for the vector and tensor modes are 
+
+ \displaystyle\left(\Delta+2K\right)\Phi^{i} 
+ \displaystyle=-16\pi\,a^{2}\Bigl(\overline{\rho}\,\widetilde{V}^{i}+\sum_{\text{f}}\overline{\rho}_{\text{f}}\left(1+w_{\text{f}}\right)V_{\text{f}}^{i}\Bigr)\,, 
+
+ (78a) 
+
+ \displaystyle\Phi^{i\,\prime}+2\mathcal{H}\,\Phi^{i} 
+ \displaystyle=8\pi\,a^{2}\sum_{\text{f}}\overline{\rho}_{\text{f}}\,w_{\text{f}}\,\sigma_{\text{f}}^{i}\,, 
+
+ (78b) 
+
+ \displaystyle E^{ij\,\prime\prime}+2\mathcal{H}\,E^{ij\,\prime}+(2K-\Delta)E^{ij} 
+ \displaystyle=8\pi\,a^{2}\sum_{\text{f}}\overline{\rho}_{\text{f}}\,w_{\text{f}}\,\sigma_{\text{f}}^{ij}\,. 
+
+ (78c) 
+
+ We highlight once more the fact that at first perturbation order, the dipolar
+dark matter is like ordinary dark matter, as can be seen from the fluid equations
+( 74 ) and the Einstein equations
+( 77 )–( 78 ). Indeed, these sets of equations can be evolved
+without any reference to the dipole moment \lambda^{i} . 
+
+ Combining the dipolar dark matter equations ( 74a ) and
+( 74c ) with the Einstein equations ( 77a )–( 77b ), we
+get the equation governing the growth of the dipolar dark matter density
+contrast as 
+
+ \delta_{\text{F}}^{\prime\prime}+\mathcal{H}\,\delta_{\text{F}}^{\prime}-4\pi\,\overline{\rho}\,a^{2}\,\delta_{\text{F}}=3\mathcal{H}^{2}X+4\pi\,a^{2}\sum_{\text{f}}\overline{\rho}_{\text{f}}\,\Bigl(\delta_{\text{f}}^{\text{F}}-2w_{\text{f}}\,\Delta\sigma_{\text{f}}\Bigr)\,. 
+
+ (79) 
+
+ Again, we find that the growth of structures driven by the equation
+( 74c ) or equivalently ( 79 ) for the dipolar dark
+matter of the present model is identical with that in the standard CDM model
+at linear perturbation order. For sub-Hubble modes one can neglect the first
+term in the RHS, and we expect that the contribution of the dark matter
+dominates that of the other fluids, so we can neglect also the second term in
+the RHS of ( 79 ). 
+
+ Interestingly, we have found in ( 58 ) that each of the components of
+the dipole moment obey the same equation as ( 79 ) but with
+exactly zero RHS. Recall that the dipolar dark matter density contrast is
+defined by ( 66 ) as 
+
+ \delta_{\text{F}}=\varepsilon_{\text{F}}-D^{i}\lambda_{i}\,. 
+
+ (80) 
+
+ From ( 58 ) we see that the internal energy due to the dipole moment
+satisfies the “homogeneous” equation that is associated with
+( 79 ), viz. (recalling \overline{\rho}=\overline{\sigma} ) 
+
+ D^{i}\lambda_{i}^{\prime\prime}+\mathcal{H}\,D^{i}\lambda_{i}^{\prime}-4\pi\,\overline{\rho}\,a^{2}\,D^{i}\lambda_{i}=0\,. 
+
+ (81) 
+
+ This result indicates that, in the non-linear regime, the
+internal energy related to the dipole moment may contribute significatively to
+the growth of perturbations (see section IV.2 for more comments).
+Finally, it is clear that the rest-mass density
+contrast obeys the same “inhomogeneous” equation, i.e. 
+
+ \varepsilon_{\text{F}}^{\prime\prime}+\mathcal{H}\,\varepsilon_{\text{F}}^{\prime}-4\pi\,\overline{\rho}\,a^{2}\,\varepsilon_{\text{F}}=3\mathcal{H}^{2}X+4\pi\,a^{2}\sum_{\text{f}}\overline{\rho}_{\text{f}}\,\Bigl(\delta_{\text{f}}^{\text{F}}-2w_{\text{f}}\,\Delta\sigma_{\text{f}}\Bigr)\,. 
+
+ (82) 
+
+ IV Dipolar dark matter at galactic scales 
+
+ In this section, we shall show that, under some well motivated assumptions,
+the dipolar dark matter naturally recovers the phenomenology of MOND for a
+typical galaxy at low redshift. Such a link between a form of dipolar dark
+matter and MOND was the primary motivation of previous
+works  Blanchet 2007a ; Blanchet 2007b . We shall see that with the present improvement of
+the model with respect to  Blanchet 2007b , thanks to the fact that the
+fundamental potential in the action now depends on the polarization field
+ \Pi_{\perp}=\sigma\xi_{\perp} (instead of \xi_{\perp} in the previous
+model  Blanchet 2007b ), the relation with MOND is straightforward and physically
+appealing. 
+
+ IV.1 Non-relativistic limit of the model 
+
+ We investigate the non-relativistic (NR) limit of the dipolar fluid dynamics
+described by the equations ( 22a ) and ( 22b ), and by the
+stress-energy tensor ( 25 ). To do so, we consider the
+formal limit c\rightarrow+\infty , 11 11 
+ 11 
+
+ From now on, we reintroduce for
+convenience all factors of c and G . which is equivalent to the condition
+ v\ll c , where v is the typical value of the coordinate three-velocity of
+the dipolar fluid. To consistently keep track of the order of relativistic
+corrections, we systematically write as \mathcal{O}\left(c^{-n}\right) a
+typical neglected remainder. 
+
+ We are interested in the dynamics of dipolar dark matter and ordinary baryonic
+matter in a typical galaxy at low redshift. Let us introduce a local 
+Cartesian coordinate system \{ct,z^{i}\} , centered on this galaxy around
+some cosmological epoch, and which is inertial in the sense that it
+is without any rotation, nor acceleration with respect to some averaged
+cosmological matter distribution at large distances from the galaxy. Such a
+local coordinate system can be derived from the cosmological coordinate system
+ \{\eta,x^{i}\} used in section III by posing 
+
+ \displaystyle ct 
+ \displaystyle=a(\eta_{0})\,(\eta-\eta_{0})\,, 
+
+ (83a) 
+
+ \displaystyle z^{i} 
+ \displaystyle=a(\eta_{0})\,(x^{i}-x^{i}_{0})\,, 
+
+ (83b) 
+
+ near an event occuring at cosmological time \eta_{0} and at the galaxy’s
+center x^{i}_{0} . In the local coordinate system, the metric developed at the
+lowest NR order reads 
+
+ \displaystyle g_{00} 
+ \displaystyle=-1+\frac{2U}{c^{2}}+\mathcal{O}\left(c^{-4}\right), 
+
+ (84a) 
+
+ \displaystyle g_{0i} 
+ \displaystyle=\mathcal{O}\left(c^{-3}\right), 
+
+ (84b) 
+
+ \displaystyle g_{ij} 
+ \displaystyle=\left(1+\frac{2U}{c^{2}}\right)\delta_{ij}+\mathcal{O}\left(c^{-4}\right), 
+
+ (84c) 
+
+ where U\ll c^{2} is a Newtonian-like potential. For the motion of massive
+(non-relativistic) particules we need only to include the contribution of U 
+in the 00 metric coefficient. Thanks to the standard general relativistic coupling
+to gravity in the ij metric coefficient, the motion of photons
+agrees with the general relativistic prediction with Newtonian-like potential U . 
+
+ In the NR limit, the equation of motion ( 22a ) is readily seen to
+reduce to 
+
+ \frac{\mathrm{d}v^{i}}{\mathrm{d}t}-g^{i}=-\hat{\Pi}_{\perp}^{i}\mathcal{W}_{{}_{\Pi_{\perp}}}+\mathcal{O}\left(c^{-2}\right), 
+
+ (85) 
+
+ where a^{i}\equiv\mathrm{d}v^{i}/\mathrm{d}t=\left(\partial_{t}+v^{j}\partial_{j}\right)v^{i} 
+is the standard Newtonian acceleration of a fluid in the Eulerian picture,
+ v^{i} being the coordinate three-velocity, and g^{i}=\partial_{i}U the
+non-relativistic local gravitational field. Note that g^{i} is generated by
+both the ordinary baryonic matter and the dipolar dark matter. Similarly, the
+equation of evolution ( 22b ) for the dipole moment reads in the
+NR limit [using also ( 85 )] 
+
+ \frac{\mathrm{d}^{2}\xi_{\perp}^{i}}{\mathrm{d}t^{2}}-\hat{\Pi}_{\perp}^{i}\mathcal{W}_{{}_{\Pi_{\perp}}}\!=\frac{1}{\sigma}\partial_{i}\left(\mathcal{W}-\Pi_{\perp}\mathcal{W}_{{}_{\Pi_{\perp}}}\right)+\xi_{\perp}^{j}\partial_{j}g^{i}+\mathcal{O}\left(c^{-2}\right), 
+
+ (86) 
+
+ where we explicitly have \mathrm{d}^{2}\xi_{\perp}^{i}/\mathrm{d}t^{2}=\left(\partial_{t}^{2}+a^{j}\partial_{j}+2v^{j}\partial_{jt}^{2}+v^{j}v^{k}\partial_{jk}^{2}\right)\xi_{\perp}^{i} . Notice the second term in the RHS which is a tidal term coming
+from the Riemann curvature coupling in ( 22b ). Finally, the
+equation ( 2 ) reduces to the classical continuity equation 
+
+ \partial_{t}\sigma+\partial_{i}\left(\sigma v^{i}\right)=\mathcal{O}\left(c^{-2}\right). 
+
+ (87) 
+
+ Next, we need to be cautious about the relativistic order of magnitude of the
+potential function \mathcal{W} appearing in the Lagrangian ( 8 ). It is clear
+that \mathcal{W} has the dimension either of a mass density or an energy density,
+depending of where we would reinstall the factors c in ( 8 ). We shall
+from now on assume that \mathcal{W} is an energy density, and has a
+finite non-zero limit when c\rightarrow+\infty . This will be justified
+when we show in ( 104 ) below that the coefficients \mathcal{W}_{2} , \mathcal{W}_{3} ,
+… in the expansion of \mathcal{W} considered as an energy density, can be
+expressed solely in terms of G and the MOND acceleration a_{0} (without any
+ c ’s). Therefore, our assumption means that we are viewing a_{0} as a new
+fundamental acceleration scale a priori independent from c . With
+such hypothesis, if we reintroduce the factors of c in the expression of the
+density r considered as a mass density and given by ( 28a ), we
+get r=\rho+(\mathcal{W}-\Pi_{\perp}\mathcal{W}_{{}_{\Pi_{\perp}}})/c^{2} , where \rho is given by
+( 29 ). Thus, the term (\mathcal{W}-\Pi_{\perp}\mathcal{W}_{{}_{\Pi_{\perp}}})/c^{2} becomes
+negligible in the formal limit c\rightarrow+\infty , and we have r=\rho+\mathcal{O}(c^{-2}) . In particular, we observe that the term \mathcal{W}_{0} ,
+which is linked to the cosmological constant by (restoring the c ’s and G ) 
+
+ \mathcal{W}_{0}=\frac{\Lambda c^{4}}{8\pi G}\,, 
+
+ (88) 
+
+ does not enter the expression of the dipolar fluid density r , and therefore
+has no influence on the local dynamics of the dipolar dark matter in the NR
+limit. Our assumption that \mathcal{W} has a finite non-zero limit when c\rightarrow+\infty means that the cosmological constant \Lambda should
+scale with c^{-4} , which will be justified later when we show that
+ \Lambda\sim a_{0}^{2}/c^{4} . 
+
+ Thus, in the NR limit we need to consider only the mass density of the dipolar
+dark matter given by \rho . Now, from ( 29 ) we have \rho=\sigma-\nabla_{\lambda}\Pi_{\perp}^{\lambda} which becomes when c\rightarrow+\infty 
+
+ \rho=\sigma-\partial_{i}\Pi_{\perp}^{i}+\mathcal{O}\left(c^{-2}\right). 
+
+ (89) 
+
+ At that order the dipolar term involves only an ordinary partial space
+derivative. Finally, we get the Poisson equation in the standard way as the NR
+limit of the 00 and ii components of the Einstein equations, and find 
+
+ \Delta U=-4\pi G\,\bigl(\rho_{\text{b}}+\sigma-\partial_{i}\Pi_{\perp}^{i}\bigr)+\mathcal{O}\left(c^{-2}\right), 
+
+ (90) 
+
+ where \rho_{\text{b}} is the Newtonian mass density of baryonic matter. This
+equation can be written in the alternative form 
+
+ \partial_{i}\left(g^{i}-4\pi G\,\Pi_{\perp}^{i}\right)=-4\pi G\,\bigl(\rho_{\text{b}}+\sigma\bigr)+\mathcal{O}\left(c^{-2}\right). 
+
+ (91) 
+
+ To summarize, the equations governing the dynamics of the dipolar dark matter
+and the gravitational field in the NR limit are: the equation of motion
+( 85 ), the evolution equation ( 86 ), the continuity
+equation ( 87 ) and the Poisson equation ( 91 ). On
+the other hand, baryons and photons obey the geodesic equation, which means
+ \mathrm{d}v_{\text{b}}^{i}/\mathrm{d}t=\partial_{i}U+\mathcal{O}(c^{-2}) for baryons,
+and the standard GR formula for light deflection in a potential U for
+photons, where U is generated by ( 90 ). 
+
+ IV.2 The weak clustering hypothesis 
+
+ We have shown in section III that at linear perturbation order, in a
+cosmological context, the dynamics of dipolar dark matter cannot be
+distinguished from that of baryonic matter or standard dark matter. We now
+argue that the motion of dipolar dark matter being non-geodesic, its
+ non-linear dynamics should be different. Our main motivation for the
+argument is the existence of an exact solution of the equations
+governing the dynamics of the dipolar dark matter in the NR limit. Indeed, we
+show in appendix A that, in the simple case where the baryonic matter
+is modeled by a spherically symmetric mass distribution, there is a solution
+to the equations for which the dipole moments are in equilibrium 
+( \xi_{\perp}=\mathrm{const} ), and at rest ( v^{i}=0 ), with the
+internal force \mathcal{F}^{i} exactly balancing the gravitational field
+ g^{i} . In such a solution, the dipolar medium is uniformly distributed or more
+generally spherically symetrically distributed, and the polarization
+ \Pi_{\perp}^{i} is aligned with the gravitational field g^{i} ; the dipolar fluid
+is thus polarized. Furthermore, we show in this appendix that the latter
+solution is stable against dynamical perturbations. 
+
+ From that solution, we expect that the dipolar medium will not cluster much
+during the cosmological evolution because the internal force may balance part
+of the local gravitational field generated by an overdensity (see
+Fig.  2 for a picturial view of the argument). From this we infer
+that the dark matter density contrast in a typical galaxy at low redshift
+should be small, at least smaller than in the standard \Lambda -CDM
+scenario. Such a galaxy would therefore be essentially baryonic, with a
+typical mass density of the dipolar dark matter \sigma rather small compared
+to the baryonic one, and perhaps around its mean cosmological value
+ \overline{\sigma} . Thus, the crucial hypothesis we are making (based on the
+solution in appendix A ) is that 
+
+ \sigma\ll\rho_{\text{b}}\,, 
+
+ (92) 
+
+ or perhaps that \sigma stays essentially at a value of the order of its mean
+cosmological value, 
+
+ \sigma\sim\overline{\sigma}\ll\rho_{\text{b}}\,. 
+
+ (93) 
+
+ Note that for standard CDM (or baryonic matter), the density contrast between
+the value of \rho_{\text{cdm}} (or \rho_{\text{b}} ) in a galaxy and the mean
+cosmological one \overline{\rho}_{\text{cdm}} (or \overline{\rho}_{\text{b}} )
+is typically of order 10^{5} . This means that even if dipolar dark matter
+clustered enough so that for instance \sigma\sim 10^{3}~\overline{\sigma} in
+a galaxy at low redshift, it would still satisfy the condition
+( 92 ). 
+
+ Figure 2: Schematic view of two worldlines of baryonic
+matter and dipolar dark matter. The baryonic matter follows a geodesic
+motion, \dot{u}^{\mu}=0 , and therefore collapses in the regions of
+overdensity. Obeying the non-geodesic equation of motion \dot{u}^{\mu}=-\mathcal{F}^{\mu} , the dipolar dark matter is expected to have a
+different behavior in the non-linear (NL) regime. Namely, the
+internal force \mathcal{F}^{i} can balance the gravitational field
+ g^{i} created by an overdensity, in order to keep the rest mass
+density of dipolar dark matter close to its mean cosmological value,
+ \sigma\sim\overline{\sigma} , or at least far smaller than the
+baryonic one. 
+
+ Note also that with this hypothesis, the non-linear growth of structures in
+our model will not be triggered by the rest mass \sigma of dipolar dark
+matter (since it does not cluster much), but by the internal energy
+ \rho_{\text{int}} of the dipolar medium, which is such that
+ \rho=\sigma+\rho_{\text{int}} and is explicitly given by \rho_{\text{int}}=-\nabla_{\lambda}\Pi_{\perp}^{\lambda} [recall ( 29 )]. We have seen that,
+at first cosmological perturbation order, the density contrast associated with
+ \rho_{\text{int}} reduces to -D^{i}\lambda_{i} , and obeys the standard evolution
+equation ( 81 ). We expect that at non-linear order it will take
+over the dominant role as compared to the rest mass density contrast
+ \varepsilon in the formation of structures. On the other hand, in the NR
+limit \rho_{\text{int}} reduces to -\partial_{i}\Pi_{\perp}^{i} [see
+( 89 )] and, as we shall see in the following section, will be at the
+origin of the MOND effect. 
+
+ We shall refer to the condition ( 92 ) [or even to the stronger condition
+( 93 )] as the hypothesis of weak clustering of the dipolar dark
+matter fluid. Obviously, the validity of this hypothesis cannot be addressed
+with the formalism of first-order cosmological perturbations in section
+ III , because it is a consequence of the non-linear cosmological
+evolution. The hypothesis of weak clustering of dipolar dark matter should be
+validated through numerical N-body simulations. 
+
+ Let us thus assume that the dipolar dark matter has not clustered very much,
+and even that \sigma might stay more or less at the cosmological mean value
+ \overline{\sigma} (such that \Omega_{\text{dm}}\simeq 0.23 ). Because of its
+size and typical time-scale of evolution, a galaxy is almost unaffected by the
+cosmological expansion of the Universe. Therefore, the cosmological mass
+density \overline{\sigma} of the dipolar dark matter is not only
+homogeneous, but also almost constant in this galaxy. Thus, the continuity
+equation ( 87 ) reduces to \partial_{i}\left(\overline{\sigma}v^{i}\right)\simeq 0 . The most simple solution obviously corresponds to a
+static fluid verifying 
+
+ v^{i}\simeq 0\,. 
+
+ (94) 
+
+ It is therefore natural to consider that the dipolar dark matter is almost at
+rest with respect to some averaged cosmological matter distribution. This is
+supported by the exact solution found in appendix A , which indicates
+that the dipolar dark matter in presence of an ordinary mass does indeed
+behave essentially like a static medium. Because of the internal force, the
+motion is not geodesic, and the force acts like a “rocket” to compensate the
+gravitational field and to keep the dipolar particle at rest with respect to
+ordinary matter (see Fig.  2 ). 
+
+ IV.3 Link with the phenomenology of MOND 
+
+ Let us now show that under the weak clustering hypothesis, the equations
+( 85 )–( 87 ) and ( 91 ) naturally
+reproduce the phenomenology of MOND. First of all, if ( 94 ) holds,
+equation ( 85 ) tells that the polarization \Pi_{\perp}^{i} should be
+aligned with the local gravitational field g^{i} , namely 12 12 
+ 12 
+
+ From now on,
+we no longer indicate the neglected remainder terms \mathcal{O}(c^{-2}) . Furthermore we assume for the discussion that ( 94 ) is
+exactly verified, i.e. v^{i}=0 . 
+
+ g^{i}=\hat{\Pi}_{\perp}^{i}\mathcal{W}_{{}_{\Pi_{\perp}}}. 
+
+ (95) 
+
+ This proportionality relation will be the crucial ingredient for recovering
+MOND. 
+
+ We must now further specify the “fundamental” potential \mathcal{W} entering the
+original action ( 8 ). In section III , we considered the dipolar
+fluid at early cosmological times, where the polarization field was
+perturbative. We shall now consider it at late cosmological times (around the
+value \eta_{0} ) but still in a regime where the polarization field is
+weak. This will correspond to the outer zone of a galaxy at low redshift,
+where the local gravitational field generated by the galaxy is weak. We
+therefore assume that the potential \mathcal{W} can still be expanded in powers of
+ \Pi_{\perp} and we keep only a few terms in the expansion. Next, we introduce
+a fundamental acceleration scale a_{0} to be later identified with the MOND
+constant acceleration whose commonly accepted value is a_{0}\simeq 1.2\times 10^{-10}~\text{m}/\text{s}^{2}   Sanders and McGaugh 2002 . Associated with a_{0} we can
+define a fundamental surface density scale 
+
+ \Sigma\equiv\frac{a_{0}}{2\pi G}\,, 
+
+ (96) 
+
+ whose numerical value is \Sigma\simeq 0.3~\text{kg}/\text{m}^{2}\simeq 130~\text{M}_{\odot}/\text{pc}^{2} . The numerical value of \Sigma is close to
+the observed upper limit of the surface brightness of spiral galaxies — the
+so-called Freeman’s law which is seen as an empirical evidence for
+MOND  Sanders and McGaugh 2002 . We now assert that the expansion of \mathcal{W} when
+ \Pi_{\perp}\rightarrow 0 is physically valid when the condition \Pi_{\perp}\ll\Sigma is satisfied. As will become obvious, this condition can equivalently
+be written g\ll a_{0} , where g=|g^{i}| is the norm of the local
+gravitational field of the galaxy, and this will correspond to the deep MOND
+regime (see Fig.  4 ). With respect to the expansion ( 43 )
+already used in cosmology, we shall be able to add an extra term. We now write
+this expansion, for \Pi_{\perp}\ll\Sigma , as 
+
+ \mathcal{W}(\Pi_{\perp})=\mathcal{W}_{0}+\frac{1}{2}\mathcal{W}_{2}\,\Pi_{\perp}^{2}+\frac{1}{6}\mathcal{W}_{3}\,\Pi_{\perp}^{3}+\mathcal{O}\Bigl[\left(\hbox{$\frac{\Pi_{\perp}}{\Sigma}$}\right)^{4}\Bigr]\,. 
+
+ (97) 
+
+ The first term \mathcal{W}_{0} is related to the cosmological constant \Lambda 
+through ( 88 ). We now show that the next two coefficients \mathcal{W}_{2} 
+and \mathcal{W}_{3} are uniquely determined if we want to recover the phenomenology
+of MOND. Indeed, by inserting ( 97 ) into the relation
+( 95 ) we obtain 
+
+ g^{i}=\Pi_{\perp}^{i}\left\{\mathcal{W}_{2}+\frac{1}{2}\mathcal{W}_{3}\,\Pi_{\perp}+\mathcal{O}\Bigl[\left(\hbox{$\frac{\Pi_{\perp}}{\Sigma}$}\right)^{2}\Bigr]\right\}, 
+
+ (98) 
+
+ which can be inverted to yield the polarization as an expansion in powers of
+(the norm of) the gravitational field. Anticipating that \mathcal{W}_{2}\,\Sigma\sim a_{0} , this expansion will be valid whenever g\ll a_{0} . We
+obtain 
+
+ \Pi_{\perp}^{i}=\frac{g^{i}}{\mathcal{W}_{2}}\left\{1-\frac{1}{2}\frac{\mathcal{W}_{3}}{\mathcal{W}^{2}_{2}}\,g+\mathcal{O}\Bigl[\left(\hbox{$\frac{g}{a_{0}}$}\right)^{2}\Bigr]\right\}. 
+
+ (99) 
+
+ Next, following the conventions of  Blanchet 2007a ; Blanchet 2007b , we introduce the
+coefficient of “ gravitational susceptibility ” \chi of the dipolar
+medium through 
+
+ \Pi_{\perp}^{i}=-\frac{\chi}{4\pi G}\,g^{i}\,. 
+
+ (100) 
+
+ Inserting that definition 13 13 
+ 13 
+
+ Note that this definition is valid in both
+MOND and Newtonian regimes whenever the polarization is aligned with the
+gravitational field. into the LHS of the Poisson equation ( 91 ),
+we find 
+
+ \partial_{i}\left[(1+\chi)\,g^{i}\right]=-4\pi G\,\left(\rho_{\text{b}}+\sigma\right). 
+
+ (101) 
+
+ Finally, invoking our hypothesis of weak clustering ( 92 ), or
+( 93 ) in the more extreme variant, we can neglect the mass density
+ \sigma of the dipole moments with respect to the baryonic one,
+so we obtain the MOND equation which is generated solely by the
+distribution of baryonic matter as  Bekenstein and Milgrom 1984 
+
+ \partial_{i}\left(\mu\,g^{i}\right)=-4\pi G\,\rho_{\text{b}}\,. 
+
+ (102) 
+
+ The MOND function \mu is related to the susceptibility coefficient by
+ \mu=1+\chi and can actually be interpreted as the “digravitational”
+coefficient of the dipolar medium  Blanchet 2007a . Again, let us stress that in
+this model we do have some distribution of dark matter \sigma in an ordinary
+sense, but we expect its contribution to become negligible in galactic halos
+at low redshifts (after cosmological evolution), so that the MOND fit of
+rotation curves of galaxies is unaffected by this ‘‘monopolar’’ dark
+matter. 14 14 
+ 14 
+
+ However, at the larger scale of clusters of galaxies the monopolar
+part of the dipolar medium \sigma may play a role to explain the missing dark
+matter in MOND estimates of the dynamical mass Sanders and McGaugh 2002 ; Angus et al. 2006 . Note that in the
+present model, the motion of photons, needed to interpret weak-lensing experiments, is
+given by the standard general relativistic prediction; see ( 84 ) with potential
+ U solution of the MOND equation ( 102 ). 
+The MOND effect is due to the dipolar part of the dark matter
+given by the internal energy \rho_{\text{int}}=-\partial_{i}\Pi^{i}_{\perp} . 
+
+ Now, from astronomical observations we know that the gravitational
+susceptibility \chi in the deep MOND regime g\ll a_{0} should behave like 
+
+ \chi=-1+\frac{g}{a_{0}}+\mathcal{O}\left(\left[\hbox{$\frac{g}{a_{0}}$}\right]^{2}\right). 
+
+ (103) 
+
+ The fact that \chi should be negative was interpreted in
+the quasi-Newtonian model  Blanchet 2007a as an evidence for gravitational
+polarization — the gravitational analogue of the electric polarization in
+dielectric media. By inserting ( 103 ) into ( 100 ), and
+comparing with the prediction of our model as given by ( 99 ), we
+uniquely fix the unknown coefficients therein as 
+
+ \displaystyle\mathcal{W}_{2} 
+ \displaystyle=4\pi G\,, 
+
+ (104a) 
+
+ \displaystyle\mathcal{W}_{3} 
+ \displaystyle=32\pi^{2}\frac{G^{2}}{a_{0}}\,. 
+
+ (104b) 
+
+ This, together with \mathcal{W}_{0} fixed by ( 88 ), determines the
+potential function \mathcal{W} up to third order from astronomical
+observations. As we see, the MOND acceleration a_{0} enters at third order in
+the expansion, and therefore does not show up in the linear cosmological
+perturbations of section III . At third order, the potential \mathcal{W} 
+deviates from a purely harmonic potential, and a_{0} can be seen as a measure
+of its anharmonicity. 
+
+ To express \mathcal{W} in the best way, we prefer using the surface density scale
+ \Sigma=a_{0}/2\pi G rather than the acceleration scale a_{0} . To do so, we
+must introduce a purely numerical dimensionless coefficient \alpha to
+express the cosmological constant \Lambda (which is positive and has the
+dimension of an inverse length squared) in units of a_{0}^{2}/c^{4} , and we pose 
+
+ \Lambda=3\alpha^{2}\left(\frac{2\pi a_{0}}{c^{2}}\right)^{2}. 
+
+ (105) 
+
+ The definition of \alpha is such that a_{\Lambda}=\alpha\,a_{0} represents
+the natural acceleration scale associated with the cosmological constant, and
+is already given by ( 1 ) as a_{\Lambda}=\sqrt{\Lambda/3}\,c^{2}/2\pi . Then, the cosmological term ( 88 ) becomes \mathcal{W}_{0}=6\pi^{3}G\,\Sigma^{2}\,\alpha^{2} , and we obtain 
+
+ \mathcal{W}=6\pi G\,\Sigma^{2}\left\{\alpha^{2}\pi^{2}+\frac{1}{3}\left(\frac{\Pi_{\perp}}{\Sigma}\right)^{2}+\frac{4}{9}\left(\frac{\Pi_{\perp}}{\Sigma}\right)^{3}+\mathcal{O}\biggl[\left(\frac{\Pi_{\perp}}{\Sigma}\right)^{4}\biggr]\right\}. 
+
+ (106) 
+
+ In the present model there is nothing which can give the relation between
+ \Lambda and a_{0} , hence \alpha is not determined. However, if the dipolar
+fluid action ( 8 ) is intended to describe at some macroscopic level a
+more fundamental theory (presumably a QFT), we expect that the potential
+ \mathcal{W} should depend only on certain more or less fundamental constants, and
+some dimensionless variables built from “fundamental fields”. Introducing
+the dimensionless quantity x\equiv\Pi_{\perp}/\Sigma , we can rewrite
+( 106 ) as \mathcal{W}=6\pi G\,\Sigma^{2}\,w(x) , where 
+
+ w(x)=\alpha^{2}\pi^{2}+\frac{1}{3}x^{2}+\frac{4}{9}x^{3}+\mathcal{O}(x^{4}) 
+
+ (107) 
+
+ represents some “universal” function coming from some fundamental albeit
+unknown physics. Therefore, we expect that the numerical coefficients in the
+expansion of w(x) should be of the order of one or, say, 10. In particular,
+it is natural to expect that \alpha should be of the order of one (to within
+a factor 10 say), and we deduce from ( 105 ) that the magnitude of
+ \Lambda should scale approximately with the square of the MOND acceleration,
+namely \Lambda\sim a_{0}^{2}/c^{4} . 
+
+ The numerical coincidence between the measured values of \Lambda and a_{0} 
+is well-known  Milgrom 2002 . The observed value of the cosmological constant is
+around \Lambda\simeq 0.12~\text{Gpc}^{-2}   Peter and Uzan 2005 which, together with
+ a_{0}\simeq 1.2\times 10^{-10}~\text{m}/\text{s}^{2} , corresponds to a value
+for \alpha which is very close to one: \alpha\simeq 0.8 . Thus a_{0} is
+very close to the scale a_{\Lambda} associated with the cosmological constant,
+which is related to the Gibbons-Hawking temperature T_{\text{GH}}=\hbar a_{\Lambda}/kc derived from semi-classical theory on de Sitter
+space-time  Gibbons and Hawking 1977 . From the previous discussion, we see that the
+“cosmic” coincidence between \Lambda and a_{0} has a natural explanation
+if dark matter is made of a medium of dipole moments. 
+
+ IV.4 The Newtonian regime 
+
+ For the moment, we looked at the explicit expression of the potential function
+ \mathcal{W} in the MOND regime g\ll a_{0} . We would also like to get some
+information about this function in the Newtonian regime g\gg a_{0} .
+To do so, we first derive the general expression of the
+gravitational susceptibitity coefficient \chi . Here we assume that the MOND
+function \mu=1+\chi is always less than 1 . This implies \chi<0 and
+thus using ( 95 ) and ( 100 ) we must have \mathcal{W}_{{}_{\Pi_{\perp}}}>0 
+(where we recall that \mathcal{W}_{{}_{\Pi_{\perp}}}\equiv\mathrm{d}\mathcal{W}/\mathrm{d}\Pi_{\perp} ). Taking the
+norm of ( 95 ) we get g=\mathcal{W}_{{}_{\Pi_{\perp}}}\!(\Pi_{\perp}) . Next, we
+introduce the function \Theta(g) which is the inverse of \mathcal{W}_{{}_{\Pi_{\perp}}}\!(\Pi_{\perp}) , i.e. satisfies 
+
+ g=\mathcal{W}_{{}_{\Pi_{\perp}}}\!(\Pi_{\perp})\quad\Longleftrightarrow\quad\Pi_{\perp}=\Theta(g)\,. 
+
+ (108) 
+
+ According to ( 100 ), the susceptibility \chi is then given as the
+following fonction of the gravitational field g , 
+
+ \chi(g)=-4\pi G\,\frac{\Theta(g)}{g}\,. 
+
+ (109) 
+
+ This is the general relation linking \chi (or equivalently the MOND function
+ \mu=1+\chi ) to the potential function \mathcal{W} in the dipolar action
+( 8 ). Of course, in the present model \mathcal{W} is to be considered as more
+fundamental than \chi which is a derived quantity. 
+
+ Figure 3: The minimum of the potential function
+ \mathcal{W}(\Pi_{\perp}) , reached when \Pi_{\perp}=0 , is a
+cosmological constant \Lambda . Small deviations around the
+minimum, corresponding to \Pi_{\perp}\ll\Sigma=a_{0}/2\pi G , describe the MOND regime g\ll a_{0} . 
+
+ Figure 4: The potential \mathcal{W} as a function of
+the polarization \Pi_{\perp} for different asymptotic
+behaviors of the gravitational susceptibility \chi in the
+Newtonian regime g\gg a_{0} . The arrows indicate the
+direction of increasing gravitational field g . 
+
+ In the Newtonian regime g\gg a_{0} , the MOND function \mu should tend to
+one, so that \chi vanishes in this regime. To discuss more concretely this
+condition, we assume that in the formal limit g\rightarrow+\infty , the
+gravitational susceptibility behaves as \chi\sim g^{-\gamma} , with \gamma 
+a strictly positive real number. More precisely, it should behave like \chi\sim-\epsilon\left(g/a_{0}\right)^{-\gamma} , where \epsilon is a
+strictly positive real number. Beware that even if this power-law
+behavior is a simple assumption, nothing garanties that it is verified. Then,
+when g\rightarrow+\infty , we get from ( 108 ) and ( 109 ) that 
+
+ \displaystyle\Pi_{\perp} 
+ \displaystyle\sim A\,g^{1-\gamma}\,, 
+
+ (110a) 
+
+ \displaystyle\mathcal{W} 
+ \displaystyle\sim\frac{1-\gamma}{2-\gamma}\,A\,g^{2-\gamma}+\kappa\,, 
+
+ (110b) 
+
+ where A=\epsilon\,a_{0}^{\gamma}/4\pi G>0 and \kappa is an
+integration constant. We have to distinguish several cases, depending on the
+value of the exponent \gamma : 
+
+ (i) 
+
+ If 0<\gamma<1 , then both the polarization \Pi_{\perp} 
+and the potential \mathcal{W} diverge. This would corresponds to the curve
+(a) of Fig.  4 . 
+
+ (ii) 
+
+ If \gamma=1 , the polarization \Pi_{\perp} tends to a
+maximum “saturation” value \Pi_{\text{max}}=A , and the potential
+ \mathcal{W} equals the constant \kappa . See curve (b) in
+Fig.  4 . 
+
+ (iii) 
+
+ If 1<\gamma<2 , the polarization goes to zero while
+the potential diverges to -\infty like a power law. This implies
+that \mathcal{W} cannot be a univalued function of \Pi_{\perp} . Therefore,
+there must exist two branches corresponding to the Newtonian and MOND
+regimes. 
+
+ (iv) 
+
+ If \gamma=2 , according to ( 110b ) the potential
+diverges to -\infty logarithmically, i.e. \mathcal{W}\sim-A\,\ln{g} , while the
+polarization still vanishes. Same conclusions as in case (iii) apply. 
+
+ (v) 
+
+ Finally, if \gamma>2 , the polarization goes to zero
+while the potential tends to \kappa . Same conclusions as in (iii)
+apply. 
+
+ If we believe that the potential \mathcal{W} represents a fundamental function in
+the action, and that our model should strictly speaking be valid in a
+Newtonian regime (and not being merely valid in the MOND regime), we should
+ a priori expect that \mathcal{W} is a univalued function of
+ \Pi_{\perp} . Then, the susceptibility coefficient should be like \chi\sim g^{-\gamma} with 0<\gamma\leqslant 1 in the Newtonian regime. This would
+mean that the MOND function \mu behaves like 
+
+ \mu\sim 1-\epsilon\left(\frac{a_{0}}{g}\right)^{\gamma}, 
+
+ (111) 
+
+ with 0<\gamma\leqslant 1 . Such rather slow transition of \mu toward the
+Newtonian regime is consistent with the recent results of
+ Famaey and Binney 2005 who fitted the rotation curves of the Milky Way and
+galaxy NGC 3198, and of  Sanders and Noordermeer 2007 who fitted 17 early-type disc galaxies,
+and concluded that the Newtonian regime is rather slowly reached. For
+instance, the authors of  Famaey and Binney 2005 ; Sanders and Noordermeer 2007 ; Zhao and Famaey 2006 agreed that \gamma=1 yields a better fit to the data than \gamma=2 . 
+
+ The case \gamma=1 (curve (b) in Fig.  4 ) corresponds to an interesting physical situation in
+which the dipolar medium saturates when g\rightarrow+\infty , at
+the maximum value \Pi_{\text{max}}=A , or 
+
+ \Pi_{\text{max}}=\frac{\epsilon}{2}\,\Sigma\,, 
+
+ (112) 
+
+ where \Sigma is the surface density scale ( 96 ). In this saturation
+case, the gravitational susceptibility coefficient behaves as 
+
+ \chi\sim-\epsilon\,\frac{a_{0}}{g}\,. 
+
+ (113) 
+
+ However, let us remind that such a slow transition from MOND toward the
+Newtonian regime is a priori ruled out by Solar System
+observations. Indeed, according to the MOND equation, a planet orbiting the
+Sun feels a gravitational field g obeying (1+\chi)g=g_{\text{N}} , where
+ g_{\text{N}} is the Newtonian gravitational field. Hence, if \chi scales
+like g^{-1} when g\gg a_{0} like in ( 113 ), the gravitational field
+experienced by planets will involve a constant supplementary acceleration
+directed toward the Sun (i.e. a “Pioneer-type” anomaly) given by 
+
+ g\sim g_{\text{N}}+\epsilon\,a_{0}\,. 
+
+ (114) 
+
+ Of course it is striking that the order of magnitude of the Pioneer anomaly is
+the same as the MOND acceleration a_{0} . Unfortunately, the presence of a
+constant acceleration such as in ( 114 ) should be detected in the motion
+of planets, and this is incompatible with current measurements (see
+e.g.  Jaekel and Reynaud 2005a ; Jaekel and Reynaud 2005b for a discussion). 
+
+ Despite the fact that a slow transition to the Newtonian regime (like for
+example the case \gamma=1 ) seems to be favored by observations at the
+galactic scale  Famaey and Binney 2005 ; Zhao and Famaey 2006 ; Sanders and Noordermeer 2007 , it does not seem to be viable
+when extrapolated up to the scale of the Solar System. In our model, we found
+that such a behavior is the result of our belief that the “fundamental”
+function \mathcal{W} be univalued. In this respect, the validity of the model
+should be limited to large scales, from the galactic scale up to cosmological
+scales, i.e. in a regime of weak gravity. At smaller scales the description in
+terms of a single univalued function \mathcal{W} should break down. But our model
+being an effective one, or even a phenomenological one, the question of
+whether the potential \mathcal{W} is univalued or not remains an open issue. 
+
+ V Summary and conclusion 
+
+ In this paper, we proposed a model of dark matter and dark energy based on the
+concept of gravitational polarization of a medium of dipole moments. The
+dynamics of the dipolar fluid is governed by the Lagrangian ( 8 ) in
+standard general relativity, and constitutes a generalization of the previous
+model  Blanchet 2007b . Namely, this Lagrangian involves a potential function
+ \mathcal{W} , describing at some effective level a non-gravitational internal force
+influencing the dynamics of the dipolar fluid, and which depends on the
+polarization field or density of dipole moments \Pi_{\perp}=\sigma\xi_{\perp} 
+instead of merely the dipole moment itself \xi_{\perp} in the
+model  Blanchet 2007b . This new form of the potential permits recovering in a
+most elegant way the phenomenology of MOND in a typical galaxy at low
+redshift. In addition, we show that the model naturally contains a
+cosmological constant \Lambda . 
+
+ We proved in section III that whithin the framework of the theory of
+first-order cosmological perturbations, the dipolar fluid behaves exactly as
+standard dark energy (i.e. a cosmological constant) plus standard dark matter
+(i.e. a pressureless perfect fluid). Thus, our model is consistent with the
+cosmological observations at large scales. In particular, it leads to the same
+predictions as the standard \Lambda -CDM model for the CMB
+fluctuations. However, at second order in the cosmological perturbations, we
+expect that the dipolar dark matter should differ from a perfect fluid because
+of the influence of the internal force resulting in a
+non-geodesic motion. The model could thus be checked by
+working out the second-order cosmological perturbations and comparing with CMB
+fluctuations (notably the effects linked with the non-gaussianity). 
+
+ The dynamics of the dipolar dark matter being different from that of standard
+dark matter (at the level of non-linear perturbations), we expect the
+“monopolar” part of the dipolar dark matter not to cluster much during the
+cosmological evolution. We call this expectation the hypothesis of “weak
+clustering”. It is supported by an exact solution worked out in appendix
+ A for the dynamics of dipolar dark matter in the non-relativistic
+limit and in spherical symmetry. In this solution, the internal force balances
+the local gravitational field produced by a spherical mass, so that the dark
+matter remains at rest with respect to the central mass. The weak clustering
+hypothesis should be checked via N-body numerical simulations. Under
+that hypothesis, we show that the Poisson equation for the gravitational field
+generated by the baryonic and dipolar dark matter reduces to the MOND equation
+in the regime of weak gravitational fields g\ll a_{0} . Our model of dipolar
+dark matter therefore naturally explains all the successes of the MOND
+phenomenology. 
+
+ To achieve this result (in section IV ) we have to adjust the
+fundamental potential \mathcal{W} in the action. We find that it should be given
+by an anharmonic potential, the minimum of which, reached when \Pi_{\perp}=0 ,
+being directly related to the cosmological constant \Lambda . It is tempting
+to interpret \Lambda as a “vacuum polarization” of some hypothetical
+quantum field, when the “classical” part of the polarization \Pi_{\perp}\rightarrow 0 . The expansion around that minimum is fine-tuned in order to
+recover MOND. In particular, we show that the MOND acceleration a_{0} 
+parametrizes the coefficient of the third-order deviation of \mathcal{W} from the
+minimum. Although fine-tuned to fit with observations, this potential function
+ \mathcal{W} offers a nice unification between the dark energy in the form of
+ \Lambda and the dark matter in the form of MOND (see Fig. 4 ). A
+consequence of such unification is that the cosmological constant should scale
+with the MOND acceleration according to \Lambda\sim a_{0}^{2}/c^{4} . This
+scaling relation is in good agreement with observations and has a very natural
+explanation in our model. 
+
+ To conclude, we proposed to modify the matter sector rather than the gravity
+sector as in modified gravity theories Bekenstein 2004 ; Sanders 2005 ; Zhao 2007 ; Halle et al. 2008 . Namely,
+we investigated a model of dark matter, but of such an exotic form that it naturally explains the
+phenomenology of MOND at galactic scales. Furthermore, that form of dark matter
+has a simple physical interpretation in terms of the well-known mechanism of
+polarization by an exterior field. More work is necessary to test the
+model, either by studying second-order perturbations in cosmology, or by
+computing numerically the non-linear growth of perturbations and comparing
+with large-scale structures. 
+
+ Acknowledgements. It is a pleasure to thank Alain Riazuelo and Jean-Philippe Uzan for
+interesting discussions at an early stage of this work.
+
+ Appendix A Dark matter in a central gravitational field 
+
+ We investigate the dynamics of the dipolar dark matter fluid in presence of a
+spherically symmetric mass distribution of ordinary baryonic matter in the NR
+limit c\rightarrow+\infty . The equations to solve are the equation of
+motion ( 85 ), the equation of evolution ( 86 ), the
+continuity equation ( 87 ) and the Poisson equation for the
+gravitational field ( 91 ). Let us rewrite those equations here for
+convenience: 15 15 
+ 15 
+
+ In this appendix, we adopt 3-dimensional notations with
+boldface vectors, e.g. \bm{\mathcal{F}}=(\mathcal{F}^{i}) . We also remove the
+subscript \perp from the variables \bm{\xi}_{\perp} and \bm{\Pi}_{\perp} for
+notational simplicity. The derivatives of the potential \mathcal{W} with respect
+to its argument \Pi will be denoted with a prime,
+e.g. \mathcal{W}^{\prime}\equiv\mathcal{W}_{{}_{\Pi}}\equiv\mathrm{d}\mathcal{W}/\mathrm{d}\Pi . 
+
+ \displaystyle\frac{\mathrm{d}\bm{v}}{\mathrm{d}t} 
+ \displaystyle=\bm{g}-\bm{\mathcal{F}}\,, 
+
+ (115a) 
+
+ \displaystyle\partial_{t}\sigma 
+ \displaystyle=-\bm{\nabla}\cdot\left(\sigma\bm{v}\right), 
+
+ (115b) 
+
+ \displaystyle\bm{\nabla}\cdot\bm{g} 
+ \displaystyle=-4\pi G\,\left(\sigma+\rho_{\text{b}}-\bm{\nabla}\cdot\bm{\Pi}\right), 
+
+ (115c) 
+
+ \displaystyle\frac{\mathrm{d}^{2}\bm{\xi}}{\mathrm{d}t^{2}} 
+ \displaystyle=\bm{\mathcal{F}}+\frac{1}{\sigma}\bm{\nabla}\left(\mathcal{W}-\Pi\,\mathcal{W}^{\prime}\right)+\left(\bm{\xi}\cdot\bm{\nabla}\right)\bm{g}\,, 
+
+ (115d) 
+
+ where the internal force reads \bm{\mathcal{F}}=\hat{\bm{\Pi}}\,\mathcal{W}^{\prime} ,
+with \hat{\bm{\Pi}}\equiv\bm{\Pi}/\Pi . 
+
+ Our aim is to solve the equations ( 115 ) in the special case where
+the baryonic matter is modeled by a time-independent spherically symmetric
+distribution of mass \rho_{\text{b}}(r) , say with compact support. Let us show
+that there is a simple solution to such a set of equations, in the case where 
+
+ \displaystyle\bm{v}_{0} 
+ \displaystyle=\bm{0}\,, 
+
+ (116a) 
+
+ \displaystyle\sigma_{0} 
+ \displaystyle=\sigma_{0}(r)\,, 
+
+ (116b) 
+
+ which corresponds to a static fluid whose mass distribution is
+time-independent and spherically symmetric. We denote such particular solution
+with a lower index 0 . From ( 116 ) we observe that the continuity
+equation ( 115b ) is immediately satisfied. In such a solution,
+according to ( 115a ) the internal force balances exactly the
+gravitational field, i.e. \bm{\mathcal{F}}_{0}=\bm{g}_{0} (this is somewhat
+similar to the case of a non-rotating star in hydrostatic equilibrium, where
+the pressure gradient plays the role of the internal force). We deduce that
+the polarization field \bm{\Pi}_{0}=\sigma_{0}\,\bm{\xi}_{0} is aligned with
+the gravitational field \bm{g}_{0} . Hence, from equation ( 115c )
+both \bm{\Pi}_{0} and \bm{g}_{0} are radial. We shall pose \bm{g}_{0}=-g_{0}(r,t)\,\bm{e}_{r} and \bm{\Pi}_{0}=-\Pi_{0}(r,t)\,\bm{e}_{r} , where in
+our notation g_{0}>0 and \Pi_{0}>0 . 
+
+ Furthermore, let us show that in addition the polarization field is practically in
+“equilibrium”, i.e. \Pi_{0} is independent on time t , and so is g_{0} . We
+replace \bm{g}_{0} by the explicit expression of the internal force
+ \bm{\mathcal{F}}_{0}=\hat{\bm{\Pi}}_{0}\mathcal{W}^{\prime}_{0} into the evolution equation
+( 115d ), use ( 116a ) and get 
+
+ \partial_{t}^{2}\bm{\Pi}_{0}-\sigma_{0}\mathcal{W}^{\prime}_{0}\,\hat{\bm{\Pi}}_{0}=\bm{\nabla}\left(\mathcal{W}_{0}-\Pi_{0}\,\mathcal{W}_{0}^{\prime}\right)+\left(\bm{\Pi}_{0}\cdot\bm{\nabla}\right)(\hat{\bm{\Pi}}_{0}\,\mathcal{W}^{\prime}_{0})\,. 
+
+ (117) 
+
+ Here \hat{\bm{\Pi}}_{0}=\bm{\Pi}_{0}/\Pi_{0}=-\bm{e}_{r} , and we introduced the
+shorthand notation \mathcal{W}_{0}^{\prime}\equiv\mathcal{W}^{\prime}(\Pi_{0}) . Now, it turns out that the
+RHS of this equation vanishes in the special case where the polarization field
+is radial, hence we get 
+
+ \partial_{t}^{2}\Pi_{0}=\sigma_{0}\mathcal{W}^{\prime}_{0}\,. 
+
+ (118) 
+
+ In order to determine the time evolution of \Pi_{0} , an explicit expression
+for the potential \mathcal{W} is in principle required. However, we saw in section
+ IV.3 that the potential \mathcal{W} only depends on the polarization \Pi 
+and the constants a_{0} and G . The only time-scale one can build with a_{0} ,
+ G and \sigma_{0} is the dipolar dark matter self-gravitating time-scale
+ \tau_{\text{g}}=(\pi/G\sigma_{0})^{1/2} , or equivalently, in terms of
+frequency, \omega_{\text{g}}^{2}=4\pi G\sigma_{0} . Therefore, the polarization
+ \Pi_{0} can only evolve on this time-scale. For instance, in the MOND regime
+ g\ll a_{0} , we have at leading order \mathcal{W}^{\prime}_{0}=4\pi G\,\Pi_{0} , hence
+( 118 ) reduces to 
+
+ \partial_{t}^{2}\Pi_{0}=\omega_{\text{g}}^{2}\,\Pi_{0}\,. 
+
+ (119) 
+
+ The most general solution of this equation is a linear combinaison of
+hyperbolic \cosh{\omega_{\text{g}}t} and \sinh{\omega_{\text{g}}t} . For a
+“monopolar” dark matter mass density \sigma_{0} of, say, the mean cosmological
+value \overline{\sigma}\simeq 10^{-26}~\text{kg}/\text{m}^{3} [in agreement with
+our weak clustering hypothesis ( 93 )], the typical time-scale of
+evolution of \Pi_{0} will be larger than 6\times 10^{10}~\text{years} . This is
+large enough to neglect any time variation of \Pi_{0} with respect to a typical
+orbital time-scale in a galaxy. Our solution is therefore given by 
+
+ \bm{\Pi}_{0}=-\Pi_{0}(r)\,\bm{e}_{r}\,, 
+
+ (120) 
+
+ together with ( 116 ). The dipole moments are at rest and in
+equilibrium. The explicit function \Pi_{0}(r) is determined from the radial
+gravitational field g_{0}(r) as 16 16 
+ 16 
+
+ Note that if in this solution the
+polarization field \Pi_{0}(r)=\sigma_{0}(r)\xi_{0}(r) is determined, the
+density \sigma_{0}(r) and dipole moment \xi_{0}(r) are not specified
+separately. For instance, the density could be at the uniform cosmological
+value \overline{\sigma} so that \xi_{0}(r)=\Pi_{0}(r)/\overline{\sigma} . This
+degeneracy of \sigma_{0}(r) is an artifact of our assumptions of spherical
+symmetry and staticity. 
+
+ \Pi_{0}(r)=\Theta\left(g_{0}(r)\right)\,, 
+
+ (121) 
+
+ where \Theta(g_{0}) denotes the inverse inverse function of \mathcal{W}^{\prime}(\Pi_{0}) 
+following the notation ( 108 ). The gravitational field g_{0}(r) is
+determined by the Poisson equation ( 115c ) as 
+
+ g_{0}-4\pi G\,\Pi_{0}=\frac{GM_{0}(r)}{r^{2}}\,, 
+
+ (122) 
+
+ where M_{0}(r)=4\pi\int_{0}^{r}\mathrm{d}s\,s^{2}[\rho_{\text{b}}(s)+\sigma_{0}(s)] is the
+mass enclosed within radius r . 
+
+ The existence of this physically simple solution represents a notable progress
+compared to the more complicated solution found in the previous
+model  Blanchet 2007b (see section IV there). Such a solution is quite
+interesting for the present model because it indicates that during the
+cosmological evolution (at non-linear perturbation order) the dipolar dark
+matter may not cluster very much toward regions of overdensity. Most of the
+effect will be in the dipole moment vectors which acquire a spatial
+distribution. This is our motivation for the “weak clustering” assumption
+( 92 )–( 93 ) stating that \sigma\ll\rho_{\text{b}} , which was
+used in section IV.3 to obtain MOND. In the present case, neglecting
+ \sigma_{0} with respect to \rho_{\text{b}} in the RHS of ( 122 ), we
+recover the usual MOND equation generated by the baryonic density only. This
+being said, such an appealing solution may be physically irrelevant if the
+spherically symmetric configuration appears to be unstable with respect to
+linear perturbations. This motivates the following study of the stability of
+the previous solution. 
+
+ Consider a general perturbation of the background solution, namely 
+
+ \displaystyle\sigma 
+ \displaystyle=\sigma_{0}+\delta\sigma\,, 
+
+ (123a) 
+
+ \displaystyle\bm{v} 
+ \displaystyle=\delta\bm{v}\,, 
+
+ (123b) 
+
+ \displaystyle\bm{\Pi} 
+ \displaystyle=\bm{\Pi}_{0}+\delta\bm{\Pi}\,. 
+
+ (123c) 
+
+ We have also \bm{g}=\bm{g}_{0}+\delta\bm{g} and \bm{\mathcal{F}}=\bm{\mathcal{F}}_{0}+\delta\bm{\mathcal{F}} , where the expression of the
+perturbed force in terms of the perturbed polarization explicitly reads 
+
+ \delta\bm{\mathcal{F}}=\mathcal{W}_{0}^{\prime\prime}\,(\hat{\bm{\Pi}}_{0}\cdot\delta\bm{\Pi})\,\hat{\bm{\Pi}}_{0}+\mathcal{W}_{0}^{\prime}\left[\frac{\delta\bm{\Pi}}{\Pi_{0}}-\left(\hat{\bm{\Pi}}_{0}\cdot\frac{\delta\bm{\Pi}}{\Pi_{0}}\right)\hat{\bm{\Pi}}_{0}\right]. 
+
+ (124) 
+
+ Assuming a Fourier decomposition for any perturbative quantity \delta X , we
+write for a given mode of frequency \omega and wave number \bm{k} , 
+
+ \delta X(\bm{x},t)=\delta X(\bm{k},\omega)\,e^{\mathrm{i}(\bm{k}\cdot\bm{x}-\omega t)}\,. 
+
+ (125) 
+
+ We want to find the relation between \bm{k}\cdot\bm{e}_{r} and \omega , the
+so-called dispersion relation, which contains all the physical information
+about the behavior of the generic perturbation ( 125 ). Introducing
+this ansatz into ( 115 ), and simplifying the resulting
+equations by making use of the background solution, we find 
+
+ \displaystyle\delta\bm{v} 
+ \displaystyle=\frac{\mathrm{i}}{\omega}\left(\delta\bm{g}-\delta\bm{\mathcal{F}}\right), 
+
+ (126a) 
+
+ \displaystyle\delta\sigma 
+ \displaystyle=\frac{1}{\omega}\left(\sigma_{0}\,\bm{k}\cdot\delta\bm{v}-\mathrm{i}\,\delta\bm{v}\cdot\bm{\nabla}\sigma_{0}\right), 
+
+ (126b) 
+
+ \displaystyle\delta\bm{g} 
+ \displaystyle=4\pi G\,\frac{\mathrm{i}\,\bm{k}}{k^{2}}\,\left(\delta\sigma-\mathrm{i}\,\bm{k}\cdot\delta\bm{\Pi}\right). 
+
+ (126c) 
+
+ These algebraic expressions can be combined to express \delta\sigma ,
+ \delta\bm{g} and \delta\bm{v} in terms of \delta\bm{\Pi} only. After
+some algebra, we get from the evolution equation ( 115d ) a relation
+expressing the perturbed polarization field \delta\bm{\Pi}=\sigma_{0}\,\delta\bm{\xi}+\delta\sigma\,\bm{\xi}_{0} as 
+
+ \displaystyle\omega^{2}\,\delta\bm{\Pi} 
+ \displaystyle=\omega^{2}\,\frac{\delta\sigma}{\sigma_{0}}\,\bm{\Pi}_{0}+\frac{\mathrm{i}\,\omega}{\sigma_{0}}\left(\delta\bm{v}\cdot\bm{\nabla}\sigma_{0}\right)\bm{\Pi}_{0}-\mathrm{i}\,\omega\left(\delta\bm{v}\cdot\bm{\nabla}\right)\bm{\Pi}_{0}+(\hat{\bm{\Pi}}_{0}\cdot\delta\bm{\Pi})\,\bm{\nabla}\left(\Pi_{0}\mathcal{W}_{0}^{\prime\prime}\right) 
+
+ \displaystyle+\Pi_{0}\mathcal{W}_{0}^{\prime\prime}\,(\hat{\bm{\Pi}}_{0}\cdot\delta\bm{\Pi})\,\mathrm{i}\,\bm{k}-\left(\mathrm{i}\,\bm{k}\cdot\bm{\Pi}_{0}\right)\delta\bm{g}-\left(\delta\bm{\Pi}\cdot\bm{\nabla}\right)\bm{g}_{0}-\sigma_{0}\,\delta\bm{\mathcal{F}}\,. 
+
+ (127) 
+
+ When replacing \delta\sigma , \delta\bm{g} , \delta\bm{v} and \delta\bm{\mathcal{F}} into ( A ) we obtain a master equation for the
+perturbed polarization \delta\bm{\Pi} which is quite complicated. Given the
+complexity of the problem, we restrict our analysis to the simplest modes in a
+spherically symmetric background, namely those propagating radially. We shall
+thus write \bm{k}=k\,\bm{e}_{r} , and study successively the transverse and
+longitudinal perturbations. 
+
+ Firstly, let us consider a transverse perturbation \delta\bm{\Pi} , i.e. one
+which satisfies \delta\bm{\Pi}\cdot\bm{e}_{r}=0 . Projecting the master
+equation ( A ) in the direction of \delta\bm{\Pi} , we get that 
+
+ \left[\omega^{2}+\mathcal{W}^{\prime}_{0}\left(\frac{1}{\xi_{0}}-\frac{2}{r}\right)\right]\delta\Pi=0\,, 
+
+ (128) 
+
+ which simply states that no transverse perturbations propagating radially are
+allowed, i.e. \delta\Pi=0 . Consider now the case of a longitudinal
+perturbation \delta\bm{\Pi}=-\delta\Pi(r,t)\,\bm{e}_{r} , where \delta\Pi can be positive or negative (with our convention the norm of \bm{\Pi} 
+reads \Pi=\Pi_{0}+\delta\Pi ), and represents the arbitrary amplitude of the
+applied linear perturbation. After some lengthy calculations, we get the
+dispersion relation 
+
+ k=\mathrm{i}\,\frac{\partial_{r}\sigma_{0}}{\sigma_{0}}\left(1+\frac{\omega^{2}}{\omega_{\text{g}}^{2}}\left[1+\frac{\left(4\pi G-\mathcal{W}_{0}^{\prime\prime}\right)\partial_{r}\Pi_{0}}{\omega^{2}+\sigma_{0}\mathcal{W}^{\prime\prime}_{0}+\Pi_{0}\,\partial_{r}\mathcal{W}_{0}^{\prime\prime}}\right]\right)^{-1}. 
+
+ (129) 
+
+ Notice first that, as the wave number k is purely imaginary, such a
+perturbation cannot propagate. Secondly, the stability of the background
+solution with respect to this perturbation is related to the sign of
+ k/\mathrm{i} , so an explicit expression for the potential \mathcal{W} is required to
+conclude. Such an expression is available in the MOND regime g_{0}\ll a_{0} 
+using the expansion ( 106 ). Assuming the MOND equation with a
+(baryonic) point mass M for simplicity, i.e. equation ( 122 ) with
+ \rho_{\text{b}}=M\,\delta(\bm{x}) and negligible \sigma_{0} , we find that the
+dispersion relation can be recast at the leading order in the form 
+
+ k=\mathrm{i}\,\frac{\partial_{r}\sigma_{0}}{\sigma_{0}}\,\frac{\omega_{\text{g}}^{2}\left(\omega^{2}+\omega_{\text{g}}^{2}-2\,\omega^{2}_{\text{K}}\right)}{\omega^{4}+2\,\omega_{\text{g}}^{2}\,\omega^{2}+\omega_{\text{g}}^{2}\left(\omega_{\text{g}}^{2}-2\,\omega_{\text{K}}^{2}\right)}\,, 
+
+ (130) 
+
+ where \omega_{\text{K}}^{2}=GM/r^{3} denotes the Keplerian frequency. We now
+turn to the analysis of the two factors in ( 130 ), namely the
+ \omega -dependent and \sigma_{0} -dependent ones. 
+
+ At a given distance r from the center of the galaxy, the \omega -dependent
+factor becomes very large in the vicinity of the resonant frequency 
+
+ \omega_{\text{R}}^{2}=\omega_{\text{g}}\left(\sqrt{2}\,\omega_{\text{K}}-\omega_{\text{g}}\right). 
+
+ (131) 
+
+ But we are restricting our attention to perturbations in the MOND regime where
+ g_{0}\ll a_{0} , which means at distances r from the galactic center that are
+far larger than the MOND radius r_{\text{M}}\equiv\sqrt{GM/a_{0}} , or
+equivalently at Keplerian frequencies \omega_{\text{K}}\ll\omega_{\text{M}} 
+with \omega^{2}_{\text{M}}=GM/r^{3}_{\text{M}} . For a typical galaxy of mass M\sim 10^{11}~\text{M}_{\odot} , and a “monopolar” dark matter mass density
+around the mean cosmological value, i.e. \sigma_{0}\sim\overline{\sigma}\simeq 10^{-26}~\text{kg}/\text{m}^{3} , we find by reporting the constraint
+ \omega_{\text{K}}\ll\omega_{\text{M}} into ( 131 ) the upper-bound
+ \omega^{2}_{\text{R}}\ll\sqrt{2}\,\omega_{\text{g}}\,\omega_{\text{M}} , which
+gives numerically \omega_{\text{R}}\ll 10^{-17}~\text{s}^{-1} . Because
+perturbations with a typical time scale 2\pi/\omega\gg 2\times 10^{10}~\text{years} are out of the present scope, the \omega -dependent part
+of ( 130 ) reduces to a numerically small factor. 
+
+ Finally, we consider the \sigma_{0} -dependent part of
+( 130 ). Consistent with the “weak clustering hypothesis”
+( 92 )–( 93 ), we are expecting the background density profile
+ \sigma_{0} to be almost homogeneous. Thus, the factor \partial_{r}\sigma_{0}/\sigma_{0} will be of the order of the inverse of the characteristic
+length scale L of variation of \sigma_{0} assumed to be far larger than the
+typical size \ell of the galaxy, which implies |\bm{k}\cdot\bm{x}|\lesssim\ell/L\simeq 0 in ( 125 ). A longitudinal
+perturbation would therefore keep oscillating at the frequency \omega 
+without propagating, and we conclude that it would be stable. 
+
+ References 
+
+ Ostriker and Steinhardt (1995) 
+
+J. P. Ostriker and
+P. J. Steinhardt,
+Nature 377 ,
+600 (1995).
+
+ Zwicky (1933) 
+
+F. Zwicky,
+Helv. Phys. Acta 6 ,
+110 (1933).
+
+ Hu and Dodelson (2002) 
+
+W. Hu and
+S. Dodelson,
+Ann. Rev. Astron. Astrophys.
+ 40 , 171 (2002),
+eprint astro-ph/0110414.
+
+ Bernardeau et al. (2002) 
+
+F. Bernardeau,
+S. Colombi,
+E. Gaztañaga,
+and
+R. Scoccimarro,
+Phys. Rept. 367 ,
+1 (2002), eprint astro-ph/0112551.
+
+ Bertone et al. (2005) 
+
+G. Bertone,
+D. Hooper, and
+J. Silk,
+Phys. Rept. 405 ,
+279 (2005), eprint hep-ph/0404175.
+
+ Navarro et al. (1997) 
+
+J. F. Navarro,
+C. S. Frenk, and
+S. D. M. White,
+Astrophys. J. 490 ,
+493 (1997), eprint astro-ph/9611107.
+
+ McGaugh and de Blok (1998) 
+
+S. S. McGaugh and
+W. J. G. de Blok,
+Astrophys. J. 499 ,
+41 (1998), eprint astro-ph/9801123.
+
+ Sanders and McGaugh (2002) 
+
+R. H. Sanders and
+S. S. McGaugh,
+Ann. Rev. Astron. Astrophys.
+ 40 , 263 (2002),
+eprint astro-ph/0204521.
+
+ Milgrom (1983a) 
+
+M. Milgrom,
+Astrophys. J. 270 ,
+365 (1983a).
+
+ Milgrom (1983b) 
+
+M. Milgrom,
+Astrophys. J. 270 ,
+371 (1983b).
+
+ Milgrom (1983c) 
+
+M. Milgrom,
+Astrophys. J. 270 ,
+384 (1983c).
+
+ Tully and Fisher (1977) 
+
+R. B. Tully and
+J. R. Fisher,
+Astron. Astrophys. 54 ,
+661 (1977).
+
+ Gerbal et al. (1992) 
+
+D. Gerbal,
+F. Durret,
+M. Lachièze-Rey,
+and
+G. Lima-Neto,
+Astron. Astrophys. 262 ,
+395 (1992).
+
+ Sanders (2005) 
+
+R. H. Sanders,
+Mon. Not. Roy. Astron. Soc.
+ 363 , 459 (2005),
+eprint astro-ph/0502222.
+
+ Clowe et al. (2006) 
+
+D. Clowe,
+M. Bradac,
+A. H. Gonzalez,
+M. Markevitch,
+S. W. Randall,
+C. Jones, and
+D. Zaritsky,
+Astrophys. J. 648 ,
+L109 (2006), eprint astro-ph/0608407.
+
+ Milgrom (2002) 
+
+M. Milgrom,
+New Astron. Review 46 ,
+741 (2002), eprint astro-ph/0207231.
+
+ Sanders (1997) 
+
+R. H. Sanders,
+Astrophys. J. 480 ,
+492 (1997), eprint astro-ph/9612099.
+
+ Bekenstein (2004) 
+
+J. D. Bekenstein,
+Phys. Rev. D 70 ,
+083509 (2004), eprint astro-ph/0403694.
+
+ Bruneton and Esposito-Farèse (2007) 
+
+J.-P. Bruneton and
+G. Esposito-Farèse,
+Phys. Rev. D 76 ,
+124012 (2007), eprint gr-qc/0705.4043.
+
+ Jacobson and Mattingly (2001) 
+
+T. Jacobson and
+D. Mattingly,
+Phys. Rev. D 64 ,
+024028 (2001), eprint gr-qc/0007031.
+
+ Jacobson (2008) 
+
+T. Jacobson
+(2008), eprint gr-qc/0801.1547.
+
+ Zlosnik et al. (2007) 
+
+T. G. Zlosnik,
+P. G. Ferreira,
+and G. D.
+Starkman, Phys. Rev. D
+ 75 , 044017
+(2007), eprint astro-ph/0607411.
+
+ Zhao (2007) 
+
+H. S. Zhao,
+Astrophys. J. 671 ,
+L1 (2007), eprint astro-ph/0710.3616.
+
+ Halle et al. (2008) 
+
+A. Halle,
+H. S. Zhao, and
+B. Li (2008),
+eprint astro-ph/0711.0958.
+
+ Blanchet (2007a) 
+
+L. Blanchet,
+Class. Quant. Grav. 24 ,
+3529 (2007a),
+eprint astro-ph/0605637.
+
+ Blanchet (2007b) 
+
+L. Blanchet,
+Class. Quant. Grav. 24 ,
+3541 (2007b),
+eprint gr-qc/0609121.
+
+ Jackson (1998) 
+
+J. D. Jackson,
+ Classical Electrodynamics, 3rd edition 
+(John Wiley, New York,
+1998).
+
+ Misner et al. (1973) 
+
+C. W. Misner,
+K. S. Thorne,
+and J. A.
+Wheeler, Gravitation 
+(Freeman, New York,
+1973).
+
+ Bailey and Israel (1980) 
+
+I. Bailey and
+W. Israel,
+Ann. Phys. 130 ,
+188 (1980).
+
+ Lichnerowicz (1955) 
+
+A. Lichnerowicz,
+ Théories Relativistes de la Gravitation et de
+l’Électromagnétisme (Masson,
+Paris, 1955).
+
+ Papapetrou (1951) 
+
+A. Papapetrou,
+Proc. Roy. Soc. Lon. A 209 ,
+248 (1951).
+
+ Weinberg (1972) 
+
+S. Weinberg,
+ Gravitation and Cosmology (John
+Wiley, New York, 1972).
+
+ Peter and Uzan (2005) 
+
+P. Peter and
+J.-P. Uzan,
+ Cosmologie Primordiale (Belin,
+Paris, 2005).
+
+ Bardeen (1980) 
+
+J. M. Bardeen,
+Phys. Rev. D 22 ,
+1882 (1980).
+
+ Mukhanov et al. (1992) 
+
+V. F. Mukhanov,
+H. A. Feldman,
+and R. H.
+Brandenberger, Phys. Rept.
+ 215 , 203 (1992).
+
+ Stewart and Walker (1974) 
+
+J. M. Stewart and
+M. Walker,
+Proc. Roy. Soc. Lon. A 341 ,
+49 (1974).
+
+ Stewart (1991) 
+
+J. Stewart,
+ Advanced General Relativity 
+(Cambridge University Press,
+Cambridge, 1991).
+
+ Zel’dovich (1967) 
+
+Y. B. Zel’dovich,
+JETP Lett. 6 ,
+316 (1967).
+
+ Bekenstein and Milgrom (1984) 
+
+J. Bekenstein and
+M. Milgrom,
+Astrophys. J. 286 ,
+7 (1984).
+
+ Angus et al. (2006) 
+
+G. W. Angus,
+B. Famaey, and
+H. S. Zhao,
+Mon. Not. Roy. Astron. Soc.
+ 371 , 138 (2006),
+eprint astro-ph/0606216.
+
+ Gibbons and Hawking (1977) 
+
+G. W. Gibbons and
+S. W. Hawking,
+Phys. Rev. D 15 ,
+2738 (1977).
+
+ Famaey and Binney (2005) 
+
+B. Famaey and
+J. Binney,
+Mon. Not. Roy. Astron. Soc.
+ 363 , 603 (2005),
+eprint astro-ph/0506723.
+
+ Sanders and Noordermeer (2007) 
+
+R. H. Sanders and
+E. Noordermeer,
+Mon. Not. Roy. Astron. Soc.
+ 379 , 702 (2007),
+eprint astro-ph/0703352.
+
+ Zhao and Famaey (2006) 
+
+H. S. Zhao and
+B. Famaey,
+Astrophys. J. 638 ,
+L9 (2006), eprint astro-ph/0512425.
+
+ Jaekel and Reynaud (2005a) 
+
+M.-T. Jaekel and
+S. Reynaud,
+Int. J. Mod. Phys. A 20 ,
+2294 (2005a),
+eprint gr-qc/0501038.
+
+ Jaekel and Reynaud (2005b) 
+
+M.-T. Jaekel and
+S. Reynaud,
+Class. Quant. Grav. 22 ,
+2135 (2005b),
+eprint gr-qc/0502007.
+
+ ◄ 
+
+ Feeling lucky? 
+
+ Conversion report 
+ Report an issue 
+ View original on arXiv ► 
+
+ Copyright 
+ Privacy Policy 
+
+ Generated by L a T e XML oxide 
+
+ 

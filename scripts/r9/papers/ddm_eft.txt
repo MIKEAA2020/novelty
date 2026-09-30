@@ -1,0 +1,1305 @@
+ 
+
+ [1701.07747] Dipolar Dark Matter as an Effective Field Theory 
+
+ Dipolar Dark Matter as an Effective Field Theory 
+
+ Luc Blanchet
+
+ Email:  luc.blanchet@iap.fr 
+
+ Affiliation:  \mathcal{G}\mathbb{R}\varepsilon{\mathbb{C}}\mathcal{O} 
+Institut d’Astrophysique de Paris — UMR 7095 du CNRS,
+ Université Pierre & Marie Curie, 98 bis 
+boulevard Arago, 75014 Paris, France
+
+ Lavinia Heisenberg
+
+ Email:  lavinia.heisenberg@eth-its.ethz.ch 
+
+ Affiliation:  Institute for Theoretical Studies, ETH Zurich,
+
+ Clausiusstrasse 47, 8092 Zurich, Switzerland
+
+ August 9, 2026 
+
+ Abstract 
+
+ Dipolar Dark Matter (DDM) is an alternative model motivated by the
+challenges faced by the standard cold dark matter model to describe
+the right phenomenology at galactic scales. A promising realisation of
+DDM was recently proposed in the context of massive bigravity
+theory. The model contains dark matter particles, as well as a vector
+field coupled to the effective composite metric of bigravity. This
+model is completely safe in the gravitational sector thanks to the
+underlying properties of massive bigravity. In this work we
+investigate the exact decoupling limit of the theory, including the
+contribution of the matter sector, and prove that it is free of ghosts
+in this limit. We conclude that the theory is acceptable as an
+Effective Field Theory below the strong coupling scale. 
+
+ pacs 95.35.+d, 04.50.Kd
+
+ I Introduction 
+
+ We are witnesses of centenaries. The year 2015 marked the 100th
+anniversary of Albert Einstein’s elaborate theory of General
+Relativity (GR), while 2016 celebrated the centenary of the first
+paper on gravitational waves by the announcement of their experimental
+detection  Abbott et al. 2016 . GR meets the requirements of the underlying
+physics in a broad range of scales, from black hole to solar system
+size. It stood up to intense scrutiny and prevailed against all
+alternative competitors. It constitutes the bedrock upon which our
+fundamental understanding of gravity relies. However,
+some important questions remain. 
+
+ The lack of renormalizability motivates the modifications of gravity
+in the ultraviolet (UV), that incorporate the quantum nature of
+gravity. The singularities present in the classical theory could be
+regularized by the new physics  Beltran Jimenez
+et al. 2014 . The UV
+modifications might also dictate a different scenario for the early
+Universe as an alternative to inflation  Beltran Jimenez
+et al. 2015 . The
+inflaton field in the standard picture might be just a reminiscent of
+the modification of gravity in the UV. 
+
+ From a more observational point of view, GR faces additional
+challenges on cosmological scales. In order to account for the
+observed amount of ingredients of the Universe, it is necessary to
+introduce dark matter and dark energy despite of their unclear
+origin. Notwithstanding of remarkable efforts, the dark matter has so
+far not been directly detected. Concerning the dark energy,
+the standard model in form of a cosmological constant \Lambda 
+accounts for most of the observations even though it faces the
+unnaturalness problem  Weinberg 1989 . Combined with the
+non-baryonic cold dark matter (CDM) component, the model explains
+remarkably well the observed fluctuations of the cosmic microwave
+background and the formation of large scale structures. 
+
+ Albeit the many successes of the \Lambda -CDM model at large scales,
+it has difficulties to explain the observations of dark matter at
+galactic scales. For instance, it is not able to account for the tight
+correlations between dark and luminous matter in galaxy
+halos  Sanders and McGaugh 2002 ; Famaey and McGaugh 2012 . In this remark, the first
+unsatisfactory discrepancy comes from the observed Tully-Fisher
+relation between the baryonic mass of spiral galaxies and their
+asymptotic rotation velocity. Another discrepancy, perhaps more
+fundamental, comes from the correlation between the
+presence of dark matter and the acceleration scale  McGaugh et al. 2000 ; McGaugh 2011 . The prevailing view regarding these problems is that they
+should be resolved once we understand the baryonic processes that
+affect galaxy formation and evolution  Silk and Mamon 2012 . However, this
+explanation is challenged by the fact that galactic data are in
+excellent agreement with the MOND (MOdified Newtonian Dynamics)
+empirical formula  Milgrom 1983a ; Milgrom 1983b ; Milgrom 1983c . From a phenomenological
+point of view, this formula accommodates remarkably well all
+observations at galactic scales. Unfortunately, extrapolation of the
+MOND formula to the larger scale of galaxy clusters confronts an
+incorrect dark matter distribution  Gerbal et al. 1992 ; Pointecouteau and Silk 2005 ; Clowe et al. 2006 ; Angus et al. 2008 ; Angus 2009 . 
+
+ The ideal scenario would be to have a hybrid model in which the
+properties of the \Lambda -CDM model are naturally incorporated on
+large scales, whereas the MOND formula would take place on galactic
+scales. There have been many attempts to embed the physics beyond the
+MOND formula into an approved relativistic theory, either via 
+invoking new propagating fields without dark matter  Sanders 1997 ; Bekenstein 2004 ; Sanders 2005 ; Zlosnik et al. 2007 ; Halle et al. 2008 ; Milgrom 2009 ; Babichev et al. 2011 , or by considering
+MOND as an emergent phenomenology  Blanchet 2007 ; Bruneton et al. 2009 ; Blanchet and Le Tiec 2008 ; Blanchet and Le Tiec 2009 ; Sanders 2011 ; Blanchet and Marsat 2011 ; Bernard and Blanchet 2015 ; Khoury 2015 ; Berezhian and Khoury 2015 ; Verlinde 2016 . 
+
+ Here we consider a model of the latter class, called Dipolar Dark
+Matter (DDM)  Blanchet and Le Tiec 2008 ; Blanchet and Le Tiec 2009 ; Bernard and Blanchet 2015 . The most compelling
+version of DDM has been recently developed, based on the formalism of
+massive bigravity theory  Blanchet and
+Heisenberg 2015a ; Blanchet and
+Heisenberg 2015b . To
+describe the potential interactions between the two metrics of
+bigravity the model uses the effective composite metric introduced in
+Refs.  de Rham et al. 2015 ; de Rham et al. 2014 ; Heisenberg 2015a . Two species of dark
+matter particles are separately coupled to the two metrics, and an
+internal vector field that links the two dark matter species is
+coupled to the effective composite metric. The MOND formula is
+recovered from a mechanism of gravitational polarization in the non
+relativistic approximation. The model has the potential to
+reproduce the physics of the \Lambda -CDM model at large
+cosmological scales. 
+
+ In the present paper we address the problem of whether there are ghost
+instabilities in this model. The model itself  Blanchet and
+Heisenberg 2015a ; Blanchet and
+Heisenberg 2015b will be reviewed in Sec.  II . The model is safe
+in the gravitational sector because it uses the ghost-free framework of massive bigravity.
+The interactions of the matter fields with the effective metric reintroduce a ghost
+in the matter sector beyond the strong coupling scale, as found in  de Rham et al. 2015 ; de Rham et al. 2014 .
+In our model, apart from this effective coupling the different
+species of matter fields interact with each other via an internal vector field.
+This additional coupling might spoil the property of ghost freedom within the strong
+coupling scale.
+We therefore investigate, in Sec.  III ,
+the exact decoupling limit (DL) of our model, crucially including the
+contributions coming from the matter sector and notably from the
+internal vector field. The model dictates what are the relevant
+scalings of the matter fields in terms of the Planck mass in the
+DL. Using that, we shall prove that the theory is free of ghosts in the
+DL and conclude that it is acceptable as an Effective Field Theory
+below the strong coupling scale. We end the paper with a few
+concluding remarks in Sec.  IV . 
+
+ II Dipolar Dark Matter 
+
+ The model that we would like to study in this work is the dark matter
+model proposed in Ref.  Blanchet and
+Heisenberg 2015a where the Dipolar Dark
+Matter (DDM) at small galactic scales is connected to bimetric gravity
+based on the ghost-free bimetric formulation of massive
+gravity  de Rham
+et al. 2011a ; Hassan and Rosen 2012 . The action of a successful
+realisation was investigated in  Blanchet and
+Heisenberg 2015b and we would
+like to push forward the analysis performed there. The Lagrangian is
+the sum of a gravitational part, based on massive bigravity theory,
+plus a matter part: \mathcal{L}=\mathcal{L}_{\text{grav}}+\mathcal{L}_{\text{mat}} . The gravitational part reads 
+
+ \displaystyle\mathcal{L}_{\text{grav}}=\frac{M_{g}^{2}}{2}\sqrt{-g}\,R_{g}+\frac{M_{f}^{2}}{2}\sqrt{-f}\,R_{f}+m^{2}M_{\text{eff}}^{2}\,\sqrt{-g_{\text{eff}}}\,, 
+
+ (1) 
+
+ where R_{g} and R_{f} denote the Ricci scalars of the two metrics
+ g_{\mu\nu} and f_{\mu\nu} , with the corresponding Planck scales
+ M_{g} and M_{f} and the interactions carrying another Planck scale
+ M_{\text{eff}} , together with the graviton’s mass m . In this
+formulation, the ghost-free potential interactions between the two
+metrics are defined as the square root of the determinant of the
+effective composite metric  de Rham et al. 2015 ; de Rham et al. 2014 ; Heisenberg 2015a 
+
+ g^{\text{eff}}_{\mu\nu}=\alpha^{2}g_{\mu\nu}+2\alpha\beta\,\mathcal{G}^{\text{eff}}_{\mu\nu}+\beta^{2}f_{\mu\nu}\,, 
+
+ (2) 
+
+ with the arbitrary dimensionless parameters \alpha and \beta 
+(typically of the order of one). Here
+ \mathcal{G}^{\text{eff}}_{\mu\nu} denotes the effective metric in the
+previous DDM model  Bernard and Blanchet 2015 , given by
+ \mathcal{G}^{\text{eff}}_{\mu\nu}=g_{\mu\rho}X^{\rho}_{\nu} where
+ X=\sqrt{g^{-1}f} , or equivalently \mathcal{G}^{\text{eff}}_{\mu\nu}=f_{\mu\rho}Y^{\rho}_{\nu} where Y=\sqrt{f^{-1}g} . It is trivial to see
+that the square root of the determinant of this effective metric
+ g^{\text{eff}}_{\mu\nu} corresponds to the allowed ghost-free
+potential interactions  de Rham et al. 2015 . 
+
+ The matter part of the model will consist of ordinary baryonic matter
+and a dark sector including dark matter particles. The crucial feature
+of the model is the presence of a vector field \mathcal{A}_{\mu} in
+the dark sector, that is sourced by the mass currents of dark matter
+particles and represents a “graviphoton”  Scherk 1979 . This
+vector field stabilizes the DDM medium and ensures a mechanism of
+“gravitational polarisation”. The matter action reads 
+
+ \displaystyle\mathcal{L}_{\text{mat}}= 
+ \displaystyle-\sqrt{-g}\bigl(\rho_{\text{bar}}+\rho_{g}\bigr)-\sqrt{-f}\,\rho_{f} 
+
+ \displaystyle+\sqrt{-g_{\text{eff}}}\biggl[\mathcal{A}_{\mu}\bigl(j_{g}^{\mu}-j_{f}^{\mu}\bigr)+\lambda M_{\text{eff}}^{2}\,\mathcal{W}\bigl(\mathcal{X}\bigr)\biggr]\,. 
+
+ (3) 
+
+ Note the presence of a non-canonical kinetic term for the vector field
+in form of a function \mathcal{W}(\mathcal{X}) of 
+
+ \mathcal{X}=-\frac{\mathcal{F}^{\mu\nu}\mathcal{F}_{\mu\nu}}{4\lambda}\,, 
+
+ (4) 
+
+ with the field strength defined by \mathcal{F}^{\mu\nu}\equiv g_{\text{eff}}^{\mu\rho}g_{\text{eff}}^{\nu\sigma}\mathcal{F}_{\rho\sigma} where
+ \mathcal{F}_{\mu\nu}=\partial_{\mu}\mathcal{A}_{\nu}-\partial_{\nu}\mathcal{A}_{\mu} . The form of the function
+ \mathcal{W}(\mathcal{X}) has been determined by demanding that the
+model reproduces the MOND phenomenology at galactic
+scales  Bernard and Blanchet 2015 ; Blanchet and
+Heisenberg 2015b ; Bernard et al. 2015 . This
+corresponds to the limit \mathcal{X}\to 0 and we have 
+
+ \mathcal{W}(\mathcal{X})=\mathcal{X}-\frac{2}{3}(\alpha+\beta)^{2}\mathcal{X}^{3/2}+\mathcal{O}\left(\mathcal{X}^{2}\right)\,, 
+
+ (5) 
+
+ so that the leading term in the action ( II ) is 
+
+ \lambda M_{\text{eff}}^{2}\,\mathcal{W}\bigl(\mathcal{X}\bigr)=-\frac{M_{\text{eff}}^{2}}{4}\mathcal{F}^{\mu\nu}\mathcal{F}_{\mu\nu}+\mathcal{O}\left(\mathcal{F}^{3}\right)\,. 
+
+ (6) 
+
+ Hence, we observe that the coupling scale of the vector field is
+dictated by M_{\text{eff}} , while the parameter \lambda enters into
+higher-order corrections. In order to recover the correct MOND regime
+for very weak accelerations of baryons in the ordinary g sector,
+ i.e. below the MOND acceleration scale a_{0} , these constants
+have been determined as  Blanchet and
+Heisenberg 2015b 1 1 
+ 1 
+
+ Recall also
+that the MOND acceleration a_{0} is of the order of the cosmological
+parameters, and thus is extremely small in Planck units, a_{0}\sim 10^{-63}\,M_{\text{Pl}} . 
+
+ M_{\text{eff}}=\sqrt{2}\,r_{g}M_{\text{Pl}}\quad\text{and}\quad\lambda=\frac{a_{0}^{2}}{2}\,. 
+
+ (7) 
+
+ Here M_{\text{Pl}} represents the standard Planck constant of GR and
+the constant r_{g} is defined below. It is worth mentioning that the
+standard Newtonian limit in the ordinary g sector is obtained by
+imposing the relation 
+
+ M_{g}^{2}+\frac{\alpha^{2}}{\beta^{2}}M_{f}^{2}=M_{\text{Pl}}^{2}\,. 
+
+ (8) 
+
+ Thus, in this model the three mass scales M_{g} , M_{f} and
+ M_{\text{eff}} are of the order of the Planck mass. 
+
+ We represent the scalar energy densities of the ordinary pressureless
+baryons, and the two species of pressureless dark matter particles by
+ \rho_{\text{bar}} , \rho_{g} and \rho_{f} respectively. Such densities
+are conserved in the usual way with respect to their respective
+metrics, hence \nabla^{g}_{\mu}(\rho_{\text{bar}}u_{\text{bar}}^{\mu})=0 ,
+ \nabla^{g}_{\mu}(\rho_{g}u_{g}^{\mu})=0 and \nabla^{f}_{\mu}(\rho_{f}u_{f}^{\mu})=0 ,
+with the four velocities being normalized as
+ g_{\mu\nu}u_{\text{bar}}^{\mu}u_{\text{bar}}^{\nu}=-1 , g_{\mu\nu}u_{g}^{\mu}u_{g}^{\nu}=-1 and f_{\mu\nu}u_{f}^{\mu}u_{f}^{\nu}=-1 . The respective
+stress-energy tensors are defined as
+ T_{\text{bar}}^{\mu\nu}=\rho_{\text{bar}}u_{\text{bar}}^{\mu}u_{\text{bar}}^{\nu} , T_{g}^{\mu\nu}=\rho_{g}u_{g}^{\mu}u_{g}^{\nu} and
+ T_{f}^{\mu\nu}=\rho_{f}u_{f}^{\mu}u_{f}^{\nu} . The pressureless baryonic fluid
+obeys the geodesic law of motion a^{\text{bar}}_{\mu}\equiv u_{\text{bar}}^{\nu}\nabla^{g}_{\nu}u^{\text{bar}}_{\mu}=0 , hence
+ \nabla_{g}^{\nu}T^{\text{bar}}_{\mu\nu}=0 . On the other hand, because of
+their coupling to the vector field, the dark matter fluids pursue a
+non-geodesic motion: 
+
+ \displaystyle\nabla_{g}^{\nu}T^{g}_{\mu\nu} 
+ \displaystyle=J_{g}^{\nu}\mathcal{F}_{\mu\nu}\,, 
+
+ (9a) 
+
+ \displaystyle\nabla_{f}^{\nu}T^{f}_{\mu\nu} 
+ \displaystyle=-J_{f}^{\nu}\mathcal{F}_{\mu\nu}\,, 
+
+ (9b) 
+
+ where the dark matter currents J_{g}^{\mu} and J_{f}^{\mu} are related to
+those appearing in Eq. ( II ) by 
+
+ J_{g}^{\mu}=\frac{\sqrt{-g_{\text{eff}}}}{\sqrt{-g}}\,j_{g}^{\mu}\quad\text{and}\quad J_{f}^{\mu}=\frac{\sqrt{-g_{\text{eff}}}}{\sqrt{-f}}\,j_{f}^{\mu}\,. 
+
+ (10) 
+
+ It remains to specify the link between these currents and the scalar
+densities \rho_{g} and \rho_{f} of the particles. This is provided by
+ J_{g}^{\mu}=r_{g}\rho_{g}u_{g}^{\mu} and J_{f}^{\mu}=r_{f}\rho_{f}u_{f}^{\mu} , where
+ r_{g} and r_{f} are two constants of the order of one, which can be
+interpreted as the ratios between the “charge” of the particles
+(with respect to the vector interaction) and their inertial mass. For
+correctly recovering MOND we must have \alpha r_{g}=\beta r_{f}   Blanchet and
+Heisenberg 2015b . 
+
+ Whereas, the stress-energy tensor of the vector field
+ \mathcal{A}_{\mu} is obtained by varying ( II ) with respect to
+ g_{\mu\nu}^{\text{eff}} (holding the g and f metrics fixed) and
+corresponds to 
+
+ T_{g_{\text{eff}}}^{\mu\nu}=M_{\text{eff}}^{2}\Bigl[\mathcal{W}_{\mathcal{X}}\,\mathcal{F}^{\mu\rho}\mathcal{F}^{\nu}_{\phantom{\nu}\rho}+\lambda\mathcal{W}\,g_{\text{eff}}^{\mu\nu}\Bigr]\,, 
+
+ (11) 
+
+ where \mathcal{W}_{\mathcal{X}}\equiv\mathrm{d}\mathcal{W}/\mathrm{d}\mathcal{X} .
+The evolution of the vector field is dictated by the Maxwell law 
+
+ \nabla^{g_{\text{eff}}}_{\nu}\Bigl[\mathcal{W}_{\mathcal{X}}\mathcal{F}^{\mu\nu}\Bigr]=\frac{1}{M_{\text{eff}}^{2}}\bigl(j^{\mu}_{g}-j^{\mu}_{f}\bigr)\,, 
+
+ (12) 
+
+ where the covariant derivative associated with g_{\text{eff}} is
+denoted by \nabla^{g_{\text{eff}}}_{\nu} . Together with the conservation
+of the currents, \nabla^{g_{\text{eff}}}_{\mu}j_{g}^{\mu}=0 and
+ \nabla^{g_{\text{eff}}}_{\mu}j_{f}^{\mu}=0 , the equations of motion for the
+vector field can also be expressed as 
+
+ \nabla_{g_{\text{eff}}}^{\nu}T^{g_{\text{eff}}}_{\mu\nu}=-\bigl(j^{\nu}_{g}-j^{\nu}_{f}\bigr)\mathcal{F}_{\mu\nu}\,, 
+
+ (13) 
+
+ and we can combine these equations of motion all together into a
+“global” conservation law 
+
+ \sqrt{-g_{\text{eff}}}\,\nabla_{g_{\text{eff}}}^{\nu}T^{g_{\text{eff}}}_{\mu\nu}+\sqrt{-g}\,\nabla_{g}^{\nu}T^{g}_{\mu\nu}+\sqrt{-f}\,\nabla_{f}^{\nu}T^{f}_{\mu\nu}=0\,. 
+
+ (14) 
+
+ III Decoupling Limit 
+
+ Being based on massive bigravity theory, the gravitational sector of
+the model, Eq. ( 1 ), is ghost-free up to any order in
+perturbation theory  de Rham
+et al. 2011a ; Hassan and Rosen 2012 . In addition, the
+baryonic and dark matter particles can be coupled separately to either
+the g metric or f metric without changing this
+property  de Rham et al. 2015 . The case of the pure matter coupling between
+the vector field \mathcal{A}_{\mu} and the effective composite metric
+ g_{\text{eff}} in Eqs. ( II )–( 4 ), is not trivial. In
+that case, it was shown in Ref.  de Rham et al. 2015 that the coupling is
+ghost-free in the mini-superspace and in the decoupling
+limit. Furthermore it is known that such coupling to the composite
+metric is unique in the sense that it is the only non-minimal matter
+coupling that maintains ghost-freedom in the decoupling
+limit  de Rham and Tolley 2015 ; Huang et al. 2015 ; Heisenberg 2015b . 
+
+ Figure 1: Schematic structure of the model. The two metrics of
+bigravity g_{\mu\nu} and f_{\mu\nu} interact through the
+effective composite metric g^{\text{eff}}_{\mu\nu} , but also
+indirectly, via the particles \rho_{g} and \rho_{f} and the
+vector field \mathcal{A}_{\mu} . 
+
+ However, in our model the vector field is also coupled to the g and
+ f particles, through the standard interaction term
+ \propto\mathcal{A}_{\mu}(j_{g}^{\mu}-j_{f}^{\mu}) . This term plays a crucial
+role for the dark matter model to work. This coupling introduces a
+suplementary, indirect interaction between the two metrics of
+bigravity, via the g and f particles coupled together by
+the term \mathcal{A}_{\mu}(j_{g}^{\mu}-j_{f}^{\mu}) . See Fig.  1 for a
+schematic illustration of the interactions in the model. As a result
+it was found in Ref.  Blanchet and
+Heisenberg 2015b that a ghost is
+reintroduced in the dark matter sector in the full theory. The aim of
+this paper is to investigate the occurence and mass of this ghost, and
+whether or not the decoupling limit (DL) is maintained ghost-free. If
+the latter is true, then the model can be used in a consistent way as
+an Effective Field Theory valid below the strong coupling scale. 
+
+ We now detail the analysis of the DL interactions in the graviton and
+matter sectors. We follow the preliminary work  Blanchet and
+Heisenberg 2015b 
+and investigate the scale of the reintroduced Boulware-Deser (BD)
+ghost  Boulware and Deser 1972 . We first decouple the interactions below
+the strong coupling scale from those entering above it, and
+concentrate on the pure interactions of the helicity-0 mode of the
+massive graviton. Using the Stückelberg trick, we restore the broken
+gauge invariance in the f metric by replacing it by 
+
+ \tilde{f}_{\mu\nu}=f_{ab}\partial_{\mu}\phi^{a}\partial_{\nu}\phi^{b}\,, 
+
+ (15) 
+
+ where a,b=0,1,2,3 and the four Stückelberg fields \phi^{a} are
+decomposed into the helicity-0 mode \pi and the helicity-1 mode
+ A^{a} , 
+
+ \phi^{a}=x^{a}-\frac{mA^{a}}{\Lambda^{3}_{3}}-\frac{f^{ab}\partial_{b}\pi}{\Lambda^{3}_{3}}\,. 
+
+ (16) 
+
+ Here \Lambda_{3}\equiv(m^{2}M_{\text{eff}})^{1/3} denotes the strong
+coupling scale. Note, that we define it with respect to M_{\text{eff}} 
+here, since the potential interactions scale with m^{2}M_{\text{eff}}^{2} 
+in our case. 
+
+ It is well known that the would-be BD ghost in the DL, would come in
+the form of higher derivative interactions of the helicity-0 mode at
+the level of the equations of motion. Therefore we shall only follow
+the contributions of the helicity-0 mode \pi and neglect the
+interactions of the helicity-1 mode A^{a} . For simplicity we do not
+write the tilde symbol over the Stükelbergized version of the
+metric ( 15 ). Thus, considering also the helicity-2 mode in
+the g metric, we have 2 2 
+ 2 
+
+ If there is a BD ghost in the DL,
+then it will manifest itself in the higher-order equations of motion
+of the helicity-0 mode. For this purpose, it will be enough to
+follow closely the contributions of the matter couplings to the
+helicity-0 mode equations of motion and decouple the dynamics of the
+secondary helicity-2 mode in f . The contributions of the latter,
+as derived in  Fasiello and Tolley 2013 , will not play any role in our
+analysis and will not change the final conclusions. The same is true
+for the contributions of the helicity-1 mode. 
+
+ \displaystyle g_{\mu\nu} 
+ \displaystyle=\biggl(\eta_{\mu\nu}+\frac{h_{\mu\nu}}{M_{g}}\biggr)^{2}\,, 
+
+ (17a) 
+
+ \displaystyle f_{\mu\nu} 
+ \displaystyle=\biggl(\eta_{\mu\nu}-\frac{\Pi_{\mu\nu}}{\Lambda^{3}_{3}}\biggr)^{2}\,, 
+
+ (17b) 
+
+ where we introduced the notation \Pi_{\mu\nu}\equiv\partial_{\mu}\partial_{\nu}\pi for convenience, and raised and lowered indices with
+the Minkowski metric \eta_{\mu\nu} . The effective metric reads then 
+
+ g_{\mu\nu}^{\text{eff}}=\Bigl((\alpha+\beta)\eta_{\mu\nu}+K_{\mu\nu}\Bigr)^{2}\,, 
+
+ (18) 
+
+ in which we have introduced as a short-cut notation the linear combination 
+
+ K_{\mu\nu}=\frac{\alpha}{M_{g}}h_{\mu\nu}-\frac{\beta}{\Lambda^{3}_{3}}\Pi_{\mu\nu}\,. 
+
+ (19) 
+
+ We will as next investigate the different contributions in the
+gravitational and matter sectors. 
+
+ III.1 Gravitational sector 
+
+ There is no contribution of the Einstein-Hilbert term to the
+helicity-0 mode, since this is invariant under diffeomorphisms. On the
+other hand, there will be different contributions coming from the
+ghost-free potential interactions. The allowed potential interactions
+between the metrics g and f have been chosen in our model to be
+given by the square root of the determinant of the composite
+metric ( 18 ), which becomes in this case 
+
+ \sqrt{-g_{\text{eff}}}=\sum_{n=0}^{4}(\alpha+\beta)^{4-n}e_{(n)}(K)\,, 
+
+ (20) 
+
+ where e_{(n)}(K) denote the usual symmetric polynomials associated
+with the matrix K_{\mu}^{\rho}\equiv\eta^{\rho\nu}K_{\mu\nu} , and given
+by products of antisymmetric Levi-Cevita tensors, 
+
+ \displaystyle e_{(0)}(K) 
+ \displaystyle=-\frac{1}{24}\varepsilon^{\mu\nu\rho\sigma}\varepsilon_{\mu\nu\rho\sigma}\,, 
+
+ (21a) 
+
+ \displaystyle e_{(1)}(K) 
+ \displaystyle=-\frac{1}{6}\varepsilon^{\mu\nu\rho\sigma}\varepsilon_{\mu\nu\rho\lambda}K^{\lambda}_{\sigma}\,, 
+
+ (21b) 
+
+ \displaystyle e_{(2)}(K) 
+ \displaystyle=-\frac{1}{4}\varepsilon^{\mu\nu\rho\sigma}\varepsilon_{\mu\nu\tau\lambda}K^{\tau}_{\rho}K^{\lambda}_{\sigma}\,, 
+
+ (21c) 
+
+ \displaystyle e_{(3)}(K) 
+ \displaystyle=-\frac{1}{6}\varepsilon^{\mu\nu\rho\sigma}\varepsilon_{\mu\pi\tau\lambda}K^{\pi}_{\nu}K^{\tau}_{\rho}K^{\lambda}_{\sigma}\,, 
+
+ (21d) 
+
+ \displaystyle e_{(4)}(K) 
+ \displaystyle=-\frac{1}{24}\varepsilon^{\mu\nu\rho\sigma}\varepsilon_{\epsilon\pi\tau\lambda}K^{\epsilon}_{\mu}K^{\pi}_{\nu}K^{\tau}_{\rho}K^{\lambda}_{\sigma}\,. 
+
+ (21e) 
+
+ In particular, we see that e_{(4)}(K)=\text{det}(K) . 
+
+ First of all, the pure helicity-0 mode in the ghost-free potential
+interactions ( 20 ) will come in the form of total
+derivatives  de Rham and Gabadadze 2010 ; de Rham
+et al. 2011a . Indeed, as is clear from their
+definitions ( 21 ) in terms of antisymmetric
+Levi-Cevita tensors, the symmetric polynomials
+ e_{(n)}(\Pi)\equiv\mathcal{L}^{\text{der}}_{(n)}(\Pi) fully encode
+the total derivatives at that order, and thus will not contribute to
+the equation of motion of the helicity-0 mode. In fact, in
+Ref.  de Rham and Gabadadze 2010 , this very same property of total derivatives of
+the leading contributions at each order was used to build the
+ghost-free interactions away from h=0 . Secondly, there will be the
+pure interactions of the helicity-2 mode, obtained by setting \Pi=0 ,
+and these will come with the corresponding inverse powers of
+ M_{g} . Finally, there will be the mixed interactions between the
+helicity-2 and helicity-0 modes. 
+
+ We are after the leading interactions in the DL, which correspond to
+sending all the Planck scales to infinity, 
+
+ M_{\text{Pl}}\to\infty\,,~~M_{g}\to\infty\,,~~M_{\text{eff}}\to\infty\,,~~M_{f}\to\infty\,, 
+
+ (22) 
+
+ together with the graviton’s mass m\to 0 , while keeping 
+
+ \biggl\{\Lambda^{3}_{3}=m^{2}M_{\text{eff}}\,,~~\frac{M_{g}}{M_{\text{Pl}}}\,,~~\frac{M_{\text{eff}}}{M_{\text{Pl}}}\,,~~\frac{M_{f}}{M_{\text{Pl}}}\biggr\}=\text{const}\,. 
+
+ (23) 
+
+ Taking into account the factor m^{2}M_{\text{eff}}^{2} in front of the
+potential interactions, one immediately observes that the pure
+non-linear interactions of the helicity-2 modes do not contribute to
+the DL. As we already mentioned, the pure helicity-0 mode interactions
+do not contribute either. So it remains the mixed terms, for which the
+only surviving terms will be linear in the helicity-2 mode, and we
+finally obtain 
+
+ m^{2}M_{\text{eff}}^{2}\sqrt{-g_{\text{eff}}}=\sum_{n=1}^{3}\frac{a_{n}}{\Lambda_{3}^{3(n-1)}}h^{\mu\nu}P_{\mu\nu}^{(n)}(\Pi)+\mathcal{O}\left(\frac{1}{M_{g}}\right)\,, 
+
+ (24) 
+
+ where a_{n}\equiv(\frac{M_{\text{eff}}}{M_{g}})^{n+1}\alpha(-\beta)^{n}(\alpha+\beta)^{3-n} 
+and we posed 
+
+ P_{\mu\nu}^{(n-1)}(\Pi)\equiv\frac{\partial e_{(n)}(\Pi)}{\partial\Pi^{\mu\nu}}\,. 
+
+ (25) 
+
+ In arriving at Eq. ( 24 ) we have removed the trivial
+constant term in ( 20 ), and ignored the “tadpole” which is
+simply proportional to the trace [h]=h^{\mu}_{\mu} and can be
+eliminated by choosing an appropriate de Sitter background (see,
+ e.g. , a discussion in  Blanchet and
+Heisenberg 2015b ). 
+
+ We can then write the total contribution of the gravitational sector
+in the DL, including that coming from the Einstein-Hilbert term of the
+ g metric, which enters only at the leading quadratic order in
+ h_{\mu\nu} , 
+
+ \mathcal{L}^{\text{DL}}_{\text{grav}}=-h^{\mu\nu}\mathcal{E}^{\rho\sigma}_{\mu\nu}h_{\rho\sigma}+\sum_{n=1}^{3}\frac{a_{n}}{\Lambda_{3}^{3(n-1)}}h^{\mu\nu}P_{\mu\nu}^{(n)}(\Pi)\,, 
+
+ (26) 
+
+ where \mathcal{E}^{\rho\sigma}_{\mu\nu} is the usual Lichnerowicz
+operator on a flat background as defined by 
+
+ \displaystyle-2\mathcal{E}_{\mu\nu}^{\rho\sigma}h_{\rho\sigma} 
+ \displaystyle=\Box\bigl(h_{\mu\nu}-\eta_{\mu\nu}h\bigr)+\partial_{\mu}\partial_{\nu}h 
+
+ \displaystyle-2\partial_{(\mu}H_{\nu)}+\eta_{\mu\nu}\partial_{\rho}H^{\rho}\,, 
+
+ (27) 
+
+ with h=[h]=h^{\mu}_{\mu} and H_{\mu}=\partial_{\nu}h^{\nu}_{\mu} . 
+ The symmetric tensors P^{(n)}_{\mu\nu} 
+are conserved, i.e. \partial_{\nu}P_{(n)}^{\mu\nu}=0 . For
+an easier comparison with the literature we give them as the product
+of two Levi-Cevita tensors appropriately contracted with the second
+derivative of the helicity-0 field, 
+
+ \displaystyle P^{(1)}_{\mu\nu}(\Pi) 
+ \displaystyle=-\frac{1}{2}\varepsilon_{\mu}^{\phantom{\mu}\lambda\rho\sigma}\varepsilon_{\nu\lambda\rho\tau}\Pi^{\tau}_{\sigma}\,, 
+
+ (28a) 
+
+ \displaystyle P^{(2)}_{\mu\nu}(\Pi) 
+ \displaystyle=-\frac{1}{2}\varepsilon_{\mu}^{\phantom{\mu}\lambda\rho\sigma}\varepsilon_{\nu\lambda\pi\tau}\Pi^{\pi}_{\rho}\Pi^{\tau}_{\sigma}\,, 
+
+ (28b) 
+
+ \displaystyle P^{(3)}_{\mu\nu}(\Pi) 
+ \displaystyle=-\frac{1}{6}\varepsilon_{\mu}^{\phantom{\mu}\lambda\rho\sigma}\varepsilon_{\nu\epsilon\pi\tau}\Pi^{\epsilon}_{\lambda}\Pi^{\pi}_{\rho}\Pi^{\tau}_{\sigma}\,. 
+
+ (28c) 
+
+ The first two interactions between the helicity-0 and helicity-2
+fields in the Lagrangian ( 26 ) can be removed by the change
+of variable, defining 
+
+ \hat{h}_{\mu\nu}\equiv h_{\mu\nu}-\frac{a_{1}}{2}\pi\,\eta_{\mu\nu}+\frac{a_{2}}{2\Lambda_{3}^{3}}\partial_{\mu}\pi\partial_{\nu}\pi\,. 
+
+ (29) 
+
+ In this way the Lagrangian of the gravitational sector in the
+decoupling limit becomes  de Rham and Gabadadze 2010 
+
+ \displaystyle\mathcal{L}^{\text{DL}}_{\text{grav}}= 
+ \displaystyle-\hat{h}^{\mu\nu}\mathcal{E}^{\rho\sigma}_{\mu\nu}\hat{h}_{\rho\sigma}+\sum_{n=0}^{3}\frac{b_{n}}{\Lambda_{3}^{3n}}\left(\partial\pi\right)^{2}\!e_{(n)}(\Pi) 
+
+ \displaystyle+\frac{a_{3}}{\Lambda_{3}^{6}}\hat{h}^{\mu\nu}P_{\mu\nu}^{(3)}(\Pi)\,. 
+
+ (30) 
+
+ We see in the first line the appearance of the ordinary Galileon terms
+up to quintic order [we denote
+ (\partial\pi)^{2}\equiv\partial_{\mu}\pi\partial^{\mu}\pi ]. The
+coefficients b_{n} are given by certain combinations of the
+ a_{n} ’s. 3 3 
+ 3 
+
+ Namely, b_{0}=-\frac{3}{4}a_{1}^{2} ,
+ b_{1}=-\frac{3}{4}a_{1}a_{2} , b_{2}=-\frac{1}{2}a_{2}^{2}-\frac{1}{3}a_{1}a_{3} and b_{3}=-\frac{5}{4}a_{2}a_{3} . The last term of
+Eq. ( III.1 ) is the remaining mixing between the helicity-0
+and helicity-2 modes and is not removable by any local field
+redefinition like in ( 29 ). 
+
+ The contribution of the gravitational sector to the equation of motion
+of the helicity-2 field gives 
+
+ \frac{\delta\mathcal{L}^{\text{DL}}_{\text{grav}}}{\delta\hat{h}^{\mu\nu}}=-2\mathcal{E}^{\rho\sigma}_{\mu\nu}\hat{h}_{\rho\sigma}+\frac{a_{3}}{\Lambda_{3}^{6}}P^{(3)}_{\mu\nu}(\Pi)\,, 
+
+ (31) 
+
+ while its contribution to the equation of motion of the helicity-0
+field reads 
+
+ \frac{\delta\mathcal{L}^{\text{DL}}_{\text{grav}}}{\delta\pi}=-2\sum_{n=1}^{4}\frac{nb_{n-1}}{\Lambda_{3}^{3(n-1)}}e_{(n)}(\Pi)+\frac{a_{3}}{\Lambda_{3}^{6}}Q_{\mu\nu}^{(2)\rho\sigma}\!(\Pi)\partial_{\rho}\partial_{\sigma}\hat{h}^{\mu\nu}\,, 
+
+ (32) 
+
+ where we posed 
+
+ Q_{\mu\nu}^{(2)\rho\sigma}\!(\Pi)\equiv\frac{\partial P_{\mu\nu}^{(3)}}{\partial\Pi_{\rho\sigma}}=-\frac{1}{2}\varepsilon_{\mu}^{\phantom{\mu}\rho\epsilon\lambda}\varepsilon_{\nu\phantom{\sigma}\pi\tau}^{\phantom{\nu}\sigma}\Pi^{\pi}_{\epsilon}\Pi^{\tau}_{\lambda}\,. 
+
+ (33) 
+
+ The second-order nature of the equations of motion in the gravity
+sector is apparent. This is the standard property of the ghost-free
+massive gravity interactions  de Rham and Gabadadze 2010 ; de Rham
+et al. 2011b . 
+
+ III.2 Matter sector 
+
+ As next, we shall control the contributions in the matter sector due
+to both the helicity-0 and helicity-2 fields. To this aim it is
+important to properly identify the matter degrees of freedom that are
+metric independent. These are provided by the coordinate densities
+defined as \rho^{*}_{g}=\sqrt{-g}\rho_{g}u^{0}_{g} and \rho^{*}_{f}=\sqrt{-f}\rho_{f}u^{0}_{f} , and by the ordinary (coordinate) velocities
+ v^{\mu}_{g}=u^{\mu}_{g}/u^{0}_{g} and v^{\mu}_{f}=u^{\mu}_{f}/u^{0}_{f} . The associated
+currents J^{*\mu}_{g}=\rho^{*}_{g}v^{\mu}_{g} and J^{*\mu}_{f}=\rho^{*}_{f}v^{\mu}_{f} are conserved in the ordinary sense, \partial_{\mu}J^{*\mu}_{g}=0 and \partial_{\mu}J^{*\mu}_{f}=0 , and are related to the
+classical currents by 
+
+ J^{*\mu}_{g}=\sqrt{-g}\,J_{g}^{\mu}\quad\text{and}\quad J^{*\mu}_{f}=\sqrt{-f}\,J_{f}^{\mu}\,. 
+
+ (34) 
+
+ When varying the action we must carefully impose that the independent
+matter degrees of freedom are the metric independent currents
+ J^{*\mu}_{g} and J^{*\mu}_{f} . After variation we may restore the
+manifest covariance by going back to the classical currents
+using ( 34 ). 
+
+ Next we must specify how the matter variables will behave in the DL
+when we take the scaling
+limits ( 22 )–( 23 ). In the DL we want to
+keep intact the coupling between the helicity-2 mode h_{\mu\nu} and
+the particles living in the g sector, therefore we impose 
+
+ T_{\text{bar}}^{\mu\nu}=M_{g}\hat{T}_{\text{bar}}^{\mu\nu}\quad\text{and}\quad T_{g}^{\mu\nu}=M_{g}\hat{T}_{g}^{\mu\nu}\,, 
+
+ (35) 
+
+ with \hat{T}_{\text{bar}}^{\mu\nu} and \hat{T}_{g}^{\mu\nu} remaining
+constant in the DL. As for the f particles, 
+ in a
+similar way we demand that T_{f}^{\mu\nu}=M_{f}\hat{T}_{f}^{\mu\nu} 
+with \hat{T}_{f}^{\mu\nu} being constant. 
+
+ The next important point concerns the internal vector field
+ \mathcal{A}_{\mu} . As we have seen this vector field is a
+graviphoton  Scherk 1979 , i.e. its scale is given by
+the Planck mass, witness the factor M_{\text{eff}}^{2} in front of the
+kinetic term of the vector field ( 6 ), see also the factor
+ M_{\text{eff}}^{2} in front of the stress-energy tensor of the vector
+field, Eq. ( 11 ). For the model to work M_{\text{eff}} must be
+of the order of the Planck mass, as determined
+in ( 7 ). This means that we have to canonically
+normalize the vector field \mathcal{A}_{\mu} according to 
+
+ \mathcal{A}_{\mu}=\frac{\hat{\mathcal{A}}_{\mu}}{M_{\text{eff}}}\,, 
+
+ (36) 
+
+ and keep \hat{\mathcal{A}}_{\mu} constant in the DL. Thus
+ T_{g_{\text{eff}}}^{\mu\nu}=\hat{T}_{g_{\text{eff}}}^{\mu\nu} should
+be considered constant in that limit. 
+
+ A general variation of the matter action with respect to the two
+metrics reads 
+
+ \displaystyle\delta\mathcal{L}_{\text{mat}} 
+ \displaystyle=\frac{\sqrt{-g}}{2}\bigl(T_{\text{bar}}^{\mu\nu}+T_{g}^{\mu\nu}\bigr)\delta g_{\mu\nu}+\frac{\sqrt{-f}}{2}T_{f}^{\mu\nu}\delta f_{\mu\nu} 
+
+ \displaystyle+\frac{\sqrt{-g_{\text{eff}}}}{2}T_{g_{\text{eff}}}^{\mu\nu}\delta g^{\text{eff}}_{\mu\nu}\,. 
+
+ (37) 
+
+ We insert Eqs. ( 17 )–( 18 ) and change the
+helicity-2 variable according to ( 29 ) to obtain the
+contribution of the matter action to the field equation for the
+helicity-2 field (in guise \hat{h}_{\mu\nu} ) as 
+
+ \displaystyle\frac{\delta\mathcal{L}_{\text{mat}}}{\delta\hat{h}_{\mu\nu}} 
+ \displaystyle=\frac{1}{M_{g}}\sqrt{-g}\,\bigl(T_{\text{bar}}^{\rho(\mu}+T_{g}^{\rho(\mu}\bigr)\biggl(\delta^{\nu)}_{\rho}+\frac{h^{\nu)}_{\rho}}{M_{g}}\biggr) 
+
+ \displaystyle+\frac{\alpha}{M_{g}}\sqrt{-g_{\text{eff}}}\,T_{g_{\text{eff}}}^{\rho(\mu}\Bigl(\left(\alpha+\beta\right)\delta^{\nu)}_{\rho}+K^{\nu)}_{\rho}\Bigr)\,. 
+
+ (38) 
+
+ Taking the DL with the postulated
+scalings ( 35 )–( 36 ) we find that the
+helicity-2 mode of the massive graviton is just coupled in this limit
+to the baryons and g particles, 
+
+ \displaystyle\frac{\delta\mathcal{L}^{\text{DL}}_{\text{mat}}}{\delta\hat{h}_{\mu\nu}} 
+ \displaystyle=\hat{T}_{\text{bar}}^{\mu\nu}+\hat{T}_{g}^{\mu\nu}\,, 
+
+ (39) 
+
+ where the (rescaled) stress-energy tensors
+ \hat{T}_{\text{bar}}^{\mu\nu} and \hat{T}_{g}^{\mu\nu} in the DL are
+computed with the Minkowski background. 
+
+ We next consider the contributions of the matter sector to the
+equation of motion of the helicity-0 field. We find three
+contributions, two coming from the field
+redefinition ( 29 ), 
+
+ \displaystyle\frac{\delta\mathcal{L}_{\text{mat}}}{\delta\pi}{\bigg|}_{(1a)}=\frac{a_{1}}{2M_{g}}\sqrt{-g}\,\bigl(T_{\text{bar}}^{\mu\nu}+T_{g}^{\mu\nu}\bigr)\biggl(\eta_{\mu\nu}+\frac{h_{\mu\nu}}{M_{g}}\biggr) 
+
+ \displaystyle\quad\quad+\frac{a_{2}}{M_{g}\Lambda_{3}^{3}}\partial_{\nu}\biggl[\sqrt{-g}\,\bigl(T_{\text{bar}}^{\mu(\nu}+T_{g}^{\mu(\nu}\bigr)\biggl(\delta_{\mu}^{\rho)}+\frac{h_{\mu}^{\rho)}}{M_{g}}\biggr)\partial_{\rho}\pi\biggr]\,, 
+
+ (40a) 
+
+ \displaystyle\frac{\delta\mathcal{L}_{\text{mat}}}{\delta\pi}{\bigg|}_{(1b)}=\frac{\alpha a_{1}}{2M_{g}}\sqrt{-g_{\text{eff}}}\,T_{g_{\text{eff}}}^{\mu\nu}\Bigl(\left(\alpha+\beta\right)\eta_{\mu\nu}+K_{\mu\nu}\Bigr) 
+
+ \displaystyle\quad\quad+\frac{\alpha a_{2}}{M_{g}\Lambda_{3}^{3}}\partial_{\nu}\biggl[\sqrt{-g_{\text{eff}}}\,T_{g_{\text{eff}}}^{\mu(\nu}\Bigl(\left(\alpha+\beta\right)\delta^{\rho)}_{\mu}+K^{\rho)}_{\mu}\Bigr)\partial_{\rho}\pi\biggr]\,, 
+
+ (40b) 
+
+ and the third one being “direct”, and already investigated
+in  Blanchet and
+Heisenberg 2015b with result 
+
+ \displaystyle\frac{\delta\mathcal{L}_{\text{mat}}}{\delta\pi}{\bigg|}_{(2)}= 
+ \displaystyle-\frac{1}{\Lambda_{3}^{3}}\partial_{\mu}\partial_{\nu}\biggl[\!\sqrt{-f}\,T_{f}^{\rho\mu}\biggl(\delta^{\nu}_{\rho}-\frac{\Pi^{\nu}_{\rho}}{\Lambda_{3}^{3}}\biggr) 
+
+ (41) 
+
+ \displaystyle\quad+\beta\sqrt{-g_{\text{eff}}}\,T_{g_{\text{eff}}}^{\rho\mu}\Bigl(\left(\alpha+\beta\right)\delta^{\nu}_{\rho}+K^{\nu}_{\rho}\Bigr)\biggr]\,. 
+
+ The latter contribution might look worrisome in the DL, but it becomes
+finite after using the equation of motion for the f particles,
+Eq. ( 9b ), and that for the vector field,
+Eq. ( 13 ). The calculation proceeds similarly to the one
+using Eqs. (3.29)–(3.32) in Ref.  de Rham et al. 2015 . Finally the result can
+be brought into the form  Blanchet and
+Heisenberg 2015b 
+
+ \displaystyle\frac{\delta\mathcal{L}_{\text{mat}}}{\delta\pi}{\bigg|}_{(2)} 
+ \displaystyle=\frac{1}{\Lambda_{3}^{3}}\partial_{\nu}\biggl[J^{*\rho}_{f}\,\mathcal{F}_{\mu\rho}\biggl(\eta^{\mu\nu}-\frac{\Pi^{\mu\nu}}{\Lambda_{3}^{3}}\biggr)^{-1} 
+
+ (42) 
+
+ \displaystyle+\beta\left(J^{*\rho}_{g}-J^{*\rho}_{f}\right)\mathcal{F}_{\mu\rho}\Bigl(\left(\alpha+\beta\right)\eta^{\mu\nu}+K^{\mu\nu}\Bigr)^{-1}\biggr]\,, 
+
+ where we describe the matter degrees of freedom by means of the
+coordinate currents ( 34 ). 
+
+ The results ( 41 ) and ( 42 ) are general at
+this stage, and involve couplings between both the helicity-0 and
+helicity-2 modes with the matter fields — g and f particles, and
+the internal vector field \mathcal{A}_{\mu} . However, because of the
+scaling ( 36 ), which we recall is appropriate to the
+graviphoton whose coupling scale is given by the Planck mass, the
+vector field strength actually scales like
+ \mathcal{F}_{\mu\nu}=\hat{\mathcal{F}}_{\mu\nu}/M_{\text{eff}} in the
+DL limit. This fact kills all the interactions between the helicity-0
+mode and the vector field in the DL, since they come with an inverse
+power of M_{\text{eff}} . 4 4 
+ 4 
+
+ Note that if we do not impose the
+scaling
+ \mathcal{F}_{\mu\nu}=\hat{\mathcal{F}}_{\mu\nu}/M_{\text{eff}} the
+equation ( III.2 ) for the helicity-2 field diverges in the
+DL. Similarly for Eq. ( 40b ). Thus the direct
+contribution ( 42 ) is identically zero in the DL, and
+only the contribution ( 40a ) is surviving,
+while ( 40b ) is also zero. After further simplification
+with the matter equations of motion, we obtain (with
+ \hat{T}_{\text{bar}} and \hat{T}_{g} denoting the Minkowskian traces) 
+
+ \frac{\delta\mathcal{L}^{\text{DL}}_{\text{mat}}}{\delta\pi}=\frac{a_{1}}{2}\,\bigl(\hat{T}_{\text{bar}}+\hat{T}_{g}\bigr)+\frac{a_{2}}{\Lambda_{3}^{3}}\,\bigl(\hat{T}_{\text{bar}}^{\mu\nu}+\hat{T}_{g}^{\mu\nu}\bigr)\partial_{\mu}\partial_{\nu}\pi\,. 
+
+ (43) 
+
+ Recapitulating, we find that the DL of the model consists of the
+following equation for the helicity-2 mode, i.e. 
+ \delta\mathcal{L}^{\text{DL}}/\delta\hat{h}_{\mu\nu}=0 or
+equivalently 
+
+ \displaystyle-2\mathcal{E}_{\rho\sigma}^{\mu\nu}\hat{h}_{\rho\sigma}+\frac{a_{3}}{\Lambda_{3}^{6}}P_{(3)}^{\mu\nu}(\Pi)+\hat{T}_{\text{bar}}^{\mu\nu}+\hat{T}_{g}^{\mu\nu}=0\,, 
+
+ (44) 
+
+ which is of second-order nature. Thus, the contributions of the
+gravitational and matter sector to the equations of motion of the
+helicity-2 mode in the DL are ghost-free. Note, that the Bianchi
+identity of this equation (taking the divergence of it) is identically
+satisfied, since the particles actually follow geodesics in the
+DL. Indeed, using ( 35 )–( 36 ) together with the
+equations of motion [ e.g.  ( 9 )], we have
+ \partial_{\nu}\hat{T}_{\text{bar}}^{\mu\nu}=\partial_{\nu}\hat{T}_{g}^{\mu\nu}=0 
+(the particles move on Minkowski straight lines). 
+
+ In addition we have the total equation of motion of the helicity-0
+mode, namely \delta\mathcal{L}^{\text{DL}}/\delta\pi=0 which reads 
+
+ \displaystyle\hskip-14.22636pt-2\sum_{n=1}^{4}\frac{nb_{n-1}}{\Lambda_{3}^{3(n-1)}}e_{(n)}(\Pi)+\frac{a_{3}}{\Lambda_{3}^{6}}Q_{\mu\nu}^{(2)\rho\sigma}\!(\Pi)\partial_{\rho}\partial_{\sigma}\hat{h}^{\mu\nu} 
+
+ (45) 
+
+ \displaystyle\qquad=-\frac{a_{1}}{2}\,\bigl(\hat{T}_{\text{bar}}+\hat{T}_{g}\bigr)-\frac{a_{2}}{\Lambda_{3}^{3}}\,\bigl(\hat{T}_{\text{bar}}^{\mu\nu}+\hat{T}_{g}^{\mu\nu}\bigr)\partial_{\mu}\partial_{\nu}\pi\,. 
+
+ Since this equation is perfectly of second-order in the derivatives of
+the \pi field, we conclude our study by stating that the model is
+safe (ghost-free) up to the strong coupling scale. Below that scale
+the theory is perfectly acceptable as an Effective Field Theory, and
+its consequences can be worked out using perturbation theory as
+usual. For instance, solving at linear order the helicity-0
+equation ( 45 ) we obtain the usual well-posed
+(hyperbolic-like) equation 
+
+ \Box\pi=\frac{a_{1}}{4b_{0}}(\hat{T}_{\text{bar}}+\hat{T}_{g})+\mathcal{O}\left(\pi^{2}\right)\,, 
+
+ (46) 
+
+ which can then be perturbatively iterated to higher order. With this
+we have proved, that the coupling of the dark matter particles with
+the internal vector field does not introduce any ghostly contribution
+in the DL. 
+
+ IV Conclusions 
+
+ This work was dedicated to the detailed study of the decoupling limit
+interactions of the dark matter model proposed
+in  Blanchet and
+Heisenberg 2015a ; Blanchet and
+Heisenberg 2015b . This model is
+constructed via a specific coupling of two copies of dark
+matter particles to two metrics in the framework of massive
+bigravity. Furthermore, an internal vector field links the two dark
+matter species. This enables us to implement a mechanism of
+gravitational polarization, which induces the MOND phenomenology on
+galactic scales (with the specific choice of parameters studied
+in  Blanchet and
+Heisenberg 2015b ). Note that, since our model successfully
+reproduces all aspects of that phenomenology, it will be in agreement
+with the recent observations of the MOND mass-discrepancy-acceleration
+relation in  McGaugh et al. 2016 . 
+
+ Some theoretical and phenomenological consequences of this model were
+studied in detail in Ref.  Blanchet and
+Heisenberg 2015b , but it was also
+pointed out that the decoupling limit of the theory may be
+problematic, with higher derivative terms occuring in the equation of
+motion of the helicity-0 mode of the massive graviton. 
+
+ In the present work, we studied the complete DL interactions crucially
+including the contributions of the matter sector, and we showed that
+by necessary rescaling of the vector field (as appropriate for a
+vector field with Planckian coupling constant) the theory is free from
+ghosts in the DL, and hence can be used as a valid Effective Field
+Theory up to the strong coupling scale. 
+
+ Acknowledgements. We would like to thank Claudia de Rham and Andrew Tolley for very
+useful and enlightening discussions. L.H. wishes to acknowledge the
+Institut d’Astrophysique de Paris for hospitality and support at the
+final stage of this work.
+
+ References 
+
+ Abbott et al. (2016) 
+
+B. Abbott et al.
+(LIGO Scientific Collaboration and VIRGO
+Collaboration), Phys. Rev. Lett.
+ 116 , 061102
+(2016), eprint arXiv:1602.03837 [gr-qc].
+
+ Beltran Jimenez
+et al. (2014) 
+
+J. Beltran Jimenez,
+L. Heisenberg,
+and G. J. Olmo,
+JCAP 1411 , 004
+(2014), eprint 1409.0233.
+
+ Beltran Jimenez
+et al. (2015) 
+
+J. Beltran Jimenez,
+L. Heisenberg,
+G. J. Olmo, and
+C. Ringeval,
+JCAP 1511 , 046
+(2015), eprint 1509.01188.
+
+ Weinberg (1989) 
+
+S. Weinberg,
+Rev.Mod.Phys. 61 ,
+1 (1989).
+
+ Sanders and McGaugh (2002) 
+
+R. Sanders and
+S. McGaugh,
+Ann. Rev. Astron. Astrophys.
+ 40 , 263 (2002),
+eprint astro-ph/0204521.
+
+ Famaey and McGaugh (2012) 
+
+B. Famaey and
+S. McGaugh,
+Living Rev. Rel. 15 ,
+10 (2012), eprint arXiv:1112.3960
+[astro-ph.CO].
+
+ McGaugh et al. (2000) 
+
+S. McGaugh,
+J. Schombert,
+G. Bothun, and
+W. de Blok,
+Astrophys.J. 533 ,
+L99 (2000).
+
+ McGaugh (2011) 
+
+S. S. McGaugh,
+Phys. Rev. Lett. 106 ,
+121303 (2011).
+
+ Silk and Mamon (2012) 
+
+J. Silk and
+G. Mamon,
+Research in Astron. Astrophys.
+ 12 , 917 (2012),
+eprint arXiv:1207.3080 [astro-ph].
+
+ Milgrom (1983a) 
+
+M. Milgrom,
+Astrophys. J. 270 ,
+365 (1983a).
+
+ Milgrom (1983b) 
+
+M. Milgrom,
+Astrophys. J. 270 ,
+371 (1983b).
+
+ Milgrom (1983c) 
+
+M. Milgrom,
+Astrophys. J. 270 ,
+384 (1983c).
+
+ Gerbal et al. (1992) 
+
+D. Gerbal,
+F. Durret,
+M. Lachièze-Rey,
+and
+G. Lima-Neto,
+Astron. Astrophys. 262 ,
+395 (1992).
+
+ Pointecouteau and Silk (2005) 
+
+E. Pointecouteau
+and J. Silk,
+Mon. Not. R. Astron. Soc. 364 ,
+654 (2005), eprint astro-ph/0505017.
+
+ Clowe et al. (2006) 
+
+D. Clowe,
+M. Bradac,
+A. H. Gonzalez,
+M. Markevitch,
+S. W. Randall,
+C. Jones, and
+D. Zaritsky,
+Astrophys. J. 648 ,
+L109 (2006), eprint astro-ph/0608407.
+
+ Angus et al. (2008) 
+
+G. W. Angus,
+B. Famaey, and
+D. A. Buote,
+Mon. Not. Roy. Astron. Soc.
+ 387 , 1470 (2008),
+eprint arXiv:0709.0108 [astro-ph].
+
+ Angus (2009) 
+
+G. W. Angus,
+Mon. Not. Roy. Astron. Soc.
+ 394 , 527 (2009),
+eprint arXiv:0805.4014 [astro-ph].
+
+ Sanders (1997) 
+
+R. Sanders,
+Astrophys. J. 480 ,
+492 (1997), eprint astro-ph/9612099.
+
+ Bekenstein (2004) 
+
+J. Bekenstein,
+Phys. Rev. D 70 ,
+083509 (2004), eprint astro-ph/0403694.
+
+ Sanders (2005) 
+
+R. Sanders,
+Mon. Not. Roy. Astron. Soc.
+ 363 , 459 (2005),
+eprint astro-ph/0502222.
+
+ Zlosnik et al. (2007) 
+
+T. G. Zlosnik,
+P. G. Ferreira,
+and G. D.
+Starkman, Phys. Rev. D
+ 75 , 044017
+(2007), eprint arXiv:astro-ph/0607411.
+
+ Halle et al. (2008) 
+
+A. Halle,
+H. S. Zhao, and
+B. Li,
+Astrophys. J. Suppl. 177 ,
+1 (2008), eprint arXiv:0711.0958
+[astro-ph].
+
+ Milgrom (2009) 
+
+M. Milgrom,
+Phys. Rev. D 80 ,
+123536 (2009).
+
+ Babichev et al. (2011) 
+
+E. Babichev,
+C. Deffayet, and
+G. Esposito-Farèse,
+Phys. Rev. D 84 ,
+061502(R) (2011), eprint arXiv:1106.2538
+[gr-qc].
+
+ Blanchet (2007) 
+
+L. Blanchet,
+Class. Quant. Grav. 24 ,
+3529 (2007), eprint astro-ph/0605637.
+
+ Bruneton et al. (2009) 
+
+J.-P. Bruneton,
+S. Liberati,
+L. Sindonia, and
+B. Famaey,
+JCAP 3 , 21
+(2009), eprint arXiv:0811.3143 [astro-ph].
+
+ Blanchet and Le Tiec (2008) 
+
+L. Blanchet and
+A. Le Tiec,
+Phys. Rev. D 78 ,
+024031 (2008), eprint astro-ph/0804.3518.
+
+ Blanchet and Le Tiec (2009) 
+
+L. Blanchet and
+A. Le Tiec,
+Phys. Rev. D 80 ,
+023524 (2009), eprint arXiv:0901.3114
+[astro-ph].
+
+ Sanders (2011) 
+
+R. H. Sanders,
+Phys. Rev. D 84 ,
+084024 (2011).
+
+ Blanchet and Marsat (2011) 
+
+L. Blanchet and
+S. Marsat,
+Phys. Rev. D 84 ,
+044056 (2011), eprint arXiv:1107.5264
+[gr-qc].
+
+ Bernard and Blanchet (2015) 
+
+L. Bernard and
+L. Blanchet,
+Phys. Rev. D91 ,
+103536 (2015), eprint 1410.7708.
+
+ Khoury (2015) 
+
+J. Khoury,
+Phys. Rev. D 91 ,
+024022 (2015).
+
+ Berezhian and Khoury (2015) 
+
+L. Berezhian and
+J. Khoury,
+Phys. Rev. D 92 ,
+103510 (2015).
+
+ Verlinde (2016) 
+
+E. Verlinde,
+ Emergent gravity and the dark universe 
+(2016), eprint arXiv:1611.02269 [hep-th].
+
+ Blanchet and
+Heisenberg (2015a) 
+
+L. Blanchet and
+L. Heisenberg,
+Phys. Rev. D91 ,
+103518 (2015a),
+eprint 1504.00870.
+
+ Blanchet and
+Heisenberg (2015b) 
+
+L. Blanchet and
+L. Heisenberg,
+JCAP 1512 , 026
+(2015b), eprint 1505.05146.
+
+ de Rham et al. (2015) 
+
+C. de Rham,
+L. Heisenberg,
+and R. Ribeiro,
+Class. Quantum Grav. 32 ,
+035022 (2015), eprint 1408.1678.
+
+ de Rham et al. (2014) 
+
+C. de Rham,
+L. Heisenberg,
+and R. Ribeiro,
+Phys. Rev. D 90 ,
+124042 (2014), eprint 1409.3834.
+
+ Heisenberg (2015a) 
+
+L. Heisenberg,
+Class. Quant. Grav. 32 ,
+105011 (2015a),
+eprint 1410.4239.
+
+ de Rham
+et al. (2011a) 
+
+C. de Rham,
+G. Gabadadze,
+and A. Tolley,
+Phys. Rev. Lett. 106 ,
+231101 (2011a),
+eprint 1011.1232.
+
+ Hassan and Rosen (2012) 
+
+S. Hassan and
+R. A. Rosen,
+JHEP 1202 , 126
+(2012), eprint 1109.3515.
+
+ Scherk (1979) 
+
+J. Scherk,
+Physics Letters B 88 ,
+265 (1979), ISSN 0370-2693,
+URL http://www.sciencedirect.com/science/article/pii/0370269379904635 .
+
+ Bernard et al. (2015) 
+
+L. Bernard,
+L. Blanchet, and
+L. Heisenberg, in
+ Proceedings, 50th Rencontres de Moriond
+Gravitation : 100 years after GR: La Thuile, Italy, March 21-28, 2015 
+(2015), pp. 43–52, eprint 1507.02802,
+URL http://inspirehep.net/record/1382322/files/arXiv:1507.02802.pdf .
+
+ de Rham and Tolley (2015) 
+
+C. de Rham and
+A. J. Tolley,
+Phys. Rev. D92 ,
+024024 (2015), eprint 1505.01450.
+
+ Huang et al. (2015) 
+
+Q.-G. Huang,
+R. H. Ribeiro,
+Y.-H. Xing,
+K.-C. Zhang, and
+S.-Y. Zhou,
+Phys. Lett. B748 ,
+356 (2015), [Phys.
+Lett.B748,356(2015)], eprint 1505.02616.
+
+ Heisenberg (2015b) 
+
+L. Heisenberg,
+Phys. Rev. D92 ,
+023525 (2015b),
+eprint 1505.02966.
+
+ Boulware and Deser (1972) 
+
+D. Boulware and
+S. Deser,
+Phys.Rev. D6 ,
+3368 (1972).
+
+ Fasiello and Tolley (2013) 
+
+M. Fasiello and
+A. J. Tolley,
+J. Cosm. Astropart. 1312 ,
+002 (2013), eprint 1308.1647.
+
+ de Rham and Gabadadze (2010) 
+
+C. de Rham and
+G. Gabadadze,
+Phys. Rev. D 82 ,
+044020 (2010), eprint 1007.0443.
+
+ de Rham
+et al. (2011b) 
+
+C. de Rham,
+G. Gabadadze,
+L. Heisenberg,
+and
+D. Pirtskhalava,
+Phys. Rev. D 83 ,
+103516 (2011b),
+eprint 1010.1780.
+
+ McGaugh et al. (2016) 
+
+S. S. McGaugh,
+F. Lelli, and
+J. M. Schombert,
+Phys. Rev. Lett. 117 ,
+201101 (2016),
+URL http://link.aps.org/doi/10.1103/PhysRevLett.117.201101 .
+
+ ◄ 
+
+ Feeling lucky? 
+
+ Conversion report 
+ Report an issue 
+ View original on arXiv ► 
+
+ Copyright 
+ Privacy Policy 
+
+ Generated by L a T e XML oxide 
+
+ 

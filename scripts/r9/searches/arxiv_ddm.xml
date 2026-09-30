@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/JC/ULIUoSQiX5NnwTpwo3DdkFso</id>
+  <title>arXiv Query: search_query=all:"dipolar dark matter" AND all:Blanchet&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-30T15:33:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22dipolar+dark+matter%22+AND+all:Blanchet&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>11</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0804.3518v2</id>
+    <title>Model of Dark Matter and Dark Energy Based on Gravitational Polarization</title>
+    <updated>2008-07-02T16:54:01Z</updated>
+    <link href="https://arxiv.org/abs/0804.3518v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0804.3518v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A model of dark matter and dark energy based on the concept of gravitational polarization is investigated. We propose an action in standard general relativity for describing, at some effective or phenomenological level, the dynamics of a dipolar medium, i.e. one endowed with a dipole moment vector, and polarizable in a gravitational field. Using first-order cosmological perturbations, we show that the dipolar fluid is undistinguishable from standard dark energy (a cosmological constant Lambda) plus standard dark matter (a pressureless perfect fluid), and therefore benefits from the successes of the Lambda-CDM (Lambda-cold dark matter) scenario at cosmological scales. Invoking an argument of "weak clusterisation" of the mass distribution of dipole moments, we find that the dipolar dark matter reproduces the phenomenology of the modified Newtonian dynamics (MOND) at galactic scales. The dipolar medium action naturally contains a cosmological constant, and we show that if the model is to come from some fundamental underlying physics, the cosmological constant Lambda should be of the order of a0^2/c^4, where a0 denotes the MOND constant acceleration scale, in good agreement with observations.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-04-22T12:37:48Z</published>
+    <arxiv:comment>38 pages, 4 figures; to appear in Phys. Rev. D</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <arxiv:journal_ref>Phys.Rev.D78:024031,2008</arxiv:journal_ref>
+    <author>
+      <name>Luc Blanchet</name>
+    </author>
+    <author>
+      <name>Alexandre Le Tiec</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.78.024031</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.78.024031" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0807.1200v1</id>
+    <title>Phenomenology of the Modified Newtonian Dynamics and the Concordance Cosmological Scenario</title>
+    <updated>2008-07-08T09:37:33Z</updated>
+    <link href="https://arxiv.org/abs/0807.1200v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0807.1200v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  After reviewing the modified Newtonian dynamics (MOND) proposal, we advocate that the associated phenomenology may actually not result from a modification of Newtonian gravity, but from a mechanism of "gravitational polarization" of some dipolar medium playing the role of dark matter. We then build a relativistic model within standard general relativity to describe (at some phenomenological level) the dipolar dark matter polarizable in a gravitational field. The model naturally involves a cosmological constant, and is shown to reduce to the concordance cosmological scenario (Lambda-CDM) at early cosmological times. From the mechanism of gravitational polarization, we recover the phenomenology of MOND in a typical galaxy at low redshift. Furthermore, we show that the cosmological constant Lambda scales like a0^2, where a0 is the constant MOND acceleration scale, in good agreement with observations.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-07-08T09:37:33Z</published>
+    <arxiv:comment>8 pages; to appear in the Proceedings of the "43rd Rencontres de Moriond", La Thuile (Italy), March 2008, edited by J. Dumarchez, Y. Giraud-Heraud and J. Tran Thanh Van</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <author>
+      <name>Luc Blanchet</name>
+    </author>
+    <author>
+      <name>Alexandre Le Tiec</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0901.3114v2</id>
+    <title>Dipolar Dark Matter and Dark Energy</title>
+    <updated>2009-07-20T09:33:52Z</updated>
+    <link href="https://arxiv.org/abs/0901.3114v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0901.3114v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In previous work [L. Blanchet and A. Le Tiec, Phys. Rev. D 78, 024031 (2008)], a model of dark matter and dark energy based on the concept of gravitational polarization was investigated. This model was shown to recover the concordance cosmological scenario (Lambda-CDM) at cosmological scales, and the phenomenology of the modified Newtonian dynamics (MOND) at galactic scales. In this article we prove that the model can be formulated with a simple and physically meaningful matter action in general relativity. We also provide alternative derivations of the main results of the model, and some details on the variation of the action.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-01-20T18:27:37Z</published>
+    <arxiv:comment>11 pages, 2 figures; minor stylistic corrections, added references, added appendix; to appear in Phys. Rev. D</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <arxiv:journal_ref>Phys.Rev.D80:023524,2009</arxiv:journal_ref>
+    <author>
+      <name>Luc Blanchet</name>
+    </author>
+    <author>
+      <name>Alexandre Le Tiec</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.80.023524</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.80.023524" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0910.5204v1</id>
+    <title>MOND with or without dark matter</title>
+    <updated>2009-10-27T18:39:45Z</updated>
+    <link href="https://arxiv.org/abs/0910.5204v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0910.5204v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In our current cosmological model, the main constituents of the Universe are dark matter and dark energy, whose nature is unknown, and for which there is no place in the standard model of particle physics. How to include dark matter and dark energy in the set of fundamental laws? All observations can as well be explained either within the frame of general relativity, by adding unknown components in the Universe, or by modifying fundamentally the theory. Would not the last possibility be more simple? This is the case of the MOND hypothesis (for MOdified Newtonian Dynamics) proposed by Milgrom in 1983, which is quite successfull to describe the kinematics and dynamics of galaxies. It might however also be possible to reach the same success through a new kind of matter, dipolar dark matter, keeping general relativity for the law of gravity.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-10-27T18:39:45Z</published>
+    <arxiv:comment>6 pages, 5 figures, detailed version of an article published in La Recherche (in French)</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <author>
+      <name>Luc Blanchet</name>
+    </author>
+    <author>
+      <name>Francoise Combes</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1210.4106v2</id>
+    <title>Non-Gaussianity in the Cosmic Microwave Background Induced by Dipolar Dark Matter</title>
+    <updated>2013-02-19T19:13:01Z</updated>
+    <link href="https://arxiv.org/abs/1210.4106v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1210.4106v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In previous work [L. Blanchet and A. Le Tiec, Phys. Rev. D 80, 023524 (2009)], motivated by the phenomenology of dark matter at galactic scales, a model of dipolar dark matter (DDM) was introduced. At linear order in cosmological perturbations, the dynamics of the DDM was shown to be identical to that of standard cold dark matter (CDM). In this paper, the DDM model is investigated at second order in cosmological perturbation theory. We find that the internal energy of the DDM fluid modifies the curvature perturbation generated by CDM with a term quadratic in the dipole field. This correction induces a new type of non-Gaussianity in the bispectrum of the curvature perturbation with respect to standard CDM. Leaving unspecified the primordial amplitude of the dipole field, which could in principle be determined by a more fundamental description of DDM, we find that, in contrast with usual models of primordial non-Gaussianities, the non-Gaussianity induced by DDM increases with time after the radiation-matter equality on super-Hubble scales. This distinctive feature of the DDM model, as compared with standard CDM, could thus provide a specific signature in the CMB and large-scale structure probes of non-Gaussianity.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-10-15T17:03:39Z</published>
+    <arxiv:comment>20 pages; v2: extended discussion in Sec. V D, added references; matches published version</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>JCAP 1302:022,2013</arxiv:journal_ref>
+    <author>
+      <name>Luc Blanchet</name>
+    </author>
+    <author>
+      <name>David Langlois</name>
+    </author>
+    <author>
+      <name>Alexandre Le Tiec</name>
+    </author>
+    <author>
+      <name>Sylvain Marsat</name>
+    </author>
+    <arxiv:doi>10.1088/1475-7516/2013/02/022</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1475-7516/2013/02/022" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.6991v1</id>
+    <title>Dipolar Dark Matter and Cosmology</title>
+    <updated>2013-12-25T17:58:30Z</updated>
+    <link href="https://arxiv.org/abs/1312.6991v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.6991v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The phenomenology of the modified Newtonian dynamics (MOND) can be recovered from a mechanism of "gravitational polarization" of some dipolar medium playing the role of dark matter. We review a relativistic model of dipolar dark matter (DDM) within standard general relativity to describe, at some effective level, a fluid polarizable in a gravitational field. At first order in cosmological perturbation theory, this model is equivalent to the concordance cosmological scenario, or Lambda-cold dark matter (CDM) model. At second order, however, the internal energy of DDM modifies the curvature perturbation generated by CDM. This correction, which depends quadratically on the dipole, induces a new type of non-Gaussianity in the bispectrum of the curvature perturbation with respect to standard CDM. Recent observations by the Planck satellite impose stringent constraints on the primordial value of the dipole field.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-25T17:58:30Z</published>
+    <arxiv:comment>9 pages; to appear in the proceedings of the conference HTGRG (Quy Nhon, Vietnam, 2013)</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <author>
+      <name>Luc Blanchet</name>
+    </author>
+    <author>
+      <name>David Langlois</name>
+    </author>
+    <author>
+      <name>Alexandre Le Tiec</name>
+    </author>
+    <author>
+      <name>Sylvain Marsat</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1505.05146v2</id>
+    <title>Dipolar Dark Matter with Massive Bigravity</title>
+    <updated>2015-12-15T19:36:15Z</updated>
+    <link href="https://arxiv.org/abs/1505.05146v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1505.05146v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Massive gravity theories have been developed as viable IR modifications of gravity motivated by dark energy and the problem of the cosmological constant. On the other hand, modified gravity and modified dark matter theories were developed with the aim of solving the problems of standard cold dark matter at galactic scales. Here we propose to adapt the framework of ghost-free massive bigravity theories to reformulate the problem of dark matter at galactic scales. We investigate a promising alternative to dark matter called dipolar dark matter (DDM) in which two different species of dark matter are separately coupled to the two metrics of bigravity and are linked together by an internal vector field. We show that this model successfully reproduces the phenomenology of dark matter at galactic scales (MOND) as a result of a mechanism of gravitational polarisation. The model is safe in the gravitational sector, but because of the particular couplings of the matter fields and vector field to the metrics, a ghost in the decoupling limit is present in the dark matter sector. However, it might be possible to push the mass of the ghost beyond the strong coupling scale by an appropriate choice of the parameters of the model. Crucial questions to address in future work are the exact mass of the ghost, and the cosmological implications of the model.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-05-19T20:00:30Z</published>
+    <arxiv:comment>27 pages, journal version</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Luc Blanchet</name>
+    </author>
+    <author>
+      <name>Lavinia Heisenberg</name>
+    </author>
+    <arxiv:doi>10.1088/1475-7516/2015/12/026</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1475-7516/2015/12/026" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1507.02802v1</id>
+    <title>Bimetric gravity and dark matter</title>
+    <updated>2015-07-10T08:15:22Z</updated>
+    <link href="https://arxiv.org/abs/1507.02802v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1507.02802v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We review some recent proposals for relativistic models of dark matter in the context of bimetric gravity. The aim is to solve the problems of cold dark matter (CDM) at galactic scales, and to reproduce the phenomenology of the modified Newtonian dynamics (MOND), while still being in agreement with the standard cosmological model $Λ$-CDM at large scales. In this context a promising alternative is dipolar dark matter (DDM) in which two different species of dark matter particles are separately coupled to the two metrics of bigravity and are linked together by an internal vector field. The phenomenology of MOND then results from a mechanism of gravitational polarization. Probably the best formulation of the model is within the framework of recently developed massive bigravity theories. Then the gravitational sector of the model is safe by construction, but a ghostly degree of freedom in the decoupling limit is still present in the dark matter sector. Future work should analyse the cosmological solutions of the model and check the post-Newtonian parameters in the solar system.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-07-10T08:15:22Z</published>
+    <arxiv:comment>9 pages, contribution to the proceedings of the 50th Rencontres de Moriond, "Gravitation: 100 years after GR"</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Laura Bernard</name>
+    </author>
+    <author>
+      <name>Luc Blanchet</name>
+    </author>
+    <author>
+      <name>Lavinia Heisenberg</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1701.07747v1</id>
+    <title>Dipolar Dark Matter as an Effective Field Theory</title>
+    <updated>2017-01-26T15:46:32Z</updated>
+    <link href="https://arxiv.org/abs/1701.07747v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1701.07747v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Dipolar Dark Matter (DDM) is an alternative model motivated by the challenges faced by the standard cold dark matter model to describe the right phenomenology at galactic scales. A promising realisation of DDM was recently proposed in the context of massive bigravity theory. The model contains dark matter particles, as well as a vector field coupled to the effective composite metric of bigravity. This model is completely safe in the gravitational sector thanks to the underlying properties of massive bigravity. In this work we investigate the exact decoupling limit of the theory, including the contribution of the matter sector, and prove that it is free of ghosts in this limit. We conclude that the theory is acceptable as an Effective Field Theory below the strong coupling scale.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-01-26T15:46:32Z</published>
+    <arxiv:comment>8 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys. Rev. D 96, 083512 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Luc Blanchet</name>
+    </author>
+    <author>
+      <name>Lavinia Heisenberg</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.96.083512</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.96.083512" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.02690v1</id>
+    <title>Absence of gravitational polarization mechanism in the canonical bimetric theory</title>
+    <updated>2023-02-06T10:46:40Z</updated>
+    <link href="https://arxiv.org/abs/2302.02690v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.02690v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Motivated by a version of the ``Dipolar Dark Matter'' model, that aims at a relativistic completion of the phenomenology of MOND, we investigate the gravitational polarization mechanism in the canonical bimetric theory with an effective matter coupling. We explicitly show the fundamental obstacle why such theories cannot achieve a consistent gravitational polarization, and thus fail to recover the MONDian phenomenology at low energies.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-06T10:46:40Z</published>
+    <arxiv:comment>8 pages</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys. Rev. D 107, 124021 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Luc Blanchet</name>
+    </author>
+    <author>
+      <name>Lavinia Heisenberg</name>
+    </author>
+    <author>
+      <name>François Larrouturou</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.107.124021</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.107.124021" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.02563v1</id>
+    <title>Dipolar dark matter theory based on a non-Abelian Yang-Mills field</title>
+    <updated>2025-07-03T12:17:50Z</updated>
+    <link href="https://arxiv.org/abs/2507.02563v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.02563v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Most theories that attempt to reproduce the Modified Newtonian Dynamics (MOND) phenomenology for dark matter at galactic scales rely on ad hoc free functions, preventing them from being regarded as fundamental. In this work, we present a new theory that reproduces MOND, built on a supposed to be fundamental Yang-Mills gauge field based on SU(2), with a gravitational coupling constant, and emerging in a low-acceleration regime, below the MOND acceleration scale. The gauge field plays the role of the internal force in the dipolar dark matter (DDM) model. We discuss how certain solutions of this theory recover the deep MOND regime without introducing arbitrary functions in the action. Within this framework, the MOND phenomenology appears to be due to the existence of a new sector of particle physics.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-03T12:17:50Z</published>
+    <arxiv:comment>Contribution to the 2025 Gravitation session of the 59th Rencontres de Moriond, 4 pages</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Luc Blanchet</name>
+    </author>
+    <author>
+      <name>Emeric Seraille</name>
+    </author>
+  </entry>
+</feed>

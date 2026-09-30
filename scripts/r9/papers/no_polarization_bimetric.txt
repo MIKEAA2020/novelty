@@ -1,0 +1,397 @@
+ 
+
+ [2302.02690] Absence of gravitational polarization mechanism in the canonical bimetric theory 
+
+ Absence of gravitational polarization mechanism 
+ in the canonical bimetric theory Preprint:  DESY-23-010 
+
+ Luc Blanchet 
+
+ Email:  luc.blanchet@iap.fr 
+
+ Affiliation:  \mathcal{G}\mathbb{R}\varepsilon{\mathbb{C}}\mathcal{O} ,
+Institut d’Astrophysique de Paris,
+ UMR 7095, CNRS, Sorbonne Université,
+ 98 bis boulevard Arago, 75014 Paris, France
+
+ Lavinia Heisenberg 
+
+ Email:  laviniah@ethz.ch 
+
+ Affiliation:  Institut für Theoretische Physik, ETH Zürich,
+ Wolfgang-Pauli-Str. 27, 8093 Zürich, Switzerland
+
+ Affiliation:  Institute for Theoretical Physics, Heidelberg University, Philosophenweg 16, 69120 Heidelberg, Germany
+
+ François Larrouturou 
+
+ Email:  francois.larrouturou@desy.de 
+
+ Affiliation:  Deutsches Elektronen-Synchrotron DESY, Notkestr. 85, 22607 Hamburg, Germany
+
+ August 8, 2026 
+
+ Abstract 
+
+ Motivated by a version of the “Dipolar Dark Matter” model, that aims at a relativistic completion of the phenomenology of MOND, we investigate the gravitational polarization mechanism in the canonical bimetric theory with an effective matter coupling. We explicitly show the fundamental obstacle why such theories cannot achieve a consistent gravitational polarization, and thus fail to recover the MONDian phenomenology at low energies. 
+
+ pacs 95.35.+d, 04.50.Kd
+
+ I Introduction 
+
+ Despite passing all current tests with flying colors (the last in date being the discovery of gravitational waves  Abbott et al. 2016 ; Abbott et al. 2017 ), our theory of General Relativity (GR) suffers from some “darkness”, i.e. , yet ambiguous gravitational phenomena that can be explained either by invoking non-gravitational ingredients, or by “beyond-GR” completions  Heisenberg 2019 . The paramount instance is that stars orbiting in periphery of galaxies do not move accordingly to GR predictions  Bosma 1981 ; Rubin et al. 1982 , but instead behave as if the visible mass of the galaxy was only a small fraction of the total mass. The usual way to address this “missing mass” problem is to postulate the existence of some unknown non-relativistic form of matter, insensitive to electromagnetic forces (otherwise it would have already been seen), coined “cold dark matter”  Bertone et al. 2005 . If this paradigm is a cornerstone of current physics, there is still no evidence of this new particle, despite decades of experimental efforts  Aprile et al. 2020 ; Albert et al. 2020 ; Aad et al. 2021 . 
+
+ Another way to explain the missing mass problem could be to consider that in some regime, the laws of gravity deviate from GR. This path has been initiated by the 40-years old seminal work of Milgrom  Milgrom 1983 , setting a very simple modification of Newton’s law that accounts for the motion of stars in galaxies and provides a natural explanation for the Tully-Fischer relation. Nevertheless, the MOND (for MOdified Newtonian Dynamics) approach is yet only phenomenological, despite great efforts to embed it within a viable fundamental theory (see e.g.   Bekenstein 2004 ; Bruneton and Esposito-Farèse 2007 ; Deffayet et al. 2014 , and  Famaey and McGaugh 2012 for a comprehensive review on the MONDian approach). An alternative possibility to build such a relativistic completion is to exploit the dielectric analogy of MOND  Blanchet 2007 , which has led to several “Dipolar Dark Matter” (DDM) models  Blanchet and Le Tiec 2008 ; Blanchet and Le Tiec 2009 ; Bernard and Blanchet 2015 ; Blanchet and Heisenberg 2015a ; Blanchet and Heisenberg 2015b ; Blanchet and Heisenberg 2017 . In the present work, we focus on a subclass of such models  Blanchet and Heisenberg 2015a ; Blanchet and Heisenberg 2015b ; Blanchet and Heisenberg 2017 that are based on a bimetric extension of GR in which the two metrics are supposed to host opposite “gravitational charges” (see also  Milgrom 2009 for a different type of MONDian bimetric theory). 
+
+ Thus the DDM phenomenology relies on a mechanism of gravitational polarization associated with opposite gravitational charges. It was indeed claimed in  Blanchet and Heisenberg 2015b , that in the non-relativistic limit, using the canonical bimetric theory, the matter present in each sector feel forces with opposite signs, leading to the desired polarization. Nevertheless, as shown in the present work, due to a missing term in  Blanchet and Heisenberg 2015b , unfortunately such polarisation mechanism cannot happen in this bimetric framework, which ruins this DDM model. However previously proposed DDM models  Blanchet and Le Tiec 2008 ; Blanchet and Le Tiec 2009 in standard GR are still viable. 
+
+ The plan of this paper is as follows. The DDM model used, which is an extension of the one studied in  Blanchet and Heisenberg 2015b ; Blanchet and Heisenberg 2017 , is presented in Sec.  II . The proof of the impossibility of a gravitational polarization mechanism in this general set up is then exposed in Sec.  III . Concluding remarks are presented in Sec.  IV . 
+
+ II Model 
+
+ This work investigates an attempt for a Dipolar Dark Matter (DDM) model, generalizing the one used in previous works (see e.g.   Blanchet and Heisenberg 2017 ). Starting from the two dynamical metrics \{g_{\mu\nu},f_{\mu\nu}\} , 1 1 
+ 1 
+
+ Through this work, we use a mostly positive signature for both metrics, denote space-time indices with greek letters and, once a proper 3+1 decomposition achieved, purely spatial indices with latin letters. For simplicity, we set G=c=\hbar=1 , unless otherwise specified. our action reads 
+
+ \mathcal{S}=\int\!\!\mathrm{d}^{4}x\,\mathcal{L}_{\text{grav}}+\int\!\!\mathrm{d}^{4}x\,\mathcal{L}_{\text{mat}}+\int\!\!\mathrm{d}^{4}x\,\mathcal{L}_{\text{bar}}\,, 
+
+ (1) 
+
+ where \mathcal{L}_{\text{mat}} describes the dark matter, coupled to both g_{\mu\nu} and f_{\mu\nu} , and where \mathcal{L}_{\text{bar}} is the usual baryonic matter, coupled to the metric g_{\mu\nu} . The gravitational sector is given by 
+
+ \mathcal{L}_{\text{grav}}=\frac{M_{g}^{2}}{2}\sqrt{-g}\,R\left[g\right]+\frac{M_{f}^{2}}{2}\sqrt{-f}\,R\left[f\right]+M_{\text{eff}}^{2}m^{2}\,\mathcal{V}\left[g,f\right]\,, 
+
+ (2) 
+
+ where R denotes the usual Ricci scalar, M_{g} and M_{f} are the Planck scales associated with each metrics and M_{\text{eff}}^{2}\,m^{2} is an unspecified scale. As for the interaction term \mathcal{V}\left[g,f\right] , we will naturally use the ghost-free potential function of de Rham, Gabadadze and Tolley  de Rham et al. 2011 ; de Rham 2014 , parametrized by five arbitrary constants \{\alpha_{n}\} as 
+
+ \mathcal{V}\left[g,f\right]=\sqrt{-g}\sum_{n=0}^{4}\alpha_{n}\,e_{n}\left(X\right)\,, 
+
+ (3) 
+
+ where the square-root matrix X^{\mu}_{\ \nu} is defined as X^{\mu}_{\ \rho}X^{\rho}_{\ \nu}=g^{\mu\rho}f_{\rho\nu} , together with its inverse Y^{\mu}_{\ \nu} , such that Y^{\mu}_{\ \rho}Y^{\rho}_{\ \nu}=f^{\mu\rho}g_{\rho\nu} , and e_{n}(X) represent the elementary symmetric polynomials 
+
+ \displaystyle e_{0}(X) 
+ \displaystyle=1\,, 
+
+ (4) 
+
+ \displaystyle e_{1}(X) 
+ \displaystyle=\bigl[X\bigr]\,, 
+
+ \displaystyle e_{2}(X) 
+ \displaystyle=\frac{1}{2}\bigl(\bigl[X\bigr]^{2}-\bigl[X^{2}\bigr]\bigr)\,, 
+
+ \displaystyle e_{3}(X) 
+ \displaystyle=\frac{1}{6}\bigl(\bigl[X\bigr]^{3}-3\bigl[X\bigr]\bigl[X^{2}\bigr]+2\bigl[X^{3}\bigr]\bigr)\,, 
+
+ \displaystyle e_{4}(X) 
+ \displaystyle=\frac{1}{24}\bigl(\bigl[X\bigr]^{4}-6\bigl[X\bigr]^{2}\bigl[X^{2}\bigr]+3\bigl[X^{2}\bigr]^{2}+8\bigl[X\bigr]\bigl[X^{3}\bigr]-6\bigl[X^{4}\bigr]\bigr)\,, 
+
+ where the brackets denote the trace operation. The interaction term ( 3 ) is a generalization of the one taken in previous works, corresponding to the choice \alpha_{n}=\alpha^{4-n}\beta^{n} , where \alpha and \beta enter the effective metric ( 6 ), see e.g. Eq. (2.8) of  Blanchet and Heisenberg 2015b . The Lagrangian ( 2 ) with ( 3 ) is nothing but the gravitational sector of the canonical ghost-free bimetric theory of Hassan and Rosen  Hassan and Rosen 2012a ; Hassan and Rosen 2012b , where \alpha_{0} (resp. \alpha_{4} ) plays the role of a bare cosmological constant for the metric g_{\mu\nu} (resp. f_{\mu\nu} ). This gravitational sector is symmetric under the exchange of the metrics g_{\mu\nu}\leftrightarrow f_{\mu\nu} together with the relabeling \{M_{g},\alpha_{n}\}\leftrightarrow\{M_{f},\alpha_{4-n}\} . 
+
+ As for the matter sector of our model, in addition to the baryonic matter \mathcal{L}_{\text{bar}} coupled to g_{\mu\nu} in the usual way, we will consider the following Lagrangian 
+
+ \mathcal{L}_{\text{mat}}=\mathcal{L}^{g}_{\text{mat}}[J_{g}^{\mu};g_{\mu\nu}]+\mathcal{L}^{f}_{\text{mat}}[J_{f}^{\mu};f_{\mu\nu}]+\mathcal{L}^{\text{eff}}_{\text{mat}}[A_{\mu};g^{\text{eff}}_{\mu\nu}]+\mathcal{L}^{\text{int}}_{\text{mat}}[J_{*g}^{\mu},J_{*f}^{\mu},A_{\mu}]\,, 
+
+ (5) 
+
+ that describes three matter fields: (i) particles coupled to g_{\mu\nu} and described by a conserved 2 2 
+ 2 
+
+ With the conserved current we can describe particles without interaction or a perfect fluid with zero temperature. Adding a dependence of the specific entropy we could also describe the case with finite temperature, which we will not consider in this work. current J_{g}^{\mu} (such that \nabla^{g}_{\mu}J_{g}^{\mu}=0 ); (ii) particles coupled to f_{\mu\nu} and described by a conserved current J_{f}^{\mu} (such that \nabla^{f}_{\mu}J_{f}^{\mu}=0 ); (iii) an Abelian U(1) vector field A_{\mu} coupled to the effective metric  de Rham et al. 2015 
+
+ g^{\text{eff}}_{\mu\nu}=\alpha^{2}g_{\mu\nu}+2\alpha\beta\,g_{\mu\rho}X^{\rho}_{\ \nu}+\beta^{2}f_{\mu\nu}\,, 
+
+ (6) 
+
+ where \alpha and \beta are arbitrary constants. The last term entering the matter sector ( 5 ) is an interaction between the particles and the U(1) field 
+
+ \mathcal{L}^{\text{int}}_{\text{mat}}=\bigl(J_{*g}^{\mu}-J_{*f}^{\mu}\bigr)A_{\mu}\,. 
+
+ (7) 
+
+ where J_{*g}^{\mu}\equiv\sqrt{-g}\,J_{g}^{\mu} and J_{*g}^{\mu}\equiv\sqrt{-f}\,J_{f}^{\mu} are metric independent matter currents. 
+
+ Note that the interaction term ( 7 ) induces a supplementary, although indirect, coupling between the two metrics, and can thus reintroduce the ghost that was suppressed by the interaction term ( 3 )  de Rham et al. 2015 ; de Rham et al. 2014 . Restricting the interaction term to the case \alpha_{n}=\alpha^{4-n}\beta^{n} as was done previously, it has been shown that the ghost is not excited for energies beyond the decoupling limit of the theory  Blanchet and Heisenberg 2017 . In our more general framework ( 3 ), it could be that the theory is plagued by a ghost at energies well below the decoupling limit. Nevertheless, as our aim is to prove that those theories are not well suited for a MONDian phenomenology, and as such a ghost would definitively not play a role in this low-energy analysis, we will consider the larger class of theories with ( 7 ) and arbitrary coefficients \{\alpha_{n}\} . 
+
+ III Proof of the absence of polarization mechanism 
+
+ Let us now turn to the study of the weak-field (non-relativistic) limit of the theory ( 1 ), investigated along the lines of  Blanchet and Heisenberg 2015b . In order to reach a consistent weak-field limit, we assume that the Universe is empty in average, i.e. that the matter only enters at perturbative order in the action. Moreover, seeking for a viable gravitational polarization mechanism requires to perturb both metrics around a common background metric, say \bar{g}_{\mu\nu} . Note that, as we will see later on, an empty background is not necessarily a flat one, as the interaction term will play the role of an effective cosmological constant. Thus \bar{g}_{\mu\nu} is not the Minkowskian metric, but rather a de Sitter (or anti-de Sitter) one. We then perturb each metric as 
+
+ \displaystyle g_{\mu\nu} 
+ \displaystyle=(\bar{g}_{\mu\nu}+h_{\mu\nu})^{2}\equiv(\bar{g}_{\mu\rho}+h_{\mu\rho})\bar{g}^{\rho\lambda}(\bar{g}_{\lambda\nu}+h_{\lambda\nu})\,, 
+
+ (8) 
+
+ \displaystyle f_{\mu\nu} 
+ \displaystyle=(\bar{g}_{\mu\nu}+\ell_{\mu\nu})^{2}\equiv(\bar{g}_{\mu\rho}+\ell_{\mu\rho})\bar{g}^{\rho\lambda}(\bar{g}_{\lambda\nu}+\ell_{\lambda\nu})\,. 
+
+ Up to quadratic order in the metric perturbations, the Lagrangian becomes 3 3 
+ 3 
+
+ We do not write here the zeroth order in perturbation, naturally irrelevant for our study. From now on, the barred quantities are associated with the background metric \bar{g}_{\mu\nu} , with which the indices are operated. 
+
+ \displaystyle\mathcal{L}^{(2)}=\sqrt{-\bar{g}}\,\biggl\{ 
+ \displaystyle-\Bigl(M_{g}^{2}h^{\mu\nu}+M_{f}^{2}\ell^{\mu\nu}\Bigr)\overline{G}_{\mu\nu}-\Bigl(M_{g}^{2}\Lambda_{g}h^{\mu\nu}+M_{f}^{2}\Lambda_{f}\ell^{\mu\nu}\Bigr)\bar{g}_{\mu\nu} 
+
+ (9) 
+
+ \displaystyle-M_{g}^{2}h^{\mu\nu}\overline{\mathcal{E}}^{\rho\lambda}_{\mu\nu}h_{\rho\lambda}-M_{f}^{2}\ell^{\mu\nu}\overline{\mathcal{E}}^{\rho\lambda}_{\mu\nu}\ell_{\rho\lambda}+h_{\mu\nu}\Bigl(T_{\text{bar}}^{\mu\nu}+T_{g}^{\mu\nu}\Bigr)+\ell_{\mu\nu}\,T_{f}^{\mu\nu} 
+
+ \displaystyle+\frac{M_{\text{eff}}^{2}\,m^{2}}{2}\Bigl[\Gamma_{0}h^{\mu\nu}h^{\rho\lambda}+2\Gamma_{1}h^{\mu\nu}\ell^{\rho\lambda}+\Gamma_{2}\ell^{\mu\nu}\ell^{\rho\lambda}\Bigr]\bigl(\bar{g}_{\mu\nu}\bar{g}_{\lambda\rho}-\bar{g}_{\mu\rho}\bar{g}_{\lambda\nu}\bigr)\biggr\}\,, 
+
+ where \overline{G}_{\mu\nu} is the Einstein tensor associated to \bar{g}_{\mu\nu} , and \overline{\mathcal{E}}^{\rho\sigma}_{\mu\nu} is the Lichnerowicz operator 
+
+ \displaystyle-2\overline{\mathcal{E}}^{\rho\lambda}_{\mu\nu}h_{\rho\lambda} 
+ \displaystyle=\overline{\Box}\bigl(h_{\mu\nu}-\bar{g}_{\mu\nu}h\bigr)+\overline{\nabla}_{\mu}\!\overline{\nabla}_{\nu}h-2\overline{\nabla}_{(\mu}H_{\nu)}+\bar{g}_{\mu\nu}\overline{\nabla}_{\rho}H^{\rho} 
+
+ (10) 
+
+ \displaystyle-2\overline{C}_{\mu\rho\lambda\nu}h^{\rho\lambda}-\frac{2}{3}\,\overline{R}\,\Bigl(h_{\mu\nu}-\frac{1}{4}\bar{g}_{\mu\nu}h\Bigr)-\overline{G}_{\rho(\mu}h^{\rho}_{\nu)}\,. 
+
+ Here \overline{C}_{\mu\nu\rho\lambda} is the Weyl tensor, we denoted the trace as h\equiv h^{\rho\sigma}\bar{g}_{\rho\sigma} and posed H_{\rho}\equiv\overline{\nabla}^{\sigma}h_{\rho\sigma} . The stress-energy tensors are defined as usual by 
+
+ T^{\mu\nu}_{\text{bar}}=\frac{2}{\sqrt{-g}}\frac{\delta\mathcal{L}_{\text{bar}}}{\delta g_{\mu\nu}}\,,\qquad T^{\mu\nu}_{g}=\frac{2}{\sqrt{-g}}\frac{\delta\mathcal{L}_{\text{mat}}}{\delta g_{\mu\nu}}\,,\qquad T^{\mu\nu}_{f}=\frac{2}{\sqrt{-f}}\frac{\delta\mathcal{L}_{\text{mat}}}{\delta f_{\mu\nu}}\,. 
+
+ (11) 
+
+ They are first-order quantities (as we required an empty Universe) that obey conservation laws with respect to the background metric at leading order, namely 
+
+ \overline{\nabla}_{\nu}\Bigl(T^{\mu\nu}_{\text{bar}}+T^{\mu\nu}_{g}\Bigr)=\mathcal{O}(2)\,,\qquad\overline{\nabla}_{\nu}T^{\mu\nu}_{f}=\mathcal{O}(2)\,. 
+
+ (12) 
+
+ Here we neglect the stress-energy tensor associated with the internal vector field A_{\mu} , which is coupled to the effective metric ( 6 ) and is second order \mathcal{O}(2) in perturbation, see (3.5) in  Blanchet and Heisenberg 2015b . Finally, we have introduced the effective cosmological constants 
+
+ \Lambda_{g}=-\frac{M_{\text{eff}}^{2}\,m^{2}}{M_{g}^{2}}\big(\alpha_{0}+3\alpha_{1}+3\alpha_{2}+\alpha_{3}\big)\,,\qquad\Lambda_{f}=-\frac{M_{\text{eff}}^{2}\,m^{2}}{M_{f}^{2}}\big(\alpha_{1}+3\alpha_{2}+3\alpha_{3}+\alpha_{4}\big)\,, 
+
+ (13) 
+
+ as well as the combinations 
+
+ \Gamma_{0}\equiv\alpha_{0}+2\alpha_{1}+\alpha_{2}\,,\qquad\Gamma_{1}\equiv\alpha_{1}+2\alpha_{2}+\alpha_{3}\,,\qquad\Gamma_{2}\equiv\alpha_{2}+2\alpha_{3}+\alpha_{4}\,. 
+
+ (14) 
+
+ The Lichnerowicz operator considered in Ref.  Blanchet and Heisenberg 2015b had a missing term: Eq. (3.10) there missed the last term in ( 10 ), i.e. -\overline{G}_{\rho(\mu}h^{\rho}_{\nu)} , proportional to the Einstein tensor of the background. This term plays a major role when establishing the relation ( 18 ) below, and in turn the Eq. ( 20 ), instead of the relation (3.13) found in  Blanchet and Heisenberg 2015b . Unfortunately, this invalidates the model  Blanchet and Heisenberg 2015b for the proposed application to MONDian phenomenology. 
+
+ At the linear level, the variation of the perturbed Lagrangian ( 9 ) gives the field equations 
+
+ \overline{G}_{\mu\nu}=-\Lambda_{g}\,\bar{g}_{\mu\nu}=-\Lambda_{f}\,\bar{g}_{\mu\nu}\,, 
+
+ (15) 
+
+ which can be fulfilled only for a common cosmological constant in the background, \Lambda_{g}=\Lambda_{f} . This equality is nothing but the condition that the background metric \bar{g}_{\mu\nu} is indeed the same for both sectors. When translated in terms of the notation ( 14 ),
+this condition gives a generalisation of Eq.(3.8) of  Blanchet and Heisenberg 2015b : 
+
+ \frac{\Gamma_{0}+\Gamma_{1}}{M_{g}^{2}}=\frac{\Gamma_{1}+\Gamma_{2}}{M_{f}^{2}}\,. 
+
+ (16) 
+
+ Turning now to the quadratic level, the Einstein field equations for the two metric perturbations h_{\mu\nu} and \ell_{\mu\nu} read 
+
+ \displaystyle 2M_{g}^{2}\,\overline{\mathcal{E}}^{\mu\nu}_{\rho\lambda}h^{\rho\lambda}+M_{\text{eff}}^{2}\,m^{2}\biggl[\Gamma_{0}\bigl(h^{\mu\nu}-h\,\bar{g}^{\mu\nu}\bigr)+\Gamma_{1}\bigl(\ell^{\mu\nu}-\ell\,\bar{g}^{\mu\nu}\bigr)\biggr]=T_{\text{bar}}^{\mu\nu}+T_{g}^{\mu\nu}\,, 
+
+ (17) 
+
+ \displaystyle 2M_{f}^{2}\,\overline{\mathcal{E}}^{\mu\nu}_{\rho\lambda}\ell^{\rho\lambda}+M_{\text{eff}}^{2}\,m^{2}\biggl[\Gamma_{1}\bigl(h^{\mu\nu}-h\,\bar{g}^{\mu\nu}\bigr)+\Gamma_{2}\bigl(\ell^{\mu\nu}-\ell\,\bar{g}^{\mu\nu}\bigr)\biggr]=T_{f}^{\mu\nu}\,. 
+
+ As usual in bigravity, we observe that the mass eigenstates are different from the kinetic ones. Using the expression ( 10 ) as well as the background condition ( 15 ) which says that \Lambda\equiv\Lambda_{g}=\Lambda_{f} , the divergence of the Lichnerowicz operator reads 
+
+ 2\overline{\nabla}_{\nu}\left(\overline{\mathcal{E}}^{\mu\nu}_{\rho\lambda}h^{\rho\lambda}\right)=2\overline{G}_{\rho\lambda}\overline{\nabla}^{[\mu}h^{\rho]\lambda}+\overline{\nabla}_{\rho}\Bigl(\overline{G}^{\lambda[\mu}h^{\rho]}_{\lambda}\Bigr)=\Lambda\,\overline{\nabla}_{\rho}\bigl[h^{\rho\mu}-h\,\bar{g}^{\rho\mu}\bigr]\,, 
+
+ (18) 
+
+ together with the mirror relation obtained by replacing h^{\rho\sigma}\rightarrow\ell^{\rho\sigma} .
+Therefore, using the conservation laws ( 12 ) of the stress-energy tensors, we find that the divergence of both field equations ( 17 ) boil down to the same constraint, independent of the background relation ( 16 ), 
+
+ \Gamma_{1}\overline{\nabla}_{\rho}\big[h^{\rho\mu}-\ell^{\rho\mu}-h\,\bar{g}^{\rho\mu}+\ell\,\bar{g}^{\rho\mu}\big]=0\,. 
+
+ (19) 
+
+ Imposing \Gamma_{1}=0 , the two sectors would decorrelate at first order, as clear from Eq. ( 17 ), and thus no gravitational polarization mechanism could be possible, by definition. Therefore, we are forced to impose 
+
+ \overline{\nabla}_{\rho}\big[h^{\rho\mu}-\ell^{\rho\mu}\big]=\overline{\nabla}^{\mu}\big[h-\ell\big]\,. 
+
+ (20) 
+
+ We now investigate the phenomenological consequences of this constraint in the non-relativistic limit c\to\infty . In this regime, we consider Newtonian-like systems, with sizes significantly smaller that the effects of a reasonable cosmological constant. We can thus discard the effect of the effective cosmological constant \Lambda , and take a Minkowskian ansatz for \bar{g}_{\mu\nu} , which allows a proper 3+1 decomposition of the components. On this flat background, we parametrize the metric perturbations by single Newtonian potentials U_{g} and U_{f} and two “PPN” constants \gamma_{g} and \gamma_{f} as 
+
+ \displaystyle h^{00}=\frac{U_{g}}{c^{2}}+\mathcal{O}\left(\frac{1}{c^{4}}\right)\,,\qquad h^{0i}=\mathcal{O}\left(\frac{1}{c^{3}}\right)\,,\qquad h^{ij}=\gamma_{g}\,\frac{U_{g}}{c^{2}}\,\delta_{ij}+\mathcal{O}\left(\frac{1}{c^{4}}\right)\,, 
+
+ (21) 
+
+ \displaystyle\ell^{00}=\frac{U_{f}}{c^{2}}+\mathcal{O}\left(\frac{1}{c^{4}}\right)\,,\qquad\ell^{0i}=\mathcal{O}\left(\frac{1}{c^{3}}\right)\,,\qquad\ell^{ij}=\gamma_{f}\,\frac{U_{f}}{c^{2}}\,\delta_{ij}+\mathcal{O}\left(\frac{1}{c^{4}}\right)\,. 
+
+ The ij components of the field equations ( 17 ) set \gamma_{g}=\gamma_{f}=1 , and the constraint equation ( 20 ) then gives 
+
+ \partial_{i}\big[U_{g}-U_{f}\big]=0\,. 
+
+ (22) 
+
+ However, the gravitational polarization mechanism discussed in  Blanchet and Heisenberg 2015b required that the gradients of U_{g} and U_{f} have opposite signs: as the particles described by J_{g}^{\mu} and J_{f}^{\mu} feel the force respectively due to the potentials U_{g} and U_{f} , they will be displaced in the opposite direction. The U(1) field A_{\mu} coupling both sectors would then create an effective polarization of the spacetime medium, reproducing the main feature of the model  Blanchet 2007 . It is thus clear that the constraint ( 22 ) is incompatible with such a mechanism. 
+
+ IV Conclusion 
+
+ This study has proven that, contrarily to what was claimed in the work  Blanchet and Heisenberg 2015b , the framework based on canonical bimetric theory is unable to produce a consistent gravitational polarization mechanism. This shortage unfortunately spoils its capacity to account for an effective MONDian phenomenology, and thus, to be a proper relativistic completion of the MOND paradigm. Note that another DDM model, based on standard GR  Blanchet and Le Tiec 2008 ; Blanchet and Le Tiec 2009 , is still viable in this respect; this model has recently been simulated numerically on galactic scales  Stahl et al. 2022 .
+Nevertheless, there is still hope that a viable mechanism could be achieved in a ghost-free bigravity framework, as DDM was based on the Hassan-Rosen model, but other bimetric theories exist, for instance the newly proposed minimal bigravity  De Felice et al. 2021 , which has the advantage of having stable cosmological solutions as well as escaping the Higuchi ghost present in usual bigravity scenarii. 
+
+ Acknowledgements. F.L. would like to thank the Institut d’Astrophysique de Paris for hosting him during both early and late stages of this project.
+
+ References 
+
+ Abbott et al. (2016) 
+ B. Abbott et al. (LIGO Scientific
+Collaboration and VIRGO Collaboration), Observation of gravitational waves from a binary black hole
+merger, Phys.
+Rev. Lett. 116 , 061102
+(2016), arXiv:1602.03837 [gr-qc] . 
+
+ Abbott et al. (2017) 
+ B. Abbott et al. (LIGO Scientific
+Collaboration and VIRGO Collaboration), Gw170817: Observation of gravitational waves from a binary neutron
+star inspiral, Phys. Rev. Lett. 119 , 161101 (2017), arXiv:1710.05832 [gr-qc] 
+. 
+
+ Heisenberg (2019) 
+ L. Heisenberg, A systematic approach
+to generalisations of General Relativity and their cosmological
+implications, Phys. Rept. 796 , 1 (2019) , arXiv:1807.01725 [gr-qc] . 
+
+ Bosma (1981) 
+ A. Bosma, 21-cm line studies of
+spiral galaxies. ii. the distribution and kinematics of neutral hydrogen in
+spiral galaxies of various morphological types, Astron. J. 86 , 1825 (1981). 
+
+ Rubin et al. (1982) 
+ V. Rubin, J. Ford,
+N. Thonnard, and D. Burstein, Rotational properties of 23 sb galaxies, Astrophys. J. 261 , 439 (1982). 
+
+ Bertone et al. (2005) 
+ G. Bertone, D. Hooper, and J. Silk, Particle dark matter: Evidence, candidates and
+constraints, Phys. Rept. 405 , 279
+(2005), hep-ph/0404175 . 
+
+ Aprile et al. (2020) 
+ E. Aprile et al. (XENON), Excess electronic recoil events in XENON1T, Phys. Rev. D 102 , 072004 (2020) , arXiv:2006.09721 [hep-ex] . 
+
+ Albert et al. (2020) 
+ A. Albert et al. (ANTARES, IceCube), Combined search for neutrinos from
+dark matter self-annihilation in the Galactic Center with ANTARES and
+IceCube, Phys. Rev. D 102 , 082002 (2020) , arXiv:2003.06614 [astro-ph.HE] 
+. 
+
+ Aad et al. (2021) 
+ G. Aad et al. (ATLAS), Search for new phenomena in events with two
+opposite-charge leptons, jets and missing transverse momentum in pp
+collisions at \sqrt{\mathrm{s}} = 13 TeV with the ATLAS detector, JHEP 04 , 165 , arXiv:2102.01444
+[hep-ex] . 
+
+ Milgrom (1983) 
+ M. Milgrom, A modification of the
+Newtonian dynamics as a possible alternative to the hidden mass
+hypothesis, Astrophys. J. 270 , 365
+(1983). 
+
+ Bekenstein (2004) 
+ J. Bekenstein, Relativistic
+gravitation theory for the modified Newtonian dynamics paradigm, Phys. Rev. D 70 , 083509 (2004), astro-ph/0403694 . 
+
+ Bruneton and Esposito-Farèse (2007) 
+ J.-P. Bruneton and G. Esposito-Farèse, Field-theoretical formulations of MOND-like gravity, Phys. Rev. D 76 , 124012 (2007), arXiv:0705.4043
+[gr-qc] . 
+
+ Deffayet et al. (2014) 
+ C. Deffayet, G. Esposito-Farese, and R. P. Woodard, Field
+equations and cosmology for a class of nonlocal metric models of MOND, Phys. Rev. D 90 , 064038 (2014) , [Addendum: Phys.Rev.D 90, 089901 (2014)], arXiv:1405.0393 [astro-ph.CO] 
+. 
+
+ Famaey and McGaugh (2012) 
+ B. Famaey and S. McGaugh, Modified Newtonian
+dynamics (MOND): Observational phenomenology and relativistic extensions, Living Rev. Rel. 15 , 10 (2012), arXiv:1112.3960 [astro-ph.CO] . 
+
+ Blanchet (2007) 
+ L. Blanchet, Gravitational
+polarization and the phenomenology of MOND, Class. Quant. Grav. 24 , 3529 (2007), astro-ph/0605637 . 
+
+ Blanchet and Le Tiec (2008) 
+ L. Blanchet and A. Le Tiec, Model of dark matter and
+dark energy based on gravitational polarization, Phys. Rev. D 78 , 024031 (2008), astro-ph/0804.3518 . 
+
+ Blanchet and Le Tiec (2009) 
+ L. Blanchet and A. Le Tiec, Dipolar dark matter and
+dark energy, Phys. Rev. D 80 , 023524
+(2009), arXiv:0901.3114 [astro-ph] . 
+
+ Bernard and Blanchet (2015) 
+ L. Bernard and L. Blanchet, Phenomenology of dark
+matter via a bimetric extension of general relativity, Phys. Rev. D 91 , 103536 (2015), arXiv:1410.7708
+[astro-ph] . 
+
+ Blanchet and Heisenberg (2015a) 
+ L. Blanchet and L. Heisenberg, Dark Matter via
+Massive (bi-)Gravity, Phys. Rev. D 91 , 103518 (2015a) , arXiv:1504.00870 [gr-qc] . 
+
+ Blanchet and Heisenberg (2015b) 
+ L. Blanchet and L. Heisenberg, Dipolar Dark Matter
+with Massive Bigravity, J. Cosmo. Astropart. 12 , 026 (2015b), arXiv:1505.05146 [gr-qc] . 
+
+ Blanchet and Heisenberg (2017) 
+ L. Blanchet and L. Heisenberg, Dipolar Dark Matter
+as an Effective Field Theory, Phys. Rev. D 96 , 083512 (2017) , arXiv:1701.07747 [gr-qc] . 
+
+ Milgrom (2009) 
+ M. Milgrom, Bimetric MOND
+gravity, Phys.
+Rev. D 80 , 123536
+(2009), arXiv:0912.0790 [gr-qc] . 
+
+ de Rham et al. (2011) 
+ C. de Rham, G. Gabadadze, and A. Tolley, Resummation of Massive Gravity, Phys. Rev. Lett. 106 , 231101 (2011) , arXiv:1011.1232 [hep-th] . 
+
+ de Rham (2014) 
+ C. de Rham, Massive Gravity, Living Rev.Rel. 17 , 7 (2014) , arXiv:1401.4173 [hep-th] . 
+
+ Hassan and Rosen (2012a) 
+ S. Hassan and R. Rosen, Bimetric gravity from ghost-free
+massive gravity, J. High Energy Phys. 1202 , 126 , arXiv:1109.3515 [hep-th] . 
+
+ Hassan and Rosen (2012b) 
+ S. Hassan and R. Rosen, Confirmation of the secondary
+constraint and absence of ghost in massive gravity and bimetric gravity, J. High Energy Phys. 1204 , 123 , arXiv:1111.2070 [hep-th] . 
+
+ de Rham et al. (2015) 
+ C. de Rham, L. Heisenberg, and R. Ribeiro, On coupling to matter in
+massive (bi-)gravity, Class. Quantum Grav. 32 , 035022 (2015), arXiv:1408.1678 [hep-th] . 
+
+ de Rham et al. (2014) 
+ C. de Rham, L. Heisenberg, and R. Ribeiro, Ghosts & matter
+couplings in massive (bi-& multi-)gravity, Phys. Rev. D 90 , 124042 (2014), arXiv:1409.3834 [hep-th] . 
+
+ Stahl et al. (2022) 
+ C. Stahl, B. Famaey,
+G. Thomas, Y. Dubois, and R. Ibata, Dipolar dark matter simulations on galaxy scales with the RAMSES
+code, Mon. Not. Roy. Astron. Soc. 517 , 498 (2022) , arXiv:2209.07831
+[astro-ph.CO] . 
+
+ De Felice et al. (2021) 
+ A. De Felice, F. Larrouturou, S. Mukohyama, and M. Oliosi, Minimal Theory of
+Bigravity: construction and cosmology, JCAP 04 , 015 , arXiv:2012.01073
+[gr-qc] . 
+
+ ◄ 
+
+ Feeling lucky? 
+
+ Conversion report 
+ Report an issue 
+ View original on arXiv ► 
+
+ Copyright 
+ Privacy Policy 
+
+ Generated by L a T e XML oxide 
+
+ 

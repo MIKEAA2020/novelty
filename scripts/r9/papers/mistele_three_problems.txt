@@ -1,0 +1,1772 @@
+ 
+
+ [2009.03003] Three problems of superfluid dark matter and their solution 
+
+ \DeclareSourcemap \maps 
+ [datatype=bibtex,overwrite=true]
+ \map 
+ \step [fieldsource=Collaboration, final=true]
+ \step [fieldset=usera, origfieldval, final=true] 
+
+ Three problems of superfluid dark matter and their solution 
+
+ Tobias Mistele
+
+ Affiliation:  Frankfurt Institute for Advanced Studies
+ Ruth-Moufang-Str. 1,
+D-60438 Frankfurt am Main, Germany
+
+ Abstract 
+
+ In superfluid dark matter ( SFDM ), the phonon field plays a double role:
+It carries the superfluid’s energy density and it mediates the MOND -like phonon force.
+We show that these two roles are in tension with each other on galactic scales:
+A MOND -like phonon force is in tension with a superfluid in equilibrium and with a significant superfluid energy density.
+To avoid these tensions, we propose a model where the two roles are split between two different fields.
+This also allows us to solve a stability problem in a more elegant way than standard SFDM .
+We argue that the standard estimates for the size of a galaxy’s superfluid core need to be revisited. 
+
+ 1 Introduction 
+
+ There is ample evidence for missing non-baryonic mass from observations on both cosmological and galactic scales.
+The simplest explanation for the evidence from cosmological scales, most notably the Cosmic Microwave Background ( CMB ), is the existence of cold dark matter particles ( CDM ).
+In contrast, the simplest explanation for the evidence from galactic scales, most notably rotation curves, is in terms of a modified force law of the form proposed by Modified Newtonian Dynamics ( MOND ) [ 1 , 2 , 3 , 4 ] .
+The aim of superfluid dark matter ( SFDM ) as proposed in Ref.  [ 5 ] is to combine the best of both worlds in a single model.
+That is, to reproduce CDM on cosmological scales and MOND on galactic scales.
+The idea is to postulate a new type of particle that behaves differently on different scales.
+On galactic scales, the new particles condense to a superfluid, where a phonon force then exerts an additional MOND ian force on baryons.
+In contrast, these particles are in the normal, not-condensed phase on cosmological scales, where they behave like CDM [ 5 , 6 ] .
+Superfluid condensates of dark matter on galactic scales have been considered before [ 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15 , 16 ] , but the long-range phonon force is specific to the proposal from Ref.  [ 5 ] . 
+
+ In SFDM as proposed in Ref.  [ 5 ] , the so-called phonon field plays a double role in galaxies:
+It carries both the MOND -like phonon force and the superfluid’s energy density.
+The phonon force is needed to reproduce MOND ian rotation curves at small and intermediate radii, while the superfluid’s energy density is needed to reproduce the strong lensing signal at larger radii [ 17 ] .
+In the present work, we will show that these two roles of the phonon field are in tension with each other and how these tensions can be avoided by assigning each role to a separate field.
+We will also see that the two standard estimates for the size of a galaxy’s superfluid core should be revisited because, in general, they do not agree with each other.
+In the following, we employ units with c=\hbar=1 and the metric signature (+,-,-,-) .
+Small Greek indices run from 0 to 3 and denote spacetime dimensions. 
+
+ In Sec.  2 , we introduce the standard model of SFDM from Ref.  [ 5 ] and discuss three problems of this model.
+In Sec.  3 , we propose an improved model and show how this improved model avoids the problems from Sec.  2 .
+Then, we choose explicit numerical parameters for our model in Sec.  4 , which we use to illustrate the model’s phenomenology on galactic scales with the Milky Way as an example in Sec.  5 .
+In Sec.  6 , we estimate the size of the Milky Way’s superfluid core using standard methods and argue that these methods should be revisited.
+After a short discussion in Sec.  7 we conclude in Sec.  8 . 
+
+ 2 Three problems of SFDM 
+
+ Ref.  [ 5 ] formulates SFDM in terms of an effective field theory ( EFT ) for the phonon field \theta .
+This EFT is valid on galactic scales, but may break down on cosmological or solar system scales.
+Concretely, the Lagrangian reads [ 5 ] 
+
+ \displaystyle\mathcal{L} 
+ \displaystyle=f(K_{\theta}-m^{2})-\lambda\,\theta\,\rho_{b}\,, 
+
+ (1a) 
+
+ \displaystyle f(K_{\theta}-m^{2}) 
+ \displaystyle=\frac{2\Lambda}{3}\sqrt{|K_{\theta}-m^{2}|}(K_{\theta}-m^{2})\,, 
+
+ (1b) 
+
+ \displaystyle K_{\theta} 
+ \displaystyle=\nabla^{\alpha}\theta\nabla_{\alpha}\theta\,. 
+
+ (1c) 
+
+ Here, m is the mass of the particles of which the superfluid consists, \Lambda is a constant with mass dimension 1 that is related to the self-interaction of these particles, and \lambda\equiv\bar{\alpha}\Lambda/M_{\rm{Pl}} is a dimensionless constant that couples \theta to the baryonic energy density \rho_{b} .
+We can introduce a chemical potential \mu by shifting \dot{\theta}\to\dot{\theta}+\mu . 1 1 
+ 1 
+
+ We do not shift \theta\to\theta+\mu\cdot t for reasons discussed in Ref.  [ 18 ] , see also Sec.  2.3 . 
+In the non-relativistic limit, we have \mu=m+\mu_{\rm{nr}} with |\dot{\theta}|\ll m and \mu_{\rm{nr}}\ll m , where \mu_{\rm{nr}} is the non-relativistic chemical potential.
+In the following, it will be useful to use the notation 
+
+ \displaystyle\hat{\mu}(\vec{x})\equiv\mu_{\rm{nr}}-m\phi_{\rm{N}}(\vec{x})\,, 
+
+ (2) 
+
+ where \phi_{\rm{N}} is the Newtonian gravitational potential.
+Note that \mu_{\rm{nr}} is a constant, but \hat{\mu} is not due to its dependence on \phi_{\rm{N}} .
+For time-independent equilibrium solutions, we then have K_{\theta}-m^{2}=2m\hat{\mu}-(\vec{\nabla}\theta)^{2} .
+The acceleration of the baryons due to \theta is \vec{a}_{\theta}=-\lambda\vec{\nabla}\theta .
+As discussed in Ref.  [ 5 ] , this acceleration has the standard MOND form |\vec{a}_{\theta}|\approx\sqrt{a_{0}|\vec{a}_{b}|} if (\vec{\nabla}\theta)^{2}\gg 2m\hat{\mu} .
+Here, a_{0}=\bar{\alpha}^{3}\Lambda^{2}/M_{\rm{Pl}} is the MOND ian acceleration scale and \vec{a}_{b} is the Newtonian gravitational acceleration due to the baryons.
+In this case, K_{\theta}-m^{2}\approx-(\vec{\nabla}\theta)^{2} MOND limit in more detail in Sec.  2.2 . 
+
+ 2.1 The stability problem 
+
+ One problem with the Lagrangian \mathcal{L} from Eq. ( 1 ) is that perturbations around the desired equilibrium solutions in galaxies are unstable.
+This was already discussed in Ref.  [ 5 ] .
+To see this, consider a perturbation \delta on top of an equilibrium background solution \theta_{0} with K_{\theta_{0}}-m^{2} MOND limit solution with 2m\hat{\mu}_{0}\ll(\vec{\nabla}\theta_{0})^{2} .
+Here, K_{\theta_{0}} is the background value of K_{\theta} with a chemical potential \mu_{0}=m+\mu_{\rm{nr}}^{0} and \hat{\mu}_{0}=\mu_{\rm{nr}}^{0}-m\phi_{\rm{N}} .
+Then, the second-order Lagrangian for the perturbation \delta reads 
+
+ \displaystyle\mathcal{L}_{\rm{pert}}=\left[f_{0}^{\prime}g^{\alpha\beta}+2f_{0}^{\prime\prime}\nabla^{\alpha}\theta_{0}\nabla^{\beta}\theta_{0}\right]\nabla_{\alpha}\delta\nabla_{\beta}\delta\,, 
+
+ (3) 
+
+ where 
+
+ \displaystyle f_{0}^{\prime} 
+ \displaystyle=\Lambda\sqrt{|K_{\theta_{0}}-m^{2}|}>0\,, 
+
+ (4) 
+
+ \displaystyle f_{0}^{\prime\prime} 
+ \displaystyle=-\frac{\Lambda}{2}\frac{1}{\sqrt{|K_{\theta_{0}}-m^{2}|}} 
+
+ (5) 
+
+ For stability, the prefactor of the \dot{\delta}^{2} term in \mathcal{L}_{\rm{pert}} should be positive.
+This prefactor is: 
+
+ \displaystyle f_{0}^{\prime}g^{00}+2\left(g^{00}\right)^{2}f_{0}^{\prime\prime}\mu_{0}^{2}\approx\frac{\Lambda m^{2}}{\sqrt{|K_{\theta_{0}}-m^{2}|}}\left(\frac{|K_{\theta_{0}}-m^{2}|}{m^{2}}-1\right) 
+
+ (6) 
+
+ This term is negative because typically |K_{\theta_{0}}-m^{2}|\approx|2m\hat{\mu}_{0}-(\vec{\nabla}\theta_{0})^{2}|\ll m^{2} in the non-relativistic limit on galactic scales [ 5 ] .
+Thus, the desired equilibrium solutions in galaxies are unstable. 
+
+ To fix this instability, Ref.  [ 5 ] introduces finite-temperature corrections parametrized by a new parameter \bar{\beta} .
+In the non-relativistic limit, the Lagrangian then is: 
+
+ \displaystyle\mathcal{L}_{\bar{\beta}}=\frac{2\Lambda}{3}\sqrt{(2m)|X-\bar{\beta}Y|}(2mX)\,, 
+
+ (7) 
+
+ where 2mX=2m(\hat{\mu}+\dot{\theta})-(\vec{\nabla}\theta)^{2} is the non-relativistic limit of K_{\theta}-m^{2} and in the rest-frame of the fluid we have Y=\hat{\mu}+\dot{\theta} .
+This agrees with the non-relativistic limit of the original Lagrangian \mathcal{L} for \bar{\beta}=0 .
+For \bar{\beta}>3/2 , the addition of the \bar{\beta}Y term under the square root then cures the instability described above [ 5 ] .
+However, this solution is not entirely satisfactory since both the functional form of the finite-temperature corrections and the numerical value of \bar{\beta} are chosen ad-hoc.
+In principle, the finite-temperature Lagrangian \mathcal{L}_{\bar{\beta}} should follow from the zero-temperature Lagrangian \mathcal{L} from Eq. ( 1 ), but so far this has not been established.
+As a result, it is unclear how \bar{\beta} depends on the superfluid temperature and it is unclear whether or not finite-temperature corrections to the Lagrangian \mathcal{L} from Eq. ( 1 ) actually take the form \mathcal{L}_{\bar{\beta}} from Eq. ( 7 ).
+Below, we will see that our improved model avoids this instability in a more natural way that is connected to an underlying Lagrangian and works at zero temperature. 
+
+ In the following, we will use the fiducial numerical parameters from Ref.  [ 6 ] for standard SFDM , unless stated otherwise: \bar{\beta}=2 , \bar{\alpha}=5.7 , m=1\,\rm{eV} , and \Lambda=0.05\,\rm{meV} . 
+
+ 2.2 The MOND limit problem 
+
+ On galactic scales, the field \theta plays a double role.
+The first role is to exert an additional force on the baryons, \vec{a}_{\theta}=-\lambda\vec{\nabla}\theta .
+This follows from the phonon-baryon coupling -\lambda\theta\rho_{b} in \mathcal{L} .
+In the limit 
+
+ \displaystyle(\vec{\nabla}\theta)^{2}\gg 2m\hat{\mu}\,, 
+
+ (8) 
+
+ this acceleration has a MOND -like form 2 2 
+ 2 
+
+ If \bar{\beta} is not much larger than 1. If \bar{\beta} is much larger than 1, the condition becomes (\vec{\nabla}\theta)^{2}\gg 2m\hat{\mu}\bar{\beta} .
+For the numerical values we consider here, \bar{\beta} is of order 1. 
+, because it satisfies the MOND -like equation 
+
+ \displaystyle\vec{\nabla}\left(|\vec{a}_{\theta}|\vec{a}_{\theta}\right)=\vec{\nabla}\left(a_{0}\vec{a}_{b}\right)\,. 
+
+ (9) 
+
+ This condition is usually assumed to hold on galactic scales so that SFDM reproduces the MOND phenomenology of rotation curves.
+However, it turns out that the condition Eq. ( 8 ) is not always satisfied inside galaxies.
+Concretely, the quantity \varepsilon\equiv(2m\hat{\mu})/(\vec{\nabla}\theta)^{2} that controls the MOND limit can be written as 
+
+ \displaystyle\varepsilon\equiv\frac{2m\hat{\mu}}{(\vec{\nabla}\theta)^{2}}=\frac{2m^{2}}{\bar{\alpha}}\frac{10^{-6}}{a_{0}M_{\rm{Pl}}}\left(\frac{a_{0}}{10|\vec{a}_{b}|}\right)\left(10^{7}\frac{\hat{\mu}}{m}\right)\approx 0.8\cdot\left(\frac{a_{0}}{10|\vec{a}_{b}|}\right)\left(10^{7}\frac{\hat{\mu}}{m}\right)\,, 
+
+ (10) 
+
+ where we assumed a MOND ian acceleration |\vec{a}_{\theta}|=\sqrt{a_{0}|\vec{a}_{b}|} and we used the fiducial numerical parameters from Ref.  [ 6 ] .
+We introduced a factor 10^{7} in front of \hat{\mu}/m because 10^{-7} is a typical value of \hat{\mu}/m on galactic scales.
+Indeed, a rough estimate is \hat{\mu}/m\approx|\phi_{\rm{N}}| .
+Similarly, we introduced a factor of 1/10 in front of a_{0}/|\vec{a}_{b}| because we expect the MOND limit to be valid for |\vec{a}_{b}|\ll a_{0} .
+We see that \varepsilon can easily be of order 1 on galactic scales.
+When this happens, SFDM does not have a proper MOND limit. 
+
+ It may be possible to avoid this problem by choosing different values for \bar{\alpha} and m , since \varepsilon scales as m^{2}/\bar{\alpha} , see Eq. ( 10 ).
+However, a small ratio m^{2}/\bar{\alpha} is in tension with the other role that \theta plays on galactic scales, namely to carry the superfluid’s energy density.
+This role is discussed in more detail in the next section.
+Here, it suffices to note that the energy density of the superfluid scales as [ 6 ] 
+
+ \displaystyle\rho_{\rm{DM}}\propto\frac{m^{2}}{\bar{\alpha}}M_{\rm{Pl}}|\vec{a}_{\theta}| 
+
+ (11) 
+
+ in the MOND limit with small \varepsilon .
+Thus, if we make \varepsilon significantly smaller through m^{2}/\bar{\alpha} so that \theta mediates a MOND ian force a_{\theta}=\sqrt{a_{0}a_{b}} , the superfluid density also becomes significantly smaller.
+But the superfluid density cannot be too small because it is needed to get strong lensing right.
+This is because we cannot couple the MOND -like phonon force to photons to satisfy the constraints from gravitational waves with an electromagnetic counterpart [ 19 , 20 , 17 ] .
+Thus, one cannot fix the MOND limit by simply choosing different numerical parameters. 
+
+ Figure 1: 
+Left: The quantity \varepsilon=(2m\hat{\mu})/(\vec{\nabla}\theta)^{2} that controls the idealized MOND limit of SFDM at z=0 for the Milky Way model from Ref.  [ 21 ] with f_{b}=0.8 .
+Right: The phonon acceleration \vec{a}_{\theta} at z=0 for the full SFDM model (solid blue line) and for the idealized MOND limit from Eq. ( 9 ) (dashed orange line).
+
+ The behavior of \varepsilon is illustrated in Fig.  1 , left, where we plot the quantity \varepsilon\equiv(2m\hat{\mu})/(\vec{\nabla}\theta)^{2} over the cylindrical radius R for the Milky Way at z=0 .
+This plot is for the SFDM model of the Milky Way rotation curve from Ref.  [ 21 ] with the parameters f_{b}=0.8 , \mu_{\infty}/m=1.25\cdot 10^{-8} , and r_{\infty}=100\,\rm{kpc} .
+Here, f_{b} controls the amount of baryonic mass and \mu_{\infty} is a boundary condition imposed at r_{\infty} that controls the superfluid density, see Ref.  [ 21 ] for details.
+These parameters give a reasonable fit of the Milky Way rotation curve.
+This result is obtained by numerically solving the full SFDM equations, it does not use the idealized MOND limit from Eq. ( 9 ).
+Fig.  1 , left, shows that \varepsilon is larger than 1 for \gtrsim 20\,\rm{kpc} .
+Even at R 10 ). 
+
+ However, there is also a puzzle here.
+Namely, because of the large value of \varepsilon , we would expect the MOND ian equation Eq. ( 9 ) to be a bad approximation for the phonon acceleration \vec{a}_{\theta} .
+In particular, we would expect the SFDM rotation curve to deviate significantly from the idealized MOND limit represented by Eq. ( 9 ).
+But if we calculate the Milky Way’s rotation curve using this idealized MOND limit, we find that the rotation curve is almost the same as for the full SFDM equations for R\lesssim 25\,\rm{kpc} .
+This is illustrated in Fig.  1 , right.
+This is the puzzle:
+How can the condition \varepsilon\ll 1 be violated but the rotation curve still be so close to the MOND ian rotation curve?
+The answer is that a numerical coincidence brings the rotation curve of the full SFDM equations close to the rotation curve from the idealized MOND limit.
+For example, this coincidence does not work out so favorably if we choose \bar{\beta}=2.5 instead of \bar{\beta}=2 .
+This is discussed in more detail in Appendix  A .
+The details of how this numerical coincidence comes about are not important for our further discussion. 
+
+ Note that having a proper MOND limit is not only about the rotation curve of an isolated galaxy.
+It is also about the External Field Effect ( EFE ) [ 1 , 22 ] .
+In SFDM , it is usually assumed that there is a standard MOND ian EFE inside the superfluid core of a galaxy [ 6 ] .
+However, this is true only if \varepsilon\ll 1 , because then the \theta equation of motion has the standard MOND ian form.
+If \varepsilon is not small, there is no standard MOND ian EFE in the superfluid core – even if the rotation curve is MOND ian due to the numerical coincidence discussed in Appendix  A .
+This is important for satellite galaxies and globular clusters of the Milky Way which are expected to be affected by this EFE in SFDM [ 6 ] . 
+
+ Below, we will see that our improved model allows for a proper MOND limit much more generally and without relying on numerical coincidences. 
+
+ 2.3 The equilibrium problem 
+
+ As already mentioned in the previous section, the second role that \theta plays on galactic scales is that it carries the superfluid’s energy density.
+That is, it represents the superfluid in equilibrium with chemical potential \mu .
+This energy density \rho_{\rm{DM}} provides an additional term to the total energy density that sources the Newtonian gravitational potential \phi_{\rm{N}} [ 6 ] , 
+
+ \displaystyle\rho_{\rm{DM}}=\frac{2\sqrt{2}}{3}m^{5/2}\Lambda\,\frac{3(\bar{\beta}-1)\hat{\mu}+(3-\bar{\beta})\frac{(\vec{\nabla}\theta)^{2}}{2m}}{\sqrt{(\bar{\beta}-1)\hat{\mu}+\frac{(\vec{\nabla}\theta)^{2}}{2m}}}\,. 
+
+ (12) 
+
+ The additional Newtonian gravitational pull due to this energy density is negligible in the inner parts of galaxies.
+There, the MOND -like phonon force dominates.
+But at large radii, the additional gravitational pull from \rho_{\rm{DM}} becomes important and is responsible for the strong lensing signal of galaxies. 
+
+ That \theta plays this double role leads to a potential problem with the superfluid’s equilibrium:
+On the one hand, a perfect equilibrium with a chemical potential \mu requires an associated conserved quantity.
+Here, this is the conserved quantity associated with a shift symmetry of \theta .
+On the other hand, that \theta exerts a MOND -like force on the baryons implies that the \theta shift symmetry is broken.
+Indeed, the coupling -\lambda\theta\rho_{b} explicitly breaks this symmetry.
+This may not be a problem if \lambda is small enough so that there is at least an approximate equilibrium valid for times much longer than the timescales of interest.
+Ref.  [ 18 ] estimates that such an approximate equilibrium could be valid on timescales much smaller than t_{Q} , 
+
+ \displaystyle t_{Q}^{-1}\approx\lambda\,m\frac{M_{b}}{M_{\rm{DM}}}\,, 
+
+ (13) 
+
+ where M_{b} is the total baryonic mass and M_{\rm{DM}} is the total superfluid mass.
+With the fiducial parameter values from Ref.  [ 6 ] ( \lambda\approx 10^{-31} and m=1\,\rm{eV} ), this gives t_{Q}\approx 10^{8}\,\mathrm{yr}\,(M_{\rm{DM}}/M_{b}) .
+A typical dynamical timescale of galaxies is 10^{8}\,\rm{yr} .
+Thus, the timescale t_{Q} is not necessarily much larger than the dynamical timescale of a galaxy so that assuming an equilibrium with chemical potential \mu may not be valid on galactic scales.
+Indeed, the global estimate Eq. ( 13 ) concerns a galaxy as a whole and may be too optimistic.
+Ref.  [ 18 ] also estimates a local timescale t_{\rm{loc}} separately for each point in space and finds that the approximate equilibrium may be valid only on timescales much shorter than t_{\rm{loc}}^{-1}=\lambda\,m\,(\rho_{b}/\rho_{\rm{DM}}) .
+In the inner parts of galaxies, t_{\rm{loc}} is typically much shorter than 10^{8}\,\rm{yr} since \rho_{\rm{DM}}\ll\rho_{b} , which makes the equilibrium problem more pressing.
+In principle, t_{\rm{loc}} and t_{Q} can be made large by making \lambda m/\rho_{\rm{DM}} small.
+However, in the MOND limit, we have \lambda m/\rho_{\rm{DM}}\propto M_{\rm{Pl}}^{-1}(a_{0}/a_{b})^{1/4}\rho_{\rm{DM}}^{-1/2} .
+Thus, at fixed a_{0} (to keep the phonon force fixed) and at fixed \rho_{\rm{DM}} (to keep the energy density fixed), there is no freedom to adjust \lambda m/\rho_{\rm{DM}} .
+Below, we will see that our improved model has a perfect equilibrium that is valid on timescales much larger than t_{Q} or t_{\rm{loc}} . 
+
+ 3 An improved SFDM model 
+
+ Above, we have seen that the equilibrium problem and the MOND limit problem are consequences of the double role that the phonon field \theta plays in standard SFDM :
+ \theta carries both the additional MOND -like force and the superfluid’s energy density.
+This leads to the main idea behind our improved model, which is to disentangle the two roles that \theta plays in standard SFDM by assigning each role to a separate field.
+For brevity, we will refer to this model as two-field SFDM . 
+
+ 3.1 The model 
+
+ We start with the EFT from Eq. ( 1 ), 
+
+ \displaystyle\mathcal{L}=f(K_{\theta}-m^{2})-\lambda\,\theta\,\rho_{b}\,. 
+
+ (14) 
+
+ We will modify this Lagrangian to avoid the problems discussed in the previous section.
+First, we introduce two fields \theta_{+} and \theta_{-} .
+The role of \theta_{-} will be to carry the superfluid’s equilibrium chemical potential and the role of \theta_{+} will be to carry the additional MOND ian force.
+Then, we postulate the Lagrangian 
+
+ \displaystyle\mathcal{L}_{\rm{imp}}=f(K_{+}+K_{-}-m^{2})-\lambda\,\theta_{+}\,\rho_{b}\,, 
+
+ (15) 
+
+ where K_{\pm} are defined analogously to K_{\theta} , 
+
+ \displaystyle K_{+} 
+ \displaystyle=\nabla^{\alpha}\theta_{+}\nabla_{\alpha}\theta_{+}\,, 
+
+ (16a) 
+
+ \displaystyle K_{-} 
+ \displaystyle=\nabla^{\alpha}\theta_{-}\nabla_{\alpha}\theta_{-}\,. 
+
+ (16b) 
+
+ Here, we couple only \theta_{+} to the baryon density, not \theta_{-} .
+Thus, this Lagrangian is shift-symmetric in \theta_{-} and there is an associated conserved quantity Q .
+In equilibrium, we can then introduce a chemical potential \mu by replacing the Hamiltonian H with H-\mu\,Q .
+On the level of the Lagrangian, this corresponds to a shift of \dot{\theta}_{-} [ 18 , 23 , 24 , 25 ] , 
+
+ \displaystyle\dot{\theta}_{-}\to\dot{\theta}_{-}+\mu\,. 
+
+ (17) 
+
+ Equivalently, we could consider solutions \theta_{-}=\mu\,t with otherwise time-independent fields to find the same physical equilibrium.
+However, introducing \mu as in Eq. ( 17 ) makes it clear that \mu is a chemical potential in the statistical physics sense.
+Since the \theta_{-} shift symmetry is exact, Q is conserved exactly.
+In contrast, the analogous quantity in standard SFDM is conserved only approximately on timescales much shorter than t_{Q} .
+Thus, the equilibrium problem from Sec.  2.3 is absent in two-field SFDM :
+The equilibrium with chemical potential \mu is not limited to timescales shorter than t_{Q} . 
+
+ Consider now a non-relativistic equilibrium with chemical potential \mu=m+\mu_{\rm{nr}} with |\mu_{\rm{nr}}|\ll m .
+Then, the \theta_{-} equation of motion is solved by setting \theta_{-}=0 (that is, \theta_{-}=0 after the shift \dot{\theta}_{-}\to\dot{\theta}_{-}+\mu ).
+In this case, the equation of motion for a time-independent \theta_{+} is exactly the same as the equation of motion for a time-independent \theta from standard SFDM with the same chemical potential, 
+
+ \displaystyle\vec{\nabla}\left[2f^{\prime}\left((\vec{\nabla}\theta_{+})^{2}-2m\hat{\mu}\right)\vec{\nabla}\theta_{+}\right]=\lambda\,\rho_{b}\,, 
+
+ (18) 
+
+ where, as in standard SFDM , \hat{\mu}=\mu_{\rm{nr}}-m\phi_{\rm{N}} .
+The energy density derived from \mathcal{L}_{\rm{imp}} in this limit also matches that derived from standard SFDM .
+Thus, the Lagrangian \mathcal{L}_{\rm{imp}} reproduces the basic phenomenology of standard SFDM on galactic scales but avoids the equilibrium problem. 
+
+ However, so far \mathcal{L}_{\rm{imp}} does not address the stability problem (see Sec.  2.1 ) and the MOND limit problem (see Sec.  2.2 ).
+We will now see that both problems can be solved by one more modification of \mathcal{L}_{\rm{imp}} .
+Consider first the stability problem.
+The second-order Lagrangian for perturbations \delta_{\pm} of \theta_{\pm} around background fields \theta^{0}_{\pm} reads 
+
+ \displaystyle\begin{split}\mathcal{L}_{\rm{imp},\rm{pert}}=&\left[f_{0}^{\prime}\,g^{\alpha\beta}+2f_{0}^{\prime\prime}\,\nabla^{\alpha}\theta^{0}_{+}\nabla^{\beta}\theta^{0}_{+}\right]\nabla_{\alpha}\delta_{+}\nabla_{\beta}\delta_{+}+\\
+&\left[f_{0}^{\prime}\,g^{\alpha\beta}+2f_{0}^{\prime\prime}\,\nabla^{\alpha}\theta^{0}_{-}\nabla^{\beta}\theta^{0}_{-}\right]\nabla_{\alpha}\delta_{-}\nabla_{\beta}\delta_{-}+\\
+&\left[4f_{0}^{\prime\prime}\,\nabla^{\alpha}\theta^{0}_{+}\nabla^{\beta}\theta^{0}_{-}\right]\nabla_{\alpha}\delta_{+}\nabla_{\beta}\delta_{-}\,.\end{split} 
+
+ (19) 
+
+ For equilibrium solutions on galactic scales with K^{0}_{+}+K^{0}_{-}-m^{2} 
+
+ \displaystyle f_{0}^{\prime} 
+ \displaystyle=\Lambda\sqrt{|K^{0}_{+}+K^{0}_{-}-m^{2}|}>0\,, 
+
+ (20a) 
+
+ \displaystyle f_{0}^{\prime\prime} 
+ \displaystyle=-\frac{\Lambda}{2}\frac{1}{\sqrt{|K^{0}_{+}+K^{0}_{-}-m^{2}|}} 
+
+ (20b) 
+
+ Here, K^{0}_{\pm} means K_{\pm} evaluated at the background solution \theta_{\pm}^{0} .
+The first two lines in Eq. ( 19 ) are two copies of the perturbed Lagrangian \mathcal{L}_{\rm{pert}} from standard SFDM from Eq. ( 3 ).
+The third line comes from the mixing of \theta_{+} and \theta_{-} in f(K_{+}+K_{-}-m^{2}) . 
+
+ Consider now non-relativistic equilibrium solutions with chemical potential \mu_{0} , i.e. consider \dot{\theta}^{0}_{-}=\mu_{0} with |g^{00}\mu_{0}^{2}-m^{2}|\ll m^{2} and time-independent \theta^{0}_{+} .
+In this limit, f_{0}^{\prime} and f_{0}^{\prime\prime} in Eq. ( 20 ) are the same as f_{0}^{\prime} and f_{0}^{\prime\prime} in Eq. ( 4 ) in the analogous limit.
+This is why we reuse the same symbols here.
+Specifically, 
+
+ \displaystyle f_{0}^{\prime} 
+ \displaystyle=\Lambda\sqrt{|(\vec{\nabla}\theta^{0}_{+})^{2}-2m\hat{\mu}_{0}|}\,, 
+
+ (21a) 
+
+ \displaystyle f_{0}^{\prime\prime} 
+ \displaystyle=-\frac{\Lambda}{2}\frac{1}{\sqrt{|(\vec{\nabla}\theta^{0}_{+})^{2}-2m\hat{\mu}_{0}|}}\,. 
+
+ (21b) 
+
+ Such solutions are stable if the Hamiltonian \mathcal{H}_{\rm{imp,pert}} associated with \mathcal{L}_{\rm{imp,pert}} is bounded from below for such background solutions.
+We now show that this is not the case, since \mathcal{L}_{\rm{imp}} inherits the instability problem of standard SFDM .
+Then, we investigate how to fix this problem. 
+
+ In the limit under consideration, the third line in \mathcal{L}_{\rm{imp,pert}} reads: 
+
+ \displaystyle-4f_{0}^{\prime\prime}\vec{\nabla}\theta^{0}_{+}\,\mu_{0}\,\vec{\nabla}\delta_{+}\,\dot{\delta}_{-}\,. 
+
+ (22) 
+
+ This is first order in time derivatives of the perturbations and does therefore not contribute to the Hamiltonian.
+The first two lines then give the Hamiltonian 
+
+ \displaystyle\begin{split}\mathcal{H}_{\rm{imp,pert}}=&\left(f^{\prime}_{0}g^{00}+2(g^{00})^{2}f_{0}^{\prime\prime}(\dot{\theta}^{0}_{+})^{2}\right)\dot{\delta}_{+}^{2}+\left(f^{\prime}_{0}(\vec{\nabla}\delta_{+})^{2}-2f^{\prime\prime}_{0}(\vec{\nabla}\theta^{0}_{+}\vec{\nabla}\delta_{+})^{2}\right)+\\
+&\left(f^{\prime}_{0}g^{00}+2(g^{00})^{2}f_{0}^{\prime\prime}(\dot{\theta}^{0}_{-})^{2}\right)\dot{\delta}_{-}^{2}+\left(f^{\prime}_{0}(\vec{\nabla}\delta_{-})^{2}-2f^{\prime\prime}_{0}(\vec{\nabla}\theta^{0}_{-}\vec{\nabla}\delta_{-})^{2}\right)\,.\end{split} 
+
+ (23) 
+
+ Since f_{0}^{\prime}>0 and f_{0}^{\prime\prime} SFDM discussed in Sec.  2.1 .
+Thus, our improved Lagrangian suffers from a very similar instability.
+However, it is now much easier to fix this problem.
+Indeed, consider an additional term proportional to K_{-} in the Lagrangian: 
+
+ \displaystyle\Delta\mathcal{L}_{\rm{imp}}=AK_{-}\,, 
+
+ (24) 
+
+ where A>0 does not depend on \theta_{+} and derivatives, but is otherwise allowed to depend on other fields.
+This term does not affect the background solutions for \theta_{-} and \theta_{+} (for a given \phi_{\rm{N}} , see below).
+The reason is that it does not affect the \theta_{+} equation of motion by construction and it adds a term \nabla_{\alpha}(A\nabla^{\alpha}\theta_{-}) to the \theta_{-} equation of motion, which vanishes for \dot{\theta}_{-}=\mu and time-independent A , as we assume in equilibrium.
+However, it does affect the stability of perturbations.
+Namely, \mathcal{H}_{\rm{imp,pert}} gains two additional terms, 
+
+ \displaystyle\Delta\mathcal{H}_{\rm{imp,pert}}=A\dot{\delta}_{-}^{2}+A(\vec{\nabla}\delta_{-})^{2}\,. 
+
+ (25) 
+
+ This makes the solutions under consideration stable if 
+
+ \displaystyle A>-\left(f_{0}^{\prime}g^{00}+2(g^{00})^{2}f_{0}^{\prime\prime}\mu_{0}^{2}\right)\,. 
+
+ (26) 
+
+ Thus, such a term can fix the stability problem while keeping the background solutions for \theta_{+} and \theta_{-} the same.
+Note that a term AK_{\theta} in standard SFDM could similarly fix the stability problem there.
+However, this would significantly change the MOND ian force in standard SFDM .
+The reason is that AK_{\theta} contains spatial derivatives of the field \theta which carries this force.
+In contrast, the AK_{-} term in our two-field model does not affect the force carried by \theta_{+} . 
+
+ This leaves us with the MOND limit problem.
+That is, in standard SFDM , the condition (\vec{\nabla}\theta)^{2}\gg 2m\hat{\mu} is not always fulfilled in galaxies so that the force carried by \theta is not always MOND ian.
+So far, the analogous condition (\vec{\nabla}\theta_{+})^{2}\gg 2m\hat{\mu} in our two-field model has the exact same problem.
+As discussed in Sec.  2.2 , this could be fixed by making the ratio m^{2}/\bar{\alpha} smaller.
+But then the superfluid’s energy density in galaxies becomes smaller by roughly the same factor.
+This is problematic since the superfluid’s energy density is important to get enough strong lensing.
+However, in our two-field model, another way to fix this problem is through the AK_{-} term.
+Namely, this term adds an additional term of order Am^{2} to the superfluid’s energy density.
+Then, we may hope to fix the MOND limit problem, if we make the ratio m^{2}/\bar{\alpha} smaller to satisfy (\vec{\nabla}\theta_{+})^{2}\gg 2m\hat{\mu} , but keep the energy density roughly the same through the Am^{2} term. 
+
+ To make this concrete, we consider one possible origin of the AK_{-} term.
+We take \theta_{-} to be the phase of a complex scalar field \phi_{-}=\rho_{-}e^{-i\theta_{-}}/\sqrt{2} and
+add to \mathcal{L}_{\rm{imp}} the standard Lagrangian for a superfluid with a quartic interaction [ 26 , 27 ] : 
+
+ \displaystyle\begin{split}\mathcal{L}_{-}&=(\nabla_{\alpha}\phi_{-})^{*}(\nabla^{\alpha}\phi_{-})-m^{2}|\phi_{-}|^{2}-\lambda_{4}|\phi_{-}|^{4}\\
+&=\frac{1}{2}\left(K_{\rho_{-}}+\rho_{-}^{2}(K_{-}-m^{2})\right)-\frac{\lambda_{4}}{4}\rho_{-}^{4}\,.\end{split} 
+
+ (27) 
+
+ Here, m is the mass, \lambda_{4} is the quartic coupling constant, and 
+
+ \displaystyle K_{\rho_{-}} 
+ \displaystyle=\nabla^{\alpha}\rho_{-}\nabla_{\alpha}\rho_{-}\,, 
+
+ (28a) 
+
+ \displaystyle K_{-} 
+ \displaystyle=\nabla^{\alpha}\theta_{-}\nabla_{\alpha}\theta_{-}\,. 
+
+ (28b) 
+
+ If we introduce a chemical potential \mu by shifting \dot{\theta}_{-}\to\dot{\theta}_{-}+\mu and neglect derivatives of \rho_{-} , the equation of motion for \rho_{-} has the solution 
+
+ \displaystyle\rho_{-}^{2}=\frac{g^{00}\mu^{2}-m^{2}}{\lambda_{4}}\,, 
+
+ (29) 
+
+ if g^{00}\mu^{2}>m^{2} .
+This is the usual superfluid solution.
+In the non-relativistic limit with \mu=m+\mu_{\rm{nr}} with |\mu_{\rm{nr}}|\ll m and g^{00}=1-2\phi_{\rm{N}} , this is 
+
+ \displaystyle\rho_{-}^{2}=\frac{2m(\mu_{\rm{nr}}-m\phi_{\rm{N}})}{\lambda_{4}}=\frac{2m\hat{\mu}}{\lambda_{4}}\,, 
+
+ (30) 
+
+ and the dominant contribution to the energy density is 
+
+ \displaystyle\rho_{\rm{DM}-}=m^{2}\rho_{-}^{2}=\frac{2m^{3}\hat{\mu}}{\lambda_{4}}\,. 
+
+ (31) 
+
+ In this model, we have 
+
+ \displaystyle A=\frac{\rho_{-}^{2}}{2}\,. 
+
+ (32) 
+
+ For the standard equilibrium superfluid, this is A=m\hat{\mu}/\lambda_{4} .
+The total dark matter density then has two terms.
+One term from the previous \mathcal{L}_{\rm{imp}} and the new term of order Am^{2} , 
+
+ \displaystyle\rho_{\rm{DM}} 
+ \displaystyle=\rho_{\rm{DM}-}+\rho_{\rm{DM}+}\,, 
+
+ (33a) 
+
+ \displaystyle\rho_{\rm{DM}-} 
+ \displaystyle=\frac{2m^{3}\hat{\mu}}{\lambda_{4}}\,, 
+
+ (33b) 
+
+ \displaystyle\rho_{\rm{DM}+} 
+ \displaystyle=2m^{2}\Lambda\,\sqrt{(\vec{\nabla}\theta_{+})^{2}-2m\hat{\mu}}\,. 
+
+ (33c) 
+
+ If we make m^{2}/\bar{\alpha} small to fix the MOND limit problem, \rho_{\rm{DM}+} becomes small.
+However, \rho_{\rm{DM}-} can take over the role of \rho_{\rm{DM}+} , since it scales differently.
+Concretely, we can estimate \hat{\mu}\approx m|\phi_{\rm{N}}| .
+Then, we see that we need to keep m^{4}/\lambda_{4} large enough to produce enough strong lensing while making m^{2}/\bar{\alpha} small enough to fix the MOND limit problem.
+The stability criterion Eq. ( 26 ) now reads: 
+
+ \displaystyle\frac{m\hat{\mu}}{\lambda_{4}}>\frac{\Lambda m^{2}}{\sqrt{|K_{+}+K_{-}-m^{2}|}}\left(1-\frac{|K_{+}+K_{-}-m^{2}|}{m^{2}}\right)\approx\frac{\Lambda m^{2}}{\sqrt{|(\vec{\nabla}\theta_{+})^{2}-2m\hat{\mu}|}}\,. 
+
+ (34) 
+
+ If we make m^{2}/\bar{\alpha} small enough such that (\vec{\nabla}\theta_{+})^{2}\gg 2m\hat{\mu} , this further simplifies to 
+
+ \displaystyle|\vec{a}_{+}|>a_{0}\,\frac{\lambda_{4}}{\bar{\alpha}^{2}}\,\frac{m}{\hat{\mu}}\equiv a_{+\rm{min}}\,, 
+
+ (35) 
+
+ where \vec{a}_{+}=-\lambda\vec{\nabla}\theta_{+} is the acceleration of the baryons due to \theta_{+} .
+This implies a minimum acceleration a_{+\rm{min}} due to \theta_{+} below which the equilibrium solutions under consideration become unstable.
+In the MOND limit with |\vec{a}_{+}|=\sqrt{a_{0}|\vec{a}_{b}|} , this is 
+
+ \displaystyle a_{\rm{b}}\left(10^{7}\frac{\hat{\mu}}{m}\right)^{2}>a_{0}\left(10^{7}\frac{\lambda_{4}}{\bar{\alpha}^{2}}\right)^{2}\equiv\bar{a}\,. 
+
+ (36) 
+
+ Here, we introduced a factor of 10^{7} because 10^{-7} is a typical value of \hat{\mu}/m on galactic scales.
+Thus, stability typically requires a_{b}>\bar{a} , but the precise condition depends on \hat{\mu}/m and is therefore different in different galaxies and at different radii.
+For a MOND ian phenomenology, we want to keep the equilibrium solutions valid for baryonic accelerations well below a_{0} .
+Thus, we need a very small ratio \lambda_{4}/\bar{\alpha}^{2} . 3 3 
+ 3 
+
+ To stay away from K_{+}+K_{-}-m^{2}=0 , where the SFDM EFT is ill-defined, we need (\vec{\nabla}\theta_{+})^{2}>2m\hat{\mu} .
+This gives another minimum acceleration.
+However, in the MOND limit, we have (\vec{\nabla}\theta_{+})^{2}\gg 2m\hat{\mu} .
+Therefore, we will assume that the minimum acceleration from stability concerns discussed above is more important on galactic scales.
+A third type of minimum acceleration is discussed in Appendix  B . 
+
+ To summarize, our two-field SFDM model is 
+
+ \displaystyle\begin{split}\mathcal{L}_{\rm{imp}}&=\mathcal{L}_{-}+f(K_{+}+K_{-}-m^{2})-\lambda\,\theta_{+}\,\rho_{b}\\
+&=\frac{1}{2}\left(K_{\rho_{-}}+\rho_{-}^{2}(K_{-}-m^{2})\right)-\frac{\lambda_{4}}{4}\rho_{-}^{4}+f(K_{+}+K_{-}-m^{2})-\lambda\,\theta_{+}\,\rho_{b}\,.\end{split} 
+
+ (37) 
+
+ where \theta_{+} carries the additional MOND -like force and \phi_{-}=e^{-i\theta_{-}}\rho_{-}/\sqrt{2} carries the superfluid’s energy density.
+It has four free parameters m , \bar{\alpha} , \Lambda , and \lambda_{4} .
+This is the same number of free parameters as in standard SFDM , where the free parameters are m , \bar{\alpha} , \Lambda , and \bar{\beta} . 4 4 
+ 4 
+
+ In principle, \bar{\beta} is not a free parameter since the finite-temperature corrections it parametrizes should follow from the zero-temperature Lagrangian from Eq.  1 . However, for practical purposes, it is a free parameter, as discussed in Sec.  2.1 . 
+We have shown how our model can avoid the instability problem (see Sec.  2.1 ), the MOND limit problem (see Sec.  2.2 ), and the equilibrium problem (see Sec.  2.3 ).
+Numerically, we need \lambda_{4}/\bar{\alpha}^{2}\ll 10^{-7} to avoid the stability problem.
+To avoid the MOND limit problem, we need m^{2}/\bar{\alpha} much smaller than in standard SFDM and m^{4}/\lambda_{4} large enough to give enough lensing.
+In Secs.  4 and 5 , we will choose concrete numerical values and demonstrate some galactic phenomenology of the model.
+We will further discuss the qualitative interpretation of our model in Sec.  7 . 
+
+ As in the standard SFDM EFT , we have so far taken the form of the function f as given.
+Ref.  [ 5 ] discusses a possible origin of f from an underlying Lagrangian that is valid also at K-m^{2}=0 , where the EFT is ill-defined.
+In Appendix  B , we show that it is straightforward to extend this mechanism to two-field SFDM . 
+
+ 3.2 Sound speed 
+
+ Low-energy perturbations on top of non-relativistic equilibrium superfluids usually have a single low-energy mode with sound speed c_{s}^{2}=\mathcal{O}(\hat{\mu}/m)\ll 1 .
+In our model, there are two low-energy modes.
+Roughly, these correspond to the two fields \theta_{+} and \theta_{-} .
+If we neglect the mixing between \theta_{+} and \theta_{-} from the f(K_{+}+K_{-}-m^{2}) term in our Lagrangian, we find that a mix of \theta_{-} and \rho_{-} gives a gapless mode with the usual phonon dispersion relation of a superfluid with quartic interactions, i.e. a sound speed 
+
+ \displaystyle c_{s-}^{2}=\frac{\hat{\mu}}{m}\,. 
+
+ (38) 
+
+ In contrast, the \theta_{+} perturbations are superluminal, 
+
+ \displaystyle c_{s+}^{2}=1+\gamma^{2}\,, 
+
+ (39) 
+
+ where \gamma is the cosine of the angle between the wave vector of the perturbation and the background \vec{\nabla}\theta_{+} .
+This is the usual result for RAQUAL -type Lagrangians in the deep- MOND limit [ 4 , 28 ] .
+In Appendix  C , we show that corrections to Eqs. ( 38 ) and ( 39 ) from mixing of \theta_{+} and \theta_{-} are typically small on galactic scales. 
+
+ This superluminality does not necessarily imply problems with causality, as discussed in Refs.  [ 29 , 28 , 30 ] . 5 5 
+ 5 
+
+ It could, however, indicate the lack of a conventional Wilsonian UV completion [ 31 , 32 ] .
+In this case, a non-Wilsonian UV completion like classicalization may be possible [ 33 , 34 , 35 , 36 ] .
+
+Still, we can make c_{s+} subluminal by replacing f(K_{+}+K_{-}-m^{2}) in our Lagrangian with 
+
+ \displaystyle f\left(K_{+}+K_{-}-m^{2}+C(\nabla_{\alpha}\theta_{+}\nabla^{\alpha}\theta_{-})^{2}\right)\,, 
+
+ (40) 
+
+ with a suitable constant C .
+This change does not affect the equilibrium equations of motion since all additional terms are proportional to \nabla_{\alpha}\theta_{+}\nabla^{\alpha}\theta_{-} which vanishes in equilibrium.
+However, perturbations around equilibrium are affected.
+If we choose Cm^{2}=\mathcal{O}(1) with Cm^{2}\geq 1 , it is straightforward to show that c_{s+} becomes subluminal, c_{s+}^{2}=(1+\gamma^{2})/(1+C\mu^{2}) .
+Other effects on our stability analysis and sound speed calculation are negligible.
+Below, we leave out such a term for simplicity. 
+
+ Since \theta_{+} couples directly to the baryonic density \rho_{b} and since \theta_{-} mixes with \theta_{+} , both modes are relevant to Cherenkov radiation and binary pulsar constraints.
+However, the standard SFDM picture from galactic scales is not directly applicable in these cases.
+The reason is that these constraints come from environments with accelerations much larger than a_{0} , where standard SFDM phenomenology anyway cannot be valid.
+Indeed, naively extending the galaxy-scale phenomenology of SFDM to the solar system gives additional accelerations \vec{a}_{+} that are much too large [ 5 ] .
+One way to satisfy the solar system constraints could be to introduce higher-derivative terms like in Ref.  [ 37 ] .
+Then, one could test Cherenkov radiation and binary pulsar constraints for the specific resulting model.
+More generally, it makes sense to consider these constraints only after we understand the high-acceleration regime of SFDM .
+Studying this is left for future work. 
+
+ 3.3 Halo profile in the absence of baryons 
+
+ In our model, Poisson’s equation for the Newtonian gravitational potential \phi_{\rm{N}} on galactic scales is 
+
+ \displaystyle\Delta\phi_{\rm{N}}=4\pi G\left(\rho_{b}+\rho_{\rm{DM}-}\right)\,, 
+
+ (41) 
+
+ where we have assumed that \rho_{\rm{DM}-}\gg\rho_{\rm{DM}+} as discussed in Sec.  3.1 .
+This can be rewritten in terms of \hat{\mu}=\mu_{\rm{nr}}-m\phi_{\rm{N}} , 
+
+ \displaystyle\Delta\left(-\frac{\hat{\mu}}{m}\right)=4\pi G\rho_{b}+\frac{m^{4}}{\lambda_{4}M_{\rm{Pl}}^{2}}\left(\frac{\hat{\mu}}{m}\right)\,, 
+
+ (42) 
+
+ where we used the expression for \rho_{\rm{DM}-} from Eq. ( 33 ) and 8\pi G=M_{\rm{Pl}}^{-2} .
+We now define 
+
+ \displaystyle r_{0}^{2}=\lambda_{4}\,\frac{M_{\rm{Pl}}^{2}}{m^{4}}\,. 
+
+ (43) 
+
+ Then, outside the baryonic energy density, the Poisson equation has solutions 
+
+ \displaystyle\hat{\mu}/m\propto\cos(r/r_{0}+\delta_{0})/r\,, 
+
+ (44) 
+
+ with constant \delta_{0} .
+Thus, the dark matter profile away from the baryons is \rho_{\rm{DM}-}\propto\hat{\mu}\propto\cos(r/r_{0}+\delta_{0})/r with a characteristic length scale r_{0} .
+This specific halo profile is a consequence of our choice of a |\phi_{-}|^{4} interaction term which leads to \rho_{\rm{DM}-}\propto\hat{\mu}/m .
+In contrast, a |\phi_{-}|^{6} interaction leads to \rho_{\rm{DM}-}\propto\sqrt{\hat{\mu}/m} which is closer to the energy density in standard SFDM [ 5 ] .
+The energy densities can be of the same order of magnitude for both types of interaction, but the shapes are different 6 6 
+ 6 
+
+ For a given solution \rho_{\rm{DM}}(r) , another solution is \xi\rho_{\rm{DM}}(r) for a |\phi_{-}|^{4} interaction and without baryons.
+But for |\phi_{-}|^{6} it is \xi\rho_{\rm{DM}}(r/\sqrt{\xi}) .
+That is, multiplying the central density by \xi also multiplies the density in the |\phi_{-}|^{4} case, but multiplies and stretches it in the |\phi_{-}|^{6} case.
+ , see Sec.  5 and Ref.  [ 27 ] for explicit examples.
+We chose the more standard quartic interaction for simplicity, but other choices are certainly possible. 
+
+ Eq. ( 44 ) holds in a zero-temperature equilibrium.
+Ref.  [ 27 ] shows that assuming zero temperature is a good approximation at small and intermediate radii, but not at larger radii where the zero-temperature \hat{\mu}/m reaches zero.
+Thus, for a realistic galaxy in equilibrium, Eq. ( 44 ) will be modified by the presence of baryons at small radii and by finite-temperature effects at large radii.
+For the numerical parameter values we consider below (see Sec.  4 ), these finite-temperature effects will not be important on galactic scales. 7 7 
+ 7 
+
+ Finite-temperature effects become important once n(r)\equiv\rho_{\rm{DM}-}(r)/m falls below the critical value n_{c}\propto m^{3}(M_{\rm{DM}}/r_{0})^{3/2} , where M_{\rm{DM}} is the superfluid core’s mass [ 27 ] .
+In Sec.  4 , we choose parameters such that \rho_{\rm{DM}-} is similar as in Ref.  [ 27 ] , while m is much smaller.
+Thus, n(r) is much larger and n_{c} is much smaller in our case so that finite-temperature effects are small on galactic scales.
+
+Therefore, we include the effects of baryons, but no finite-temperature effects in our explicit calculations below. 
+
+ 4 Choosing parameters 
+
+ As mentioned in Sec.  3.1 , our model has four free parameters: \bar{\alpha} , \Lambda , m , and \lambda_{4} .
+We will now express these in terms of four other parameters that are more directly related to phenomenology. 
+
+ Our first parameter is the MOND ian acceleration scale a_{0} , 
+
+ \displaystyle a_{0}=\frac{\bar{\alpha}^{3}\Lambda^{2}}{M_{\rm{Pl}}}\,, 
+
+ (45) 
+
+ that has the same form as in standard SFDM (see Sec.  2 ).
+Our second parameter is the characteristic length scale r_{0}=\sqrt{\lambda_{4}}\,M_{\rm{Pl}}/m^{2} in the superfluid energy density on galactic scales (see Sec.  3.3 ).
+Our third parameter is the minimum acceleration scale \bar{a}=a_{0}(10^{7}\lambda_{4}/\bar{\alpha}^{2})^{2} (see Sec.  3.1 ). 
+
+ As our fourth parameter, we choose the non-relativistic 2\to 2 self-interaction cross-section of \phi_{-} particles due to the \lambda_{4}|\phi_{-}|^{4} interaction [ 38 , 39 ] : 
+
+ \displaystyle\frac{\sigma}{m}=\frac{4\pi}{2!}\frac{1}{m}\frac{(4\lambda_{4})^{2}}{64\pi^{2}(2m)^{2}}=\frac{1}{8\pi}\frac{\lambda_{4}^{2}}{m^{3}}\,. 
+
+ (46) 
+
+ In Ref.  [ 5 ] , the self-interaction cross-section is used to estimate the size of the superfluid cores of galaxies (see also Sec.  6 below).
+Its value was chosen such that constraints from cluster mergers are satisfied [ 5 , 6 ] .
+Below, we choose \sigma/m from Eq. ( 46 ) to have the same value as in Ref.  [ 6 ] .
+However, one should be careful with this procedure.
+One reason is that, as discussed in Ref.  [ 5 ] , standard cluster merger constraints may need to be carefully revisited for superfluids.
+Another reason is that we calculated \sigma/m only from the \lambda_{4}|\phi_{-}|^{4} term in our Lagrangian \mathcal{L}_{\rm{imp}} .
+Using this cross-section to satisfy constraints on the total self-interaction rate implicitly assumes that terms from the f(K_{+}+K_{-}-m^{2}) part of the Lagrangian are negligible.
+Estimating the effects of this term is not straightforward due to its non-standard form.
+Indeed, in Ref.  [ 5 ] , the value of the self-interaction cross-section is simply assumed and not calculated from an underlying Lagrangian.
+Investigating this in more detail is left for future work. 
+
+ To sum up, we will specify our model through the MOND acceleration scale a_{0} , the dark matter density characteristic length scale r_{0} , the minimum acceleration \bar{a} , and the self-interaction cross-section \sigma/m .
+The parameters \bar{\alpha} , \Lambda , m , and \lambda_{4} can be expressed through these quantities: 
+
+ \displaystyle\bar{\alpha} 
+ \displaystyle=10^{3}\,c_{\bar{\alpha}}\,\left(\frac{a_{0}}{\bar{a}}\right)^{1/4}\left(\frac{M_{\rm{Pl}}^{3}(\sigma/m)^{2}}{r_{0}^{3}}\right)^{1/5}\,,\quad 
+ \displaystyle m 
+ \displaystyle=c_{m}\left(\frac{M_{\rm{Pl}}^{4}(\sigma/m)}{r_{0}^{4}}\right)^{1/5}\,, 
+
+ (47) 
+
+ \displaystyle\Lambda 
+ \displaystyle=10^{-5}c_{\Lambda}\left(a_{0}\bar{a}^{3}\right)^{1/8}\left(\frac{r_{0}^{9}}{M_{\rm{Pl}}^{4}(\sigma/m)^{6}}\right)^{1/10}\,,\quad 
+ \displaystyle\lambda_{4} 
+ \displaystyle=c_{\lambda_{4}}\left(\frac{M_{\rm{Pl}}^{3}(\sigma/m)^{2}}{r_{0}^{3}}\right)^{2/5}\,, 
+
+ where 
+
+ \displaystyle c_{\bar{\alpha}} 
+ \displaystyle=2\cdot 2^{7/10}\sqrt{5}\,\pi^{2/5}\approx 11.48\,,\quad 
+ \displaystyle c_{m} 
+ \displaystyle=2^{3/5}\,\pi^{1/5}\approx 1.91\,, 
+
+ (48) 
+
+ \displaystyle c_{\Lambda} 
+ \displaystyle=\left(4\cdot 2^{1/20}\cdot 5^{1/4}\,\pi^{3/5}\right)^{-1}\approx 0.08\,,\quad 
+ \displaystyle c_{\lambda_{4}} 
+ \displaystyle=4\cdot 2^{2/5}\pi^{4/5}\approx 13.19\,. 
+
+ In the following, we use numerical values that give a phenomenology on galactic scales that is close to that of standard SFDM with the fiducial parameters from Ref.  [ 6 ] .
+This is useful for illustrating similarities and differences between standard SFDM and two-field SFDM , but different choices with different phenomenology are certainly possible.
+Concretely, we choose: 
+
+ \displaystyle a_{0} 
+ \displaystyle=0.87\cdot 10^{-10}\,\rm{\frac{m}{s^{2}}}\,,\qquad 
+ \displaystyle\frac{\sigma}{m} 
+ \displaystyle=0.01\,\rm{\frac{cm^{2}}{g}}\,, 
+
+ (49) 
+
+ \displaystyle r_{0} 
+ \displaystyle=50\,\rm{kpc}\,,\qquad 
+ \displaystyle\bar{a} 
+ \displaystyle=10^{-12}\,\rm{\frac{m}{s^{2}}}\,. 
+
+ In terms of \bar{\alpha} , \Lambda , m , and \lambda_{4} , this gives: 
+
+ \displaystyle\bar{\alpha} 
+ \displaystyle=1.3\cdot 10^{-6}\,,\qquad 
+ \displaystyle m 
+ \displaystyle=6.4\,\rm{\mu eV}\,, 
+
+ (50) 
+
+ \displaystyle\Lambda 
+ \displaystyle=0.5\,\rm{MeV}\,,\qquad 
+ \displaystyle\lambda_{4} 
+ \displaystyle=1.7\cdot 10^{-20}\,. 
+
+ In particular, a_{0} and \sigma/m are chosen to match the fiducial parameters from Ref.  [ 6 ] .
+The characteristic length scale r_{0} of \rho_{\rm{DM}-} is chosen to be on the order of the superfluid core sizes discussed in Ref.  [ 6 ] .
+The minimum acceleration scale \bar{a} , below which the MOND ian EFT breaks down, is chosen to be around the value where dwarf spheroidals start to deviate from MOND ian behavior in Ref.  [ 40 ] .
+Thus, dwarf spheroidals may show non- MOND ian behavior in our model.
+This possibility was already mentioned in Ref.  [ 5 ] in relation to a different minimum acceleration scale that we discuss in Appendix  B .
+Of course, the existence of a minimum acceleration scale does not directly predict how dwarf spheroidals behave in SFDM .
+It merely gives an idea why those may not follow standard MOND ian behavior.
+Investigating this in more detail is beyond the scope of the present work. 
+
+ 5 An explicit numerical example: The Milky Way 
+
+ We now consider an explicit numerical example for our two-field SFDM model.
+We build on the Milky Way model from Ref.  [ 21 ] in standard SFDM that we already used in Sec.  2.2 .
+For non-relativistic equilibrium solutions in galaxies, we can reuse the code from Ref.  [ 21 ] with some modifications.
+Namely, the \theta_{+} equation of motion in two-field SFDM is the same as the \theta equation in standard SFDM if we set \bar{\beta}=0 .
+Also, the Poisson equation for \phi_{\rm{N}} has the same form as in standard SFDM , but we need to replace the dark matter energy density \rho_{\rm{DM}} from Eq. ( 12 ) with the energy density \rho_{\rm{DM}-} from Eq. ( 33 ).
+The energy density \rho_{\rm{DM}+} is negligible for our choice of parameters, as we will see below.
+There is also a technical modification we need to make:
+In Ref.  [ 21 ] , we rewrote the equation for \hat{\mu} in terms of \hat{\mu}_{\rm{tmp}}\equiv\hat{\mu}+\Delta\hat{\mu} with constant \Delta\hat{\mu} to avoid numerical issues with Mathematica.
+In our model, we do not include the finite-temperature corrections associated with \bar{\beta} .
+As a result, \hat{\mu} enters the \theta_{+} equation with opposite sign compared to how it enters the \theta equation in standard SFDM and we need to switch the sign of \Delta\hat{\mu} to avoid the same numerical issue in Mathematica. 
+
+ As boundary condition for \hat{\mu}/m , we impose \mu_{\infty}/m=1.25\cdot 10^{-7} at r_{\infty}=100\,\rm{kpc} .
+For standard SFDM , we use the same values as in Sec.  2.2 , namely \mu_{\infty}/m=1.25\cdot 10^{-8} and r_{\infty}=100\,\rm{kpc} .
+For this choice, the dark matter densities of standard SFDM and two-field SFDM are comparable in magnitude, as we will see below. 
+
+ Figure 2: 
+Left: Milky Way rotation curve of two-field SFDM (solid blue line) and standard SFDM (dashed orange line) for the Milky Way model from Ref.  [ 21 ] with f_{b}=0.8 .
+Also shown is the rotation curve data from Ref.  [ 41 , 42 ] in black, both adjusted to match the assumptions of Ref.  [ 43 ] .
+Right: The quantity a_{+\rm{min}}/|\vec{a}_{+}| at z=0 that needs to be smaller than 1 for a stable equilibrium solution.
+
+ Figure 3: 
+Left: The quantity \varepsilon=(2m\hat{\mu})/(\vec{\nabla}\theta_{+})^{2} that controls the idealized MOND limit of two-field SFDM at z=0 for the Milky Way model from Ref.  [ 21 ] with f_{b}=0.8 .
+Note the different scale of the vertical axis compared to Fig.  1 , left.
+Right: The phonon acceleration \vec{a}_{+} at z=0 for full two-field SFDM (solid blue line) and for the idealized MOND limit from Eq. ( 9 ) (dashed orange line).
+
+ Figure 4: 
+Left: The superfluid density of two-field SFDM ( \rho_{\rm{DM}-} , solid blue line) and of standard SFDM ( \rho_{\rm{DM}} , dashed orange line) at z=0 for the Milky Way model from Ref.  [ 21 ] with f_{b}=0.8 .
+Right: The ratio \rho_{\rm{DM}+}/\rho_{\rm{DM}-} of the two contributions to the superfluid’s energy density of two-field SFDM at z=0 .
+
+ In Fig.  2 , left, we compare the Milky Way rotation curves of two-field SFDM and standard SFDM .
+Both are very close to each other for R MOND limit as is shown in Fig.  1 , right, for standard SFDM and in Fig.  3 , right, for two-field SFDM .
+For standard SFDM , this is the result of a numerical coincidence (see Sec.  2.2 and Appendix  A ).
+Indeed, the quantity (2m\hat{\mu})/(\vec{\nabla}\theta)^{2} that needs to be small in the idealized MOND limit is not small throughout the Milky Way, as shown in Fig.  1 , left.
+In contrast, the analogous quantity in two-field SFDM , (2m\hat{\mu})/(\vec{\nabla}\theta_{+})^{2} , is small throughout the Milky Way, as shown in Fig.  3 , left.
+Thus, two-field SFDM does have a proper MOND limit, i.e. it has a MOND ian phonon acceleration as well as a MOND ian EFE (see Sec.  2.2 ). 
+
+ In Sec.  3.1 , we saw that the equilibrium solutions on galactic scales are stable only if the acceleration \vec{a}_{+} due to \theta_{+} is larger than a_{+\rm{min}}=a_{0}(\lambda_{4}/\bar{\alpha}^{2})(m/\hat{\mu}) .
+Fig.  2 , right, shows that this condition is fulfilled in the inner parts of the Milky Way.
+This is expected as the Newtonian baryonic acceleration a_{b} is around a_{0}\approx 10^{-10}\,\rm{m}/\rm{s}^{2} there and, by construction, the stability condition should fail only at a_{b}\lesssim\bar{a}=10^{-12}\,\rm{m}/\rm{s}^{2} (see Sec.  4 ). 
+
+ In Fig.  4 , right, we see that \rho_{\rm{DM}+} is negligible compared to \rho_{\rm{DM}-} .
+This is related to our model having a proper MOND limit, as discussed in Sec.  3.1 .
+A proper MOND limit requires small m^{2}/\bar{\alpha} which in turn makes \rho_{\rm{DM}+} small.
+Indeed, m^{2}/\bar{\alpha} is much smaller in our case than in standard SFDM .
+Concretely, m^{2}/\bar{\alpha}\approx 10^{-5}\,\rm{eV}^{2} in our case and m^{2}/\bar{\alpha}\approx 10^{-1}\,\rm{eV}^{2} in standard SFDM with the fiducial parameters from Ref.  [ 6 ] . 
+
+ In Fig.  4 , left, we compare the dark matter density of two-field SFDM and standard SFDM .
+Both are comparable in magnitude, but standard SFDM gives a more cored profile.
+As already mentioned in Sec.  3.3 , this is a consequence of our choice of the |\phi_{-}|^{4} interaction term, which gives \rho_{\rm{DM}}\propto\hat{\mu}/m .
+Other choices are certainly possible, e.g. a |\phi_{-}|^{6} interaction gives \rho_{\rm{DM}-}\propto\sqrt{\hat{\mu}/m} which is closer to the energy density in standard SFDM [ 5 ] .
+The difference between different density profiles is not important for the Milky Way rotation curve at R [ 21 ] .
+For observables at larger radii, like strong lensing, this difference may be more important.
+At these radii, the superfluid’s gravitational pull is dominant and the energy density of our model may be very different from standard SFDM due to its different shape – even if both are comparable at smaller radii.
+If needed, we can adjust the boundary condition \mu_{\infty} of \hat{\mu} , or try a different interaction term like the |\phi_{-}|^{6} term mentioned above. 
+
+ 6 Size of the superfluid core 
+
+ A central idea in SFDM is that the superfluid at the center of a galaxy breaks down at larger radii.
+Beyond the superfluid core, the dark matter profile is assumed to be that of a standard NFW halo [ 6 ] .
+Ref.  [ 6 ] gives two different ways to estimate the size of the superfluid core for spherically symmetric systems – the “ NFW radius” and the “thermal radius”.
+In Ref.  [ 21 ] , this was extended to axisymmetric systems.
+In this section, we aim to extend these estimates to our two-field SFDM model.
+We find that this seems to work reasonably well for the NFW radius.
+However, considering also the thermal radius raises questions about the interpretation of the NFW and thermal radii and, more generally, about how to correctly estimate the superfluid core’s size. 
+
+ 6.1 The NFW radius 
+
+ The NFW radius R_{\rm{NFW}} is defined as the radius where the density and pressure of the superfluid equal the density and pressure of a standard NFW halo [ 6 ] .
+In axisymmetric systems, there are in principle different NFW radii in R direction and in z direction.
+However, those different radii are typically very close so that the difference does not matter for practical purposes [ 21 ] . 
+
+ We can straightforwardly adapt this estimate for the superfluid core’s size to two-field SFDM .
+For the superfluid density we can use \rho_{\rm{DM}-}=(2m^{3}\hat{\mu})/\lambda_{4}=2(M_{\rm{Pl}}/r_{0})^{2}(\hat{\mu}/m) and for the superfluid pressure we can use P_{\rm{DM}-}=(m\hat{\mu})^{2}/\lambda_{4}=(M_{\rm{Pl}}/r_{0})^{2}(\hat{\mu}/m)^{2} (see e.g. Ref.  [ 27 ] ).
+The formulas for the pressure and density of the NFW halo can be taken directly from Ref.  [ 6 ] .
+Then, we can use the same procedure as in Refs.  [ 6 , 21 ] .
+As a concrete example, consider the Milky Way model from Sec.  5 .
+We find for the NFW radius in R direction: 
+
+ \displaystyle R_{\rm{NFW}}=73\,\rm{kpc}\,. 
+
+ (51) 
+
+ With this, the total dark matter mass inside the virial radius is M_{\rm{DM}}^{200}=1.3\cdot 10^{12}\,M_{\odot} .
+These values are similar to those obtained in standard SFDM with the boundary conditions used in Sec.  2.2 , namely R_{\rm{NFW}}=66\,\rm{kpc} and 1.2\cdot 10^{12}\,M_{\odot} [ 21 ] .
+We expect these values to depend strongly on the choice of the boundary condition \mu_{\infty}/m .
+This is in contrast to observables at smaller radii, like the rotation curve at R [ 21 ] for standard SFDM and we expect the same to be true for two-field SFDM . 
+
+ Here, we assumed that the term f(K_{+}+K_{-}-m^{2}) from our Lagrangian does not contribute to the energy density and pressure.
+For the energy density, we saw in Sec.  5 that this is justified.
+However, there is a significant contribution to the radial pressure from this term.
+Concretely, in the MOND limit \varepsilon\ll 1 , spatial gradients of \theta_{+} give the radial pressure, 
+
+ \displaystyle\frac{4}{3}\Lambda|\vec{\nabla}\theta_{+}|^{3}=\frac{4}{3}\frac{M_{\rm{Pl}}^{2}a_{+}^{3}}{a_{0}}\,. 
+
+ (52) 
+
+ It is not quite clear whether or not this pressure should be included when matching the superfluid pressure to the NFW pressure.
+On the one hand, our superfluid corresponds to the \phi_{-} field, not \theta_{+} , so maybe we should not include this pressure due to \theta_{+} .
+On the other hand, \theta_{-} and \theta_{+} mix in the f(K_{+}+K_{-}-m^{2}) term, so this distinction is not sharp.
+More generally, we may anyway need more matching conditions than standard SFDM since we have more fields.
+However, numerically, including the pressure term from Eq. ( 52 ) does not significantly change the NFW radius and the total dark matter mass.
+The NFW radius becomes 78\,\rm{kpc} and the total dark matter mass becomes 1.4\cdot 10^{12}\,M_{\odot} .
+Thus, this point does not make a big difference for the basic phenomenology. 
+
+ 6.2 The thermal radius 
+
+ The second estimate of the superfluid core’s size from Ref.  [ 6 ] is the thermal radius R_{T} .
+This radius is defined as the radius where the local self-interaction rate \Gamma drops below the inverse dynamical time t_{\rm{dyn}}^{-1} .
+The idea is that, to sustain equilibrium, the timescale of the local self-interaction rate needs to be larger than the timescale of the perturbations, which is assumed to be t_{\rm{dyn}} .
+Here, \Gamma=(\sigma/m)\,\mathcal{N}\,v\,\rho , where \sigma is the self-interaction cross-section, \mathcal{N}=(\rho/m)(2\pi/mv)^{3} 
+is the Bose enhancement factor, v is the average velocity of the particles, and \rho is the dark matter density. 
+
+ In spherically symmetric systems, Ref.  [ 6 ] takes t_{\rm{dyn}}=r/v with the spherical radius r .
+This gives 
+
+ \displaystyle(2\pi)^{3}\,\frac{(\sigma/m)}{m^{4}}\frac{\rho^{2}}{v^{2}}=\frac{v}{R_{T}}\,. 
+
+ (53) 
+
+ The quantities v , \rho and \sigma/m are numerically similar in two-field SFDM and in standard SFDM for the parameter values adopted here.
+The reason is that we chose \sigma/m to match the fiducial numerical value from Ref.  [ 6 ] , and the density and velocity can also be very similar, as we saw in Sec.  5 .
+However, m is very different.
+The fiducial value from Ref.  [ 6 ] is m=1\,\rm{eV} while our parameter choice gives the much smaller value m=6.4\cdot 10^{-6}\,\rm{eV} .
+Thus, at a given radius, the left-hand side of Eq. ( 53 ) is about 10^{21} times larger than in standard SFDM and there is probably no solution to Eq. ( 53 ) on galactic scales.
+I.e. we always have \Gamma\gg t_{\rm{dyn}}^{-1} on galactic scales.
+At face value, this implies that there is no transition to a NFW halo on galactic scales, in contrast to the standard expectation in SFDM and in contrast to what the NFW radius suggests.
+This could mean that the superfluid phase extends to cosmological scales with a matching between the cosmological and the galactic solution at an intermediate scale.
+Alternatively, the superfluid could end at a finite radius where density and pressure reach zero when \hat{\mu} reaches zero (at r=\mathcal{O}(r_{0}) , see Sec.  3.3 ).
+In this case, the superfluid would resemble a giant non-relativistic boson star [ 44 , 45 , 46 , 47 ] 8 8 
+ 8 
+
+ Strictly speaking, \hat{\mu} does not reach zero, i.e. boson stars don’t have a surface [ 45 ] :
+Before \hat{\mu} reaches zero, derivatives of \rho_{-} become important, but we neglected those above.
+Our approximation breaks down when \rho_{\rm{DM}-} drops to about (m^{3}/\lambda_{4}M_{\rm{Pl}})^{2} , which, in our case, is much smaller than the cosmological dark matter density.
+Thus, for practical purposes \hat{\mu} does reach zero on galactic scales.
+ . 
+
+ In Sec.  4 , we chose \sigma/m in our model to be the same as in standard SFDM with the fiducial parameters from Ref.  [ 6 ] .
+Alternatively, we could have chosen (\sigma/m)/m^{4} to be the same as in standard SFDM .
+In this case, our R_{T} would be closer to that of standard SFDM and the discrepancy between the NFW radius and the thermal radius in our model would be much smaller.
+Still, as our actual choice of parameters illustrates, the thermal radius and the NFW radius need not be close to each other in general.
+Indeed, the NFW radius can be calculated from only r_{0} and \hat{\mu}/m , while the thermal radius also depends on (\sigma/m)/m^{4}\propto(\sigma/m)^{1/5}r_{0}^{16/5} . 
+
+ The above raises the question whether the thermal radius, the NFW radius, or a completely different radius gives the physical size of a galaxy’s superfluid core.
+In standard SFDM with the fiducial numerical parameters from Ref.  [ 6 ] , the thermal and NFW radii are numerically reasonably close [ 6 ] .
+Thus, for practical purposes, the difference may not be too important in standard SFDM .
+However, the thermal radius and the NFW radius can differ significantly also in standard SFDM , if we depart from the fiducial parameters from Ref.  [ 6 ] . 9 9 
+ 9 
+
+ For example, assuming the MOND limit \varepsilon\ll 1 , the NFW radius depends only on m^{2}/\bar{\alpha} , a_{0} , and |\vec{a}_{b}| , while the thermal radius also depends on \sigma/m .
+
+Investigating this is left for future work. 
+
+ 7 Discussion 
+
+ As discussed in Sec.  2 , the field \theta of standard SFDM serves a double role.
+One role is to mediate a MOND -like force, the other role is to provide the dark matter density.
+In our two-field SFDM model, these two roles are split between \theta_{+} and \phi_{-}\propto\rho_{-}e^{-i\theta_{-}} .
+For \phi_{-} we take a standard superfluid Lagrangian with quartic interactions.
+For \theta_{+} we take the original Lagrangian from standard SFDM but replace K_{\theta}\to K_{+}+K_{-} .
+An alternative would have been to get rid of the standard SFDM Lagrangian and instead take a standard MOND ian Lagrangian for \theta_{+} , e.g. a RAQUAL -type Lagrangian [ 4 , 22 , 28 ] 
+
+ \displaystyle\mathcal{L}=\Lambda\sqrt{|K_{+}|}K_{+}-\lambda\,\theta_{+}\,\rho_{b}\,. 
+
+ (54) 
+
+ That is, a Lagrangian where the mass m does not occur and where \theta_{+} and \theta_{-} are completely independent of each other, unlike in the f(K_{+}+K_{-}-m^{2}) term in \mathcal{L}_{\rm{imp}} .
+Such a model could give a qualitatively similar phenomenology on galactic scales:
+The field \theta_{+} mediates a MOND ian force and \phi_{-} provides the dark matter density.
+Indeed, a model along these lines was proposed in Ref.  [ 48 ] .
+This model has qualitative similarities to two-field SFDM , but is also different in many ways.
+For example, the field in Ref.  [ 48 ] that is analogous to our \phi_{-} field does not cluster on galactic scales, it only provides the average dark matter density of the cosmological background.
+Also, to get enough lensing, matter couples to a metric that is disformally related to the Einstein metric in Ref.  [ 48 ] , while the SFDM coupling \lambda\rho_{b}\theta_{+} is closer to an effective metric that is conformally related to the Einstein metric.
+Another difference is that, in our model, the \phi_{-} field (responsible for the dark matter energy density) induces the MOND ian regime of the \theta_{+} field (responsible for the additional force on the baryons).
+Indeed, the additional force due to \theta_{+} is MOND ian only inside the superfluid.
+The reason is that the equation of motion of \theta_{+} is a MOND ian equation only if K_{+}+K_{-}-m^{2}\approx-(\vec{\nabla}\theta_{+})^{2} (see Sec.  3.1 ), which is possible only if the superfluid’s chemical potential \mu cancels the -m^{2} term through the equilibrium value of K_{-} , namely K_{-}\approx g^{00}\mu^{2} .
+In contrast, the field responsible for the additional force on the baryons in Ref.  [ 48 ] satisfies an equation of motion that is independent of the field providing the dark matter energy density.
+There are likely also differences at larger scales, e.g. on cluster and cosmological scales, but we have not yet explored these scales in any detail in our model. 
+
+ The standard SFDM model from Ref.  [ 5 ] can be seen as the successor of the two-field model from Ref.  [ 48 ] with the aim of finding a common origin for the MOND ian force and the dark matter energy density.
+Our discussion in Sec.  2 now suggests that it is tough to find such a common origin in the form of a single field.
+Our analysis indicates that it might be of advantage to switch back to a model with two fields, but with phenomenology closer to standard SFDM . 
+
+ Our model is also related to the two-field model proposed in Sec. 7 of Ref.  [ 18 ] .
+This model from Ref.  [ 18 ] contains fields \theta_{+} and \theta_{-} similar to our fields \theta_{+} and \theta_{-} in that one of the fields has an exact shift symmetry \theta_{-}\to\theta_{-}+\rm{const}. , while the shift symmetry of the other field is broken by the baryon coupling.
+However, this model from Ref.  [ 18 ] solves only the equilibrium problem (see Sec.  2.3 ), but not the MOND limit problem (see Sec.  2.2 ) or the stability problem (see Sec.  2.1 ). 
+
+ Finally, let us comment on the interpretation of our two-field model as a superfluid model.
+Our Lagrangian is the sum of a standard self-interacting superfluid Lagrangian for \phi_{-} and the non-standard f(K_{+}+K_{-}-m^{2})-\lambda\,\rho_{b}\,\theta_{+} part.
+The first part simply gives a superfluid with much of the standard superfluid phenomenology.
+For example, it allows for frictionless movement of subsonic perturbers.
+The second part is responsible for the MOND ian force carried by \theta_{+} .
+In this second part, the role of \theta_{-} is mainly to induce the MOND regime for \theta_{+} when the superfluid is in the condensed phase.
+That is, in the superfluid phase, the chemical potential cancels the m^{2} in f(K_{+}+K_{-}-m^{2}) , as mentioned above.
+However, in equilibrium, the superfluid itself is not affected by this non-standard part.
+Also, this second part does not significantly contribute to the total energy density.
+Therefore, we interpret this non-standard part as responsible for a MOND ian force, not as part of the superfluid.
+This is different from standard SFDM where the analogous part, f(K_{\theta}-m^{2})-\lambda\,\rho_{b}\,\theta , is responsible for both the superfluid and the MOND ian force. 
+
+ For standard SFDM , Ref.  [ 5 ] has shown how the f(K_{\theta}-m^{2}) term can be obtained from an unconventional superfluid-like Lagrangian of a complex field \phi\propto\rho\,e^{-i\theta} .
+This works by giving \phi a non-canonical kinetic term and then integrating out its modulus \rho .
+Similarly, the f(K_{+}+K_{-}-m^{2}) term in our model can be obtained from a Lagrangian of two complex fields \phi_{-} and \phi_{+} by integrating out the modulus of \phi_{+}\propto\rho_{+}\,e^{-i\theta_{+}} .
+This is discussed in Appendix  B .
+In contrast, as in standard SFDM , the origin of the symmetry-breaking coupling \lambda\,\rho_{b}\,\theta_{+} is unclear. 
+
+ 8 Conclusion 
+
+ In this paper, we have shown that the double role of the phonon field \theta in standard SFDM as a carrier of both the MOND ian force and the superfluid’s energy density leads to problems.
+Concretely, this double role is in tension with having a proper MOND limit and with having an equilibrium that is valid much longer than the dynamical timescale of galaxies.
+We have proposed an improved model that avoids these problems and also addresses a well-known instability issue in standard SFDM in a less ad-hoc way.
+This model works by splitting the two roles of the phonon field \theta between two different fields.
+One of these carries the MOND ian force, the other carries the superfluid’s energy density. 
+
+ Using the Milky Way as an explicit example, we have demonstrated that our model’s phenomenology on galactic scales can be close to that of standard SFDM while avoiding the tensions due to the phonon field’s double role in standard SFDM .
+However, we found that the transition from the superfluid phase at smaller radii to the normal phase at larger radii needs to be revisited.
+The reason is that, in general, the two standard estimates for the radius of this transition, the NFW radius and the thermal radius, can differ wildly.
+In principle, this issue is already present in standard SFDM , although it may not be too important in practice for the fiducial numerical parameters from Ref.  [ 6 ] .
+Future work should clear up the interpretation of these different estimates and identify how to correctly estimate the size of the superfluid core in SFDM . 
+
+ Acknowledgements 
+
+ I thank Sabine Hossenfelder for valuable discussions and for reading the manuscript.
+I am grateful for financial support from FIAS. 
+
+ Appendix A Validity of the MOND regime in standard SFDM 
+
+ In standard SFDM , the quantity \varepsilon=(2m\hat{\mu})/(\vec{\nabla}\theta)^{2} controls the idealized MOND limit, i.e. whether or not the \theta equation of motion has a standard MOND ian form.
+Thus, we would expect that the acceleration \vec{a}_{\theta} due to \theta has a MOND ian form only if \varepsilon\ll 1 .
+However, we saw in an explicit example in Sec.  2.2 that \vec{a}_{\theta} can have a MOND ian form even if \varepsilon is larger than 1.
+Here, we investigate why \vec{a}_{\theta} computed in the full SFDM model is numerically close to \vec{a}_{\theta} computed from the idealized MOND limit Eq. ( 9 ) despite \varepsilon being larger than 1. 
+
+ To this end, we employ the so-called no-curl-approximation.
+This means the following.
+The equation for \theta is of the form \vec{\nabla}(g\vec{a}_{\theta})=\vec{\nabla}\vec{a}_{b} with some function g .
+Thus, we have g\vec{a}_{\theta}=\vec{a}_{b} up to a term that is the curl of a vector field.
+Neglecting this curl term is the no-curl-approximation.
+This approximation was shown to be a good approximation in SFDM in Ref.  [ 21 ] .
+The advantage of this approximation is that we can algebraically solve for \vec{\nabla}\theta in terms of \hat{\mu} and \vec{a}_{b} . 
+
+ Figure 5: 
+Left: The quantity \sqrt{x}=|\vec{a}_{\theta}|/\sqrt{a_{0}|\vec{a}_{b}|} in the no-curl-approximation of standard SFDM as a function of \varepsilon_{*}=(2m\hat{\mu})/(\bar{\alpha}M_{\rm{Pl}}|\vec{a}_{b}|) .
+For \sqrt{x}=1 , the phonon force has a MOND ian form.
+Right: Phonon accelerations \vec{a}_{\theta} at z=0 for the Milky Way model from Ref.  [ 21 ] in the full standard SFDM model with \bar{\beta}=2.5 (dash-dotted red line), \bar{\beta}=1.55 (dashed orange line), the fiducial value \bar{\beta}=2 from Ref.  [ 6 ] (dotted green line), and for the idealized MOND limit (solid blue line).
+The parameters are as in Sec.  2.2 , i.e. f_{b}=0.8 , \mu_{\infty}/m=1.25\cdot 10^{-8} , and r_{\infty}=100\,\rm{kpc} .
+
+ Concretely, in the no-curl-approximation, we have 
+
+ \displaystyle|\vec{a}_{\theta}|=\sqrt{a_{0}|\vec{a}_{b}|}\cdot\sqrt{x}\,, 
+
+ (55) 
+
+ where x=x(\varepsilon_{*},\bar{\beta}) is determined by the cubic equation 
+
+ \displaystyle 0 
+ \displaystyle=x^{3}+2\left(\frac{2\bar{\beta}}{3}-1\right)\varepsilon_{*}\cdot x^{2}+\left(\left(\frac{2\bar{\beta}}{3}-1\right)^{2}(\varepsilon_{*})^{2}-1\right)x-\left(\bar{\beta}-1\right)\varepsilon_{*}\,, 
+
+ (56) 
+
+ with 
+
+ \displaystyle\varepsilon_{*} 
+ \displaystyle\equiv\frac{2m\hat{\mu}}{\bar{\alpha}M_{\rm{Pl}}|\vec{a}_{b}|}\,. 
+
+ (57) 
+
+ The phonon acceleration is approximately MOND ian whenever \sqrt{x} is approximately 1.
+Whether or not this is the case is determined by \bar{\beta} and \varepsilon_{*} . 
+
+ As discussed in Sec.  2.2 , we expect \vec{a}_{\theta} to have a MOND ian form if \varepsilon=(2m\hat{\mu})/(\vec{\nabla}\theta)^{2} is small.
+Indeed, Eq. ( 56 ) has the solution x=1 in this limit.
+The reason is that, for \varepsilon\ll 1 , we have (\vec{\nabla}\theta)^{2}\approx\bar{\alpha}M_{\rm{Pl}}|\vec{a}_{b}| so that \varepsilon_{*}\approx\varepsilon .
+Thus, in this case \varepsilon_{*} is small and Eq. ( 56 ) reduces to x^{3}-x=0 . 10 10 
+ 10 
+
+ The x=0 solution of this equation is spurious.
+The reason is that Eq. ( 56 ) was obtained by multiplying the \theta equation of motion by a quantity that is proportional to x in the limit of small \varepsilon_{*} .
+
+This is the standard MOND limit of SFDM for \varepsilon\ll 1 . 
+
+ However, we saw in Fig.  1 that \vec{a}_{\theta} can have a MOND ian form even if \varepsilon is not small.
+To understand this, we now turn to more general solutions of Eq. ( 56 ).
+This equation can be solved analytically, but the resulting expression is not very illuminating so we do not show it here.
+Instead, we show solutions \sqrt{x}=\sqrt{x}(\varepsilon_{*},\bar{\beta}) determined by Eq. ( 56 ) in Fig.  5 , left.
+The horizontal axis represents different values of \varepsilon_{*} and the different lines represent different values of \bar{\beta} .
+Usually, \bar{\beta} is taken to be the same across different galaxies [ 5 , 6 ] .
+In contrast, \varepsilon_{*} is constant neither within a galaxy (since it depends on \vec{x} through \hat{\mu}(\vec{x}) and \vec{a}_{b}(\vec{x}) ) nor across different galaxies (since \hat{\mu} and \vec{a}_{b} are different in different galaxies).
+With the fiducial parameters from Ref.  [ 6 ] , we have (see also Eq. ( 10 )) 
+
+ \displaystyle\varepsilon_{*}=\frac{2m^{2}}{\bar{\alpha}}\frac{10^{-6}}{a_{0}M_{\rm{Pl}}}\left(\frac{a_{0}}{10|\vec{a}_{b}|}\right)\left(10^{7}\frac{\hat{\mu}}{m}\right)\approx 0.8\cdot\left(\frac{a_{0}}{10|\vec{a}_{b}|}\right)\left(10^{7}\frac{\hat{\mu}}{m}\right)\,. 
+
+ (58) 
+
+ In galaxies, a typical value of \hat{\mu}/m is 10^{-7} and the phonon force becomes important when |\vec{a}_{b}| is smaller than a_{0} so that \varepsilon_{*} is roughly of order 1.
+In Fig.  5 , left, we show values of \varepsilon_{*} between 0 and 5.
+Within a galaxy, different values of \varepsilon_{*} correspond to different radii.
+As a rough estimate, for |\vec{a}_{b}|\propto 1/r^{2} and \hat{\mu}/m\propto 1/r , we have 
+
+ \displaystyle\varepsilon_{*}\propto r\,. 
+
+ (59) 
+
+ Consider now \bar{\beta}=2 , i.e. the fiducial value from Ref.  [ 6 ] .
+From Fig.  5 , left, we see that \sqrt{x} is always close to 1 for \varepsilon_{*} between 0 and 5.
+In contrast, for \bar{\beta} larger or smaller than 2, \sqrt{x} is close to 1 only for \varepsilon_{*}\ll 1 , i.e. in the standard MOND limit.
+That is, for \bar{\beta}=2 , the phonon force can be MOND ian across a relatively wide range of galaxies and radii – even if \varepsilon_{*} is not small.
+For other values of \bar{\beta} , deviations from a MOND ian force are much larger at \varepsilon_{*}\gtrsim 1 .
+For example, if we choose \bar{\beta}=2.5 or \bar{\beta}=1.55 , the phonon force \vec{a}_{\theta} deviates from a MOND ian force already at significantly smaller radii compared to the \bar{\beta}=2 case.
+This is illustrated in Fig.  5 , right. 
+
+ Thus, even if \varepsilon is not small, SFDM can have a MOND ian phonon force.
+But only if \bar{\beta} is close to 2 and (since x\to 0 for \varepsilon_{*}\to\infty ) only if \varepsilon_{*} is not much larger than 1.
+For the Milky Way model discussed in Sec.  2.2 with the fiducial numerical parameters from Ref.  [ 6 ] , these conditions are fulfilled at R\lesssim 25\,\rm{kpc} so that the phonon force is approximately MOND ian.
+However, this is a numerical coincidence and not by construction of the model.
+Through \varepsilon_{*} and \bar{\beta} , this numerical coincidence depends on the model parameters \bar{\beta} , \bar{\alpha} , and m , on the shape and size of the baryonic density, and on the boundary condition \mu_{\infty} .
+Thus, this numerical coincidence will not work if, for example, m^{2}/\bar{\alpha} is too large, if \mu_{\infty} is too large, or, as already discussed, if \bar{\beta} is not close to 2. 
+
+ Appendix B Origin of f 
+
+ Above, we have taken the form of the function f as given – both in the standard SFDM Lagrangian from Eq. ( 1 ) and in the two-field SFDM Lagrangian from Eq. ( 37 ).
+However, due to the square root in f , both Lagrangians are ill-defined whenever their argument is zero, i.e. whenever K_{+}+K_{-}-m^{2}=0 (in two-field SFDM ) or K_{\theta}-m^{2}=0 (in standard SFDM without finite-temperature corrections).
+In the inner parts of galaxies, the argument of f is always negative so that we may ignore this problem.
+But in the outer parts of galaxies or in cosmology, this argument may become positive.
+To address this, Ref.  [ 5 ] proposed a Lagrangian which does not suffer from this problem.
+It reads 
+
+ \displaystyle\mathcal{L}_{\rm{orig}}=\frac{1}{2}\bar{K}+\frac{\Lambda^{4}}{6(\Lambda_{c}^{2}+\rho^{2})^{6}}\bar{K}^{3}-\lambda\,\theta\,\rho_{b}\,, 
+
+ (60) 
+
+ where \rho is a new field, \Lambda_{c} is a constant, and 
+
+ \displaystyle\bar{K} 
+ \displaystyle=K_{\rho}+\rho^{2}(K_{\theta}-m^{2})\,, 
+
+ (61a) 
+
+ \displaystyle K_{\rho} 
+ \displaystyle=\nabla^{\alpha}\rho\nabla_{\alpha}\rho\,. 
+
+ (61b) 
+
+ On galactic scales, the \rho equation of motion has a solution \rho^{2}=\Lambda\sqrt{|K_{\theta}-m^{2}|} , if we can neglect derivatives of \rho and if \rho^{2}\gg\Lambda_{c}^{2} .
+With this solution, we recover the Lagrangian from Eq. ( 1 ) with the f(K_{\theta}-m^{2}) term as an effective Lagrangian.
+The condition \rho^{2}\gg\Lambda_{c}^{2} gives a minimum acceleration below which this Lagrangian is invalid.
+Namely, in the MOND limit (\vec{\nabla}\theta)^{2}\gg 2m\hat{\mu} , the effective Lagrangian is valid only if, 11 11 
+ 11 
+
+ This equation appears in Ref.  [ 5 ] as Eq. (94) but misses the square of the factor (\Lambda_{c}/\Lambda) . 
+
+ \displaystyle|\vec{a}_{\theta}|\gg a_{0}\left(\frac{\Lambda_{c}}{\bar{\alpha}\Lambda}\right)^{2}\,. 
+
+ (62) 
+
+ In two-field SFDM , analogous constructions still work.
+For example, consider 
+
+ \displaystyle\mathcal{L}_{\rm{orig}+}=\frac{1}{2}\bar{K}_{+}+\frac{\Lambda^{4}}{6(\Lambda_{c}^{2}+\rho_{+}^{2})^{6}}\bar{K}_{+}^{3}-\lambda\,\theta_{+}\,\rho_{b}\,, 
+
+ (63) 
+
+ where \rho_{+} is a new field with 
+
+ \displaystyle\bar{K}_{+} 
+ \displaystyle=K_{\rho_{+}}+\rho_{+}^{2}(K_{+}+K_{-}-m^{2})\,, 
+
+ (64a) 
+
+ \displaystyle K_{\rho_{+}} 
+ \displaystyle=\nabla^{\alpha}\rho_{+}\nabla_{\alpha}\rho_{+}\,. 
+
+ (64b) 
+
+ This is the same as \mathcal{L}_{\rm{orig}} from Eq. ( 60 ), but with \rho replaced by \rho_{+} , K_{\theta} replaced by K_{+}+K_{-} , and \theta replaced by \theta_{+} in the baryon coupling.
+Then, similar as in standard SFDM , we recover the f(K_{+}+K_{-}-m^{2}) part of the Lagrangian \mathcal{L}_{\rm{imp}} of two-field SFDM for the solution \rho_{+}^{2}=\Lambda\sqrt{|K_{+}+K_{-}-m^{2}|} .
+This solution is valid if we can neglect derivatives of \rho_{+} and if \rho_{+}^{2}\gg\Lambda_{c}^{2} .
+As in standard SFDM , the condition \rho_{+}^{2}\gg\Lambda_{c}^{2} translates to a minimum acceleration.
+In the MOND limit (\vec{\nabla}\theta_{+})^{2}\gg 2m\hat{\mu} , 
+
+ \displaystyle|\vec{a}_{+}|\gg a_{0}\left(\frac{\Lambda_{c}}{\bar{\alpha}\Lambda}\right)^{2}\,. 
+
+ (65) 
+
+ A possible alternative to the definition of \bar{K}_{+} from Eq. ( 64 ) is 
+
+ \displaystyle\bar{K}_{+} 
+ \displaystyle=K_{\rho_{+}}+\rho_{+}^{2}(K_{+}-m^{2})+(K_{\rho_{-}}+\rho_{-}^{2}K_{-})\cdot\frac{\rho_{+}^{2}}{\rho_{-}^{2}+\Lambda_{-}^{2}}\,, 
+
+ (66) 
+
+ with constant \Lambda_{-} .
+For \rho_{-}^{2}\gg\Lambda_{-}^{2} and as long as derivatives of \rho_{-} can be neglected, this gives the same phenomenology as Eq. ( 64 ).
+However, in contrast to our earlier definition, it is now straightforward to rewrite \bar{K}_{+} in terms of \phi_{-}\propto\rho_{-}e^{-i\theta_{-}} , since \nabla_{\alpha}\phi_{-}^{*}\nabla^{\alpha}\phi_{-}\propto K_{\rho_{-}}+\rho_{-}^{2}K_{-} . 
+
+ Appendix C Calculation of sound speeds 
+
+ In Eq. ( 19 ), we calculated second-order perturbations to the Lagrangian \mathcal{L}_{\rm{imp}} , but without the contributions from \mathcal{L}_{-} .
+For the stability analysis in Sec.  3.1 , this was sufficient.
+To calculate the sound speeds, we also need the contributions from \mathcal{L}_{-} , 
+
+ \displaystyle\begin{split}\mathcal{L}_{-\rm{pert}}=\frac{1}{2}g^{\alpha\beta}\partial_{\alpha}\delta_{\rho}\partial_{\beta}\delta_{\rho}+\frac{1}{2}g^{\alpha\beta}\rho_{0}^{2}\partial_{\alpha}\delta_{-}\partial_{\beta}\delta_{-}-(\mu_{0}^{2}g^{00}-m^{2})\delta_{\rho}^{2}+2g^{00}\mu_{0}\rho_{0}\delta_{\rho}\dot{\delta}_{-}\,,\end{split} 
+
+ (67) 
+
+ where \delta_{\rho} is the perturbation of \rho_{-}=\rho_{0}+\delta_{\rho} with \rho_{0}^{2}=(g^{00}\mu_{0}^{2}-m^{2})/\lambda_{4} .
+Note that the \delta_{\rho}\dot{\delta}_{-} term does not enter the Hamiltonian and thus does not affect the stability analysis.
+This is why we neglected this contribution in the stability analysis in Sec.  3.1 . 
+
+ We now restrict our attention to perturbations with wavelengths that are short compared to the background field gradients.
+That is, we approximate terms like \partial(X_{0}\delta) as X_{0}(\partial\delta) , where \delta is a perturbation and X_{0} is a function of background fields only.
+Roughly, on galactic scales, this is valid for perturbations with wave vector |\vec{k}|\gg(1/\rm{kpc}) .
+Then, adding up all contributions gives: 
+
+ \displaystyle\begin{split}\mathcal{L}_{\rm{imp},\rm{pert}}=&+\frac{1}{2}\left(\dot{\delta}_{\rho}^{2}-(\vec{\nabla}\delta_{\rho})^{2}\right)-(\mu_{0}^{2}g^{00}-m^{2})\delta_{\rho}^{2}\\
+&+\left(f_{0}^{\prime}\dot{\delta}_{+}^{2}-(f_{0}^{\prime}-2f_{0}^{\prime\prime}\gamma^{2}|\vec{\nabla}\theta_{+}|^{2})(\vec{\nabla}\delta_{+})^{2}\right)\\
+&+\left((f_{0}^{\prime}+2f_{0}^{\prime\prime}\mu_{0}^{2}+A)\dot{\delta}_{-}^{2}-(f_{0}^{\prime}+A)(\vec{\nabla}\delta_{-})^{2}\right)\\
+&+\left(-4f_{0}^{\prime\prime}\mu_{0}|\vec{\nabla}\theta^{0}_{+}|\gamma\right)|\vec{\nabla}\delta_{+}|\dot{\delta}_{-}\\
+&+2\mu_{0}\rho_{0}\delta_{\rho}\dot{\delta}_{-}\,,\end{split} 
+
+ (68) 
+
+ where A=\rho_{0}^{2}/2 , see Sec.  3.1 , and \gamma is the cosine of the angle between \vec{\nabla}\theta^{0}_{+} and \vec{\nabla}\delta_{+} , 
+
+ \displaystyle\vec{\nabla}\theta^{0}_{+}\cdot\vec{\nabla}\delta_{+}\equiv\gamma|\vec{\nabla}\theta^{0}_{+}||\vec{\nabla}\delta_{+}|\,. 
+
+ (69) 
+
+ Note that \gamma is not a constant and depends on both \delta_{+} and \theta^{0}_{+} .
+To find the sound speeds, we consider ansätze \delta_{j}\to\delta_{j}e^{-ikx}+\delta_{j}^{*}e^{ikx} for j=+,-,\rho with e^{ikx}=e^{i(\omega t-\vec{k}\vec{x})} . 
+
+ C.1 Without mixing of \delta_{+} and \delta_{-} 
+
+ We first neglect the mixing of \delta_{+} and \delta_{-} , i.e. we neglect the fourth line in Eq. ( 68 ).
+Then, the \delta_{+} equation of motion directly gives 
+
+ \displaystyle c_{s,+}^{2}\approx\frac{f_{0}^{\prime}-2f_{0}^{\prime\prime}\gamma^{2}|\vec{\nabla}\theta^{0}_{+}|^{2}}{f_{0}^{\prime}}\approx 1+\gamma^{2}\geq 1\,, 
+
+ (70) 
+
+ where we used -2f_{0}^{\prime\prime}|\vec{\nabla}\theta^{0}_{+}|^{2}\approx f_{0}^{\prime} , which follows from Eq. ( 21 ) in the MOND limit (\vec{\nabla}\theta^{0}_{+})^{2}\gg 2m\hat{\mu}_{0} .
+The other gapless mode is the standard superfluid phonon mode which is a mix of \delta_{-} and \delta_{\rho} .
+Their two equations of motion are: 
+
+ \displaystyle 0= 
+ \displaystyle\left(\omega^{2}-\vec{k}^{2}-2(\mu^{2}g^{00}-m^{2})\right)(\delta_{\rho}e^{ikx}+\delta_{\rho}^{*}e^{-ikx}) 
+
+ (71) 
+
+ \displaystyle+2i\omega\mu_{0}\rho_{0}(\delta_{-}e^{ikx}-\delta_{-}^{*}e^{-ikx})\,, 
+
+ \displaystyle 0= 
+ \displaystyle\left(2(f_{0}^{\prime}+2f_{0}^{\prime\prime}\mu^{2}+A)\omega^{2}-2(f_{0}^{\prime}+A)\vec{k}^{2}\right)(\delta_{-}e^{ikx}+\delta_{-}^{*}e^{-ikx}) 
+
+ (72) 
+
+ \displaystyle-2i\omega\mu_{0}\rho_{0}(\delta_{\rho}e^{ikx}-\delta_{\rho}^{*}e^{-ikx})\,. 
+
+ The first is the \delta_{\rho} equation, the second is the \delta_{-} equation.
+From the \delta_{\rho} equation, we find: 
+
+ \displaystyle\delta_{\rho}=-\frac{2i\omega\mu_{0}\rho_{0}}{\omega^{2}-\vec{k}^{2}-2(\mu^{2}g^{00}-m^{2})}\delta_{-}\,. 
+
+ (73) 
+
+ Note that this relation is still valid when we later allow for \delta_{+} - \delta_{-} -mixing, since this mixing only modifies the \delta_{-} equation, but not the \delta_{\rho} equation.
+Plugging this in the \delta_{-} equation and dividing by A=\rho_{0}^{2}/2 gives 
+
+ \displaystyle 0 
+ \displaystyle=\left(2\left(\frac{f_{0}^{\prime}+2f_{0}^{\prime\prime}\mu_{0}^{2}}{A}+1\right)\omega^{2}-2\left(\frac{f_{0}^{\prime}}{A}+1\right)\vec{k}^{2}\right)-\frac{8\mu_{0}^{2}\omega^{2}}{\omega^{2}-\vec{k}^{2}-2(\mu_{0}^{2}g^{00}-m^{2})}\,. 
+
+ (74) 
+
+ In Sec.  3.1 , we saw that typically A\gg f_{0}^{\prime} .
+Thus, the prefactor of \vec{k}^{2} in this equation reduces to -2 .
+Similarly, we saw in Sec.  3.1 , that we need A>|2f_{0}^{\prime\prime}\mu_{0}^{2}| for stability.
+Thus, the first term in Eq. ( 74 ) contributes a term \mathcal{O}(1)\cdot\omega^{2} .
+This is negligible compared to the last term, which is 2m\omega^{2}/\hat{\mu}_{0}\gg\omega^{2} for small wavevectors.
+Thus, we recover the standard phonon dispersion relation [ 26 ] 
+
+ \displaystyle c_{s-}^{2}=\frac{\hat{\mu}_{0}}{m}\,. 
+
+ (75) 
+
+ Note that the dominant prefactor of \omega^{2} in Eq. ( 74 ) comes from the \delta_{\rho} - \delta_{-} -mixing.
+Thus, this mixing cannot be neglected. 
+
+ C.2 With mixing of \delta_{+} and \delta_{-} 
+
+ With the \delta_{+} - \delta_{-} mixing term, we have for \delta_{+} : 
+
+ \displaystyle\begin{split}0=&\left(2f_{0}^{\prime}\omega^{2}-2(f_{0}^{\prime}-2f_{0}^{\prime\prime}\gamma^{2}|\vec{\nabla}\theta^{0}_{+}|^{2})\vec{k}^{2}\right)(\delta_{+}e^{ikx}+\delta_{+}^{*}e^{-ikx})\\
+&+\left(4f_{0}^{\prime\prime}\mu_{0}|\vec{\nabla}\theta^{0}_{+}|\gamma\right)|\vec{k}|\omega(\delta_{-}e^{ikx}+\delta_{-}^{*}e^{-ikx})\,.\end{split} 
+
+ (76) 
+
+ And for \delta_{-} 
+
+ \displaystyle\begin{split}0=&(\delta_{-}e^{ikx}+\delta_{-}^{*}e^{-ikx})\begin{aligned} \left[\left(2(f_{0}^{\prime}+2f_{0}^{\prime\prime}\mu^{2}+A)\omega^{2}-2(f_{0}^{\prime}+A)\vec{k}^{2}\right)\right.\\
+\left.-\frac{(2\mu_{0}\rho_{0}\omega)^{2}}{\omega^{2}-\vec{k}^{2}-2(\mu_{0}^{2}g^{00}-m^{2})}\right]\end{aligned}\\
+&+\left(4f_{0}^{\prime\prime}\mu_{0}|\vec{\nabla}\theta^{0}_{+}|\gamma\right)|\vec{k}|\omega(\delta_{+}e^{ikx}+\delta_{+}^{*}e^{-ikx})\,,\end{split} 
+
+ (77) 
+
+ where we already plugged in the solution for \delta_{\rho} from the previous section.
+As discussed there, this solution is still valid here.
+Solving the \delta_{+} equation for \delta_{+} gives 
+
+ \displaystyle\delta_{+}=-\delta_{-}\frac{4f_{0}^{\prime\prime}\mu_{0}|\vec{\nabla}\theta^{0}_{+}|\gamma|\vec{k}|\omega}{2f_{0}^{\prime}\omega^{2}-2(f_{0}^{\prime}-2f_{0}^{\prime\prime}\gamma^{2}|\vec{\nabla}\theta^{0}_{+}|^{2})\vec{k}^{2}}\,. 
+
+ (78) 
+
+ Plugging this result into the \delta_{-} equation and dividing by A yields 
+
+ \displaystyle\begin{split}0=&\left(2\left(\frac{f_{0}^{\prime}+2f_{0}^{\prime\prime}\mu_{0}^{2}}{A}+1\right)\omega^{2}-2\left(\frac{f_{0}^{\prime}}{A}+1\right)\vec{k}^{2}\right)-\frac{8\mu_{0}^{2}\omega^{2}}{\omega^{2}-\vec{k}^{2}-2(\mu_{0}^{2}g^{00}-m^{2})}\\
+&-\frac{2f_{0}^{\prime\prime}\mu_{0}^{2}}{A}\frac{4\cdot 2f_{0}^{\prime\prime}|\vec{\nabla}\theta^{0}_{+}|^{2}\gamma^{2}|\vec{k}|^{2}\omega^{2}}{2f_{0}^{\prime}\omega^{2}-2(f_{0}^{\prime}-2f_{0}^{\prime\prime}\gamma^{2}|\vec{\nabla}\theta^{0}_{+}|^{2})\vec{k}^{2}}\,.\end{split} 
+
+ (79) 
+
+ Numerically, 2f_{0}^{\prime\prime}|\vec{\nabla}\theta^{0}_{+}|^{2}\approx-f_{0}^{\prime} .
+So we can write: 
+
+ \displaystyle\begin{split}0=&\left(2\left(\frac{f_{0}^{\prime}+2f_{0}^{\prime\prime}\mu_{0}^{2}}{A}+1\right)\omega^{2}-2\left(\frac{f_{0}^{\prime}}{A}+1\right)\vec{k}^{2}\right)-\frac{8\mu_{0}^{2}\omega^{2}}{\omega^{2}-\vec{k}^{2}-2(\mu_{0}^{2}g^{00}-m^{2})}\\
+&-\left(-\frac{2f_{0}^{\prime\prime}\mu_{0}^{2}}{A}\right)\frac{2\cdot\gamma^{2}|\vec{k}|^{2}\omega^{2}}{\omega^{2}-(1+\gamma^{2})\vec{k}^{2}}\,.\end{split} 
+
+ (80) 
+
+ From this equation, we can now find the sounds speeds for the two gapless modes. 
+
+ Consider first the “ \delta_{-} -and- \delta_{\rho} ” mode with \omega=c_{s-}|\vec{k}| with c_{s-}\ll 1 .
+For k\to 0 , Eq. ( 80 ) becomes 
+
+ \displaystyle\begin{split}0=\vec{k}^{2}&\left[\left(2\left(\frac{f_{0}^{\prime}+2f_{0}^{\prime\prime}\mu_{0}^{2}}{A}+1\right)c_{s-}^{2}-2\left(\frac{f_{0}^{\prime}}{A}+1\right)\right)+\frac{4\mu_{0}^{2}c_{s-}^{2}}{(\mu_{0}^{2}g^{00}-m^{2})}\right.\\
+&\left.-\left(-\frac{2f_{0}^{\prime\prime}\mu^{2}}{A}\right)\frac{2\cdot\gamma^{2}}{1-\frac{(1+\gamma^{2})}{c_{s-}^{2}}}\right]\,.\end{split} 
+
+ (81) 
+
+ If we expand the last term in c_{s-}^{2} , we find 
+
+ \displaystyle c_{s-}^{2}\left(\frac{2\mu_{0}^{2}}{\mu_{0}^{2}g^{00}-m^{2}}+\left(\frac{f_{0}^{\prime}}{A}+1+\frac{2f_{0}^{\prime\prime}\mu_{0}^{2}}{A}\right)+\left(-\frac{2f_{0}^{\prime\prime}\mu_{0}^{2}}{A}\frac{\gamma^{2}}{1+\gamma^{2}}\right)\right)=\left(1+\frac{f_{0}^{\prime}}{A}\right)\,. 
+
+ (82) 
+
+ For a non-relativistic background, we have 2\mu_{0}^{2}/(\mu_{0}^{2}g^{00}-m^{2})\approx m/\hat{\mu}_{0} and we can expand in \hat{\mu}_{0}/m\ll 1 : 
+
+ \displaystyle\begin{split}c_{s-}^{2}&=\frac{1+\frac{f_{0}^{\prime}}{A}}{\frac{2\mu_{0}^{2}}{\mu_{0}^{2}g^{00}-m^{2}}+\left(\frac{f_{0}^{\prime}}{A}+1+\frac{2f_{0}^{\prime\prime}\mu_{0}^{2}}{A}\frac{1}{1+\gamma^{2}}\right)}\\
+&=\frac{\hat{\mu}_{0}}{m}\left(1+\frac{f_{0}^{\prime}}{A}\right)\left[1-\frac{\hat{\mu}_{0}}{m}\left(1+\frac{f_{0}^{\prime}}{A}+\frac{2f_{0}^{\prime\prime}\mu_{0}^{2}}{A}\frac{1}{1+\gamma^{2}}\right)+\dots\right]\,.\end{split} 
+
+ (83) 
+
+ Since A\gg f_{0}^{\prime} and A>|2f_{0}^{\prime\prime}\mu_{0}^{2}| on galactic scales, this gives only small corrections to the value of c_{s-} without mixing of \delta_{+} and \delta_{-} , namely c_{s-}^{2}=\hat{\mu}_{0}/m . 
+
+ For the “ \delta_{+} ” mode, which had \omega^{2}=(1+\gamma^{2})\vec{k}^{2} without \delta_{+} - \delta_{-} -mixing, we consider again non-relativistic perturbations, |\vec{k}|\ll m , and a non-relativistic background, |\mu_{0}^{2}g^{00}-m^{2}|\ll m^{2} .
+Then, 4\mu_{0}^{2}/(\omega^{2}-\vec{k}^{2}-2(\mu_{0}^{2}g^{00}-m^{2}))\gg 1 so that we can neglect the first two terms in ( 80 ), 
+
+ \displaystyle 0=-\frac{4\mu_{0}^{2}}{\omega^{2}-\vec{k}^{2}-2(\mu_{0}^{2}g^{00}-m^{2})}\omega^{2}-\left(-\frac{2f_{0}^{\prime\prime}\mu_{0}^{2}}{A}\right)\frac{\gamma^{2}|\vec{k}|^{2}\omega^{2}}{\omega^{2}-(1+\gamma^{2})\vec{k}^{2}}\,. 
+
+ (84) 
+
+ With the Ansatz \omega^{2}=c_{s,+}^{2}\vec{k}^{2} , this yields 
+
+ \displaystyle c_{s,+}^{2}=1+\gamma^{2}\left[1+\eta\frac{2(\mu_{0}^{2}g^{00}-m^{2})-\gamma^{2}\vec{k}^{2}}{4\mu_{0}^{2}+\gamma^{2}\vec{k}^{2}\eta}\right]\geq 1\,, 
+
+ (85) 
+
+ where we defined 
+
+ \displaystyle\eta\equiv-\frac{2f_{0}^{\prime\prime}\mu_{0}^{2}}{A}\,. 
+
+ (86) 
+
+ As mentioned above, for stability on galactic scales we need A>|2f_{0}^{\prime\prime}\mu_{0}^{2}| .
+Thus, we typically have \eta\in(0,1) on galactic scales.
+Then, for |\vec{k}|\ll m and a non-relativistic background, Eq. ( 85 ) gives only small corrections to the result without mixing of \delta_{+} and \delta_{-} , namely c_{s+}^{2}=1+\gamma^{2} . 
+
+ References 
+
+ [1] 
+ M. Milgrom
+
+ “A Modification of the Newtonian dynamics as a possible alternative to the hidden mass hypothesis”
+
+ In Astrophys. J. 270 , 1983, pp. 365–370
+
+ DOI: 10.1086/161130 
+
+ [2] 
+ M. Milgrom
+
+ “A modification of the Newtonian dynamics - Implications for galaxies.”
+
+ In Astrophys. J. 270 , 1983, pp. 371–389
+
+ DOI: 10.1086/161131 
+
+ [3] 
+ M. Milgrom
+
+ “A modification of the Newtonian dynamics: implications for galaxy systems”
+
+ In Astrophys. J. 270 , 1983, pp. 384–389
+
+ DOI: 10.1086/161132 
+
+ [4] 
+ J. Bekenstein and Mordehai Milgrom
+
+ “Does the missing mass problem signal the breakdown of Newtonian gravity?”
+
+ In Astrophys. J. 286 , 1984, pp. 7–14
+
+ DOI: 10.1086/162570 
+
+ [5] 
+ Lasha Berezhiani and Justin Khoury
+
+ “Theory of dark matter superfluidity”
+
+ In Phys. Rev. D92.10 , 2015, pp. 103510
+
+ DOI: 10.1103/PhysRevD.92.103510 
+
+ [6] 
+ Lasha Berezhiani, Benoit Famaey and Justin Khoury
+
+ “Phenomenological consequences of superfluid dark matter with baryon-phonon coupling”
+
+ In JCAP 1809.9 , 2018, pp. 021
+
+ DOI: 10.1088/1475-7516/2018/09/021 
+
+ [7] 
+ P. Sikivie and Q. Yang
+
+ “Bose-Einstein Condensation of Dark Matter Axions”
+
+ In Phys. Rev. Lett. 103 , 2009, pp. 111301
+
+ DOI: 10.1103/PhysRevLett.103.111301 
+
+ [8] 
+ Toshifumi Noumi, Ken’ichi Saikawa, Ryosuke Sato and Masahide Yamaguchi
+
+ “Effective gravitational interactions of dark matter axions”
+
+ In Phys. Rev. D89.6 , 2014, pp. 065012
+
+ DOI: 10.1103/PhysRevD.89.065012 
+
+ [9] 
+ Sacha Davidson and Martin Elmer
+
+ “Bose Einstein condensation of the classical axion field in cosmology?”
+
+ In JCAP 1312 , 2013, pp. 034
+
+ DOI: 10.1088/1475-7516/2013/12/034 
+
+ [10] 
+ H.. de Vega and N.. Sanchez
+
+ “Galaxy phase-space density data exclude Bose-Einstein condensate Axion Dark Matter”, 2014
+
+ arXiv: 1401.1214 [astro-ph.CO] 
+
+ [11] 
+ Sacha Davidson
+
+ “Axions: Bose Einstein Condensate or Classical Field?”
+
+ In Astropart. Phys. 65 , 2015, pp. 101–107
+
+ DOI: 10.1016/j.astropartphys.2014.12.007 
+
+ [12] 
+ Alan. Guth, Mark. Hertzberg and C. Prescod-Weinstein
+
+ “Do Dark Matter Axions Form a Condensate with Long-Range Correlation?”
+
+ In Phys. Rev. D92.10 , 2015, pp. 103513
+
+ DOI: 10.1103/PhysRevD.92.103513 
+
+ [13] 
+ Anthony Aguirre and Alberto Diez-Tejedor
+
+ “Asymmetric condensed dark matter”
+
+ In JCAP 1604.04 , 2016, pp. 019
+
+ DOI: 10.1088/1475-7516/2016/04/019 
+
+ [14] 
+ P.. Dev, Manfred Lindner and Sebastian Ohmer
+
+ “Gravitational waves as a new probe of Bose–Einstein condensate Dark Matter”
+
+ In Phys. Lett. B773 , 2017, pp. 219–224
+
+ DOI: 10.1016/j.physletb.2017.08.043 
+
+ [15] 
+ Joshua Eby, Michael Ma, Peter Suranyi and L… Wijewardhana
+
+ “Decay of Ultralight Axion Condensates”
+
+ In JHEP 01 , 2018, pp. 066
+
+ DOI: 10.1007/JHEP01(2018)066 
+
+ [16] 
+ Souvik Sarkar, Cenalo Vaz and L… Wijewardhana
+
+ “Gravitationally Bound Bose Condensates with Rotation”
+
+ In Phys. Rev. D97.10 , 2018, pp. 103022
+
+ DOI: 10.1103/PhysRevD.97.103022 
+
+ [17] 
+ Sabine Hossenfelder and Tobias Mistele
+
+ “Strong lensing with superfluid dark matter”
+
+ In JCAP 1902.2 , 2019, pp. 001
+
+ DOI: 10.1088/1475-7516/2019/02/001 
+
+ [18] 
+ Tobias Mistele
+
+ “The role of the chemical potential in coupling superfluid dark matter to baryons”
+
+ In JCAP 1911.11 , 2019, pp. 039
+
+ DOI: 10.1088/1475-7516/2019/11/039 
+
+ [19] 
+ S. Boran, S. Desai, E.. Kahya and R.. Woodard
+
+ “GW170817 Falsifies Dark Matter Emulators”
+
+ In Phys. Rev. D97.4 , 2018, pp. 041501
+
+ DOI: 10.1103/PhysRevD.97.041501 
+
+ [20] 
+ R.. Sanders
+
+ “Does GW170817 falsify MOND?”
+
+ In Int. J. Mod. Phys. D27.14 , 2018, pp. 14
+
+ DOI: 10.1142/S0218271818470272 
+
+ [21] 
+ S. Hossenfelder and T. Mistele
+
+ “The Milky Way’s rotation curve with superfluid dark matter”
+
+ In Mon. Not. Roy. Astron. Soc. 498.3 , 2020, pp. 3484–3491
+
+ DOI: 10.1093/mnras/staa2594 
+
+ [22] 
+ Benoı̂t Famaey and Stacy. McGaugh
+
+ “Modified Newtonian Dynamics (MOND): Observational Phenomenology and Relativistic Extensions”
+
+ In Living Reviews in Relativity 15 , 2012, pp. 10
+
+ DOI: 10.12942/lrr-2012-10 
+
+ [23] 
+ Joseph. Kapusta
+
+ “Bose-Einstein Condensation, Spontaneous Symmetry Breaking, and Gauge Theories”
+
+ In Phys. Rev. D24 , 1981, pp. 426–439
+
+ DOI: 10.1103/PhysRevD.24.426 
+
+ [24] 
+ Howard. Haber and H. Weldon
+
+ “Finite Temperature Symmetry Breaking as Bose-Einstein Condensation”
+
+ In Phys. Rev. D25 , 1982, pp. 502
+
+ DOI: 10.1103/PhysRevD.25.502 
+
+ [25] 
+ Neven Bilic
+
+ “Thermodynamics of k-essence”
+
+ In Phys. Rev. D78 , 2008, pp. 105012
+
+ DOI: 10.1103/PhysRevD.78.105012 
+
+ [26] 
+ Andreas Schmitt
+
+ “Introduction to Superfluidity”
+
+ In Lect. Notes Phys. 888 , 2015, pp. pp.1–155
+
+ DOI: 10.1007/978-3-319-07947-9 
+
+ [27] 
+ Anushrut Sharma, Justin Khoury and Tom Lubensky
+
+ “The equation of state of dark matter superfluids”
+
+ In JCAP 1905.5 , 2019, pp. 054
+
+ DOI: 10.1088/1475-7516/2019/05/054 
+
+ [28] 
+ Jean-Philippe Bruneton and Gilles Esposito-Farèse
+
+ “Field-theoretical formulations of MOND-like gravity”
+
+ In Phys. Rev. D 76.12 , 2007, pp. 124012
+
+ DOI: 10.1103/PhysRevD.76.124012 
+
+ [29] 
+ Jean-Philippe Bruneton
+
+ “Causality and superluminal behavior in classical field theories: Applications to k-essence theories and modified-Newtonian-dynamics-like theories of gravity”
+
+ In Phys. Rev. D 75.8 , 2007, pp. 085013
+
+ DOI: 10.1103/PhysRevD.75.085013 
+
+ [30] 
+ Eugeny Babichev, Viatcheslav Mukhanov and Alexander Vikman
+
+ “k-Essence, superluminal propagation, causality and emergent geometry”
+
+ In Journal of High Energy Physics 2008.2 , 2008, pp. 101
+
+ DOI: 10.1088/1126-6708/2008/02/101 
+
+ [31] 
+ Allan Adams et al.
+
+ “Causality, analyticity and an IR obstruction to UV completion”
+
+ In Journal of High Energy Physics 2006.10 , 2006, pp. 014
+
+ DOI: 10.1088/1126-6708/2006/10/014 
+
+ [32] 
+ Eugeny Babichev, Sabir Ramazanov and Alexander Vikman
+
+ “Recovering P(X) from a canonical complex field”
+
+ In JCAP 2018.11 , 2018, pp. 023
+
+ DOI: 10.1088/1475-7516/2018/11/023 
+
+ [33] 
+ Gia Dvali, Gian. Giudice, Cesar Gomez and Alex Kehagias
+
+ “UV-completion by classicalization”
+
+ In Journal of High Energy Physics 2011 , 2011, pp. 108
+
+ DOI: 10.1007/JHEP08(2011)108 
+
+ [34] 
+ Gia Dvali, Andre Franca and Cesar Gomez
+
+ “Road Signs for UV-Completion”
+
+ In arXiv e-prints , 2012
+
+ arXiv: 1204.6388 [hep-th] 
+
+ [35] 
+ Alexander Vikman
+
+ “Suppressing quantum fluctuations in classicalization”
+
+ In EPL (Europhysics Letters) 101.3 , 2013, pp. 34001
+
+ DOI: 10.1209/0295-5075/101/34001 
+
+ [36] 
+ Andrea Addazi and Antonino Marcianò
+
+ “UV self-completion of a theory of superfluid dark matter”
+
+ In European Physical Journal C 79.4 , 2019, pp. 354
+
+ DOI: 10.1140/epjc/s10052-019-6820-6 
+
+ [37] 
+ Eugeny Babichev, Cédric Deffayet and Gilles Esposito-Farèse
+
+ “Improving relativistic modified Newtonian dynamics with Galileon k-mouflage”
+
+ In Phys. Rev. D 84.6 , 2011, pp. 061502
+
+ DOI: 10.1103/PhysRevD.84.061502 
+
+ [38] 
+ Michael. Peskin and Daniel. Schroeder
+
+ “An Introduction to Quantum Field Theory”, 1995
+
+ [39] 
+ Lev.. Pitaevskii and Sandro Stringari
+
+ “Bose-Einstein Condensation”
+
+ Oxford University Press, 2003
+
+ [40] 
+ Federico Lelli, Stacy. McGaugh, James. Schombert and Marcel. Pawlowski
+
+ “One Law to Rule Them All: The Radial Acceleration Relation of Galaxies”
+
+ In Astrophys. J. 836.2 , 2017, pp. 152
+
+ DOI: 10.3847/1538-4357/836/2/152 
+
+ [41] 
+ Matthieu Portail, Ortwin Gerhard, Christopher Wegg and Melissa Ness
+
+ “Dynamical modelling of the galactic bulge and bar: the Milky Way’s pattern speed, stellar and dark matter mass distribution”
+
+ In Mon. Not. Roy. Astron. Soc. 465.2 , 2017, pp. 1621–1644
+
+ DOI: 10.1093/mnras/stw2819 
+
+ [42] 
+ Anna-Christina Eilers, David. Hogg, Hans-Walter Rix and Melissa. Ness
+
+ “The Circular Velocity Curve of the Milky Way from 5 to 25 kpc”
+
+ In Astrophys. J. 871.1 , 2019, pp. 120
+
+ DOI: 10.3847/1538-4357/aaf648 
+
+ [43] 
+ Stacy McGaugh
+
+ “The Imprint of Spiral Arms on the Galactic Rotation Curve”
+
+ In Astrophys. J. 885.1 , 2019, pp. 87
+
+ DOI: 10.3847/1538-4357/ab479b 
+
+ [44] 
+ I.. Tkachev
+
+ “Coherent Scalar-Field Oscillations Forming Compact Astrophysical Object”
+
+ In Soviet Astronomy Letters 12 , 1986, pp. 305–308
+
+ [45] 
+ Monica Colpi, Stuart. Shapiro and Ira Wasserman
+
+ “Boson stars: Gravitational equilibria of self-interacting scalar fields”
+
+ In Phys. Rev. Lett. 57.20 , 1986, pp. 2485–2488
+
+ DOI: 10.1103/PhysRevLett.57.2485 
+
+ [46] 
+ Jae-Weon Lee and In-Gyu Koh
+
+ “Galactic halos as boson stars”
+
+ In Phys. Rev. D 53.4 , 1996, pp. 2236–2239
+
+ DOI: 10.1103/PhysRevD.53.2236 
+
+ [47] 
+ R. Sharma, S. Karmakar and S. Mukherjee
+
+ “Boson star and dark matter”, 2008
+
+ arXiv: 0812.3470 [gr-qc] 
+
+ [48] 
+ Justin Khoury
+
+ “Alternative to particle dark matter”
+
+ In Phys. Rev. D 91.2 , 2015, pp. 024022
+
+ DOI: 10.1103/PhysRevD.91.024022 
+
+ ◄ 
+
+ Feeling lucky? 
+
+ Conversion report 
+ Report an issue 
+ View original on arXiv ► 
+
+ Copyright 
+ Privacy Policy 
+
+ Generated by L a T e XML oxide 
+
+ 

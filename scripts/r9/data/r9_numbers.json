@@ -1,0 +1,59 @@
+{
+ "f1": {
+  "mean cosmological (1e-26)": {
+   "sigma": 1e-26,
+   "gamma_s": 2.896061591047701e-18,
+   "tau_eq_Gyr": 10.941786566964977,
+   "tau_lit_Gyr": 68.7492725918493,
+   "xi_kpc": 286567.8550129285,
+   "v_int_km_s": 32574.64054718612,
+   "v_int_over_c": 0.10865730500527175
+  },
+  "cluster-scale (1e-24)": {
+   "sigma": 1e-24,
+   "gamma_s": 2.896061591047701e-17,
+   "tau_eq_Gyr": 1.0941786566964975,
+   "tau_lit_Gyr": 6.874927259184931,
+   "xi_kpc": 2865.678550129285,
+   "v_int_km_s": 3257.4640547186127,
+   "v_int_over_c": 0.010865730500527178
+  },
+  "R7-floor-tracking (5.3e-24)": {
+   "sigma": 1.197226932770152e-22,
+   "gamma_s": 3.1688087814028953e-16,
+   "tau_eq_Gyr": 0.09999999999999998,
+   "tau_lit_Gyr": 0.6283185307179586,
+   "xi_kpc": 23.935967958043328,
+   "v_int_km_s": 297.708608624612,
+   "v_int_over_c": 0.0009930490266856946
+  }
+ },
+ "chart": {
+  "window": [
+   0.1,
+   5.0
+  ],
+  "families": {
+   "F1 dipolar (mean sigma*)": {
+    "tau_Gyr": 68.7492725918493,
+    "kind": "unstable-growth, effectively frozen"
+   },
+   "F1 dipolar (cluster sigma*)": {
+    "tau_Gyr": 6.874927259184931,
+    "kind": "unstable-growth, ACTIVE"
+   },
+   "F2 superfluid (patched, knee)": {
+    "tau_Gyr": 0.0143053055058472,
+    "kind": "track (instantaneous on window)"
+   },
+   "F2 superfluid (patched, core edge)": {
+    "tau_Gyr": 0.34347038519539136,
+    "kind": "track (window floor)"
+   },
+   "F3 emergent (glassy reading)": {
+    "tau_Gyr": 13.8,
+    "kind": "frozen (no tracking)"
+   }
+  }
+ }
+}

@@ -1,0 +1,1168 @@
+ 
+
+ [1909.05710] The role of the chemical potential in coupling superfluid dark matter to baryons 
+
+ \DeclareSourcemap \maps 
+ [datatype=bibtex,overwrite=true]
+ \map 
+ \step [fieldsource=Collaboration, final=true]
+ \step [fieldset=usera, origfieldval, final=true] 
+
+ The role of the chemical potential in coupling superfluid dark matter to baryons 
+
+ Tobias Mistele
+
+ Affiliation:  Frankfurt Institute for Advanced Studies
+ Ruth-Moufang-Str. 1,
+D-60438 Frankfurt am Main, Germany
+
+ Abstract 
+
+ Superfluid dark matter postulates that the centers of galaxies contain superfluid condensates.
+An important quantity regarding these superfluids is their chemical potential \mu .
+Here, we discuss two issues related to this chemical potential.
+First, there is no exactly conserved quantity associated with this chemical potential due to the symmetry-breaking baryon-phonon coupling.
+Second, \mu is sometimes introduced by shifting the phonon field by \mu\cdot t which – again due to the symmetry-breaking baryon-phonon coupling – introduces an explicit time dependence in the Lagrangian.
+We investigate under which conditions introducing a chemical potential is nevertheless justified and show how to correctly introduce it when these conditions are met.
+We further propose a model that recovers superfluid dark matter’s zero-temperature equations of motion including a chemical potential even if the aforementioned conditions for justifying a chemical potential are not met. 
+
+ 1 Introduction 
+
+ Superfluid dark matter ( SFDM ) has recently been proposed as an explanation for the missing non-baryonic mass on both galactic and cosmological scales [ 1 , 2 ] .
+The main idea is that the dark matter particles condense to a superfluid on galactic scales, where phonons then exert an additional force on the baryons.
+While superfluid condensates of light dark matter particles have been considered before on general grounds [ 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 ] , the additional phonon-mediated force is specific to the type of superfluid proposed by [ 1 , 2 ] .
+This additional force is similar to the gravitational force of Modified Newtonian Dynamics ( MOND ) [ 13 , 14 , 15 ] .
+As a result, SFDM can reproduce the successes of MOND on galactic scales.
+On cosmological scales, the superfluid breaks down such that it behaves like ordinary cold dark matter (CDM) and can reproduce the successes of \Lambda CDM on cosmological scales. 
+
+ The MOND -like force on galactic scales requires a direct coupling between phonons and baryons (but not between phonons and photons [ 16 , 17 , 18 ] ).
+This coupling breaks the U(1) symmetry usually associated with superfluidity [ 19 ] .
+This causes two problems regarding SFDM ’s chemical potential. 
+
+ The first problem is that SFDM might not have a chemical potential at all.
+This is because the U(1) symmetry is broken in SFDM and chemical potentials as a statistical physics concept are a consequence of conserved quantities.
+This problem requires a solution, since SFDM needs a chemical potential for its phenomenology on galactic scales. 
+
+ The other problem is that SFDM ’s chemical potential \mu is sometimes introduced by shifting the phonon field by \mu\cdot t (see e.g. Ref.  [ 1 ] below Eq. (6) for an explicit example).
+This leads to an explicit time dependence in the U(1) -breaking baryon-phonon coupling.
+Phenomenologically, this may or may not be problematic depending on the size of \mu and the details of the model.
+But conceptually, a chemical potential is an equilibrium quantity from statistical physics and should not be associated with an explicit time dependence.
+This problem requires an explanation. 
+
+ The aim of this paper is to clarify these issues regarding SFDM ’s chemical potential.
+In the following, we employ units with c=\hbar=1 and the metric signature (+,-,-,-) .
+Small Greek indices run from 0 to 3 and denote spacetime dimensions. 
+
+ We start with an introduction to SFDM in Sec.  2 .
+In Sec.  3 , we discuss the nonconservation of the U(1) charge of SFDM and the conditions under which a chemical potential may nevertheless be introduced.
+We then show how to correctly introduce a chemical potential in case these conditions are met in Sec.  4 .
+Using these results, we distinguish two different non-relativistic limits which may be taken in SFDM in Sec.  5 .
+In Sec.  6 , we address possible confusions regarding SFDM ’s equilibrium energy-momentum tensor.
+Finally, we propose an alternative model which avoids the problems of SFDM regarding its chemical potential in Sec.  7 .
+We conclude in Sec.  8 . 
+
+ 2 The model of SFDM 
+
+ In this section, we will introduce the formalism behind SFDM .
+To this end, we will first discuss an illustrative toy model and then introduce a more general class of models which we will consider in the rest of this paper. 
+
+ SFDM models are usually based on a complex scalar field \phi [ 1 , 2 ] , 
+
+ \displaystyle\phi=\frac{\rho}{\sqrt{2}}\exp(-i\theta)\,. 
+
+ (1) 
+
+ As a simple example, consider the Lagrangian [ 1 ] 
+
+ \displaystyle\mathcal{L}_{\textrm{ex}}=K-\frac{1}{2}m^{2}\rho^{2}-\frac{1}{6}\lambda_{6}\rho^{6}-\lambda\,\theta\,\rho_{b}\,, 
+
+ (2) 
+
+ with the kinetic term K , 
+
+ \displaystyle K=\frac{1}{2}\nabla_{\alpha}\rho\,\nabla^{\alpha}\rho+\frac{1}{2}\rho^{2}\,\nabla_{\alpha}\theta\,\nabla^{\alpha}\theta\,. 
+
+ (3) 
+
+ Here, \rho_{b} is the baryonic density and m>0 , \lambda_{6}>0 , and \lambda are constants with mass dimensions 1 , -2 , and 0 , respectively.
+For simplicity, we assume a flat background spacetime.
+The baryon-phonon coupling -\lambda\,\theta\,\rho_{b} is the only term in \mathcal{L}_{\textrm{ex}} which breaks the U(1) symmetry \theta\to\theta+\textrm{const.} 
+This will be discussed in detail below.
+We do not include the dynamics of the baryons since they are not important for our arguments. 
+
+ The core idea of SFDM is that the \phi particles condense to a superfluid in the centers of galaxies.
+This condensation is induced by a large enough chemical potential \mu .
+Here, we introduce this chemical potential by shifting \theta\to\theta+\mu\cdot t .
+This procedure of introducing a chemical potential is actually incorrect as discussed below in Sec.  4 .
+We nevertheless follow this procedure for now to illustrate its problems regarding the baryon-phonon coupling.
+We can then see that the effective potential for \rho , 
+
+ \displaystyle V_{\textrm{eff}}(\rho)=\frac{1}{2}\rho^{2}\left(m^{2}+(\vec{\nabla}\theta)^{2}-(\dot{\theta}+\mu)^{2}\right)+\frac{1}{6}\lambda_{6}\rho^{6}\,, 
+
+ (4) 
+
+ has its minimum at nonzero \rho for \mu>m and if derivatives of \theta are small enough.
+As long as derivatives of \rho are negligible, this minimum of V_{\textrm{eff}}(\rho) approximately solves the equation of motion for \rho and describes the superfluid condensate.
+It is given by 
+
+ \displaystyle\sqrt{\lambda_{6}}\,\rho^{2}=\sqrt{(\dot{\theta}+\mu)^{2}-(\vec{\nabla}\theta)^{2}-m^{2}}\,. 
+
+ (5) 
+
+ We can now see the connection between the superfluid phase of SFDM and MOND .
+Neglecting derivatives of \rho , the effective Lagrangian for \theta becomes 
+
+ \displaystyle\mathcal{L}_{\textrm{eff},\theta}=\frac{1}{3}\frac{1}{\sqrt{\lambda_{6}}}\left((\dot{\theta}+\mu)^{2}-(\vec{\nabla}\theta)^{2}-m^{2}\right)^{3/2}-\lambda\,(\theta+\mu\cdot t)\,\rho_{b}\,, 
+
+ (6) 
+
+ which has the characteristic MOND -like power of 3/2 in the kinetic term [ 15 ] . 1 1 
+ 1 
+
+ This possibility to obtain MOND -like behavior from a standard complex scalar field was first noted in the context of phase coupling gravitation [ 20 , 21 ] . 
+Unfortunately, this model does not give the usual MOND phenomenology since spatial gradients cannot dominate in \mathcal{L}_{\textrm{eff},\theta} .
+Therefore, it is not a realistic model of SFDM , as discussed in Ref.  [ 1 ] .
+Still, it serves to introduce the ideas behind SFDM . 
+
+ As mentioned above, \mathcal{L}_{\textrm{eff},\theta} has an explicit time dependence \mu\cdot t .
+This is the result of introducing the chemical potential \mu by shifting \theta\to\theta+\mu\cdot t in the symmetry-breaking baryon-phonon coupling -\lambda\,\theta\,\rho_{b} .
+Below, we will argue that this time dependence is an artifact of incorrectly introducing the chemical potential.
+Conceptually, this is important because equilibrium quantities should not be associated with an explicit time dependence.
+Phenomenologically, the term -\lambda\,\mu\,t\,\rho_{b} may also be problematic depending on the size of \lambda\mu and the physical situation under consideration.
+In particular, we will see below that the timescale (\lambda\mu)^{-1} of this time dependence may be significant for galaxies. 
+
+ In the following, we consider Lagrangians of the form 
+
+ \displaystyle\mathcal{L}(\dot{\theta},\vec{\nabla}\theta,\theta,\dot{\rho},\vec{\nabla}\rho,\rho) 
+ \displaystyle=f(K,\rho)-\lambda\,\theta\,\rho_{b}\,, 
+
+ (7) 
+
+ where f is some function of K and \rho .
+This allows for Lagrangians with both standard and non-standard kinetic terms.
+Examples of both cases are discussed in Ref.  [ 2 ] .
+In Ref.  [ 2 ] , \lambda is parametrized as \alpha\,\Lambda/M_{\textrm{Pl}} where M_{\textrm{Pl}} is the Planck mass, \alpha is a dimensionless coupling constant, and \Lambda is related to the self-interaction strength (for the toy model from Eq. ( 2 ), \Lambda=1/(2\sqrt{\lambda_{6}}) ).
+For our numerical estimates, we will use the fiducial numerical values from Ref.  [ 2 ] , which give \lambda\approx 10^{-31} .
+We will often suppress arguments of \mathcal{L} and use the short-hand \mathcal{L}(\dot{\theta},\theta) when only the dependence on \dot{\theta} and \theta is relevant for us. 
+
+ What we refer to as the chemical potential \mu is the relativistic chemical potential.
+This differs from the non-relativistic chemical potential \mu_{\textrm{non-rel}} by the mass m of the particles of which the superfluid consists [ 19 ] .
+For \mu>0 , 
+
+ \displaystyle\mu=m+\mu_{\textrm{non-rel}}\,. 
+
+ (8) 
+
+ This is in contrast to Refs.  [ 1 , 2 ] where \mu denotes the non-relativistic chemical potential.
+Here, we take \mu to be the relativistic chemical potential to avoid any confusion between introducing a chemical potential \mu=m+\mu_{\textrm{non-rel}} with |\mu_{\textrm{non-rel}}|\ll m and considering non-relativistic particle-like solutions in vacuum with \theta=m\cdot t+\theta_{\textrm{non-rel}} and |\dot{\theta}_{\textrm{non-rel}}|\ll m .
+These two non-relativistic limits are closely related without the baryon-phonon coupling, i.e. with \lambda=0 .
+However, with nonzero baryon-phonon coupling one needs to be careful.
+This will be further discussed in Sec.  5 . 
+
+ 3 Nonconservation of charge 
+
+ We will now discuss the first main point of this paper, namely under which conditions introducing a chemical potential is justified in SFDM .
+As mentioned above, the Lagrangian \mathcal{L} from Eq. ( 7 ) has a shift symmetry \theta\to\theta+\textrm{const.} , if we set the baryon-phonon-coupling to zero, i.e. if \lambda=0 .
+In this case, there is a corresponding conserved current j^{\alpha} , 
+
+ \displaystyle j^{\alpha}=\frac{\partial\mathcal{L}}{\partial(\nabla_{\alpha}\theta)}=\frac{\partial f}{\partial K}\,\rho^{2}\,\nabla^{\alpha}\theta\,, 
+
+ (9) 
+
+ whose conservation is equivalent to the equation of motion of \theta .
+Such conservation laws restrict the accessible phase space of a system and, therefore, treating such a system with statistical physics methods requires a corresponding chemical potential. 
+
+ However, in SFDM , \lambda is nonzero so that we have \nabla_{\alpha}j^{\alpha}\neq 0 .
+Explicitly, 
+
+ \displaystyle\nabla_{\alpha}j^{\alpha}=-\lambda\rho_{b}\,. 
+
+ (10) 
+
+ Assuming \vec{j} falls off fast enough at spatial infinity, this gives 
+
+ \displaystyle\dot{Q}=-\lambda\int d^{3}\vec{x}\,\sqrt{-g}\,\rho_{b}\equiv-\lambda M_{b} 
+
+ (11) 
+
+ for the time dependence of the total charge Q .
+Here, g is the metric determinant, Q\equiv\int d^{3}\vec{x}\,\sqrt{-g}\,j^{0} , and M_{b} is the total baryonic mass.
+We can use this result to get an estimate for |\dot{Q}/Q| on galactic scales.
+To this end, we take the non-relativistic limit and estimate |Q|\approx M_{\textrm{DM}}/m . 2 2 
+ 2 
+
+ This overestimates Q if there are \phi particle-antiparticle pairs.
+In this case, the actual |\dot{Q}/Q| is even larger which is even more problematic for SFDM .
+However, for an equilibrium superfluid with a chemical potential \mu>m there are much more particles than antiparticles.
+
+This gives 
+
+ \displaystyle\left|\frac{\dot{Q}}{Q}\right|\approx\lambda\,m\frac{M_{b}}{M_{\textrm{DM}}}=\frac{1}{t_{Q}}\approx\frac{1}{10^{8}\,\textrm{yr}}\frac{M_{b}}{M_{\textrm{DM}}}\,, 
+
+ (12) 
+
+ with the definition t_{Q}^{-1}\equiv\lambda\,m\,(M_{b}/M_{\textrm{DM}}) and the fiducial numerical values from Ref.  [ 2 ] , i.e. \lambda\approx 10^{-31} and m=1\,\textrm{eV} .
+This means that, on timescales much shorter than t_{Q}\approx(M_{\textrm{DM}}/M_{b})\cdot 10^{8}\,\textrm{yr} , we can take Q to be approximately conserved.
+Consequently, it may be justified to consider an approximate equilibrium – valid for times much shorter than t_{Q} – that assumes conservation of Q and includes a corresponding chemical potential.
+For large times, this approximate equilibrium breaks down and the system may reach the perfect equilibrium that does not assume conservation of Q and does not include a chemical potential associated with Q .
+Whether the approximate or the perfect equilibrium is relevant depends on the physical situation under consideration. 
+
+ In the case of galactic rotation curves, the timescale t_{Q} should be compared to the dynamical time of galaxies, 
+
+ \displaystyle t_{\textrm{dyn}}=\frac{1}{\sqrt{G\cdot\rho_{\rm{tot}}}}\,, 
+
+ (13) 
+
+ where G is the gravitational constant and \rho_{\rm{tot}} is the total energy density.
+For galaxies that satisfy t_{Q}\gg t_{\textrm{dyn}} , we can neglect the nonconservation of Q , introduce a chemical potential, and find the usual SFDM phenomenology of galactic rotation curves.
+However, a typical order of magnitude of t_{\textrm{dyn}} is 10^{8}\,\textrm{yr} , which is not necessarily much smaller than t_{Q}\approx(M_{\textrm{DM}}/M_{b})\cdot 10^{8}\,\textrm{yr} .
+Therefore, the nonconservation of Q can be significant on timescales relevant for galactic rotation curves.
+In this case, the concept of a chemical potential may not be applicable such that the usual SFDM phenomenology of galactic rotation curves does not follow. 
+
+ Note that our estimate |\dot{Q}/Q|\approx t_{Q}^{-1} concerns galaxies as a whole.
+In principle, parts of a galaxy could stay in the approximate equilibrium much longer than t_{Q} .
+However, as we will discuss in Sec.  6 , there is a local analogue t_{\rm{loc}}=(\lambda\,m\,(\rho_{b}/\rho_{\rm{tot}}))^{-1} of t_{Q} .
+In the superfluid cores of galaxies, t_{\rm{loc}} is typically even smaller than t_{Q} .
+Therefore, we do not expect the approximate equilibrium there to be valid much longer than t_{Q} . 3 3 
+ 3 
+
+ What this argument does not rule out are spherical shells of long-lived approximate equilibrium at intermediate radii.
+This would be a significant deviation from standard SFDM phenomenology.
+Studying this possibility is left for future work.
+
+In the following, we are not careful to distinguish between t_{Q} and t_{\rm{loc}} .
+Our main point is that SFDM ’s approximate equilibrium is not valid indefinitely.
+The numerical difference between t_{Q} and t_{\rm{loc}} is secondary for our purposes. 
+
+ The above argument to allow for a chemical potential on timescales much shorter than t_{Q} is similar to the argument why black-body radiation does not rule out massive photons [ 22 , 23 ] .
+Namely, introducing a nonzero photon mass leads to an additional degree of freedom – the longitudinal photon.
+This is true for arbitrarily small photon masses.
+Therefore, even the tiniest photon mass produces an extra factor of 3/2 in the Stefan-Boltzmann law for a perfect equilibrium.
+Since we do not observe this factor of 3/2 we might then conclude that photons are exactly massless.
+However, this would be too quick.
+The reason is that the interactions of the longitudinal photon with ordinary matter tend to zero if the photon mass tends to zero.
+Therefore, the longitudinal photons cannot equilibrate on short enough timescales.
+In particular, for photons in a cavity, the longitudinal polarization is negligible on timescales much shorter than 
+
+ \displaystyle t_{\gamma}=V^{1/3}(E_{\gamma}/m_{\gamma})^{2}\,, 
+
+ (14) 
+
+ where V is the volume of the cavity, E_{\gamma} is the energy of the photons, and m_{\gamma} is the photon mass [ 22 ] .
+The experimental bounds on m_{\gamma} are such that the timescale t_{\gamma} is larger than the age of the universe for typical experimental settings.
+Therefore, experiments never see a perfect equilibrium involving all three photon polarizations.
+Still, it is justified to consider an approximate equilibrium on timescales much shorter than t_{\gamma} that neglects the longitudinal photons.
+This is why massive photons are not ruled out by black-body radiation measurements.
+Here, the timescale t_{\gamma} is analogous to the timescale t_{Q} introduced above.
+In both cases, there is an approximate equilibrium on short enough timescales that has special properties compared to the perfect equilibrium that is reached for infinite times.
+In the case of massive photons, the third photon polarization can be neglected in the approximate equilibrium, while in the case of SFDM the nonconservation of Q can be neglected in the approximate equilibrium. 
+
+ A possible objection to our estimate for |\dot{Q}/Q| is the following:
+Assuming spherical symmetry and a flat background spacetime, there is an exact static solution of Eq. ( 10 ), 
+
+ \displaystyle j^{r}(r)=-\frac{\lambda M_{b}(r)}{4\pi r^{2}}\,,\quad\dot{Q}=0\,. 
+
+ (15) 
+
+ This is the solution usually assumed in the center of galaxies in SFDM [ 1 , 2 ] .
+For this solution, our estimate for |\dot{Q}/Q| from Eq. ( 12 ) is obviously incorrect.
+However, this solution represents a highly idealized situation and we expect that our estimate for |\dot{Q}/Q| does hold in more realistic situations.
+To see why, suppose that the baryonic density \rho_{b} vanishes outside some spatial volume V and split up the total charge Q into the charge Q_{\textrm{in}} inside V and the charge Q_{\textrm{out}} outside V .
+Eq. ( 10 ) then gives 
+
+ \displaystyle\dot{Q}_{\textrm{in}} 
+ \displaystyle=-\int_{\partial V}d\vec{S}\cdot\vec{j}-\lambda M_{b}\,, 
+
+ (16a) 
+
+ \displaystyle\dot{Q}_{\textrm{out}} 
+ \displaystyle=+\int_{\partial V}d\vec{S}\cdot\vec{j}-\int_{\partial\mathbb{R}^{3}}d\vec{S}\cdot\vec{j}\,. 
+
+ (16b) 
+
+ That is, the change in Q_{\textrm{in}} is the charge created due to the symmetry-breaking baryon coupling minus the charge that crosses the boundary of V .
+Likewise, the change in Q_{\textrm{out}} is the charge that crosses the boundary of V minus the charge that crosses spatial infinity. 
+
+ In the case of the static solution from Eq. ( 15 ), \dot{Q} vanishes because the charge created due to the symmetry-breaking baryon coupling exactly balances the charge crossing spatial infinity.
+In fact, the charge created due to the baryon coupling spreads out in such a way that all observables are constant in time.
+That is, this solution represents an equilibrium in which there is a perfect balance between all dynamical processes, leading to exactly constant observables.
+Mathematically, the reason our estimate for |\dot{Q}/Q| fails in this case is that there is charge crossing spatial infinity.
+This is because the \vec{\nabla}\vec{j} term in Eq. ( 10 ) does not fall off fast enough and cannot be neglected when deriving our estimate for \dot{Q} .
+Since \vec{j} falls off so slowly, one may suspect that this solution has infinite total energy and charge.
+Indeed, for the toy model from Eq. ( 2 ), it can be shown explicitly that Eq. ( 15 ) gives infinite total energy. 
+
+ This suggests that the solution from Eq. ( 15 ) represents an idealized and possibly unphysical situation.
+For realistic galaxies, we expect that this solution is not valid at larger radii where thermal equilibrium breaks down [ 1 , 2 ] .
+Therefore, we expect that \vec{j} falls off fast enough to give zero charge crossing spatial infinity.
+This implies \dot{Q}=-\lambda M_{b} and we recover our above estimate for |\dot{Q}/Q| . 
+
+ More generally – irrespective of the details of the solution from Eq. ( 15 ) – the existence of one solution with \dot{Q}=0 does not imply that we can assume Q to be conserved for our purposes.
+This is because we are interested in the chemical potential of SFDM which is an equilibrium quantity of statistical physics.
+The central assumption of statistical physics is that, given fixed values for all conserved quantities, the ensemble average over all field configurations satisfying the constraints equals the time average for a single such field configuration.
+Therefore, it is justified to take Q to be conserved only if \dot{Q}=0 for all solutions.
+Our above estimate for |\dot{Q}/Q| implies that taking Q to be conserved may be a good approximation on timescales much shorter than t_{Q} , but not on longer timescales. 
+
+ In Sec. 7 , we will discuss how it is possible to retain the SFDM phenomenology of galactic rotation curves even if t_{Q}\ll t_{\textrm{dyn}} .
+But for now we will assume that t_{Q}\gg t_{\textrm{dyn}} , such that introducing a chemical potential is justified. 
+
+ 4 Chemical potential with approximately conserved charge 
+
+ As discussed in the previous section, Q is approximately conserved on timescales much shorter than t_{Q} .
+On these timescales, the approximate conservation of Q effectively restricts the phase space accessible to the superfluid.
+In a statistical physics treatment, we should therefore introduce a chemical potential \mu associated with Q .
+This brings us to the second main point of this paper, namely how to correctly introduce a chemical potential for the approximately conserved charge Q .
+To this end, we assume a static background metric so that there is a preferred Hamiltonian H to which we can apply standard statistical physics methods.
+For concreteness, we take 
+
+ \displaystyle ds^{2}=N(\vec{x})^{2}\,dt^{2}-h_{jk}(\vec{x})\,dx^{j}dx^{k}\,, 
+
+ (17) 
+
+ where N(\vec{x}) is some function and h_{jk}(\vec{x}) is a 3-dimensional metric.
+This is always possible for a static metric. 
+
+ In the grand canonical ensemble, conservation of Q entails that equilibrium quantities should not be calculated from the Hamiltonian H but from the effective Hamiltonian H_{\textrm{eff}} , 
+
+ \displaystyle H_{\textrm{eff}}=H-\mu\,Q\,, 
+
+ (18) 
+
+ where H and Q are functions of the canonical variables and their momenta, 
+
+ \displaystyle H=H(\pi,\theta),\quad Q=Q(\pi,\theta)\,, 
+
+ (19) 
+
+ with \pi\equiv\partial(\sqrt{-g}\,\mathcal{L})/\partial\dot{\theta} .
+For simplicity, we have suppressed the dependence on \rho and its canonical momentum.
+More concretely, the grand canonical partition function Z is 
+
+ \displaystyle Z 
+ \displaystyle=\int\mathcal{D}\pi\int\mathcal{D}\theta\,\exp\left[\int d(it)\int d^{3}\vec{x}\left(\pi\,\dot{\theta}-\sqrt{-g}\,\mathcal{H}_{\textrm{eff}}(\pi,\theta)\right)\right] 
+
+ (20a) 
+
+ \displaystyle\begin{multlined}=\int\mathcal{D}\pi\int\mathcal{D}\theta\,\exp\left[\int d(it)\int d^{3}\vec{x}\right.\\
+\left.\times\left(\pi\,\dot{\theta}-\sqrt{-g}\,\mathcal{H}(\pi,\theta)+\mu\,\sqrt{-g}\,j^{0}(\pi,\theta)\right)\right]\,.\end{multlined} 
+
+ Here, \mathcal{H} is the Hamiltonian density associated with H and \mathcal{H}_{\textrm{eff}} is that associated with H_{\textrm{eff}} .
+Specifically, \sqrt{-g}\,\mathcal{H}=\pi\,\dot{\theta}-\sqrt{-g}\,\mathcal{L} .
+This path integral uses the “imaginary time” variable \tau\equiv it , but we write it in terms of t for simplicity.
+We have not indicated the boundary conditions of the integrals since they are not important for our arguments. 
+
+ By integrating out \pi in this Hamiltonian path integral, one can obtain a Lagrangian path integral with an effective Lagrangian \mathcal{L}_{\textrm{eff}}(\dot{\theta},\theta) .
+Doing so, one sees that the correct effective Lagrangian is the first of the following options, not the second: 
+
+ \displaystyle\mathcal{L}_{\textrm{eff}}(\dot{\theta},\theta) 
+ \displaystyle=\mathcal{L}(\dot{\theta}+\mu,\theta) 
+ \displaystyle\textrm{(correct)}\,, 
+
+ (21) 
+
+ \displaystyle\mathcal{L}_{\textrm{eff}}(\dot{\theta},\theta) 
+ \displaystyle=\mathcal{L}(\dot{\theta}+\mu,\theta+\mu\cdot t) 
+ \displaystyle\textrm{(incorrect)}\,. 
+
+ (22) 
+
+ In other words: Instead of shifting all occurrences of \theta by \theta\to\theta+\mu\cdot t , one should only shift time derivatives of \theta , \dot{\theta}\to\dot{\theta}+\mu , while leaving \theta without time derivatives unchanged.
+These two procedures are not equivalent due to the baryon-phonon coupling -\lambda\,\theta\,\rho_{b} .
+Shifting all occurrences of \theta as in Eq. ( 22 ) leads to a time-dependent factor (\theta+\mu\cdot t) in the baryon coupling.
+In contrast, shifting only time derivatives of \theta as in Eq. ( 21 ) does not introduce an explicit time dependence in \mathcal{L}_{\textrm{eff}} .
+Thus, the explicit time dependence in \mathcal{L}_{\textrm{eff},\theta} discussed in Sec.  2 is indeed an artifact of incorrectly introducing the chemical potential. 
+
+ Eq. ( 21 ) follows from a saddle-point approximation.
+This is exact when \mathcal{L} is at most quadratic in \dot{\theta} , otherwise it is an approximation.
+Here, our point is not to evaluate under which conditions this is a good approximation.
+Instead, our point is that, whenever this approximation is valid, Eq. ( 21 ) is correct while Eq. ( 22 ) is correct only without the baryon-phonon coupling. 
+
+ More concretely, Eq. ( 21 ) can be derived by following the steps from Refs.  [ 24 , 25 , 26 ] , where the effective Lagrangian is derived in the case with \lambda=0 , i.e. without the baryon-phonon coupling.
+We just have to verify that all steps still apply in the case with nonzero baryon-phonon coupling.
+To this end, we start with the Hamiltonian path integral for the grand canonical partition function Z from Eq. ( 20 ).
+In order to obtain the Lagrangian path integral, we have to integrate out \pi .
+We will do so using the above-mentioned saddle-point approximation.
+That is, we must solve the equation 
+
+ \displaystyle\frac{\partial(\sqrt{-g}\,\mathcal{H})}{\partial\pi}(\pi,\theta)=\dot{\theta}+\mu\,\frac{\partial(\sqrt{-g}\,j^{0})}{\partial\pi} 
+
+ (23) 
+
+ for \pi=\pi(\dot{\theta},\theta) and put the result back into the exponent of Eq. ( 20 ).
+Without the chemical potential \mu , this procedure simply gives the Lagrangian path integral with the original Lagrangian \mathcal{L}(\dot{\theta},\theta) in the exponent, 
+
+ \displaystyle Z|_{\mu=0}\propto\int\mathcal{D}\theta\,\exp\left[\int d(it)\int d^{3}\vec{x}\,\sqrt{-g}\,\mathcal{L}(\dot{\theta},\theta)\right]\,. 
+
+ (24) 
+
+ This is because, for \mu=0 , Eq. ( 23 ) is the usual Hamiltonian equation of motion for \dot{\theta} and \pi\dot{\theta}-\sqrt{-g}\,\mathcal{H} then gives the original Lagrangian \mathcal{L}(\dot{\theta},\theta) including the \sqrt{-g} prefactor.
+Here, we have again suppressed the \rho dependence since it is inessential to our argument. 
+
+ With a nonzero chemical potential, Eq. ( 23 ) contains the additional term \mu\,\tfrac{\partial(\sqrt{-g}\,j^{0})}{\partial\pi} .
+For a SFDM Lagrangian \mathcal{L} as in Eq. ( 7 ), we have 
+
+ \displaystyle j^{0}=\frac{\partial\mathcal{L}}{\partial\dot{\theta}}=\frac{\pi}{\sqrt{-g}}\,. 
+
+ (25) 
+
+ Therefore, Eq. ( 23 ) becomes 
+
+ \displaystyle\frac{\partial(\sqrt{-g}\,\mathcal{H})}{\partial\pi}(\pi,\theta)=\dot{\theta}+\mu\,. 
+
+ (26) 
+
+ The solutions \pi=\pi(\dot{\theta},\theta) of this equation can be expressed using the solutions of the same equation with \mu=0 by shifting time derivatives of \theta while leaving \theta without time derivatives unchanged, 
+
+ \displaystyle\pi(\dot{\theta},\theta)=\pi|_{\mu=0}(\dot{\theta}+\mu,\theta)\,. 
+
+ (27) 
+
+ From this, we finally obtain for the Lagrangian path integral 
+
+ \displaystyle Z 
+ \displaystyle\propto\int\mathcal{D}\theta\,\exp\left[\int d(it)\int d^{3}\vec{x}\,\sqrt{-g}\,\mathcal{L}(\dot{\theta}+\mu,\theta)\right] 
+
+ (28a) 
+
+ \displaystyle\equiv\int\mathcal{D}\theta\,\exp\left[\int d(it)\int d^{3}\vec{x}\,\sqrt{-g}\,\mathcal{L}_{\textrm{eff}}(\dot{\theta},\theta)\right]\,, 
+
+ (28b) 
+
+ which completes the derivation of Eq. ( 21 ). 
+
+ In addition, Eq. ( 22 ) can also be ruled out because it leads to a complex effective Lagrangian \mathcal{L}_{\textrm{eff}} .
+This is because the path integral for the partition function Z uses the “imaginary time” variable \tau such that t=-i\tau is imaginary.
+In terms of \tau , Eq. ( 22 ) reads 
+
+ \displaystyle\mathcal{L}_{\textrm{eff}}(i\partial_{\tau}\theta,\theta) 
+ \displaystyle=\mathcal{L}(i\partial_{\tau}\theta+\mu,\theta-i\,\mu\cdot\tau)\,. 
+
+ (29) 
+
+ Therefore, the baryon-phonon coupling -\lambda\rho_{b}\theta obtains an imaginary part in \mathcal{L}_{\textrm{eff}} , 
+
+ \displaystyle-\lambda\rho_{b}(\theta-i\mu\tau)\,. 
+
+ (30) 
+
+ As a consequence, equilibrium expectation values of observables are not, in general, real, which rules out this way of introducing the chemical potential.
+A formal change of variables \theta\to\theta-i\,\mu\cdot\tau may still be possible, but then one needs be careful to take into account that \theta becomes complex.
+In any case, the above derivation of Eq. ( 21 ) shows that the \mu introduced by such a change of variables would not be the usual chemical potential of statistical physics associated with a conserved quantity. 
+
+ 5 Non-relativistic limit 
+
+ Actual calculations in SFDM are usually done in the non-relativistic limit.
+In Ref.  [ 1 ] , this non-relativistic limit is taken by first shifting \theta\to\theta+m\cdot t , i.e. 
+
+ \displaystyle\mathcal{L}(\dot{\theta},\theta)\to\mathcal{L}(\dot{\theta}+m,\theta+m\cdot t)\,, 
+
+ (31) 
+
+ and then expanding in \dot{\theta}/m and \dot{\rho}/(m\,\rho) assuming both are of the same order of smallness.
+This procedure is correct, for example, for non-relativistic particle-like solutions of the form \phi\approx e^{-i(\omega\cdot t-\vec{k}\cdot\vec{x})} for some \omega and \vec{k} .
+And more generally, for explicitly time-dependent solutions with dominant time dependence e^{-im\cdot t} .
+However, it is not correct for the equilibrium superfluid in the center of galaxies and for perturbations on top of this superfluid.
+In this case, the non-relativistic limit should be taken by first shifting only time derivatives of \theta but not terms without time derivatives of \theta , 
+
+ \displaystyle\mathcal{L}(\dot{\theta},\theta)\to\mathcal{L}(\dot{\theta}+m,\theta)\,, 
+
+ (32) 
+
+ and then expanding in time derivatives of \theta and \rho as in the previous case.
+Without the baryon-phonon coupling, i.e. with \lambda=0 , Eq. ( 31 ) and Eq. ( 32 ) are equivalent, but for nonzero \lambda they are not.
+Shifting all occurrences of \theta as in Eq. ( 31 ) leads to an explicit time dependence (m\cdot t+\theta) in the baryon-phonon coupling.
+In contrast, shifting only time derivatives of \theta as in Eq. ( 32 ) does not introduce any explicit time dependence. 
+
+ The reason to use Eq. ( 31 ) and Eq. ( 32 ) in different situations is the following:
+In the case of Eq. ( 31 ), one is looking for explicitly time-dependent solutions with dominant time dependence e^{-im\cdot t} .
+In the non-relativistic limit, one expects |\dot{\theta}-m|\ll m and |\dot{\rho}|\ll m\,\rho .
+This leads to the procedure referred to by Eq. ( 31 ).
+In contrast, in the case of Eq. ( 32 ), one introduces a chemical potential \mu=m+\mu_{\textrm{non-rel}} for the equilibrium superfluid assuming |\mu_{\textrm{non-rel}}|\ll m .
+Further, one assumes that any perturbations on top of the equilibrium satisfy |\dot{\theta}|\ll m and |\dot{\rho}|\ll m\,\rho .
+This leads to the procedure referred to by Eq. ( 32 ). 
+
+ In the literature on SFDM , the two non-relativistic limits from Eq. ( 31 ) and Eq. ( 32 ) are not distinguished.
+Often, the Lagrangian is given only after having already taken the non-relativistic limit.
+However, this may lead to confusion because the non-relativistic limit introduces an explicit time dependence in some physical situations (namely when considering particle-like solutions in vacuum as in Eq. ( 31 )) but not in others (namely for an equilibrium superfluid as in Eq. ( 32 )).
+To avoid this confusion, we suggest to always start with the relativistic Lagrangian and to take the non-relativistic limit only after having explicitly specified which physical situation is considered. 
+
+ 6 Equilibrium energy-momentum tensor 
+
+ In this section, we will discuss possible confusions regarding SFDM ’s equilibrium energy-momentum tensor ( EMT ).
+ SFDM ’s EMT is, in general, 
+
+ \displaystyle T_{\alpha\beta}=\frac{\partial f}{\partial K}\left(\nabla_{\alpha}\rho\,\nabla_{\beta}\rho+\rho^{2}\,\nabla_{\alpha}\theta\,\nabla_{\beta}\theta\right)-g_{\alpha\beta}(f-\lambda\,\theta\,\rho_{b})\,. 
+
+ (33) 
+
+ The equilibrium EMT can be calculated by expressing T_{\alpha\beta} in terms of canonical variables and their momenta, and using the result in a path integral similar to that for the partition function Z discussed in Sec.  4 , 4 4 
+ 4 
+
+ We do not rewrite Eq. ( 34 ) as a Lagrangian path integral since T_{\alpha\beta} depends on \pi and the usual derivation of the Lagrangian path integral assumes that factors like T_{\alpha\beta} in the integrand are independent of \pi .
+See e.g Chapter 9.3 of Ref.  [ 27 ] for a discussion of this.
+
+ \displaystyle\int\mathcal{D}\pi\int\mathcal{D}\theta\,T_{\alpha\beta}(\pi,\theta)\,\exp\left[\int d(it)\int d^{3}\vec{x}\left(\pi\,\dot{\theta}-\sqrt{-g}\,\mathcal{H}_{\textrm{eff}}(\pi,\theta)\right)\right]\,. 
+
+ (34) 
+
+ We assume that, in the zero-temperature limit, a simple saddle-point approximation is sufficient.
+That is, we assume that we can calculate all zero-temperature quantities by shifting \dot{\theta}\to\dot{\theta}+\mu and using the equations of motion from \mathcal{L}_{\textrm{eff}}(\dot{\theta},\theta)=\mathcal{L}(\dot{\theta}+\mu,\theta) .
+If we do this, we come across two possibly confusing findings.
+First, the zero-temperature equilibrium superfluid has a nonzero momentum density, 
+
+ \displaystyle T_{0j}=\frac{\partial f}{\partial K}\rho^{2}\,\mu\,\partial_{j}\theta\,,\quad j=1,2,3\,. 
+
+ (35) 
+
+ Second, this does not satisfy the continuity equation \nabla_{\alpha}T^{\alpha 0}=0 , 5 5 
+ 5 
+
+ The EMT derived from \mathcal{L}_{\textrm{eff}} (not \mathcal{L} ) using Noether’s theorem does satisfy \nabla_{\alpha}T^{\alpha 0}=0 .
+However, this EMT is not symmetric and is not obtained from Eq. ( 33 ) by shifting \dot{\theta}\to\dot{\theta}+\mu .
+
+ \displaystyle\nabla_{\alpha}T^{\alpha 0}=\frac{1}{\sqrt{-g}}\partial_{j}\left(\sqrt{-g}\,T^{0j}\right)+\Gamma^{0}_{\alpha\beta}T^{\alpha\beta}=-\lambda\rho_{b}\,\mu\,. 
+
+ (36) 
+
+ For both Eq. ( 35 ) and Eq. ( 36 ) we used a static background metric and assumed that all fields are time independent in equilibrium, we only shifted \dot{\theta}\to\dot{\theta}+\mu .
+Since we started from a theory that is explicitly time translation invariant, we would have expected the right-hand side of Eq. ( 36 ) to give zero. 6 6 
+ 6 
+
+ If the external field \rho_{b} is constant in time.
+Similarly, \nabla_{\alpha}T^{\alpha j} vanishes only if \rho_{b} is spatially constant.
+
+But already the physical origin of the momentum density in Eq. ( 35 ) is not clear. 
+
+ Consider first this momentum density from Eq. ( 35 ).
+In Sec.  3 , we argued that the charge Q is not exactly conserved on timescales t_{Q} .
+Since the Lagrangian \mathcal{L} from Eq. ( 7 ) is time translation invariant, energy is conserved in this process.
+However, we expect energy to be spatially redistributed.
+This is because we expect the nonconservation of Q to proceed by charged perturbations being created and interacting with each other.
+We expect these perturbations to travel in all possible directions.
+At the same time – in order to satisfy energy conservation – the static, localized background fields deplete.
+As a result, charge is created and total energy is spatially redistributed to a less localized configuration.
+This is the physical origin of the momentum density from Eq. ( 35 ). 
+
+ The spatial redistribution of energy due to the Q -nonconservation also explains how we could end up with an equilibrium EMT that violates the continuity equation \nabla_{\alpha}T^{\alpha 0}=0 .
+Namely, this redistribution of energy is a time-dependent process, but we assumed an exactly time-independent equilibrium with constant Q when deriving Eq. ( 35 ) and Eq. ( 36 ).
+More formally, our starting point in Sec.  3 was the effective Hamiltonian H_{\textrm{eff}}=H-\mu\,Q .
+But this effective Hamiltonian is derived in statistical physics assuming that Q is exactly conserved.
+As discussed in Sec.  3 , this is a good approximation only on timescales much shorter than t_{Q} .
+Therefore, we are effectively neglecting time derivatives of order 1/t_{Q} if we assume a perfect equilibrium and use the standard statistical physics formalism with H_{\textrm{eff}}=H-\mu\,Q .
+These time derivatives are what is needed to satisfy the continuity equation \nabla_{\alpha}T^{\alpha 0}=0 . 
+
+ Thus, SFDM ’s approximate equilibrium with approximately conserved Q is indeed valid only on timescales much shorter than t_{Q} .
+If time derivative of order 1/t_{Q} are important, different concepts are needed.
+One example might be a general relativistic treatment where self-consistency requires an exactly conserved EMT .
+However, we expect that we can safely neglect time derivatives of order 1/t_{Q} for most non-relativistic applications, if we are interested only in timescales much shorter than t_{Q} .
+For example, we expect that it is a good approximation to calculate the superfluid’s energy density using H_{\textrm{eff}} if we are interested in galactic rotation curves with t_{Q}\gg t_{\textrm{dyn}} . 
+
+ In the case of black-body radiation of massive photons in a cavity (see Sec.  3 ), we similarly expect that the continuity equation \nabla_{\alpha}T^{\alpha 0}=0 is not exactly fulfilled.
+This is because the usually assumed approximate equilibrium without longitudinal photons neglects the creation of longitudinal photons when transverse photons are reflected at the cavity walls [ 22 ] .
+In this case, we effectively neglect time derivatives of order 1/t_{\gamma} , just as we neglect time derivatives of order 1/t_{Q} in SFDM .
+However, one usually doesn’t encounter this peculiarity in the literature on massive photons.
+The reason is that most actual calculations of black-body radiation of massive photons assume a free photon gas without interactions, i.e. the interactions with the cavity walls are completely neglected.
+Neglecting interactions may be a good approximation for massive photons in a cavity, but it is not useful in SFDM , since interactions are essential for SFDM ’s phenomenology. 
+
+ To be more precise, the neglected time derivatives in SFDM may actually deviate from 1/t_{Q} .
+This is because the timescale t_{Q} concerns galaxies as a whole, while the continuity equation \nabla_{\alpha}T^{\alpha 0}=0 is a local equation.
+Indeed, consider the following estimate.
+The time derivatives needed to satisfy the continuity equation \nabla_{\alpha}T^{\alpha 0}=0 can be time derivatives either of T^{00} or of the metric.
+In the non-relativistic limit, we estimate the corresponding terms in \nabla_{\alpha}T^{\alpha 0} as \dot{\rho}_{\rm{tot}} and \rho_{\rm{tot}}\cdot\dot{\phi}_{N} , respectively.
+Here, \phi_{N} is the Newtonian gravitational potential.
+Dividing by \rho_{\rm{tot}} , these two terms become \dot{\rho}_{\rm{tot}}/\rho_{\rm{tot}} and \dot{\phi}_{N} , respectively.
+Together, they have to compensate the -\lambda\,\mu\,\rho_{b}/\rho_{\rm{tot}} from the right-hand side of Eq. ( 36 ).
+In the inner parts of galaxies, we estimate \dot{\phi}_{N} as roughly G\dot{M}(r)/r\approx(\dot{M}(r)/M(r))\cdot\phi_{N}\approx(\dot{\rho}_{\rm{tot}}/\rho_{\rm{tot}})\cdot\phi_{N} , where M(r)\approx V\cdot\rho_{\rm{tot}} is the total mass inside a sphere with radius r and volume V .
+Since \phi_{N}\ll 1 , we expect \dot{\phi}_{N} to be much smaller than \dot{\rho}_{\rm{tot}}/\rho_{\rm{tot}} .
+Therefore, in the inner parts of galaxies, 
+
+ \displaystyle\left|\frac{\dot{\rho}_{\rm{tot}}}{\rho_{\rm{tot}}}\right|\approx\lambda\,m\,\frac{\rho_{b}}{\rho_{\rm{tot}}}=t_{\rm{loc}}^{-1}\approx\frac{1}{10^{8}\,\rm{yr}}\,\frac{\rho_{b}}{\rho_{\rm{tot}}}\,, 
+
+ (37) 
+
+ where we defined t_{\rm{loc}}^{-1}\equiv\lambda\,m\,(\rho_{b}/\rho_{\rm{tot}}) and used \mu\approx m .
+The timescale t_{\rm{loc}} is a local analogue of t_{Q} .
+It is the timescale on which SFDM ’s approximate equilibrium with approximately conserved Q fails to be time-independent at each point in space.
+That is, locally, SFDM ’s approximate equilibrium can be valid only on timescales shorter than t_{\rm{loc}} .
+Thus, the time derivatives needed to satisfy the continuity equation \nabla_{\alpha}T^{\alpha 0}=0 are not necessarily of order 1/t_{Q} .
+Still, both t_{Q}^{-1} and t_{\rm{loc}}^{-1} are proportional to \lambda since both are a consequence of Q not being conserved. 
+
+ 7 An alternative model 
+
+ So far we assumed t_{Q} to be much larger than the timescales of interest such that we could assume Q to be approximately conserved.
+We will now drop this assumption and allow t_{Q} to take any value.
+In this case, it is not generally justified to introduce a chemical potential associated with Q .
+As discussed above, this may be problematic for SFDM since the chemical potential is important for SFDM ’s phenomenology of galactic rotation curves.
+Here, we propose a model which avoids this problem but retains SFDM ’s phenomenology of galactic rotation curves.
+We will now introduce and discuss this model. 
+
+ Our model uses two complex scalar fields instead of just one, 
+
+ \displaystyle\phi_{1}=\frac{\rho_{1}}{\sqrt{2}}\exp(-i\theta_{1})\,,\quad\phi_{2}=\frac{\rho_{2}}{\sqrt{2}}\exp(-i\theta_{2})\,, 
+
+ (38) 
+
+ and has the Lagrangian 
+
+ \displaystyle\mathcal{L}_{\textrm{alt}} 
+ \displaystyle=\frac{1}{2}\left[f(K_{1},\rho_{1})+f(K_{2},\rho_{2})-\lambda\,\left(\theta_{1}+\theta_{2}\right)\,\rho_{b}\right]\,, 
+
+ (39) 
+
+ \displaystyle K_{\rm{i}} 
+ \displaystyle=\frac{1}{2}\nabla_{\alpha}\rho_{\rm{i}}\,\nabla^{\alpha}\rho_{\rm{i}}+\frac{1}{2}\rho_{\rm{i}}^{2}\,\nabla_{\alpha}\theta_{\rm{i}}\,\nabla^{\alpha}\theta_{\rm{i}}\,,\quad\rm{i}=1,2\,. 
+
+ (40) 
+
+ That is, we take two copies of the Lagrangian \mathcal{L} from Eq. ( 7 ) but with a global prefactor of 1/2 .
+This Lagrangian has an exchange symmetry \phi_{1}\leftrightarrow\phi_{2} .
+For convenience, we introduce \rho_{+} , \rho_{-} , \theta_{+} , and \theta_{-} as 
+
+ \displaystyle\rho_{1} 
+ \displaystyle\equiv\rho_{+}+\rho_{-}\,, 
+ \displaystyle\theta_{1} 
+ \displaystyle\equiv\theta_{+}+\theta_{-}\,, 
+
+ (41a) 
+
+ \displaystyle\rho_{2} 
+ \displaystyle\equiv\rho_{+}-\rho_{-}\,, 
+ \displaystyle\theta_{2} 
+ \displaystyle\equiv\theta_{+}-\theta_{-}\,. 
+
+ (41b) 
+
+ In terms of these variables, \mathcal{L}_{\textrm{alt}} has an exact shift symmetry \theta_{-}\to\theta_{-}+\textrm{const.} for \theta_{-} , but not for \theta_{+} due to the baryon coupling.
+The conserved current associated with the \theta_{-} shift symmetry is 
+
+ \displaystyle j_{-}^{\alpha}=\frac{\partial\mathcal{L}_{\textrm{alt}}}{\partial(\nabla_{\alpha}\theta_{-})}=\frac{1}{2}\left[\frac{\partial f_{1}}{\partial K_{1}}\,\rho_{1}^{2}\,\nabla^{\alpha}\theta_{1}-\frac{\partial f_{2}}{\partial K_{2}}\,\rho_{2}^{2}\,\nabla^{\alpha}\theta_{2}\right]\,, 
+
+ (42) 
+
+ with the short-hand notation f_{\rm{i}}\equiv f(K_{\rm{i}},\rho_{\rm{i}}) for \rm{i}=1,2 .
+A similar Lagrangian was previously proposed in Ref.  [ 28 ] .
+However, our treatment is quite different in that we investigate the role of the chemical potential for the equilibrium superfluid.
+Indeed, Ref.  [ 28 ] is based on a non-relativistic limit of the form \theta\to m\cdot t+\theta with |\dot{\theta}|\ll m which is not suitable for the equilibrium superfluid, as discussed in Sec.  5 . 
+
+ Consider now field configurations that are symmetric under \phi_{1}\leftrightarrow\phi_{2} , i.e. consider \phi_{1}=\phi_{2} or, equivalently, \rho_{-}=0 and \theta_{-}=0 .
+In this case, our model exactly recovers the equations of motion of the usual SFDM Lagrangian from Eq. ( 7 ).
+That is, the two equations for \rho_{1} and \rho_{2} are equivalent and reduce to a single equation for \rho_{+}\equiv\rho .
+This equation exactly matches the equation of motion for \rho from the usual SFDM Lagrangian from Eq. ( 7 ).
+Similarly, the two equations for \theta_{1} and \theta_{2} reduce to a single equation for \theta_{+}\equiv\theta which is the same as the usual SFDM equation for \theta .
+Further, \phi_{1}=\phi_{2} implies that the EMT T_{\rm{alt},\alpha\beta} of our model is exactly the same as the usual SFDM EMT T_{\alpha\beta} .
+These results are derived in Appendix  A .
+The global factor of 1/2 in \mathcal{L}_{\textrm{alt}} is inconsequential for the equations of motion, but it is needed to recover SFDM ’s EMT and SFDM ’s MOND -like force on the baryons. 
+
+ In a general nonequilibrium situation, there is no reason to expect a completely symmetric field configuration \phi_{1}=\phi_{2} .
+Therefore, we do not expect our model to exactly reproduce SFDM in such situations.
+In equilibrium, however, we expect the exchange symmetry \phi_{1}\leftrightarrow\phi_{2} to be respected.
+Naively, this is because there is no reason for \phi_{1} and \phi_{2} to differ in equilibrium.
+But this is not entirely correct.
+In equilibrium, our model requires a chemical potential \mu_{-} due to the exact shift symmetry of \theta_{-} .
+As discussed in Sec.  4 , this implies a shift of the time derivatives of \theta_{-} , 
+
+ \displaystyle\dot{\theta}_{-}\to\dot{\theta}_{-}+\mu_{-}\,. 
+
+ (43) 
+
+ In terms of \dot{\theta}_{1} and \dot{\theta}_{2} , 
+
+ \displaystyle\dot{\theta}_{1}\to\dot{\theta}_{1}+\mu_{-}\,, 
+
+ (44a) 
+
+ \displaystyle\dot{\theta}_{2}\to\dot{\theta}_{2}-\mu_{-}\,. 
+
+ (44b) 
+
+ We see that the chemical potential \mu_{-} induces an asymmetry between \phi_{1} and \phi_{2} since \dot{\theta}_{1} and \dot{\theta}_{2} are shifted with opposite signs.
+However, it turns out that this sign of \mu_{-} is not important in equilibrium.
+For example, the grand canonical partition function satisfies Z_{\textrm{alt}}(\mu_{-})=Z_{\textrm{alt}}(-\mu_{-}) as discussed in Appendix  B .
+More concretely, consider the zero-temperature superfluid.
+We assume that all zero-temperature quantities can be calculated using the equations of motion of the effective Lagrangian \mathcal{L}_{\textrm{alt}}(\dot{\theta}_{-}+\mu_{-},\dots) .
+Appendix  A then shows that the sign of \mu_{-} does not enter these equilibrium equations such that they are symmetric under \phi_{1}\leftrightarrow\phi_{2} .
+This follows for a static background metric by assuming that all fields are time independent in equilibrium.
+Therefore, we expect that the exchange symmetry \phi_{1}\leftrightarrow\phi_{2} is respected in equilibrium.
+That is, we assume \phi_{1}=\phi_{2} for the zero-temperature superfluid.
+Or equivalently, \rho_{-}=0 and \theta_{-}=0 .
+Here, \theta_{-}=0 means that we first do the shift \dot{\theta}_{-}\to\dot{\theta}_{-}+\mu_{-} and then apply \theta_{-}=0 . 
+
+ The resulting zero-temperature equations exactly recover SFDM ’s zero-temperature equations of motion, including a chemical potential \mu_{-}\equiv\mu .
+Likewise, our model recovers SFDM ’s zero-temperature energy density.
+This is shown in Appendix  A .
+Therefore, our model recovers SFDM ’s phenomenology of galactic rotation curves in the zero-temperature superfluid cores of galaxies.
+Importantly, it does so without relying on a condition like t_{Q}\gg t_{\textrm{dyn}} .
+This is in contrast to the usual SFDM Lagrangian from Eq. ( 7 ) which allows introducing a chemical potential only on timescales much shorter than t_{Q} .
+This also implies that our model’s equilibrium EMT T_{\textrm{alt},\alpha\beta} exactly satisfies the continuity equation \nabla_{\alpha}T^{\alpha 0}_{\textrm{alt}}=0 , while this is true for SFDM only up to time derivatives of order 1/t_{Q} (see Sec.  6 ).
+Concretely, we have T_{\textrm{alt},0j}=0 for our model, but T_{0j}\neq 0 for SFDM for \rm{j}=1,2,3 , as discussed in Appendix  A .
+This is not an important difference, however, since these 0j components are usually neglected in actual calculations [ 1 , 2 ] . 
+
+ Above, we assumed that our model’s equilibrium is constrained by the shift symmetry of \theta_{-} but not by the broken shift symmetry of \theta_{+} .
+Reaching this equilibrium requires an interaction that respects the shift symmetry of \theta_{-} but not that of \theta_{+} .
+In \mathcal{L}_{\textrm{alt}} , this leaves only the baryon coupling which is \lambda -suppressed.
+As a result, reaching equilibrium may take a very long time.
+Possibly, it will never be reached on galactic scales.
+To remedy this, we may introduce an additional coupling that breaks the \theta_{+} shift symmetry, e.g. 
+
+ \displaystyle\lambda_{m}\,\rho_{-}^{2}\,\theta_{+}^{2}\,, 
+
+ (45) 
+
+ with constant \lambda_{m} .
+This term has the same symmetries as \mathcal{L}_{\textrm{alt}} so that we still have an equilibrium with a chemical potential \mu_{-} that respects the \phi_{1}\leftrightarrow\phi_{2} symmetry.
+In particular, \rho_{-} and \theta_{-} still vanish in equilibrium.
+As a result, this term allows reaching equilibrium, but it does not affect the zero-temperature equilibrium itself due to the factor \rho_{-}^{2} .
+We leave a detailed study of this coupling for future work. 
+
+ As discussed in Ref.  [ 1 ] , a realistic SFDM model may require finite-temperature corrections.
+Here, our model differs from the usual SFDM Lagrangian from Eq. ( 7 ).
+For \lambda_{m}=0 , the main reason is that our model has more degrees of freedom.
+As a very simple example, take f(K,\rho)=K-\frac{1}{2}m^{2}\rho^{2} and \rho_{b}=0 .
+Then, \mathcal{L} is the Lagrangian of a single complex scalar field and we have T_{00}\neq 0 due to thermal fluctuations.
+Further, \phi_{1} and \phi_{2} can be rescaled such that \mathcal{L}_{\textrm{alt}} is the Lagrangian of two such fields.
+This implies T_{\textrm{alt},00}=2T_{00}\neq T_{00} .
+For \lambda_{m}\neq 0 , differences in finite-temperature corrections may be more interesting due to direct interactions between \phi_{1} and \phi_{2} .
+In any case, as a consequence of the dissipation-fluctuation theorem, our model also differs from SFDM regarding perturbations on top of the equilibrium superfluid [ 29 ] .
+This may be important for stability analyses [ 1 ] .
+An explicit calculation of these perturbations or of the finite-temperature corrections is beyond the scope of this paper, however.
+For the usual SFDM Lagrangian from Eq. ( 7 ), calculations at finite temperature were done in Ref.  [ 30 ] , but so far only for a simplified model without a MOND limit. 
+
+ 8 Conclusion 
+
+ In this paper, we have clarified several issues regarding SFDM ’s chemical potential.
+First, we have shown that introducing a chemical potential is justified only if we are interested in timescales much shorter than t_{Q}\approx(M_{\textrm{DM}}/M_{b})\cdot 10^{8}\,\textrm{yr} (or its local analogue t_{\rm{loc}}\approx(\rho_{\rm{tot}}/\rho_{b})\cdot 10^{8}\,\textrm{yr} ).
+This is because the nonconservation of the U(1) charge can be neglected only on these timescales.
+We have then shown that correctly introducing the chemical potential does not introduce an explicit time dependence in the symmetry-breaking baryon-phonon coupling.
+This is because the chemical potential is correctly introduced by shifting only time derivatives of \theta , but not occurrences of \theta without a time derivative.
+As a consequence, we could distinguish two different non-relativistic limits which are appropriate in different physical situations.
+One is appropriate for particle-like solutions in vacuum, the other for the superfluid cores of galaxies.
+Finally, we have proposed a model that recovers SFDM ’s zero-temperature equations including a chemical potential even if the timescales of interest are not much smaller than t_{Q} .
+This is possible by introducing two complex scalar fields \phi_{1} and \phi_{2} with an exchange symmetry \phi_{1}\leftrightarrow\phi_{2} in such a way that one linear combination of their phases has an exact shift symmetry. 
+
+ Our results help to better understand possible microscopic realizations of SFDM , especially with respect to issues regarding the chemical potential and the nonconservation of charge.
+This improved understanding as well as the alternative model from Sec.  7 may prove helpful in SFDM model building. 
+
+ Acknowledgements 
+
+ The author thanks Sabine Hossenfelder for valuable discussions and for reading the manuscript. 
+
+ Appendix A \mathcal{L}_{\rm{alt}} equations of motion and EMT 
+
+ Here, we will discuss the equations of motion and the EMT of our model from Sec.  7 . 
+
+ We will first show that this model recovers the usual SFDM equations of motion for \phi_{1}=\phi_{2} .
+This works because our model is symmetric under \phi_{1}\leftrightarrow\phi_{2} .
+More explicitly, consider the equations of motion for \rho_{1} and \rho_{2} .
+They are 
+
+ \displaystyle\nabla_{\alpha}\left(\frac{\partial f_{\rm{i}}}{\partial K_{\rm{i}}}\,\nabla^{\alpha}\rho_{\rm{i}}\right)-\frac{\partial f_{\rm{i}}}{\partial K_{\rm{i}}}\rho_{\rm{i}}\left(\nabla_{\alpha}\theta_{\rm{i}}\,\nabla^{\alpha}\theta_{\rm{i}}\right)-\frac{\partial f_{\rm{i}}}{\partial\rho_{\rm{i}}}=0\,,\quad\rm{i}=1,2\,. 
+
+ (46) 
+
+ For \phi_{1}=\phi_{2} , we have \rho_{1}=\rho_{2}=\rho_{+}\equiv\rho and \theta_{1}=\theta_{2}=\theta_{+}\equiv\theta .
+As a result, the two equations in Eq. ( 46 ) reduce to a single equation for \rho_{+} which is the same equation as the equation for \rho in the case of the usual SFDM Lagrangian from Eq. ( 7 ).
+Similarly, the equations of motion for \theta_{1} and \theta_{2} are 
+
+ \displaystyle\nabla_{\alpha}\left(\frac{\partial f_{\rm{i}}}{\partial K_{\rm{i}}}\,\rho_{\rm{i}}^{2}\,\nabla^{\alpha}\theta_{\rm{i}}\right)=-\lambda\rho_{b}\,,\quad\rm{i}=1,2\,. 
+
+ (47) 
+
+ Due to \phi_{1}=\phi_{2} , these reduce to a single equation for \theta_{+} which is the same equation as the usual SFDM equation for \theta .
+Further, the EMT of our model is 
+
+ \displaystyle T_{\textrm{alt},\alpha\beta}=\frac{1}{2}\sum_{\rm{i}=1}^{2}\left[\frac{\partial f_{\rm{i}}}{\partial K}\left(\nabla_{\alpha}\rho_{\rm{i}}\,\nabla_{\beta}\rho_{\rm{i}}+\rho_{\rm{i}}^{2}\,\nabla_{\alpha}\theta_{\rm{i}}\,\nabla_{\beta}\theta_{\rm{i}}\right)-g_{\alpha\beta}(f_{\rm{i}}-\lambda\,\theta_{\rm{i}}\,\rho_{b})\right]\,. 
+
+ (48) 
+
+ For \phi_{1}=\phi_{2} , this EMT agrees exactly with that of SFDM from Eq. ( 33 ) since the two terms for \rm{i}=1,2 in Eq. ( 48 ) are identical such that they cancel the prefactor of 1/2 . 
+
+ Next, consider the zero-temperature equilibrium equations of motion.
+We assume the same static background metric as in Sec.  4 .
+We introduce a chemical potential \mu_{-} associated with the exact shift symmetry of \theta_{-} by shifting \dot{\theta}_{-}\to\dot{\theta}_{-}+\mu_{-} .
+This shifts \theta_{1} and \theta_{2} with opposite sign, as discussed in Sec.  7 .
+Despite this, the equations of motion of \phi_{1} and \phi_{2} are symmetric under \phi_{1}\leftrightarrow\phi_{2} , if all fields are time independent.
+To see this, consider the \mu_{-} -dependence of K_{1} and K_{2} , 
+
+ \displaystyle K_{1}=\frac{1}{2}\rho_{1}^{2}\,g^{00}\left(\dot{\theta}_{1}+\mu_{-}\right)^{2}+\dots\,, 
+
+ (49a) 
+
+ \displaystyle K_{2}=\frac{1}{2}\rho_{2}^{2}\,g^{00}\left(\dot{\theta}_{2}-\mu_{-}\right)^{2}+\dots\,, 
+
+ (49b) 
+
+ We see that \mu_{-} enters K_{1} and K_{2} with opposite sign.
+But for time-independent fields, this sign cancels due to the square.
+In this case, K_{1} and K_{2} are symmetric under \phi_{1}\leftrightarrow\phi_{2} .
+It follows that the equations of motion for \rho_{1} and \rho_{2} are also symmetric under \phi_{1}\leftrightarrow\phi_{2} .
+This is because these equations depend on \mu_{-} only through K_{1} and K_{2} .
+In the equations of motion of \theta_{1} and \theta_{2} , there is an additional dependence on \mu_{-} , 
+
+ \displaystyle\frac{1}{\sqrt{-g}}\,\partial_{\alpha}\left(\sqrt{-g}\,\frac{\partial f_{1}}{\partial K_{1}}\,\rho_{1}^{2}\left[\nabla^{\alpha}\theta_{1}+g^{\alpha 0}\mu_{-}\right]\right)=-\lambda\rho_{b}\,, 
+
+ (50a) 
+
+ \displaystyle\frac{1}{\sqrt{-g}}\,\partial_{\alpha}\left(\sqrt{-g}\,\frac{\partial f_{2}}{\partial K_{2}}\,\rho_{2}^{2}\left[\nabla^{\alpha}\theta_{2}-g^{\alpha 0}\mu_{-}\right]\right)=-\lambda\rho_{b}\,. 
+
+ (50b) 
+
+ However, this additional \mu_{-} -dependence is multiplied by a time derivative which vanishes for time-independent fields.
+Therefore, also the equations of motion of \theta_{1} and \theta_{2} are symmetric under \phi_{1}\leftrightarrow\phi_{2} .
+It follows that the zero-temperature equilibrium equations of motion of SFDM including a chemical potential \mu_{-}\equiv\mu are recovered for \phi_{1}=\phi_{2} . 
+
+ However, our model does not fully recover SFDM ’s equilibrium EMT .
+This is because the asymmetry induced by \mu_{-} is significant in the EMT .
+In particular, consider the EMT of our model from Eq. ( 48 ), but with a shift \dot{\theta}_{-}\to\dot{\theta}-+\mu_{-} .
+The sign of \mu_{-} is not important in the \mu_{-} -dependence of K_{1} and K_{2} as discussed above.
+Therefore, the -(1/2)g_{\alpha\beta}(f_{i}-\lambda\,\theta_{\rm{i}}\,\rho_{b}) terms are symmetric under \phi_{1}\leftrightarrow\phi_{2} and reproduce the corresponding term of SFDM ’s EMT for \phi_{1}=\phi_{2} .
+This leaves the terms 
+
+ \displaystyle\frac{1}{2}\left(\frac{\partial f_{1}}{\partial K_{1}}\rho_{1}^{2}\,(\partial_{\alpha}\theta_{1}+\delta_{\alpha}^{0}\mu_{-})\,(\partial_{\beta}\theta_{1}+\delta_{\beta}^{0}\mu_{-})+\frac{\partial f_{2}}{\partial K_{2}}\rho_{2}^{2}\,(\partial_{\alpha}\theta_{2}-\delta_{\alpha}^{0}\mu_{-})\,(\partial_{\beta}\theta_{2}-\delta_{\beta}^{0}\mu_{-})\right)\,. 
+
+ (51) 
+
+ If either both or none of \alpha and \beta are zero, the sign of \mu_{-} drops out for time-independent fields.
+Thus, for \phi_{1}=\phi_{2} , our model recovers the corresponding components T_{\alpha\beta} of SFDM ’s equilibrium EMT .
+This leaves the case \alpha=j , \beta=0 for j=1,2,3 .
+For time-independent fields and for \phi_{1}=\phi_{2} , this gives 
+
+ \displaystyle\frac{1}{2}\frac{\partial f}{\partial K}\rho^{2}\left((\partial_{j}\theta)\,\mu_{-}+(\partial_{j}\theta)\,(-\mu_{-})\right)=0\,. 
+
+ (52) 
+
+ where we have identified \rho_{+}\equiv\rho , \theta_{+}\equiv\theta , K_{i}\equiv K , and f_{i}\equiv f for \rm{i}=1,2 .
+We see that the two terms for \rm{i}=1,2 cancel each other due to the asymmetry induced by \mu_{-} .
+Thus, we have T^{0j}_{\textrm{alt}}=0 , while SFDM ’s usual equilibrium EMT has T^{0j}\neq 0 , see Eq. ( 35 ). 
+
+ Appendix B Chemical potential dependence of Z_{\textrm{alt}} 
+
+ In this appendix, we will show that the grand canonical partition function Z_{\textrm{alt}} of \mathcal{L}_{\textrm{alt}} satisfies Z_{\textrm{alt}}(\mu_{-})=Z_{\textrm{alt}}(-\mu_{-}) .
+To obtain this result, we employ a spurion analysis.
+That is, we first note that \mathcal{L}_{\textrm{alt}} has a symmetry (\theta_{1},\theta_{2},\lambda)\to(-\theta_{1},-\theta_{2},-\lambda) .
+This is a generalized charge conjugation symmetry that changes the sign of both Q_{+} and Q_{-} .
+It implies that the sign of \lambda is unphysical.
+Next, we promote \lambda from a parameter to a field that spontaneously breaks this symmetry.
+This does not change the phenomenology of our model if we make \lambda very heavy.
+Concretely, this means we introduce a potential \alpha\,(\lambda^{2}-\lambda_{0}^{2})^{2} for \lambda with very large \alpha .
+Then, \lambda obtains an equilibrium value |\lambda|=|\lambda_{0}| .
+This is because all other terms can be neglected for large enough \alpha .
+In particular, the baryon-phonon coupling -(1/2)\lambda\,(\theta_{1}+\theta_{2})\,\rho_{b} does not influence the \lambda equilibrium value if \alpha is large enough.
+We will exploit this to show Z_{\textrm{alt}}(\mu_{-})=Z_{\textrm{alt}}(-\mu_{-}) .
+We start with the grand canonical partition function Z_{\textrm{alt}}(\mu_{-}) including the field \lambda , 
+
+ Z_{\textrm{alt}}(\mu_{-})=\int\mathcal{D}\pi_{1}\,\mathcal{D}\theta_{1}\,\mathcal{D}\pi_{2}\,\mathcal{D}\theta_{2}\,\mathcal{D}\pi_{\lambda}\,\mathcal{D}\lambda\exp\left[\int d(it)\int d^{3}\vec{x}\right.\\
+\left.\times\left(\pi_{1}\,\dot{\theta}_{1}+\pi_{2}\,\dot{\theta}_{2}+\pi_{\lambda}\dot{\lambda}-\sqrt{-g}\,\mathcal{H}_{\textrm{alt}}(\pi_{1},\theta_{1},\pi_{2},\theta_{2},\pi_{\lambda},\lambda)+\mu_{-}(\pi_{1}-\pi_{2})\right)\right]\,. 
+
+ (53) 
+
+ Here, \mathcal{H}_{\textrm{alt}} is the Hamiltonian density derived form \mathcal{L}_{\textrm{alt}} including the field \lambda .
+Then, we perform a change of variables that corresponds to the generalized charge conjugation mentioned above.
+That is, we switch the sign of all fields in the path integral in Eq. ( 53 ), 
+
+ \displaystyle\pi_{1}\to-\pi_{1}\,,\quad\theta_{1}\to-\theta_{1}\,,\quad\pi_{2}\to-\pi_{2}\,,\quad\theta_{2}\to-\theta_{2}\,,\quad\pi_{\lambda}\to-\pi_{\lambda}\,,\quad\lambda\to-\lambda\,. 
+
+ (54) 
+
+ Due to the symmetry of \mathcal{L}_{\textrm{alt}} , we have 
+
+ \displaystyle\mathcal{H}_{\textrm{alt}}(\pi_{1},\theta_{1},\pi_{2},\theta_{2},\pi_{\lambda},\lambda)=\mathcal{H}_{\textrm{alt}}(-\pi_{1},-\theta_{1},-\pi_{2},-\theta_{2},-\pi_{\lambda},-\lambda)\,. 
+
+ (55) 
+
+ Therefore, the effect of this change of variables is simply to change the sign of the \mu_{-}(\pi_{1}-\pi_{2}) term in the exponent of Eq. ( 53 ).
+Otherwise, Eq. ( 53 ) is unaffected.
+Thus, 
+
+ \displaystyle Z_{\textrm{alt}}(\mu_{-})=Z_{\textrm{alt}}(-\mu_{-})\,. 
+
+ (56) 
+
+ With the same argument, we can also show that the equilibrium ensemble averages of all observables O with 
+
+ \displaystyle O(\pi_{1},\theta_{1},\pi_{2},\theta_{2},\pi_{\lambda},\lambda)=O(-\pi_{1},-\theta_{1},-\pi_{2},-\theta_{2},-\pi_{\lambda},-\lambda) 
+
+ (57) 
+
+ do not depend on the sign of \mu_{-} .
+These are the observables that are invariant under the generalized charge symmetry mentioned above. 
+
+ Alternatively, Z_{\textrm{alt}}(\mu_{-})=Z_{\textrm{alt}}(-\mu_{-}) can be obtained by using the \phi_{1}\leftrightarrow\phi_{2} symmetry of \mathcal{L}_{\textrm{alt}} .
+We chose the spurion analysis since it also works for the approximate equilibrium of SFDM on timescales much shorter than t_{Q} , i.e. we have Z(\mu)=Z(-\mu) . 
+
+ References 
+
+ [1] 
+ Lasha Berezhiani and Justin Khoury
+
+ “Theory of dark matter superfluidity”
+
+ In Phys. Rev. D92.10 , 2015, pp. 103510
+
+ DOI: 10.1103/PhysRevD.92.103510 
+
+ [2] 
+ Lasha Berezhiani, Benoit Famaey and Justin Khoury
+
+ “Phenomenological consequences of superfluid dark matter with baryon-phonon coupling”
+
+ In JCAP 1809.9 , 2018, pp. 021
+
+ DOI: 10.1088/1475-7516/2018/09/021 
+
+ [3] 
+ P. Sikivie and Q. Yang
+
+ “Bose-Einstein Condensation of Dark Matter Axions”
+
+ In Phys. Rev. Lett. 103 , 2009, pp. 111301
+
+ DOI: 10.1103/PhysRevLett.103.111301 
+
+ [4] 
+ Toshifumi Noumi, Ken’ichi Saikawa, Ryosuke Sato and Masahide Yamaguchi
+
+ “Effective gravitational interactions of dark matter axions”
+
+ In Phys. Rev. D89.6 , 2014, pp. 065012
+
+ DOI: 10.1103/PhysRevD.89.065012 
+
+ [5] 
+ Sacha Davidson and Martin Elmer
+
+ “Bose Einstein condensation of the classical axion field in cosmology?”
+
+ In JCAP 1312 , 2013, pp. 034
+
+ DOI: 10.1088/1475-7516/2013/12/034 
+
+ [6] 
+ H.. de Vega and N.. Sanchez
+
+ “Galaxy phase-space density data exclude Bose-Einstein condensate Axion Dark Matter”, 2014
+
+ arXiv: 1401.1214 [astro-ph.CO] 
+
+ [7] 
+ Sacha Davidson
+
+ “Axions: Bose Einstein Condensate or Classical Field?”
+
+ In Astropart. Phys. 65 , 2015, pp. 101–107
+
+ DOI: 10.1016/j.astropartphys.2014.12.007 
+
+ [8] 
+ Alan. Guth, Mark. Hertzberg and C. Prescod-Weinstein
+
+ “Do Dark Matter Axions Form a Condensate with Long-Range Correlation?”
+
+ In Phys. Rev. D92.10 , 2015, pp. 103513
+
+ DOI: 10.1103/PhysRevD.92.103513 
+
+ [9] 
+ Anthony Aguirre and Alberto Diez-Tejedor
+
+ “Asymmetric condensed dark matter”
+
+ In JCAP 1604.04 , 2016, pp. 019
+
+ DOI: 10.1088/1475-7516/2016/04/019 
+
+ [10] 
+ P.. Dev, Manfred Lindner and Sebastian Ohmer
+
+ “Gravitational waves as a new probe of Bose–Einstein condensate Dark Matter”
+
+ In Phys. Lett. B773 , 2017, pp. 219–224
+
+ DOI: 10.1016/j.physletb.2017.08.043 
+
+ [11] 
+ Joshua Eby, Michael Ma, Peter Suranyi and L… Wijewardhana
+
+ “Decay of Ultralight Axion Condensates”
+
+ In JHEP 01 , 2018, pp. 066
+
+ DOI: 10.1007/JHEP01(2018)066 
+
+ [12] 
+ Souvik Sarkar, Cenalo Vaz and L… Wijewardhana
+
+ “Gravitationally Bound Bose Condensates with Rotation”
+
+ In Phys. Rev. D97.10 , 2018, pp. 103022
+
+ DOI: 10.1103/PhysRevD.97.103022 
+
+ [13] 
+ M. Milgrom
+
+ “A Modification of the Newtonian dynamics as a possible alternative to the hidden mass hypothesis”
+
+ In Astrophys. J. 270 , 1983, pp. 365–370
+
+ DOI: 10.1086/161130 
+
+ [14] 
+ M. Milgrom
+
+ “A modification of the Newtonian dynamics: implications for galaxy systems”
+
+ In Astrophys. J. 270 , 1983, pp. 384–389
+
+ DOI: 10.1086/161132 
+
+ [15] 
+ J. Bekenstein and Mordehai Milgrom
+
+ “Does the missing mass problem signal the breakdown of Newtonian gravity?”
+
+ In Astrophys. J. 286 , 1984, pp. 7–14
+
+ DOI: 10.1086/162570 
+
+ [16] 
+ S. Boran, S. Desai, E.. Kahya and R.. Woodard
+
+ “GW170817 Falsifies Dark Matter Emulators”
+
+ In Phys. Rev. D97.4 , 2018, pp. 041501
+
+ DOI: 10.1103/PhysRevD.97.041501 
+
+ [17] 
+ R.. Sanders
+
+ “Does GW170817 falsify MOND?”
+
+ In Int. J. Mod. Phys. D27.14 , 2018, pp. 14
+
+ DOI: 10.1142/S0218271818470272 
+
+ [18] 
+ Sabine Hossenfelder and Tobias Mistele
+
+ “Strong lensing with superfluid dark matter”
+
+ In JCAP 1902.2 , 2019, pp. 001
+
+ DOI: 10.1088/1475-7516/2019/02/001 
+
+ [19] 
+ Andreas Schmitt
+
+ “Introduction to Superfluidity”
+
+ In Lect. Notes Phys. 888 , 2015, pp. pp.1–155
+
+ DOI: 10.1007/978-3-319-07947-9 
+
+ [20] 
+ J.. Bekenstein
+
+ “The missing light puzzle: a hint about gravitation?”
+
+ In Proceedings of the 2nd Canadian Conference on General Relativity and Relativistic Astrophysics , 1988, pp. 68–104
+
+ [21] 
+ Jacob. Bekenstein
+
+ “Phase coupling gravitation: Symmetries and gauge fields”
+
+ In Physics Letters B 202.4 , 1988, pp. 497–500
+
+ DOI: 10.1016/0370-2693(88)91851-5 
+
+ [22] 
+ L. Bass and E. Schrödinger
+
+ “Must the Photon Mass be Zero?”
+
+ In Proceedings of the Royal Society of London Series A 232 , 1955, pp. 1–6
+
+ DOI: 10.1098/rspa.1955.0197 
+
+ [23] 
+ J. Torres-Hernandez
+
+ “Photon mass and black body radiation.”
+
+ In Physical Review A 32 , 1985, pp. 623
+
+ DOI: 10.1103/PhysRevA.32.623 
+
+ [24] 
+ Joseph. Kapusta
+
+ “Bose-Einstein Condensation, Spontaneous Symmetry Breaking, and Gauge Theories”
+
+ In Phys. Rev. D24 , 1981, pp. 426–439
+
+ DOI: 10.1103/PhysRevD.24.426 
+
+ [25] 
+ Howard. Haber and H. Weldon
+
+ “Finite Temperature Symmetry Breaking as Bose-Einstein Condensation”
+
+ In Phys. Rev. D25 , 1982, pp. 502
+
+ DOI: 10.1103/PhysRevD.25.502 
+
+ [26] 
+ Neven Bilic
+
+ “Thermodynamics of k-essence”
+
+ In Phys. Rev. D78 , 2008, pp. 105012
+
+ DOI: 10.1103/PhysRevD.78.105012 
+
+ [27] 
+ Steven Weinberg
+
+ “The Quantum theory of fields. Vol. 1: Foundations”
+
+ Cambridge University Press, 2005
+
+ [28] 
+ Elisa.. Ferreira, Guilherme Franzmann, Justin Khoury and Robert Brandenberger
+
+ “Unified superfluid dark sector”
+
+ In JCAP 2019.8 , 2019, pp. 027
+
+ DOI: 10.1088/1475-7516/2019/08/027 
+
+ [29] 
+ Roberto Livi and Paolo Politi
+
+ “Nonequilibrium Statistical Physics”
+
+ In Nonequilibrium Statistical Physics, by Roberto Livi , Paolo Politi, Cambridge, UK: Cambridge University Press, 2017 , 2017
+
+ [30] 
+ Anushrut Sharma, Justin Khoury and Tom Lubensky
+
+ “The equation of state of dark matter superfluids”
+
+ In JCAP 1905.5 , 2019, pp. 054
+
+ DOI: 10.1088/1475-7516/2019/05/054 
+
+ ◄ 
+
+ Feeling lucky? 
+
+ Conversion report 
+ Report an issue 
+ View original on arXiv ► 
+
+ Copyright 
+ Privacy Policy 
+
+ Generated by L a T e XML oxide 
+
+ 

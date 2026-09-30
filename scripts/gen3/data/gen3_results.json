@@ -1,0 +1,111 @@
+{
+ "loop_floor": {
+  "0.05": {
+   "N1": 166,
+   "N2": 9,
+   "dex_1s": 0.0319935498017282,
+   "dex_2s": 0.03823619366548005,
+   "pct_1s": 7.644922594685033,
+   "pct_2s": 9.203408428080607
+  },
+  "0.1": {
+   "N1": 157,
+   "N2": 18,
+   "dex_1s": 0.02326224627826874,
+   "dex_2s": 0.027801221161833378,
+   "pct_1s": 5.502377425174121,
+   "pct_2s": 6.610804635612277
+  },
+  "0.2": {
+   "N1": 140,
+   "N2": 35,
+   "dex_1s": 0.01766605946845128,
+   "dex_2s": 0.021113095462295433,
+   "pct_1s": 4.15162719660267,
+   "pct_2s": 4.9815777607250755
+  },
+  "0.3": {
+   "N1": 123,
+   "N2": 52,
+   "dex_1s": 0.015462634863537227,
+   "dex_2s": 0.018479734349105468,
+   "pct_1s": 3.624544576153954,
+   "pct_2s": 4.3469439775661645
+  }
+ },
+ "r8_floor": {
+  "r": 0.14816207341961707,
+  "var_pct": 2.1952
+ },
+ "phase_spectrum": {
+  "maxwell_tan_delta": "1/(w*tau_M)",
+  "debye_tan_delta": "w*tau",
+  "drivers": {
+   "bar pattern": 0.21,
+   "SFH episodes": 0.5,
+   "satellite passage": 0.3,
+   "post-starburst recovery": 1.0
+  }
+ },
+ "wave_floor": {
+  "1e10": {
+   "t_dyn_Gyr": 0.029557300768325124,
+   "wave_period_cap_Gyr": 0.1857139979074283
+  },
+  "1e11": {
+   "t_dyn_Gyr": 0.05291539331727638,
+   "wave_period_cap_Gyr": 0.3324772218147398
+  }
+ },
+ "wave_theorem": "at the knee, any wave family's period <= 2*pi*t_dyn; deep-window (1-5 Gyr) response at the knee is necessarily overdamped/relaxational = memory",
+ "doors": {
+  "A": {
+   "door": "A viscoelastic",
+   "tau_0.1": {
+    "ratio": 1.8898092545662124,
+    "eta_verl": 13570.8,
+    "eta_wall": 161913.89788871727
+   },
+   "tau_0.5": {
+    "ratio": 9.449046272831062,
+    "eta_verl": 67854.0,
+    "eta_wall": 809569.4894435863
+   },
+   "tau_1.0": {
+    "ratio": 18.898092545662124,
+    "eta_verl": 135708.0,
+    "eta_wall": 1619138.9788871726
+   },
+   "tau_5.0": {
+    "ratio": 94.49046272831062,
+    "eta_verl": 678540.0,
+    "eta_wall": 8095694.894435863
+   }
+  },
+  "B": {
+   "door": "B marginal equilibrium",
+   "tau_0.5": {
+    "three_g_minus_4": 0.7369406868376513,
+    "gamma": 1.5789802289458839,
+    "pct_from_marginal": 18.423517170941295
+   },
+   "tau_1.0": {
+    "three_g_minus_4": 0.18423517170941284,
+    "gamma": 1.394745057236471,
+    "pct_from_marginal": 4.605879292735332
+   },
+   "tau_5.0": {
+    "three_g_minus_4": 0.007369406868376512,
+    "gamma": 1.335789802289459,
+    "pct_from_marginal": 0.18423517170942927
+   }
+  },
+  "C": {
+   "door": "C frozen creep"
+  }
+ },
+ "crosschecks": {
+  "mu_wall_1e11": 5.130351644129191e-11,
+  "verlinde_frac": 0.08381491753924146
+ }
+}
