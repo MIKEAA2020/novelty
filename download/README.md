@@ -324,3 +324,61 @@ data); generative harvest is not profundity, demonstrated on the
 grandest scale the census has held. No dead theory passes any
 discriminator under any of the ten readings. The kit stands at twelve
 theories; the ledger is open. Continue.
+
+**Amendment A4g — The Fourth Delivery and the Seventh Pair** (the
+multi-family delivery; the earth sciences enter)
+- `Profound_Novelty_A4g_The_Fourth_Delivery_and_the_Seventh_Pair.pdf` —
+  22 pages
+- `Profound_Novelty_A4g_cover_source.html` — editable cover source
+- `Profound_Novelty_A4g_fourth_delivery_verbatim.md` — the delivery
+  archived exactly as received, provenance header (three families at
+  once: deepseek, opus delivered twice and the double delivery verified
+  identical on all 108 cells, gemini 3.1 pro preview)
+- `Profound_Novelty_A4g_sixth_blind_coding.md` — the sixth blind
+  reading's complete output (fourteen-theory panel)
+- `Profound_Novelty_A4g_replication_kit_fourteen_theories.md` — the kit
+  re-issued at fourteen theories: the verbatim prompt for the next
+  alien reader, from any family, run by anyone
+
+The standing offer was accepted a fourth time — and for the first time
+by three readers at once, the first multi-family delivery. The three
+do not converge cell for cell (mutuals 85.2-85.6 against the first two
+families' 97.8), and their mutual comparisons produce the first
+distant disagreements ever recorded between external families: nine in
+all, every single one landing on a cell the census had already marked
+as a fork — the amendments' map of the instrument's elasticity
+confirmed by the first readers ever to cross it. The outgroup test's
+fourth round doubles the external panel: six families now stand
+against the family's six readings, deepseek lands inside the family
+band (90.6, the first external reading clearly to do so), and the
+lineage offset is revealed across its full range — zero to about four
+and a half points, a reader property, not a constant. Alongside them,
+the seventh matched pair the extension rule queued into the earth
+sciences: the fixity of the crust against plate tectonics — three
+weapons forged inside the dead program's own institutions (Lamont's
+survey vessels minting the ridge maps, the era's seismic networks
+minting the Wadati-Benioff zones, the establishment's
+paleomagnetism minting the reversal clock), the executioner's data
+the dead settlement's own mint. Admitted under CR-1..CR-4,
+pre-registered before a sixth blind reading ran the widened
+fourteen-theory panel, adjudicated under the pre-registered rules:
+the crust's unification falls to the miasma precedent, its embedding
+splits into the census's ninth dual (the isostasy machinery bequest
+against the ownership question), and its crisis holds on the
+fixity-of-species pattern. The plate pre-registration is confirmed
+nine cells for nine — the series' first living-side exact — and the
+middle band replicates in a fourth domain, the formalism row landing
+on the data-rereading face (Vine-Matthews' tape recorder): the
+census's first non-physics resident whose founding act is a rereading
+of held maps. The sixth blind reading scores 91.2 against the census,
+the highest of any reading yet, with zero distant cells. Gemini's
+ether line — the first reading ever to score a corpse S on three of
+the five discriminators at once — is tried cell by cell and declined
+on rulings printed before it was delivered; two new duals are minted
+by the readers' own convergence (the ether's and the epicycle
+tradition's formalism cells, the same agent-question fork as
+Newton's). The findings: the census stands at seven dead and seven
+living theories, thirteen readings, nine duals, the domain-marked
+constant failed in a fourth discipline, and no killing clause fired
+under any reading anywhere in the record. The kit stands at fourteen
+theories; the ledger is open. Continue.

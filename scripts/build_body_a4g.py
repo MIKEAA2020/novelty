@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Build the body PDF for 'The Second Family: Profound Novelty, Amendment
-A4e'. Report route (ReportLab). Cover rendered separately via html2poster.js
-and merged with pypdf afterwards (see merge_a4e.py)."""
+"""Build the body PDF for 'The Fourth Delivery and the Seventh Pair:
+Profound Novelty, Amendment A4g'. Report route (ReportLab). Cover rendered
+separately via html2poster.js and merged with pypdf afterwards
+(see merge_a4g.py)."""
 
 import os
 import sys
@@ -27,8 +28,8 @@ sys.path.insert(0, os.path.join(PDF_SKILL_DIR, "scripts"))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from pdf import install_font_fallback  # noqa: E402
-import a4e_content as CA               # noqa: E402
-import a4e_content_b as CB             # noqa: E402
+import a4g_content as CA               # noqa: E402
+import a4g_content_b as CB             # noqa: E402
 
 
 # Glue em-dashes to the preceding word (NBSP) so a dash can never start a
@@ -75,7 +76,7 @@ install_font_fallback()
 
 # ------------------------------------------------------------- palette -----
 # Cascade palette (design_engine.py palette-cascade --intent calm --mode minimal
-# --seed 1687) — identical to Volumes I-IV and Amendments A3/A4/A4b/A4c/A4d
+# --seed 1687) — identical to Volumes I-IV and Amendments A3/A4/A4b-A4f
 # for series continuity.
 PAGE_BG       = colors.HexColor("#f0f1f1")
 SECTION_BG     = colors.HexColor("#f0f1f2")
@@ -104,8 +105,8 @@ AVAIL_W = PAGE_W - 2 * MARGIN
 AVAIL_H = PAGE_H - TOP_M - BOT_M
 MAX_KEEP_HEIGHT = A4[1] * 0.4
 
-OUT_PATH = "/home/z/my-project/scripts/body_a4e.pdf"
-DIAGRAM = "/home/z/my-project/scripts/diagram10.png"
+OUT_PATH = "/home/z/my-project/scripts/body_a4g.pdf"
+DIAGRAM = "/home/z/my-project/novelty/scripts/diagram12.png"
 
 # -------------------------------------------------------------- styles -----
 body_style = ParagraphStyle(
@@ -320,25 +321,28 @@ def nums_callout():
         ("BOX", (0, 0), (-1, -1), 1, ACCENT),
         ("LINEBEFORE", (1, 0), (2, -1), 0.5, BORDER),
         ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
-        ("TOPPADDING", (0, 0), (-1, 0), 10),
-        ("BOTTOMPADDING", (0, 0), (-1, 0), 2),
+        ("TOPPADDING", (0, 0), (-1, 0), 16),
+        ("BOTTOMPADDING", (0, 0), (-1, 0), 4),
         ("TOPPADDING", (0, 1), (-1, 1), 0),
         ("BOTTOMPADDING", (0, 1), (-1, 1), 2),
-        ("TOPPADDING", (0, 2), (-1, 2), 2),
-        ("BOTTOMPADDING", (0, 2), (-1, 2), 10),
+        ("TOPPADDING", (0, 2), (-1, 2), 4),
+        ("BOTTOMPADDING", (0, 2), (-1, 2), 16),
         ("LEFTPADDING", (0, 0), (-1, -1), 8),
         ("RIGHTPADDING", (0, 0), (-1, -1), 8),
     ]))
     cap = Paragraph(CALLOUT_CAPTION, caption_style)
     # No trailing spacer: this block is the document's final flowable; a
     # trailing spacer here spills onto a contentless last page.
-    return [Spacer(1, 16)] + safe_keep_together([t, Spacer(1, 6), cap])
+    return [Spacer(1, 22)] + safe_keep_together([t, Spacer(1, 8), cap])
 
 
-CALLOUT_CAPTION = ("The two readings' own numbers: the offer accepted twice "
-                   "more, the outgroup converging above the family band, and "
-                   "the census's elastic map confirmed by a second family "
-                   "that had never seen the instrument before.")
+CALLOUT_CAPTION = ("This amendment's own numbers: the record census "
+                   "agreement from the sixth blind reading, the series' "
+                   "first living-side exact pre-registration, and the "
+                   "census's final shape — seven matched pairs, "
+                   "fourteen theories, thirteen readings, nine duals, "
+                   "six external families, and every killing clause "
+                   "unfired under every one of them.")
 
 # ---------------------------------------------------------------- story ----
 story = []
@@ -356,55 +360,57 @@ story += chapter_block("1", CA.CHAPTERS[0][1], CA.CH1_S1[0])
 story += blockquote(*CA.CH1_QUOTE_NOTES)
 for p in CA.CH1_S1[1:]:
     story.append(Paragraph(p, body_style))
-story += table_block(CA.TABLE1_HEADER, CA.TABLE1_ROWS, [0.20, 0.17, 0.13, 0.50],
+story += table_block(CA.TABLE1_HEADER, CA.TABLE1_ROWS, [0.07, 0.20, 0.16, 0.57],
                      CA.TABLE1_CAPTION)
 
 # --- Chapter 2 ---
 story += chapter_block("2", CA.CHAPTERS[1][1], CA.CH2_S1[0])
-story += figure_block(DIAGRAM, CA.FIG1_CAPTION, AVAIL_W, A4[1] * 0.40)
+story += figure_block(DIAGRAM, CA.FIG1_CAPTION, AVAIL_W, A4[1] * 0.42)
 for p in CA.CH2_S1[1:]:
     story.append(Paragraph(p, body_style))
 
 # --- Chapter 3 ---
 story += chapter_block("3", CA.CHAPTERS[2][1], CA.CH3_S1[0])
-story += table_block(CA.G10_MATRIX_HEADER, CA.TABLE2_ROWS, CA.G10_MATRIX_RATIOS,
-                     CA.TABLE2_CAPTION, center_from=1)
 story.append(Paragraph(CA.CH3_S1[1], body_style))
-story += table_block(CA.G10_MATRIX_HEADER, CA.TABLE3_ROWS, CA.G10_MATRIX_RATIOS,
-                     CA.TABLE3_CAPTION, center_from=1)
 story.append(Paragraph(CA.CH3_S1[2], body_style))
-story += blockquote(*CB.CH3_QUOTE_GROK)
+story += table_block(CA.MATRIX_HEADER, CA.TABLE2_ROWS, CA.MATRIX_RATIOS,
+                     CA.TABLE2_CAPTION, center_from=1)
+story += table_block(CA.MATRIX_HEADER, CA.TABLE3_ROWS, CA.MATRIX_RATIOS,
+                     CA.TABLE3_CAPTION, center_from=1)
+story += table_block(CA.MATRIX_HEADER, CA.TABLE4_ROWS, CA.MATRIX_RATIOS,
+                     CA.TABLE4_CAPTION, center_from=1)
+story += blockquote(*CA.CH3_QUOTE)
 
 # --- Chapter 4 ---
 story += chapter_block("4", CA.CHAPTERS[3][1], CB.CH4_S1[0])
-story += table_block(CB.TABLE4_HEADER, CB.TABLE4_ROWS, [0.46, 0.10, 0.14, 0.30],
-                     CB.TABLE4_CAPTION, allow_split=True)
+story += table_block(CB.TABLE5_HEADER, CB.TABLE5_ROWS, CB.TABLE5_RATIOS,
+                     CB.TABLE5_CAPTION, center_from=1, allow_split=True)
 story.append(Paragraph(CB.CH4_S1[1], body_style))
-story += table_block(CB.TABLE5_HEADER, CB.TABLE5_ROWS, [0.34, 0.33, 0.33],
-                     CB.TABLE5_CAPTION)
-story += table_block(CB.TABLE6_HEADER, CB.TABLE6_ROWS,
-                     [0.28, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.23],
-                     CB.TABLE6_CAPTION, center_from=1)
+story += table_block(CB.TABLE6_HEADER, CB.TABLE6_ROWS, CB.TABLE6_RATIOS,
+                     CB.TABLE6_CAPTION, allow_split=True)
 story.append(Paragraph(CB.CH4_S1[2], body_style))
+story += table_block(CB.TABLE7_HEADER, CB.TABLE7_ROWS, CB.TABLE7_RATIOS,
+                     CB.TABLE7_CAPTION)
+story += table_block(CB.TABLE8_HEADER, CB.TABLE8_ROWS, CB.TABLE8_RATIOS,
+                     CB.TABLE8_CAPTION, center_from=1, allow_split=True)
+story += blockquote(*CB.CH4_QUOTE)
 
 # --- Chapter 5 ---
 story += chapter_block("5", CA.CHAPTERS[4][1], CB.CH5_S1[0])
-story.append(Paragraph(CB.CH5_S1[1], body_style))
-story.append(Paragraph(CB.CH5_S1[2], body_style))
-story += blockquote(*CB.CH5_QUOTE_GPT)
-story.append(Paragraph(CB.CH5_S1[3], body_style))
-story += table_block(CB.TABLE7_HEADER, CB.TABLE7_ROWS, [0.15, 0.12, 0.42, 0.31],
-                     CB.TABLE7_CAPTION, allow_split=True)
+for p in CB.CH5_S1[1:4]:
+    story.append(Paragraph(p, body_style))
+story += table_block(CB.TABLE9_HEADER, CB.TABLE9_ROWS, CB.TABLE9_RATIOS,
+                     CB.TABLE9_CAPTION, allow_split=True)
 
 # --- Chapter 6 ---
 story += chapter_block("6", CA.CHAPTERS[5][1], CB.CH6_S1[0])
-story += table_block(CB.TABLE8_HEADER, CB.TABLE8_ROWS, CB.TABLE8_RATIOS,
-                     CB.TABLE8_CAPTION, allow_split=True)
+story += table_block(CB.TABLE10_HEADER, CB.TABLE10_ROWS, CB.TABLE10_RATIOS,
+                     CB.TABLE10_CAPTION, center_from=1, allow_split=True)
 story.append(Paragraph(CB.CH6_S1[1], body_style))
-story += table_block(CB.TABLE9_HEADER, CB.TABLE9_ROWS, CB.TABLE9_RATIOS,
-                     CB.TABLE9_CAPTION)
+story += table_block(CB.TABLE11_HEADER, CB.TABLE11_ROWS, CB.TABLE11_RATIOS,
+                     CB.TABLE11_CAPTION, center_from=1)
 story.append(Paragraph(CB.CH6_S1[2], body_style))
-story.append(Paragraph(CB.CH6_S1[3], body_style))
+story += blockquote(*CB.CH6_QUOTE)
 story += nums_callout()
 
 # ---------------------------------------------------------------- build ----

@@ -1,0 +1,466 @@
+============================================================================
+A4g UNBLINDING - FOURTH DELIVERY (3 FAMILIES) + SIXTH BLIND READING + SEVENTH PAIR
+============================================================================
+
+----------------------------------------------------------------------------
+PART 1 - THE THREE NEW FAMILIES AMONG THEMSELVES (T12 panels)
+----------------------------------------------------------------------------
+
+DEEPSEEK vs OPUS (108 cells): weighted 92.0/108 = 85.2% | exact 78/108, adjacent 28, distant 2
+    DISTANT: P5/ether [F vs S]
+    DISTANT: P6/caloric [S vs F]
+
+DEEPSEEK vs GEMINI (108 cells): weighted 92.5/108 = 85.6% | exact 83/108, adjacent 19, distant 6
+    DISTANT: P1/ether [F vs S]
+    DISTANT: P3/ether [F vs S]
+    DISTANT: P4/darwin [S vs F]
+    DISTANT: P5/ether [F vs S]
+    DISTANT: P6/caloric [S vs F]
+    DISTANT: P6/newton [S vs F]
+
+OPUS vs GEMINI (108 cells): weighted 92.5/108 = 85.6% | exact 78/108, adjacent 29, distant 1
+    DISTANT: P4/darwin [S vs F]
+
+-- for scale, the prior aliens' mutuals (A4e/A4f) --
+   GPT-10 vs GROK-10: 97.8% (both 100% with GPT-8)
+   CLAUDE-10 vs GPT-10 / GROK-10: 86.7% / 86.7%
+
+-- the new three vs the prior three (shared ten, 90 cells) --
+
+DEEPSEEK vs GPT-10 (90): weighted 76.0/90 = 84.4% | exact 62/90, adjacent 28, distant 0
+
+DEEPSEEK vs GROK-10 (90): weighted 77.0/90 = 85.6% | exact 64/90, adjacent 26, distant 0
+
+DEEPSEEK vs CLAUDE-10 (90): weighted 75.0/90 = 83.3% | exact 62/90, adjacent 26, distant 2
+    DISTANT: P5/germ [F vs S]
+    DISTANT: P5/ether [F vs S]
+
+OPUS vs GPT-10 (90): weighted 82.5/90 = 91.7% | exact 75/90, adjacent 15, distant 0
+
+OPUS vs GROK-10 (90): weighted 82.5/90 = 91.7% | exact 75/90, adjacent 15, distant 0
+
+OPUS vs CLAUDE-10 (90): weighted 81.5/90 = 90.6% | exact 73/90, adjacent 17, distant 0
+
+GEMINI vs GPT-10 (90): weighted 76.0/90 = 84.4% | exact 62/90, adjacent 28, distant 0
+
+GEMINI vs GROK-10 (90): weighted 77.0/90 = 85.6% | exact 65/90, adjacent 24, distant 1
+    DISTANT: P3/thermo [S vs F]
+
+GEMINI vs CLAUDE-10 (90): weighted 77.0/90 = 85.6% | exact 65/90, adjacent 24, distant 1
+    DISTANT: P5/germ [F vs S]
+
+----------------------------------------------------------------------------
+PART 2 - OUTGROUP TEST v4 (family band extended with B6)
+----------------------------------------------------------------------------
+
+FAMILY: B6 vs A (54): weighted 49.0/54 = 90.7% | exact 44/54, adjacent 10, distant 0
+
+FAMILY: B6 vs B (54): weighted 50.0/54 = 92.6% | exact 46/54, adjacent 8, distant 0
+
+FAMILY: B6 vs X3 (72): weighted 67.5/72 = 93.8% | exact 63/72, adjacent 9, distant 0
+
+FAMILY: B6 vs B4 (90): weighted 83.0/90 = 92.2% | exact 76/90, adjacent 14, distant 0
+
+FAMILY: B6 vs B5 (108): weighted 100.5/108 = 93.1% | exact 94/108, adjacent 13, distant 1
+    DISTANT: P6/ether [S vs F]
+
+>>> B6's family agreements: 90.7%, 92.6%, 93.8%, 92.2%, 93.1% | mean 92.5%
+>>> (A4f family mutual band: 88.0-94.4, mean 90.8)
+
+-- the six aliens vs the family readings (shared cells) --
+
+GPT-10 vs A (54): weighted 47.0/54 = 87.0% | exact 40/54, adjacent 14, distant 0
+
+GPT-10 vs B (54): weighted 47.0/54 = 87.0% | exact 40/54, adjacent 14, distant 0
+
+GPT-10 vs X3 (72): weighted 62.0/72 = 86.1% | exact 52/72, adjacent 20, distant 0
+
+GPT-10 vs B4 (90): weighted 77.5/90 = 86.1% | exact 65/90, adjacent 25, distant 0
+
+GPT-10 vs B5 (90): weighted 77.0/90 = 85.6% | exact 64/90, adjacent 26, distant 0
+
+GPT-10 vs B6 (90): weighted 78.5/90 = 87.2% | exact 67/90, adjacent 23, distant 0
+  >>> GPT-10 vs family mean: 86.5%
+
+GROK-10 vs A (54): weighted 47.0/54 = 87.0% | exact 40/54, adjacent 14, distant 0
+
+GROK-10 vs B (54): weighted 47.0/54 = 87.0% | exact 40/54, adjacent 14, distant 0
+
+GROK-10 vs X3 (72): weighted 62.0/72 = 86.1% | exact 52/72, adjacent 20, distant 0
+
+GROK-10 vs B4 (90): weighted 78.5/90 = 87.2% | exact 67/90, adjacent 23, distant 0
+
+GROK-10 vs B5 (90): weighted 78.0/90 = 86.7% | exact 66/90, adjacent 24, distant 0
+
+GROK-10 vs B6 (90): weighted 79.5/90 = 88.3% | exact 69/90, adjacent 21, distant 0
+  >>> GROK-10 vs family mean: 87.1%
+
+CLAUDE-10 vs A (54): weighted 47.5/54 = 88.0% | exact 41/54, adjacent 13, distant 0
+
+CLAUDE-10 vs B (54): weighted 48.5/54 = 89.8% | exact 43/54, adjacent 11, distant 0
+
+CLAUDE-10 vs X3 (72): weighted 62.5/72 = 86.8% | exact 53/72, adjacent 19, distant 0
+
+CLAUDE-10 vs B4 (90): weighted 80.5/90 = 89.4% | exact 72/90, adjacent 17, distant 1
+    DISTANT: P9/phl [S vs F]
+
+CLAUDE-10 vs B5 (90): weighted 78.0/90 = 86.7% | exact 66/90, adjacent 24, distant 0
+
+CLAUDE-10 vs B6 (90): weighted 78.5/90 = 87.2% | exact 67/90, adjacent 23, distant 0
+  >>> CLAUDE-10 vs family mean: 88.0%
+
+DEEPSEEK vs A (54): weighted 49.5/54 = 91.7% | exact 46/54, adjacent 7, distant 1
+    DISTANT: P5/ether [F vs S]
+
+DEEPSEEK vs B (54): weighted 48.5/54 = 89.8% | exact 44/54, adjacent 9, distant 1
+    DISTANT: P5/ether [F vs S]
+
+DEEPSEEK vs X3 (72): weighted 67.0/72 = 93.1% | exact 62/72, adjacent 10, distant 0
+
+DEEPSEEK vs B4 (90): weighted 79.5/90 = 88.3% | exact 69/90, adjacent 21, distant 0
+
+DEEPSEEK vs B5 (90): weighted 81.0/90 = 90.0% | exact 75/90, adjacent 12, distant 3
+    DISTANT: P5/ether [F vs S]
+    DISTANT: P6/caloric [S vs F]
+    DISTANT: P6/ether [S vs F]
+
+DEEPSEEK vs B6 (90): weighted 81.5/90 = 90.6% | exact 73/90, adjacent 17, distant 0
+  >>> DEEPSEEK vs family mean: 90.6%
+
+OPUS vs A (54): weighted 47.5/54 = 88.0% | exact 41/54, adjacent 13, distant 0
+
+OPUS vs B (54): weighted 47.5/54 = 88.0% | exact 41/54, adjacent 13, distant 0
+
+OPUS vs X3 (72): weighted 64.5/72 = 89.6% | exact 57/72, adjacent 15, distant 0
+
+OPUS vs B4 (90): weighted 78.0/90 = 86.7% | exact 66/90, adjacent 24, distant 0
+
+OPUS vs B5 (90): weighted 78.5/90 = 87.2% | exact 67/90, adjacent 23, distant 0
+
+OPUS vs B6 (90): weighted 78.0/90 = 86.7% | exact 66/90, adjacent 24, distant 0
+  >>> OPUS vs family mean: 87.7%
+
+GEMINI vs A (54): weighted 47.5/54 = 88.0% | exact 44/54, adjacent 7, distant 3
+    DISTANT: P3/ether [S vs F]
+    DISTANT: P6/epi [F vs S]
+    DISTANT: P6/newton [F vs S]
+
+GEMINI vs B (54): weighted 46.5/54 = 86.1% | exact 41/54, adjacent 11, distant 2
+    DISTANT: P6/epi [F vs S]
+    DISTANT: P6/newton [F vs S]
+
+GEMINI vs X3 (72): weighted 63.0/72 = 87.5% | exact 56/72, adjacent 14, distant 2
+    DISTANT: P1/ether [S vs F]
+    DISTANT: P3/ether [S vs F]
+
+GEMINI vs B4 (90): weighted 78.5/90 = 87.2% | exact 69/90, adjacent 19, distant 2
+    DISTANT: P1/ether [S vs F]
+    DISTANT: P3/ether [S vs F]
+
+GEMINI vs B5 (90): weighted 80.0/90 = 88.9% | exact 71/90, adjacent 18, distant 1
+    DISTANT: P3/ether [S vs F]
+
+GEMINI vs B6 (90): weighted 80.5/90 = 89.4% | exact 71/90, adjacent 19, distant 0
+  >>> GEMINI vs family mean: 87.9%
+
+----------------------------------------------------------------------------
+PART 3 - THE NEW READINGS vs THE CENSUS (post-A4f state)
+----------------------------------------------------------------------------
+
+DEEPSEEK vs census (108 cells): weighted 98.0/108 = 90.7% | exact 88/108, adjacent 20, distant 0
+
+OPUS vs census (108 cells): weighted 97.0/108 = 89.8% | exact 86/108, adjacent 22, distant 0
+
+GEMINI vs census (108 cells): weighted 93.5/108 = 86.6% | exact 83/108, adjacent 21, distant 4
+    DISTANT: P3/ether [S vs F]
+    DISTANT: P4/darwin [F vs S]
+    DISTANT: P6/epi [F vs S]
+    DISTANT: P6/newton [F vs S]
+
+B6 vs census (108 cells): weighted 98.5/108 = 91.2% | exact 89/108, adjacent 19, distant 0
+
+DEEPSEEK vs census DEAD (54): weighted 46.5/54 = 86.1% | exact 39/54, adjacent 15, distant 0
+
+DEEPSEEK vs census LIVING (54): weighted 51.5/54 = 95.4% | exact 49/54, adjacent 5, distant 0
+
+OPUS vs census DEAD (54): weighted 46.0/54 = 85.2% | exact 38/54, adjacent 16, distant 0
+
+OPUS vs census LIVING (54): weighted 51.0/54 = 94.4% | exact 48/54, adjacent 6, distant 0
+
+GEMINI vs census DEAD (54): weighted 45.0/54 = 83.3% | exact 38/54, adjacent 14, distant 2
+    DISTANT: P3/ether [S vs F]
+    DISTANT: P6/epi [F vs S]
+
+GEMINI vs census LIVING (54): weighted 48.5/54 = 89.8% | exact 45/54, adjacent 7, distant 2
+    DISTANT: P4/darwin [F vs S]
+    DISTANT: P6/newton [F vs S]
+
+B6 vs census DEAD (54): weighted 47.0/54 = 87.0% | exact 40/54, adjacent 14, distant 0
+
+B6 vs census LIVING (54): weighted 51.5/54 = 95.4% | exact 49/54, adjacent 5, distant 0
+
+----------------------------------------------------------------------------
+PART 4 - PER-POINT BANDS (new readings vs census, 12 cells each)
+----------------------------------------------------------------------------
+P1 Deletion at birth        D 11.0/12 = 91.7% O 9.5/12 = 79.2% G 11.5/12 = 95.8% B6 12.0/12 = 100.0%
+P2 Unification              D 11.5/12 = 95.8% O 12.0/12 = 100.0% G 11.0/12 = 91.7% B6 10.0/12 = 83.3%
+P3 Universal constant       D 12.0/12 = 100.0% O 11.0/12 = 91.7% G 10.5/12 = 87.5% B6 11.5/12 = 95.8%
+P4 Derivation-first         D 10.5/12 = 87.5% O 9.5/12 = 79.2% G 8.5/12 = 70.8% B6 11.0/12 = 91.7%
+P5 Conservative embedding   D 10.0/12 = 83.3% O 11.0/12 = 91.7% G 9.5/12 = 79.2% B6 11.0/12 = 91.7%
+P6 Formalism / meaning      D 10.5/12 = 87.5% O 9.0/12 = 75.0% G 9.0/12 = 75.0% B6 11.0/12 = 91.7%
+P7 Founders' resistance     D 9.5/12 = 79.2% O 11.5/12 = 95.8% G 10.5/12 = 87.5% B6 9.5/12 = 79.2%
+P8 Generative slope         D 11.5/12 = 95.8% O 12.0/12 = 100.0% G 12.0/12 = 100.0% B6 11.5/12 = 95.8%
+P9 Crisis-chaining          D 11.5/12 = 95.8% O 11.5/12 = 95.8% G 11.0/12 = 91.7% B6 11.0/12 = 91.7%
+
+----------------------------------------------------------------------------
+PART 5 - THE SEVENTH PAIR: B6 vs THE LOCKED PRE-REGISTRATION
+----------------------------------------------------------------------------
+
+CRUST:
+  P1 Deletion at birth        prereg F   B6 F
+  P2 Unification              prereg P   B6 F  <-- differs
+  P3 Universal constant       prereg F   B6 F
+  P4 Derivation-first         prereg F   B6 F
+  P5 Conservative embedding   prereg P   B6 F  <-- differs
+  P6 Formalism / meaning      prereg F   B6 F
+  P7 Founders' resistance     prereg F   B6 F
+  P8 Generative slope         prereg SD  B6 SD
+  P9 Crisis-chaining          prereg P   B6 F  <-- differs
+  -> prereg vs B6: 83.3% weighted, 6/9 exact
+
+PLATE:
+  P1 Deletion at birth        prereg S   B6 S
+  P2 Unification              prereg S   B6 S
+  P3 Universal constant       prereg F   B6 F
+  P4 Derivation-first         prereg P   B6 P
+  P5 Conservative embedding   prereg P   B6 P
+  P6 Formalism / meaning      prereg P   B6 P
+  P7 Founders' resistance     prereg P   B6 P
+  P8 Generative slope         prereg S   B6 S
+  P9 Crisis-chaining          prereg S   B6 S
+  -> prereg vs B6: 100.0% weighted, 9/9 exact
+
+--- the earth-science middle band vs the biology residents (E2 test) ---
+  Point                     germ  darwin  plate(B6)  plate(prereg)
+  P3 Universal constant       F     F       F          F
+  P4 Derivation-first         P     S       P          P
+  P5 Conservative embedding   P     P       P          P
+  P6 Formalism / meaning      F     F       P          P
+  P7 Founders' resistance     F     S       P          P
+
+----------------------------------------------------------------------------
+PART 6 - DOCKETS AND READING RECORDS
+----------------------------------------------------------------------------
+--- 6a. each new reading's unanimous-alone dissents vs census (the 12) ---
+
+  DEEPSEEK:
+    P1 Deletion at birth      ether    census P | DEEPSEEK F
+    P5 Conservative embedding ether    census P | DEEPSEEK F
+    P6 Formalism / meaning    caloric  census P | DEEPSEEK S
+    P6 Formalism / meaning    germ     census F | DEEPSEEK P
+    P7 Founders' resistance   phl      census F | DEEPSEEK P
+    P8 Generative slope       fixity   census SD | DEEPSEEK P
+
+  OPUS:
+    P1 Deletion at birth      epi      census F | OPUS P
+    P1 Deletion at birth      fixity   census F | OPUS P
+    P1 Deletion at birth      miasma   census F | OPUS P
+    P1 Deletion at birth      phl      census F | OPUS P
+    P3 Universal constant     newton   census S | OPUS P
+    P4 Derivation-first       fixity   census F | OPUS P
+    P4 Derivation-first       qm       census S | OPUS P
+    P6 Formalism / meaning    darwin   census F | OPUS P
+    P6 Formalism / meaning    phl      census F | OPUS P
+    P9 Crisis-chaining        miasma   census F | OPUS P
+
+  GEMINI:
+    P1 Deletion at birth      ether    census P | GEMINI S
+    P3 Universal constant     ether    census F | GEMINI S
+    P3 Universal constant     thermo   census P | GEMINI S
+    P4 Derivation-first       caloric  census P | GEMINI F
+    P4 Derivation-first       darwin   census S | GEMINI F
+    P5 Conservative embedding darwin   census P | GEMINI F
+    P6 Formalism / meaning    epi      census S | GEMINI F
+    P6 Formalism / meaning    newton   census S | GEMINI F
+    P9 Crisis-chaining        epi      census P | GEMINI S
+    P9 Crisis-chaining        germ     census S | GEMINI P
+
+  B6:
+    P2 Unification            caloric  census P | B6 F
+    P2 Unification            phl      census S | B6 P
+    P8 Generative slope       darwin   census S | B6 SD
+    P9 Crisis-chaining        ether    census S | B6 P
+
+--- 6b. reading records on the elastic cells (13 coders) ---
+  Cell            A    B    X3   G8   B4   G10  K10  C10  B5   D    O    G    B6  census
+  newton P3     S   S   S   S   S   S   S   P   S   S   P   S   S   S
+  newton P6     S   S   P   P   P   P   P   P   P   S   P   F   P   S
+  ether P5      S   S   P   P   P   P   P   S   S   F   S   S   P   P
+  ether P6      S   S   S   P   P   P   P   P   F   S   P   P   S   S
+  epi P6        S   S   P   P   P   P   P   P   P   P   P   F   P   S
+  phl P2        S   P   P   S   P   S   S   S   P   S   S   S   P   S
+  caloric P5    -   -   -   -   P   F   F   P   F   F   F   F   F   P
+  caloric P9    -   -   -   -   P   P   P   S   P   P   P   P   P   P
+  thermo P3     -   -   -   -   P   P   F   P   P   P   P   S   P   P
+  thermo P4     -   -   -   -   P   S   P   S   P   P   S   P   P   S
+  germ P7       -   -   P   F   F   F   F   F   P   P   F   F   P   F
+  miasma P9     -   -   F   F   F   F   F   P   F   F   P   F   F   F
+  darwin P4     -   -   -   -   -   -   -   -   S   S   S   F   S   S
+  darwin P6     -   -   -   -   -   -   -   -   P   F   P   F   F   F
+  darwin P7     -   -   -   -   -   -   -   -   S   S   S   S   S   S
+  darwin P8     -   -   -   -   -   -   -   -   S   S   S   S   SD  S
+  fixity P5     -   -   -   -   -   -   -   -   F   F   F   F   F   F
+  fixity P7     -   -   -   -   -   -   -   -   P   F   P   F   F   P
+  fixity P9     -   -   -   -   -   -   -   -   F   F   P   P   F   P
+  crust P2      -   -   -   -   -   -   -   -   -   -   -   -   F   -
+  crust P5      -   -   -   -   -   -   -   -   -   -   -   -   F   -
+  crust P9      -   -   -   -   -   -   -   -   -   -   -   -   F   -
+  plate P4      -   -   -   -   -   -   -   -   -   -   -   -   P   -
+  plate P6      -   -   -   -   -   -   -   -   -   -   -   -   P   -
+  plate P7      -   -   -   -   -   -   -   -   -   -   -   -   P   -
+
+----------------------------------------------------------------------------
+PART 7 - CENSUS-KILLING CLAUSES (6 dead x 3 aliens; crust x B6)
+----------------------------------------------------------------------------
+  (five discriminators: deletion, constant, embedding, measurables, slope)
+  DEEPSEEK  caloric  passes-as-S: ['measurables']
+  DEEPSEEK  epi      passes-as-S: NONE of the 5
+  DEEPSEEK  fixity   passes-as-S: NONE of the 5
+  DEEPSEEK  ether    passes-as-S: ['measurables']
+  DEEPSEEK  miasma   passes-as-S: NONE of the 5
+  DEEPSEEK  phl      passes-as-S: NONE of the 5
+  OPUS      caloric  passes-as-S: NONE of the 5
+  OPUS      epi      passes-as-S: NONE of the 5
+  OPUS      fixity   passes-as-S: NONE of the 5
+  OPUS      ether    passes-as-S: ['embedding']
+  OPUS      miasma   passes-as-S: NONE of the 5
+  OPUS      phl      passes-as-S: NONE of the 5
+  GEMINI    caloric  passes-as-S: NONE of the 5
+  GEMINI    epi      passes-as-S: NONE of the 5
+  GEMINI    fixity   passes-as-S: NONE of the 5
+  GEMINI    ether    passes-as-S: ['deletion', 'constant', 'embedding']
+  GEMINI    miasma   passes-as-S: NONE of the 5
+  GEMINI    phl      passes-as-S: NONE of the 5
+  B6        crust    passes-as-S: NONE of the 5
+
+  The living residents, five discriminators (B6):
+    B6 darwin   deletion=S, constant=F, embedding=P, measurables=F, slope=SD
+    B6 germ     deletion=S, constant=F, embedding=P, measurables=F, slope=S
+    B6 newton   deletion=S, constant=S, embedding=S, measurables=P, slope=S
+    B6 qm       deletion=S, constant=S, embedding=S, measurables=S, slope=S
+    B6 rel      deletion=S, constant=S, embedding=S, measurables=S, slope=S
+    B6 thermo   deletion=S, constant=P, embedding=S, measurables=S, slope=S
+    B6 plate    deletion=S, constant=F, embedding=P, measurables=P, slope=S
+
+----------------------------------------------------------------------------
+PART 8 - E1/E2/E6 EXPECTATION CHECKS (A4g pre-registration)
+----------------------------------------------------------------------------
+  CONFIRMED      E1: crust P1/P3/P6/P7 F under B6 (dead-row F's)
+  CONFIRMED      E1: crust P8 'S then D' (the settlement's generative phase)
+  CONFIRMED      E1: crust fails all five discriminators under B6 (no S)
+  CONFIRMED      E1: crust P2/P5/P9 = F (B6 emptier than prereg, the dissents printed)
+  CONFIRMED      E2: plate P3 F (the domain-marked constant replicates in earth science)
+  CONFIRMED      E2: plate P5 P (archive+machinery embedding, no limit recovery)
+  CONFIRMED      E2: plate P6 P (the data-rereading face; B6's hedge)
+  CONFIRMED      E2: plate P7 P (the graduated scale; the young-founders dissent printed)
+  CONFIRMED      E6: plate profile = prereg EXACTLY (9/9)
+  CONFIRMED      E2: plate middle band P3/P4/P5/P6 = F/P/P/P
+  NOT CONFIRMED  E3: zero distant among the three new families' mutuals
+
+============================================================================
+END OF A4g UNBLINDING
+============================================================================
+
+----------------------------------------------------------------------------
+PART 9 - THE CENSUS AFTER A4g (adjudication rulings, as applied)
+----------------------------------------------------------------------------
+New pair (B6's votes; no outsider votes exist - the aliens' panel excludes
+the seventh pair; prereg-vs-B6 adjudicated under the evidence rule):
+
+  crust P2  P -> F   (B6's vote + the miasma precedent: the geosyncline
+                      assumed the divisions it should have ordered - a
+                      vocabulary, not a field-wide ordering; closer to
+                      the epidemic constitutions than to the natural
+                      system)
+  crust P5  P defended as dual P/F (the isostasy machinery bequest is
+                      real and B6 itself attests the survival in its
+                      plate column - but ownership is contested: minted
+                      by the era's geodesy (Airy 1855/Pratt 1859) from
+                      the India survey, not by the doctrine, whose own
+                      machinery (geosynclines, contraction, bridges)
+                      died without recovery; direction face F)
+  crust P9  P (defended; B6's F dissent printed - the terminus
+                      reading; but the settlement's own surveys minted
+                      the questions its executioner answered - the
+                      fixity-of-species precedent, exact parallel)
+  plate     all nine confirmed (prereg = B6 = 9/9 EXACT - the series'
+                      first living-side perfect pre-registration)
+
+Old panel (motion rule: outsider AND blind agree against census -> move):
+
+  ether P6  S -> dual S/P (the reader fork forces it: S-face A/B/X3/D/B6
+                      vs P-face G8/B4/G10/K10/C10/O/G vs B5's lone F;
+                      the same agent-question fork as Newton's cell:
+                      as-written S, the canonical exemplar - Lorentz
+                      held the equations; the re-reading was Einstein's,
+                      the ether the scaffold not the reader)
+  epi P6    S -> dual S/P (the reader fork: 10 P-face against 2 S-face
+                      and gemini's lone F; as-written S - the formalism
+                      outlived its meaning (the machinery became
+                      Fourier analysis); the P face - the tradition
+                      quarantined the split rather than performing a
+                      re-meaning; the profundity was Copernicus's)
+  ether P5  P (defended; the fork now 6 S / 6 P / 1 F - the S face is
+                      the machinery face of the A4d composite, inside
+                      the cell, not against it)
+  caloric P6 P (defended; deepseek's S - the Fourier-machinery reading,
+                      alone of nine - printed as the cell's strongest
+                      machinery vote)
+  newton P6 dual confirmed (P-face now eight consecutive readings;
+                      deepseek's S and gemini's F printed)
+  newton P3 S (defended; the G-anachronism fork now claude + opus,
+                      2 of 13 readers)
+  qm P4     S (defended; opus's P printed - the rare-elasticity cell's
+                      second P ever, after X3)
+  darwin P8 S (defended; B6's scope-faithful SD printed with its own
+                      note: 'include it and the answer is S' - the
+                      scope line did philosophical work)
+  darwin P4 S (defended; gemini's F printed - its own two-tests note;
+                      the Beagle data were old data, ruled A4f)
+  ether P1 P, P3 F (defended; gemini's S-line printed at weight as the
+                      deepest single-reading challenge ever: three of
+                      five discriminators S for the ether - each lands
+                      on a documented fork: P1 the wave-program's
+                      deletion vs the ether's addition; P3 the
+                      determined-value vs installed-universality
+                      conflation, governed by the A4c ownership rule)
+  epi/fixity/miasma/phl P1 stand (opus's generous-deletion P's printed -
+                      the christening-window readings; the multi-century
+                      consolidated-form convention governs)
+  fixity P4 F (defended; opus's Cuvier-hours P printed - the method
+                      showpiece, not a frame-vindicating note)
+  fixity P7 P (defended; the fork now 2 P / 3 F among the five new
+                      votes; Linnaeus's concession stands as the
+                      graduated-scale ruling)
+  fixity P9 P (defended; 3-2 among the new votes; the archive-vs-
+                      doctrine fork re-printed)
+  miasma P9 F (defended; opus's P printed); miasma P2 P (defended;
+                      gemini's and B6's all-F miasma columns printed)
+  thermo P3 P (defended; gemini's S printed - the installed-at-
+                      consolidation reading; the J/k dual covers it)
+  thermo P4 dual confirmed (3 S / 6 P among the new votes)
+  germ P6 F as written (defended; deepseek's procedural P printed);
+  germ P7 dual confirmed (6 F / 5 P)
+  caloric P2 P, phl P2 S, ether P9 S (defended; B6's lone dissents
+                      printed)
+
+Adjudicated profiles (as-written faces):
+  crust:  F F F F P F F SD P   (P5 dual P/F: machinery / ownership)
+  plate:  S S F P P P P S S
+
+CENSUS AFTER A4g: 7 dead + 7 living; 14 theories; 9 duals (newton P6,
+phl P2, miasma P1, germ P6, germ P7, thermo P4, ether P6, epi P6,
+crust P5); 13 coders on the reading records; no killing clause fires
+under any of the thirteen readings (gemini's ether - the deepest
+challenge, three discriminator S's in one reading - moves no census
+cell: the ownership, birth-window, and direction rulings each hold).

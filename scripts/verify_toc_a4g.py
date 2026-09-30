@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Structural TOC verification for A4e (coordinate/font-based): the displayed
+"""Structural TOC verification for A4g (coordinate/font-based): the displayed
 TOC entries on the contents page must match the actual chapter start pages,
 and the footer page-number sequence must be continuous (i, 1..N)."""
 
 import re
 import fitz
 
-PDF = ("/home/z/my-project/download/"
-       "Profound_Novelty_A4e_The_Second_Family.pdf")
+PDF = ("/home/z/my-project/novelty/download/"
+       "Profound_Novelty_A4g_The_Fourth_Delivery_and_the_Seventh_Pair.pdf")
 
 doc = fitz.open(PDF)
 print(f"pages: {len(doc)}")

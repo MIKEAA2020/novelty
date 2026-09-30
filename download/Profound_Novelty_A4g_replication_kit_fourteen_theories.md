@@ -1,26 +1,29 @@
-# A4f Replication Kit — The Alien Reader Protocol, Re-Issued at Twelve
+# A4g Replication Kit — The Alien Reader Protocol, Re-Issued at Fourteen
 # Theories (Verbatim Prompt)
 
 This file re-issues the standing offer of Amendment A4c's replication kit,
-widened by Amendment A4f's sixth pair. Any genuinely external reader — a
-human historian, or a model of any family other than the author's — can be
-given the prompt below, unchanged, to execute the alien reading on the
-twelve-theory panel. The pre-registered scoring and adjudication rules
-(Amendments A4b, A4c Chapter 5, A4d, A4e, and A4f) bind the author's
-response in advance: where the outsider's reading and the blind readings
-agree against the census, the census moves.
+widened by Amendment A4f's sixth pair and Amendment A4g's seventh. Any
+genuinely external reader — a human historian, or a model of any family
+other than the author's — can be given the prompt below, unchanged, to
+execute the alien reading on the fourteen-theory panel. The
+pre-registered scoring and adjudication rules (Amendments A4b, A4c
+Chapter 5, A4d, A4e, A4f, and A4g) bind the author's response in
+advance: where the outsider's reading and the blind readings agree
+against the census, the census moves.
 
 Blinding conditions, reproduced for any administrator of this kit: the
 reader receives only this prompt (no project files, no worklog, no prior
 codings, no census, no amendments, no indication of which theories any
 party reveres or buries); no web or file lookups are permitted; every cell
-must cite at least one named, checkable historical fact. The three alien
+must cite at least one named, checkable historical fact. The six alien
 readings delivered so far (archived as
 Profound_Novelty_A4d_alien_reading_verbatim.md,
-Profound_Novelty_A4e_two_readings_verbatim.md, and
-Profound_Novelty_A4f_third_family_verbatim.md) were administered under
-exactly these conditions; the second and third on the ten-theory panel
-this kit widens.
+Profound_Novelty_A4e_two_readings_verbatim.md,
+Profound_Novelty_A4f_third_family_verbatim.md, and
+Profound_Novelty_A4g_fourth_delivery_verbatim.md — the last carrying
+three families at once: deepseek, opus, and gemini 3.1 pro preview) were
+administered under exactly these conditions; the fourth on the
+twelve-theory panel this kit widens.
 
 ---
 
@@ -65,7 +68,7 @@ For P8 only, the compound code "S then D" is additionally available, per the not
 EVIDENCE RULE: every single cell must cite at least one named, checkable historical fact — an experiment, a text, a date, a person. No cell may rest on assertion alone.
 
 ====================================================================
-THE PANEL — TWELVE THEORIES (alphabetical, one scope line each)
+THE PANEL — FOURTEEN THEORIES (one scope line each)
 ====================================================================
 
 T1 · The caloric theory of heat
@@ -104,6 +107,12 @@ T11 · Relativity
 T12 · Thermodynamics
     The laws of heat and work — Joule's mechanical-equivalent experiments (1843-49), the Clausius and Thomson syntheses (1850-51), entropy (1865), through the statistical-mechanical consolidation (Maxwell, Boltzmann) to about 1900.
 
+T13 · The fixity of the crust (the continental-fixist settlement)
+    Continents and ocean basins as permanent in position and outline — mountain building by geosynclinal subsidence and compression (Hall 1857; Dana 1873), trans-oceanic biogeographic disjunctions by land bridges, global orogeny by a cooling contraction — the consolidated framework of the geological surveys and departments from the mid-nineteenth century through the 1926 AAPG symposium on continental drift to the American institutional consensus of the 1950s.
+
+T14 · Plate tectonics
+    The lithosphere in mobile plates — seafloor spreading at the ridges (Hess 1962; Vine-Matthews 1963), destruction at the trenches, transform faults (Wilson 1965), plate kinematics as rotations about Euler poles (McKenzie-Parker 1967; Morgan 1968) — the consolidation of the crustal sciences from the 1962-68 revolution through the ocean-drilling era.
+
 The panel spans several eras and disciplines. Judge each theory on its own historical record, by the definitions above, using your own knowledge of the history of science.
 
 ====================================================================
@@ -111,14 +120,14 @@ OUTPUT FORMAT (all three parts required)
 ====================================================================
 
 PART 1 — THE CODING MATRIX
-A markdown table with nine rows (P1..P9) and twelve columns (T1..T12), each cell S, P, or F (P8 may be "S then D").
+A markdown table with nine rows (P1..P9) and fourteen columns (T1..T14), each cell S, P, or F (P8 may be "S then D").
 
 PART 2 — EVIDENCE LINES
-Organized by theory (T1..T12): for each of the nine points, one sentence of evidence citing the named historical fact that drove your coding of that cell.
+Organized by theory (T1..T14): for each of the nine points, one sentence of evidence citing the named historical fact that drove your coding of that cell.
 
 PART 3 — POINT NOTES
 For any point whose definition felt ambiguous, soft, or underspecified while you were coding, flag it and name the case that exposed the ambiguity. Be candid — these notes are a wanted part of the exercise, not a confession of failure.
 
-DELIVERY: return all three parts, complete, in your final message. (If a Write tool is available to you, also save the identical complete output to a file named a4f_alien_coding_12.md; if no such tool exists, say so — that fact is itself recorded.)
+DELIVERY: return all three parts, complete, in your final message. (If a Write tool is available to you, also save the identical complete output to a file named a4g_alien_coding_14.md; if no such tool exists, say so — that fact is itself recorded.)
 
 Work in one pass, theory by theory, point by point. Be a strict, careful historian: code what the record supports, cite the fact that forces each cell, and do not soften a code to spare a famous name.

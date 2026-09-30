@@ -1,3 +1,44 @@
+# The Fourth Delivery, Archived Verbatim — Three Families at Once
+
+Provenance header (added by the series' author environment; everything
+below the line is the delivery exactly as received):
+
+- Delivered by: the series' owner, via the repository file
+  "novelty prompt4.txt" (md5 e73431c1450fa79fed1abedddb7f7d8b, 645
+  lines, 83,261 bytes), placed beside its three predecessors at the
+  repository root.
+- Date received: 30 September 2026 (environment clock).
+- What it contains: not one reading but three, the first multi-family
+  delivery — the twelve-theory replication kit (Amendment A4f's
+  verbatim prompt, re-issued at twelve theories) administered
+  externally three times, by readers labeled in the delivery itself:
+  "deepseek:", "opus" (delivered twice — once inline, once as its own
+  saved file a4f_alien_coding_12.md, the two deliveries stated by the
+  reader to be identical), and "gemini 3.1 pro preview:".
+- Delivery-note facts recorded per the kit's instructions: deepseek
+  and gemini report no Write tool available in their environments
+  (their complete outputs follow inline); opus reports a
+  file-writing capability was available and that the identical
+  output was saved as a4f_alien_coding_12.md. The saved-file delivery
+  carries UTF-8 mojibake on accented characters (Traité → "TraitÃ©"),
+  marking a second transcription path this environment does not host.
+- Blinding conditions attested in each reader's own delivery note:
+  coded from the reader's own knowledge only; no web search, no files
+  read, no worklog touched. Each output carries the kit's full
+  three-part form: the 9x12 matrix, named-evidence lines for all 108
+  cells, and point notes.
+- The family labels are attested by the owner's delivery, not
+  verifiable from inside this environment (the standing provenance
+  caveat, A4e/A4f precedent).
+- Verification: the transcription was parsed and verified
+  programmatically before any comparison ran (scripts/a4g_parse.py);
+  the parsed matrices match the delivered text on all cells, zero
+  mismatches, the same verification every alien reading has received.
+
+The delivery is archived below exactly as received, byte for byte,
+with no edits, no reordering, and no commentary interpolated.
+
+----------------------------------------------------------------------------
 deepseek:
 No Write tool is available in this environment, so I cannot save `a4f_alien_coding_12.md`; the complete requested output follows.
 
