@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; padding: 0; background: #ffffff; }
+  .canvas { width: 1500px; box-sizing: border-box; background: #ffffff;
+            font-family: 'Inter', sans-serif; padding: 26px 26px 22px 26px; }
+  .head { text-align: center; border-bottom: 3px solid #45688c; padding-bottom: 14px; margin-bottom: 20px; }
+  .head .t { font-size: 34px; font-weight: 700; color: #1c2733; letter-spacing: 1px; }
+  .head .s { font-size: 22px; color: #57697c; margin-top: 6px; line-height: 1.3; }
+
+  .map { display: grid; grid-template-columns: 1fr 60px 1fr; gap: 0; }
+  .colhead { font-size: 21px; font-weight: 700; letter-spacing: 2px; padding: 10px 12px;
+             border-radius: 6px; text-align: center; margin-bottom: 12px; }
+  .colhead.strain { background: #e9eef4; color: #2f4a66; border: 1px solid #b5c2ce; }
+  .colhead.patch  { background: #f4f0e8; color: #6b5a34; border: 1px solid #cbbd9e; }
+  .spine { position: relative; }
+  .spine .line { position: absolute; left: 50%; top: 0; bottom: 0; width: 3px;
+                 background: #45688c; transform: translateX(-50%); }
+  .yr { position: absolute; left: 50%; transform: translateX(-50%); background: #45688c;
+        color: #ffffff; font-size: 17px; font-weight: 600; padding: 2px 8px;
+        border-radius: 10px; white-space: nowrap; }
+  .stack { display: flex; flex-direction: column; gap: 10px; }
+  .card { border-radius: 6px; padding: 10px 14px; border: 1px solid; }
+  .card .y { font-size: 18px; font-weight: 700; letter-spacing: 1px; }
+  .card .d { font-size: 19px; line-height: 1.32; margin-top: 3px; }
+  .card .tag { display: inline-block; font-size: 16px; font-weight: 600; padding: 1px 8px;
+               border-radius: 4px; margin-top: 6px; }
+  .strain .card { background: #eef3f8; border-color: #b5c2ce; border-left: 5px solid #45688c; }
+  .strain .card .y { color: #2f4a66; }
+  .strain .card .d { color: #243242; }
+  .strain .tag { background: #d7e2ec; color: #2f4a66; }
+  .strain .card.hot { background: #f2f0fa; border-color: #b0a8cc; border-left: 5px solid #5f4f96; }
+  .strain .card.hot .y { color: #44376e; }
+  .strain .card.hot .tag { background: #ddd8ee; color: #44376e; }
+  .patch .card { background: #faf7f0; border-color: #cbbd9e; border-right: 5px solid #8c7a4a; }
+  .patch .card .y { color: #6b5a34; }
+  .patch .card .d { color: #33301f; }
+
+  .core { background: #f2f0fa; border: 2px dashed #5f4f96; border-radius: 6px;
+          padding: 14px 18px; margin-top: 18px; }
+  .core .n { font-size: 23px; font-weight: 700; color: #44376e; }
+  .core .cols { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; margin-top: 10px; }
+  .core .cell { background: #ffffff; border: 1px solid #c5bde0; border-radius: 6px; padding: 10px 12px; text-align: center; }
+  .core .cell .k { font-size: 22px; font-weight: 700; color: #44376e; }
+  .core .cell .l { font-size: 18px; color: #243242; line-height: 1.3; margin-top: 4px; }
+
+  .verdict { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; margin-top: 16px; }
+  .v { border-radius: 6px; padding: 12px 14px; border: 1px solid; text-align: center; }
+  .v .k { font-size: 26px; font-weight: 700; }
+  .v .l { font-size: 18px; color: #243242; margin-top: 4px; line-height: 1.3; }
+  .held { background: #eef4ee; border-color: #b3c9b3; } .held .k { color: #2f5236; }
+  .narrow { background: #e9eef4; border-color: #b5c2ce; } .narrow .k { color: #2f4a66; }
+  .closed { background: #f7eef0; border-color: #c9b3b8; } .closed .k { color: #6b3040; }
+
+  .note { background: #e9eef4; border: 1px solid #b5c2ce; border-radius: 6px; padding: 12px 20px;
+          text-align: center; margin-top: 16px; }
+  .note .f1 { font-size: 21px; font-weight: 600; color: #2f4a66; }
+  .note .f2 { font-size: 19px; color: #57697c; margin-top: 5px; line-height: 1.35; }
+</style>
+</head>
+<body>
+<div class="canvas" id="root">
+
+  <div class="head">
+    <div class="t">The Live Strain Map &mdash; The Dark Sector, 1933&ndash;2026</div>
+    <div class="s">Measured strain arriving (left) against the patches installed to absorb it (right) &mdash; the settlement's absorption program is real, ongoing, and leaving the unspeakable core unspent.</div>
+  </div>
+
+  <div class="map">
+    <div class="stack strain">
+      <div class="colhead strain">MEASURED STRAIN ARRIVING</div>
+      <div class="card">
+        <div class="y">1933</div>
+        <div class="d">Coma's velocity dispersion: Zwicky's <i>dunkle Materie</i> &mdash; the founding entry, an entity missing.</div>
+        <span class="tag">missing entity</span>
+      </div>
+      <div class="card">
+        <div class="y">1970&ndash;81</div>
+        <div class="d">Rotation curves flat to the last measured point (Rubin &amp; Ford; Roberts &amp; Whitehurst; Bosma).</div>
+        <span class="tag">missing entity</span>
+      </div>
+      <div class="card hot">
+        <div class="y">1983&ndash;2016</div>
+        <div class="d">The a<sub>0</sub> complex: one acceleration scale &mdash; the RAR fitted over five decades; the scale equals cH<sub>0</sub>/2&pi; within the error bars.</div>
+        <span class="tag">UNSPEAKABLE &mdash; thickness 0 on the coincidence</span>
+      </div>
+      <div class="card">
+        <div class="y">1994&ndash;2011</div>
+        <div class="d">The small-scale block: cusp-core, missing satellites, too-big-to-fail &mdash; measured, patchable, patched.</div>
+        <span class="tag">missing constants</span>
+      </div>
+      <div class="card">
+        <div class="y">1998&ndash;2026</div>
+        <div class="d">The laboratory null: forty years, zero detections &mdash; and LZ's 2026 single unexplained event at ~2.6&sigma;, the first candidate excess, contested.</div>
+        <span class="tag">entity pending</span>
+      </div>
+      <div class="card">
+        <div class="y">2016&ndash;26</div>
+        <div class="d">The precision tensions: H<sub>0</sub> at ~5&sigma;, S<sub>8</sub> at 2&ndash;3&sigma;, evolving dark energy at 2.8&ndash;4.2&sigma; (DESI DR2).</div>
+        <span class="tag">fame's block &mdash; ranks 12th of 18 by unspeakability</span>
+      </div>
+    </div>
+
+    <div class="spine">
+      <div class="line"></div>
+      <div class="yr" style="top: 56px;">1933</div>
+      <div class="yr" style="top: 180px;">1970</div>
+      <div class="yr" style="top: 330px;">1983</div>
+      <div class="yr" style="top: 470px;">1998</div>
+      <div class="yr" style="top: 640px;">2016</div>
+      <div class="yr" style="top: 800px;">2026</div>
+    </div>
+
+    <div class="stack patch">
+      <div class="colhead patch">PATCHES INSTALLED</div>
+      <div class="card">
+        <div class="y">1933&ndash;70</div>
+        <div class="d">The placeholder becomes a budget: &Omega;<sub>c</sub> enters the books &mdash; Zwicky's factor becomes a cosmological parameter.</div>
+      </div>
+      <div class="card">
+        <div class="y">1970s&ndash;90s</div>
+        <div class="d">The halo paradigm: mass plus concentration per system &mdash; thickness 2 per galaxy, spent ~10<sup>4</sup> times over.</div>
+      </div>
+      <div class="card">
+        <div class="y">1998</div>
+        <div class="d">&Lambda;CDM consolidated: the six-parameter mint (inflation's n<sub>s</sub>, &Omega;<sub>b</sub>, &Omega;<sub>c</sub>, &tau;, A<sub>s</sub>, H<sub>0</sub>) fits the CMB.</div>
+      </div>
+      <div class="card">
+        <div class="y">2000s&ndash;now</div>
+        <div class="d">The feedback subgrid: supernova winds, mass loading, thresholds, reionization &mdash; thickness 4&ndash;6 on the small-scale block alone.</div>
+      </div>
+      <div class="card">
+        <div class="y">2016&ndash;</div>
+        <div class="d">Baryonification: the lensing spectrum re-parameterized &mdash; the mop becomes a calibrated industry.</div>
+      </div>
+      <div class="card">
+        <div class="y">2024&ndash;26</div>
+        <div class="d">w<sub>0</sub>&ndash;w<sub>a</sub>: the constancy of &Lambda; itself becomes a parameter under test &mdash; DESI DR2, 2.8&ndash;4.2&sigma;.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="core">
+    <div class="n">The unspeakable core &mdash; the a<sub>0</sub> complex: one absorption program around one core</div>
+    <div class="cols">
+      <div class="cell">
+        <div class="k">The RAR</div>
+        <div class="l">dynamics slaved to baryons through one constant, in the regime where the settlement says 80&ndash;95% of the force is dark &mdash; thickness 4&ndash;6, spent by the subgrid industry, without deriving the constant</div>
+      </div>
+      <div class="cell">
+        <div class="k">The cH<sub>0</sub>/2&pi; coincidence</div>
+        <div class="l">a galactic number equals a cosmic number within the error bars, two domains sharing no instrument &mdash; thickness 0: no parameter ever spent, an ignored footnote since 1983</div>
+      </div>
+      <div class="cell">
+        <div class="k">G0's conjunction</div>
+        <div class="l">one unspeakable, patch-thickness &ge; 3, no consensus resolution &mdash; satisfied by the complex as a whole: the gate passes, narrowly, and the narrowness is data</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="verdict">
+    <div class="v held">
+      <div class="k">89%</div>
+      <div class="l">two-operator entry-level agreement &mdash; the A6 refutation clause's first live run: all four locked thresholds passed</div>
+    </div>
+    <div class="v narrow">
+      <div class="k">15 / 16</div>
+      <div class="l">derivation paths severed by deleting the one inherited concept adjacent to the core &mdash; the census rediscovers the rival's 1983 targeting</div>
+    </div>
+    <div class="v closed">
+      <div class="k">0</div>
+      <div class="l">verdicts emitted on live material &mdash; the protocol demotes, never kills; the refusal is the pass condition</div>
+    </div>
+  </div>
+
+  <div class="note">
+    <div class="f1">The ether rhyme, run live: an entity added, nothing deleted, patches rising, no killing clause fired.</div>
+    <div class="f2">Ninety-three years from Zwicky; the ether fell at eighteen from its null, to a deletion made elsewhere. The instrument's record &mdash; retrospective classifiers, verdict refused online &mdash; held under live fire. The ledger is open, and the registrations carry dates.</div>
+  </div>
+
+</div>
+</body>
+</html>

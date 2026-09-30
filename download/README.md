@@ -1,6 +1,7 @@
 Here are all the generated files.
 
-## Profound Novelty — a four-volume study, an operating manual, its audit, and its amendments
+## Profound Novelty — a five-volume study, an operating manual, its
+## audit, its amendments, and its first live trial
 
 **Volume I — A Study by Example** (physics trio: Newton, Einstein, the quantum)
 - `Profound_Novelty_A_Study_by_Example.pdf` — 14 pages
@@ -440,3 +441,55 @@ its training proposals declined on the protocol's own alarms. The
 census stands at seven and seven, fourteen coders on the records, nine
 duals; the instrument stands audited, unchanged; the ledger is open.
 Continue.
+
+**Volume V — Under Live Fire: The First Live Trial** (the protocol
+deployed)
+- `Profound_Novelty_V_Under_Live_Fire.pdf` — 22 pages
+- `Profound_Novelty_V_cover_source.html` — editable cover source
+- `Profound_Novelty_V_live_trial_artifacts.md` — the trial's primary
+  artifacts in checkable form: the pre-registration locked before any
+  run, operator 1's eighteen-entry anomaly ledger, operator 2's
+  sixteen-entry blind ledger archived verbatim (a fresh-context coder
+  that received only the P0 phase text and the site description), the
+  agreement computation against the locked thresholds, the assumption
+  census, the severed-path computation, the discriminating
+  registrations, and the four one-line repairs registered for the
+  manual's next reissue
+
+The owner asked whether the latest version of the L3 Protocol had ever
+been stress-tested — a live strain site picked (quantum gravity,
+consciousness, dark matter), the numbered phases run for real, an
+actual anomaly ledger and assumption census produced. The record
+answered no: every artifact the series held was executed on settled
+history. This volume executes the missing trial. The site is selected
+by P0's own discipline — unspeakability over fame — and the dark sector
+wins it: eighteen measured entries spanning ninety-three years, an
+unspeakable core (the a0 complex: a galactic acceleration scale equal
+to cH0/2pi within the error bars, on which the settlement has spent
+nothing at all), and live discriminating experiments running now.
+Phase P0 is run for real by two operators, the A6 refutation clause
+executed live for the first time: a fresh-context blind coder's
+sixteen-entry ledger agrees with operator 1's eighteen at 89 percent,
+above the blind operator's own predicted band, passing all four locked
+thresholds — narrowly, with four drafting defects in the counting rule
+printed with one-line repairs. Phase P1 is run for real: the
+settlement's assumption census extracted, and the severed-path
+computation executed on the recorded inference graph — one inherited
+concept (dynamics closed under GR at all accelerations) carries
+fifteen of sixteen derivation paths, and the protocol independently
+recovers the live rival's forty-three-year-old targeting. The gates
+fire where they should: G2 and G6 on the rival's incomplete
+amputation (invisible mass re-imported at cluster scale), G4's
+promotion test symmetrically on a0 (fitted, partially paid) and on
+Lambda (measured, its constancy live-strained by DESI DR2 at 2.8 to
+4.2 sigma), G5's discriminating list converted into dated
+registrations — one already fired (GW170817 killed the rival's
+completion in 2017). The verdict-emitter stays closed: zero verdicts
+on live material, the demotion is the verdict, and the refusal
+replicates the census's own record at the one place it had never been
+tested — deployment. The trial's discovery, unprinted in the manual
+until now: observer mode — the gates are checks a disbelieving third
+party can evaluate, which makes the protocol runnable on any live
+site, by anyone, without the campaigner's conviction. The next
+trials (quantum gravity, consciousness) are scheduled with their G0
+pre-reads printed. The ledger is open. Continue.
