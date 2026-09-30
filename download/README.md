@@ -547,3 +547,72 @@ the surviving cell — one line in the census's record — and nothing
 more. The next scheduled pair is printed with its pre-reads
 (consciousness: audit first, then generate; quantum gravity: carried
 until a measured thread exists). The ledger is open. Continue.
+
+## Volume VII — The Second Generation: The Generator Changed
+
+The owner's situation report was verified first, from the pushed
+record and against a fresh query: Volume VI killed all twelve of its
+pre-named candidate moves, its flagship died on every face, and Del
+Popolo and Chan's 2024 occupation of the causal coincidence
+re-confirms at rank zero of this volume's own first search. The
+report's four options were then judged against the standing order
+rather than weighed in the abstract: waiting refused as a primary
+activity and left to run itself at zero cost as the standing
+registrations resolve through 2031; the empirical bottleneck
+converted from a lament into the volume's new kill rule; consciousness
+carried as a printed pre-read with its site-criterion verdict; and
+the method change taken as the core, executed on the same site as a
+controlled test — the domain held fixed while the source varies, so
+the result measures the generator and not the territory. The
+diagnosis: the census of a mature field is a map of occupied
+territory, because the census holds the field's stated assumptions
+and every stated wall already has a rival camped on its deletion; the
+first generator sampled the map, so it sampled the occupation. The
+redesign: three lattices outside the census — the
+unstated-assumption lattice (P1 below the census), the far-domain
+import lattice (P2 with foreign sources: canalization, metabolic
+scaling, the CAP tradeoff, artifact-standard drift), and the old-math
+lattice (P6 aimed at the archive: Kramers-Kronig, Euler's elastica,
+Tisserand's criterion, Sturm-Liouville, Rayleigh's dissipation
+function) — and one change of unit: novelty is checked at the level
+of the signature, the discriminating statistic computable on named
+data, because idea-space in a crowded field is exhausted while
+signature-space is not. Twelve moves were pre-named through the
+lattices in a pre-registration locked and pushed before any search
+ran, with six kill rules — two new: no data termination, and
+absorption by a standing registration. Twenty-two queries were
+logged verbatim; seven degraded to the documented noise class and are
+printed as degraded. Eight moves died with occupiers named: the bar
+dynamometer killed by the field's own live fast-bar tension
+(Fragkoudi et al. 2021 and its letters), the cosmic-web spectrum
+killed by the persistent-homology family, the metabolic import dead
+for want of a mechanism, the CAP import dead for the same reason, the
+metrology import absorbed by the standing conjunction cell,
+Tisserand's capture edges killed by arithmetic three orders below
+the measurement floor, Rayleigh's dissipation killed by its pre-named
+occupier. Four moves survived at signature level, bounded, every
+bound printed — and all four converge on one unstated assumption no
+paper states because no one questions it: the dark sector's
+gravitational response to baryons is treated as instantaneous and
+memoryless by every static fit ever run. The registrations struck:
+R7, the response fork — immediate and monotone (collisionless), or
+lagged and ringing (a medium), or absent with the law algebraic (the
+deletion) — with the detectability arithmetic computed from published
+inputs, kill conditions on all three sides, ours harshest, the
+field's own fast-bar tension carried in as the first line of evidence
+(the bequest rule: the killed bar move's corpse feeds the surviving
+registration), and the conjunction with Volume VI's R1 riding with
+it; R8, the residual census — five probes pre-registered with their
+expected signs under each program against a computed floor of 2.2
+percent of the residual variance at 175 galaxies, the series' first
+registration executable by anyone on public tables, existing to test
+a published null (0.057 dex, in agreement with modified dynamics);
+and R9, the analyticity check — whether the medium families' own
+published susceptibilities, extended to time-dependent response,
+satisfy the causality the dispersion relations of 1926-27 demand.
+Consciousness is carried with an honest pre-read: it fails the site
+criterion's dated-data clause as it stands, the field's
+adversarial-collaboration horizon being real but weak, and running
+generation on it would mean weakening the rule — a choice the record
+will print before making, not after. The verdict-emitter stays
+closed. The ledger is open. Continue.

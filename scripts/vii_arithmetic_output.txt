@@ -1,0 +1,57 @@
+========================================================================
+VOLUME VII — THE DETECTABILITY ARITHMETIC
+Computed 2026-09-30, after the searches, before the registrations.
+========================================================================
+
+1. THE RESIDUAL-CENSUS FLOOR (R8 / C14)
+------------------------------------------------------------------------
+   N (SPARC-class fit sample)            = 175
+   residual rms scatter (Li 2018)        = 0.0570 dex  (= 13-14%)
+   minimum detectable |r| (95%, N=175)   = 0.148
+   variance fraction detectable r^2      = 2.2%
+   structured amplitude detectable       = 0.0084 dex (= 2.0%)
+   reading: the census detects any residual driver carrying >= ~2.2%
+   of the variance (>= ~1.9% amplitude at 1 sigma). Both programs
+   predict structure ABOVE this floor (feedback histories; the EFE),
+   so a null census is the discriminating cell, not the expected one.
+
+2. THE RESPONSE-LAG WINDOW (R7 / C13-C16)
+------------------------------------------------------------------------
+   M_b = 1e+10 Msun: v_deep = 112 km/s, r_knee = 3.4 kpc, t_dyn = 0.03 Gyr
+   M_b = 1e+11 Msun: v_deep = 200 km/s, r_knee = 10.8 kpc, t_dyn = 0.05 Gyr
+   collisionless response time ~ t_dyn    = 0.05-0.1 Gyr (immediate for
+   any slow baryonic change: gas flows take 0.1-1 Gyr)
+   star-formation-history timing precision = 0.1-0.5 Gyr (archival)
+   -> the discriminating window: media whose relaxation time tau sits
+      in 0.1-5 Gyr (formation-scale media: condensation, sloshing)
+   -> collisionless and fast media are INDISTINGUISHABLE on lag
+      (both immediate at the measurable band) — printed as the fork's
+      honest limit, not hidden.
+
+3. THE TISSERAND CAPTURE-EDGE AMPLITUDE (C22 — the arithmetic kill)
+------------------------------------------------------------------------
+   M_sat/M_halo = 1e-02: capture flux ~ 1e-04 per crossing
+   M_sat/M_halo = 3e-02: capture flux ~ 9e-04 per crossing
+   kinematic precision on halo mass       = 5-10%
+   -> the capture-edge signature sits 3-4 orders below the floor;
+   KILL by rule (c) NO DATA TERMINATION — printed, no search spent.
+
+4. THE BAR BEQUEST (C15 killed; its evidence carried into R7)
+------------------------------------------------------------------------
+   LambdaCDM sims: halo dynamical friction slows bars by tens of
+   percent over ~5 Gyr (Fragkoudi et al. 2021 class).
+   Observed: fast bars dominate (R_CR/R_bar < 1.4 in most measured
+   galaxies) — a published, growing tension with the settlement.
+   The deletion (no dark sink): minimal braking — bars stay fast.
+   -> the field's own published tension is response-side evidence:
+   the dark sector's braking response to bars is measurably WEAKER
+   than the settlement's simplest face predicts. The killed move's
+   corpse feeds the surviving registration (the series' bequest rule).
+
+5. THE CONJUNCTION (R7 x R1, both standing)
+------------------------------------------------------------------------
+   R1 resolves the knee's SPATIAL face (tracks H(z) or constant).
+   R7 resolves the sector's TEMPORAL face (response immediate, lagged,
+   or absent). The four cells are independent: a medium that tracks H(z)
+   and a constant medium that rings are both live. The conjunction cell
+   is printed with R7 as the volume's cross-link, mirroring Vol VI's R4.
